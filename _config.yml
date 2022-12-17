@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Minxing Zheng"
 title_separator          : "-"
 name                     : &name "Minxing Zheng"
-description              : &description "PhD student at USC Marshall Business School"
+description              : &description "PhD student in statistics at USC Marshall Business School"
 url                      : https://Minxing-Zheng.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Minxing-Zheng.github.io"
@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Minxing Zheng"
-  avatar           : "profile.png"
-  bio              : "Your biography for the left-hand sidebar"
-  location         : "Location"
+  avatar           : "profile.jpeg"
+  bio              : "PhD student in statistics at USC Marshall Business School"
+  location         : "Los Angeles"
   employer         :
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  pubmed           :  #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  googlescholar    : "https://scholar.google.com/citations?user=f8xblKQAAAAJ&hl=en"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "replacethistwitterhandle"
+  twitter          : #"replacethistwitterhandle"
   vine             :
   weibo            :
   xing             :
