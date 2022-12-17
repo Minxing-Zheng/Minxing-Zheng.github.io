@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -9,6 +9,10 @@ redirect_from:
 ---
 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+
+I’m a first-year Ph.D. student in Statistics at University of Southern California (USC) Marshall Business School. I’m mainly interested in network analysis, object data analysis and statistical sampling. I’m advised by [Prof. Paromita Dubey](https://www.paromitadubey.com/). 
+
+I did my undergraduate at Renmin University of China in Statistics and Applied Math (double Major), I was advised by [Prof. Yilin Wu](http://stat.ruc.edu.cn/Home/People/Faculty/6c758506e58e4e7fa9628e62390752d7.htm) and [Prof. Qijiang Song](http://math.ruc.edu.cn/ywb/Faculty/Inserviceteacher/Lecturer/449fab31b0bb43d6aa481a3d69360210.htm). And I also worked with [Prof. Yichen Qin](https://business.uc.edu/faculty-and-research/departments/obais/faculty/yichen-qin.html) at the University of Cincinnati. I did my master's at University of Wisconsin Madison in Statistics where I was fortunate to be advised by [Prof. Kris Sankaran](https://krisrs1128.github.io/LSLab/_includes/team) and [Prof. Keith Levin] (https://stat.wisc.edu/staff/levin-keith/)
 
 A data-driven personal website
 ======
