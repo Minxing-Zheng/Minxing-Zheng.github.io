@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Minxing Zheng"
 title_separator          : "-"
 name                     : &name "Minxing Zheng"
-description              : &description "PhD student at Carnegie Mellon University, advised by Prof. Shixiang Zhu []"
+description              : &description "Minxing Zheng is a Ph.D. student at Carnegie Mellon University working on uncertainty quantification, conformal prediction, and reliable AI."
 url                      : https://Minxing-Zheng.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "Minxing-Zheng/Minxing-Zheng.github.io"
@@ -25,15 +25,15 @@ author:
   avatar           : "profile.png"
   name             : "Minxing Zheng"
   pronouns         : #
-  bio              : "PhD student at Carnegie Mellon University"
+  bio              : "Ph.D. student in Statistics & Data Science at Carnegie Mellon University"
   location         : "Pittsburgh, PA"
-  employer         : #
+  employer         : "Carnegie Mellon University"
   uri              : # URL
   email            : "minxingz@andrew.cmu.edu" 
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Zheng%2C+Minxing"
   googlescholar    : "https://scholar.google.com/citations?user=f8xblKQAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # "academicpages"
+  github           : "Minxing-Zheng"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -78,12 +78,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
-  conferences:
-    title: 'Conference Papers'
+  preprints:
+    title: 'Preprints & Working Papers'
+  journals:
+    title: 'Peer-Reviewed Publications'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -119,7 +117,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # no public blog feed until regular posts are added
   path                   : # blank (default) uses feed.xml
 
 
@@ -141,9 +139,11 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Minxing Zheng"
+  links:
+    - "https://github.com/Minxing-Zheng"
+    - "https://scholar.google.com/citations?user=f8xblKQAAAAJ&hl=en"
 
 
 # Analytics
@@ -212,18 +212,9 @@ kramdown:
   enable_coderay: false
 
 
-# These settings control the types of collections used by the template
+# Published research collection
 collections:
-  teaching:
-    output: true
-    permalink: /:collection/:path/
   publications:
-    output: true
-    permalink: /:collection/:path/
-  portfolio:
-    output: true
-    permalink: /:collection/:path/
-  talks:
     output: true
     permalink: /:collection/:path/
 
@@ -248,15 +239,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -264,25 +246,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
+      share: false
+      comments: false
 
 
 # Sass/SCSS
@@ -295,7 +260,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/New_York
 
 
 # Plugins

@@ -11,54 +11,28 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Ph.D. student, Statistics & Data Science** — Carnegie Mellon University<br>
+  Advisor: [Prof. Shixiang Zhu](https://www.andrew.cmu.edu/user/shixianz/)
+* **M.S., Statistics** — University of Southern California<br>
+  Advisor: [Prof. Paromita Dubey](https://www.paromitadubey.com/)
+* **M.S., Statistics** — University of Wisconsin–Madison<br>
+  Advisors: [Prof. Kris Sankaran](https://krisrs1128.github.io/LSLab/_includes/team) and [Prof. Keith Levin](https://stat.wisc.edu/staff/levin-keith/)
+* **B.S., Statistics; B.S., Applied Mathematics** — Renmin University of China
 
-Work experience
+Research interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Conformal prediction and inference; uncertainty quantification; reliable and secure machine learning; scientific AI; human–AI collaboration and decision-making.
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
+
+Selected methods & applications
 ======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
+Distribution-free inference, generative modeling, hypothesis testing under distribution shift, model security, representation analysis, geospatial machine learning, and statistical network analysis.
+
+Professional links
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+[Google Scholar](https://scholar.google.com/citations?user=f8xblKQAAAAJ&hl=en) · [GitHub](https://github.com/Minxing-Zheng) · [arXiv](https://arxiv.org/search/?searchtype=author&query=Zheng%2C+Minxing) · [Email](mailto:minxingz@andrew.cmu.edu)
