@@ -38,6 +38,12 @@ My research develops statistical methods that make machine-learning systems more
 - How can physical knowledge and statistical calibration support fast, trustworthy monitoring under distribution shift?
 - How should uncertainty be communicated so that people and AI systems make better joint decisions?
 
+## Ongoing projects
+
+- **Deciding When to Decide: Decision-Focused Testing under Distributional Shift.** A framework for testing whether a decision optimized in one domain remains approximately optimal after a context or feature distribution shift.
+- **Derandomized Multiple Change Point Detection with FDR Control using Distance Profiles.** A nonparametric approach to detecting multiple changes in sequences of metric-space objects while controlling false discoveries.
+- **Asymptotic Behavior of the Maximum Degree Distribution under Graphon Models.** Bootstrap inference for extremal network statistics from a single observed graph.
+
 <div class="research-contact">
   <p>Interested in one of these questions?</p>
   <a href="mailto:minxingz@andrew.cmu.edu">Start a conversation <span aria-hidden="true">→</span></a>

@@ -61,6 +61,46 @@ html[data-theme="dark"] {
   line-height: 1.35;
 }
 
+.recent-work {
+  margin-top: 0.5rem;
+}
+
+.recent-paper {
+  padding: 0.35rem 0 1.25rem;
+  border-bottom: 1px solid var(--global-border-color);
+}
+
+.recent-paper + .recent-paper {
+  padding-top: 1.25rem;
+}
+
+.page__content .recent-paper h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.page__content .recent-paper p {
+  margin-bottom: 0.55rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.paper-authors {
+  color: var(--global-text-color);
+}
+
+.paper-meta {
+  color: var(--global-text-color-light);
+  font-size: 0.82rem !important;
+}
+
+.paper-links {
+  margin-bottom: 0 !important;
+  font-size: 0.84rem !important;
+  font-weight: 600;
+}
+
 .research-theme-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
