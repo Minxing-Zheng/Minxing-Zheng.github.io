@@ -56,4 +56,4 @@ Before joining Carnegie Mellon, I received an M.S. in Statistics from the Univer
   </article>
 </div>
 
-See the [publications page](/publications/) for a complete list and [Google Scholar](https://scholar.google.com/citations?user=f8xblKQAAAAJ&hl=en) for citation records. For research correspondence, email [minxingz@andrew.cmu.edu](mailto:minxingz@andrew.cmu.edu).
+See the [publications page](/publications/) for a complete list and [Google Scholar](https://scholar.google.com/citations?user=JM-PxSQAAAAJ&hl=en) for citation records. For research correspondence, email [minxingz@andrew.cmu.edu](mailto:minxingz@andrew.cmu.edu).

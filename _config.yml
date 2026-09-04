@@ -34,7 +34,7 @@ author:
   # Academic websites
   academia         : # URL
   arxiv            : "https://arxiv.org/search/?searchtype=author&query=Zheng%2C+Minxing"
-  googlescholar    : "https://scholar.google.com/citations?user=f8xblKQAAAAJ&hl=en"
+  googlescholar    : "https://scholar.google.com/citations?user=JM-PxSQAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
   semantic         : # URL
@@ -143,7 +143,7 @@ social:
   name                   : "Minxing Zheng"
   links:
     - "https://github.com/Minxing-Zheng"
-    - "https://scholar.google.com/citations?user=f8xblKQAAAAJ&hl=en"
+    - "https://scholar.google.com/citations?user=JM-PxSQAAAAJ&hl=en"
 
 
 # Analytics

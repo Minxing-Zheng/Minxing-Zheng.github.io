@@ -53,4 +53,4 @@ Distribution-free inference, generative modeling, hypothesis testing under distr
 
 Professional links
 ======
-[Google Scholar](https://scholar.google.com/citations?user=f8xblKQAAAAJ&hl=en) · [GitHub](https://github.com/Minxing-Zheng) · [arXiv](https://arxiv.org/search/?searchtype=author&query=Zheng%2C+Minxing) · [Email](mailto:minxingz@andrew.cmu.edu)
+[Google Scholar](https://scholar.google.com/citations?user=JM-PxSQAAAAJ&hl=en) · [GitHub](https://github.com/Minxing-Zheng) · [arXiv](https://arxiv.org/search/?searchtype=author&query=Zheng%2C+Minxing) · [Email](mailto:minxingz@andrew.cmu.edu)
