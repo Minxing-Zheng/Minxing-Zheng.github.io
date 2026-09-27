@@ -17,7 +17,7 @@ Education
   Advisor: [Prof. Paromita Dubey](https://www.paromitadubey.com/)
 * **M.S., Statistics** — University of Wisconsin–Madison, 2020–2022<br>
   Advisors: [Prof. Kris Sankaran](https://krisrs1128.github.io/LSLab/_includes/team) and [Prof. Keith Levin](https://stat.wisc.edu/staff/levin-keith/)
-* **B.S., Statistics; second B.S., Mathematics and Applied Mathematics** — Renmin University of China, 2017–2021
+* **B.S., Statistics; B.S., Applied Mathematics** — Renmin University of China, 2017–2021
 
 Research interests
 ======
