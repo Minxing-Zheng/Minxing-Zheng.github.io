@@ -1,7 +1,7 @@
 ---
 title: "Generative Conformal Prediction with Optimized Coverage Allocation"
 collection: publications
-category: journals
+category: conferences
 permalink: /publication/generative-conformal-prediction
 excerpt: "ORCA uses density-ranked generative samples and optimized coverage allocation to construct efficient prediction regions with finite-sample marginal coverage. <a href='/orca/'>Project page and interactive demo</a>."
 date: 2026-09-24

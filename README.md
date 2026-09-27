@@ -35,7 +35,7 @@ GitHub Pages rebuilds the public site automatically after the push. The deployme
 
 ## Add a publication
 
-Copy an existing file in `_publications/`, rename it with the publication date and a short title, then update its front matter. Use `category: preprints` for working papers or `category: journals` for peer-reviewed publications.
+Copy an existing file in `_publications/`, rename it with the publication date and a short title, then update its front matter. Use `category: preprints` for working papers, `category: conferences` for conference papers, or `category: journals` for journal papers.
 
 ## Local setup (first time only)
 
