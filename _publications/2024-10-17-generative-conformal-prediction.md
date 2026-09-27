@@ -8,10 +8,11 @@ date: 2026-09-24
 venue: "NeurIPS"
 status: accepted
 paperurl: "https://arxiv.org/abs/2410.13735"
-paper_label: "Earlier arXiv preprint"
-citation: 'Minxing Zheng and Shixiang Zhu. (2026). &quot;Generative Conformal Prediction with Optimized Coverage Allocation.&quot; <i>NeurIPS 2026</i> (to appear). <a href="/orca/">Project page and interactive demo</a>.'
+paper_label: "Current arXiv preprint"
+citation_label: "Cite the current arXiv version"
+citation: 'Minxing Zheng and Shixiang Zhu. (2024). &quot;Generative Conformal Prediction with Vectorized Non-Conformity Scores.&quot; <i>arXiv:2410.13735</i>.'
 ---
 
 ORCA ranks samples from a conditional generative model using a local density proxy, optimizes rank-specific radii on an exploration split, and calibrates the result on a separate split. This yields adaptive prediction regions with finite-sample marginal coverage.
 
-The [project page and interactive demo](/orca/) explains the geometry. The linked arXiv version currently has the earlier preprint title; the updated version is forthcoming.
+The [project page and interactive demo](/orca/) explains the geometry. Cite the current [arXiv preprint](https://arxiv.org/abs/2410.13735) using its 2024 title; we will update the citation when the revised version and proceedings are available.

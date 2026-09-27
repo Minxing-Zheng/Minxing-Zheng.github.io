@@ -35,8 +35,8 @@ Research projects
   A decision-focused testing framework for assessing whether a decision optimized in one domain remains approximately optimal after a context or feature distribution shift.
 * **Learning to Test: Physics-Informed Representation for Dynamical Instability Detection** — 2025–present<br>
   Physics-informed representation learning for efficient reliability testing under exogenous distribution shifts.
-* **Generative Conformal Prediction with Optimized Coverage Allocation (ORCA)** — NeurIPS 2026<br>
-  Adaptive conformal uncertainty sets for multimodal targets with finite-sample validity. [Project page and interactive demo](/orca/).
+* **Generative Conformal Prediction with Optimized Coverage Allocation (ORCA)** — accepted to NeurIPS 2026<br>
+  Adaptive conformal uncertainty sets for multimodal targets with finite-sample validity. Cite the current [arXiv preprint](https://arxiv.org/abs/2410.13735) until the proceedings appear. [Project page and interactive demo](/orca/).
 * **Derandomized Multiple Change Point Detection with FDR Control using Distance Profiles** — 2025–present<br>
   Nonparametric change-point inference for metric-space objects, including extensions to multiple changes and false-discovery-rate control.
 * **Asymptotic Behavior of the Maximum Degree Distribution under Graphon Models** — 2021–2022<br>

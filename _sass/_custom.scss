@@ -91,8 +91,34 @@ html[data-theme="dark"] {
 }
 
 .paper-meta {
-  color: var(--global-text-color-light);
-  font-size: 0.82rem !important;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  align-items: center;
+  color: #33485b;
+  font-size: 0.88rem !important;
+  font-weight: 700;
+}
+
+.paper-meta .paper-status,
+.paper-meta .paper-version {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid #b7d8cc;
+  border-radius: 4px;
+  background: #eaf6f1;
+  color: #145440;
+}
+
+.paper-meta .paper-version {
+  border-color: #c8d4df;
+  background: #f3f6f9;
+  color: #33485b;
+}
+
+.publication-status {
+  color: #33485b;
+  font-weight: 700;
 }
 
 .paper-links {

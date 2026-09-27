@@ -40,7 +40,7 @@ My research develops statistical methods that make machine-learning systems more
 
 ## Ongoing projects
 
-- **[ORCA: Generative Conformal Prediction with Optimized Coverage Allocation](/orca/).** NeurIPS 2026 paper on efficient, calibrated prediction regions for multimodal outcomes. Explore the interactive comparison of prediction-set geometries.
+- **[ORCA: Generative Conformal Prediction with Optimized Coverage Allocation](/orca/).** Accepted to NeurIPS 2026. The current citable version is the [arXiv preprint](https://arxiv.org/abs/2410.13735), which has an earlier title. Explore the interactive comparison of prediction-set geometries.
 - **Deciding When to Decide: Decision-Focused Testing under Distributional Shift.** A framework for testing whether a decision optimized in one domain remains approximately optimal after a context or feature distribution shift.
 - **Derandomized Multiple Change Point Detection with FDR Control using Distance Profiles.** A nonparametric approach to detecting multiple changes in sequences of metric-space objects while controlling false discoveries.
 - **Asymptotic Behavior of the Maximum Degree Distribution under Graphon Models.** Bootstrap inference for extremal network statistics from a single observed graph.
