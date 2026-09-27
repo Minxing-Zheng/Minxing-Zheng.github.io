@@ -11,7 +11,7 @@ redirect_from:
 
 I am a Ph.D. student at Carnegie Mellon University, advised by [Prof. Shixiang Zhu](https://www.andrew.cmu.edu/user/shixianz/). My research focuses on uncertainty quantification, particularly conformal prediction, and human–AI collaboration for decision-making.
 
-Before joining Carnegie Mellon, I received an M.S. in Statistics from the University of Southern California, where I worked with [Prof. Paromita Dubey](https://www.paromitadubey.com/) on change-point detection for metric-space data. I also earned an M.S. in Statistics from the University of Wisconsin–Madison, where I worked with [Prof. Kris Sankaran](https://krisrs1128.github.io/LSLab/_includes/team) and [Prof. Keith Levin](https://stat.wisc.edu/staff/levin-keith/) on machine-learning interpretability and statistical network analysis. I earned two B.S. degrees from Renmin University of China: one in Statistics and one in Applied Mathematics.
+Before joining Carnegie Mellon, I received an M.S. in Statistics from the University of Southern California, where I worked with [Prof. Paromita Dubey](https://www.paromitadubey.com/) on change-point detection for metric-space data. I also earned an M.S. in Statistics from the University of Wisconsin–Madison, where I worked with [Prof. Kris Sankaran](https://krisrs1128.github.io/LSLab/_includes/team) and [Prof. Keith Levin](https://stat.wisc.edu/staff/levin-keith/) on machine-learning interpretability and statistical network analysis. At Renmin University of China, I earned a B.S. in Statistics and a second B.S. in Mathematics and Applied Mathematics through the university's supplementary degree program.
 
 ## Research interests
 
