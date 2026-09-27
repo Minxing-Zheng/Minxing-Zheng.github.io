@@ -44,7 +44,7 @@ Research projects
 
 Service & honors
 ======
-* Reviewer: AISTATS; ICML
+* Reviewer: AISTATS, NeurIPS, ICLR, and ICML
 * University of Southern California Marshall School Fellowship, 2022–2024
 
 Selected methods & applications

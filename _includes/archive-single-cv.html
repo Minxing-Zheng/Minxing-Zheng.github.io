@@ -36,7 +36,16 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.venue%}<p class="archive__item-excerpt" itemprop="description">{{ post.citation }}</p> {% endif %}
+    {% if post.status == 'accepted' %}
+      <p class="publication-venue publication-venue--accepted"><strong class="publication-venue__badge">Accepted to {{ post.venue }} {{ post.date | date: "%Y" }}</strong><span>Conference paper</span></p>
+    {% elsif post.category == 'preprints' %}
+      <p class="publication-venue publication-venue--preprint"><strong class="publication-venue__badge">Preprint</strong><span>{{ post.venue }}</span></p>
+    {% elsif post.category == 'journals' %}
+      <p class="publication-venue publication-venue--journal"><strong class="publication-venue__badge">Journal</strong><span>{{ post.venue }}</span></p>
+    {% endif %}
+    {% if post.citation %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.citation_label | default: "Citation" }}: {{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">{{ post.paper_label | default: "Paper" }}</a>{% endif %}</p>
+    {% endif %}
     </li>
  </article>
 </div>
