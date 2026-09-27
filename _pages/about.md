@@ -40,11 +40,11 @@ Before joining Carnegie Mellon, I received an M.S. in Statistics from the Univer
   </article>
 
   <article class="recent-paper">
-    <h3>Generative Conformal Prediction with Vectorized Non-Conformity Scores</h3>
+    <h3>Generative Conformal Prediction with Optimized Coverage Allocation</h3>
     <p class="paper-authors"><strong>Minxing Zheng</strong> and Shixiang Zhu</p>
-    <p class="paper-meta">Preprint, 2025</p>
-    <p>We propose a generative conformal framework that uses vectorized non-conformity scores to form adaptive prediction regions for complex, multidimensional outcomes. Density-ranked uncertainty balls allocate coverage more efficiently while retaining statistical validity.</p>
-    <p class="paper-links"><a href="https://arxiv.org/abs/2410.13735">arXiv</a> · <a href="https://arxiv.org/pdf/2410.13735">PDF</a></p>
+    <p class="paper-meta">NeurIPS 2026</p>
+    <p>ORCA ranks samples from a generative model by local density, optimizes rank-specific radii, and calibrates the resulting prediction regions for finite-sample marginal coverage.</p>
+    <p class="paper-links"><a href="/orca/">Project page &amp; interactive demo</a> · <a href="https://arxiv.org/abs/2410.13735">Earlier arXiv preprint</a></p>
   </article>
 
   <article class="recent-paper">

@@ -1,13 +1,17 @@
 ---
-title: "Generative Conformal Prediction with Vectorized Non-Conformity Scores"
+title: "Generative Conformal Prediction with Optimized Coverage Allocation"
 collection: publications
-category: preprints
+category: journals
 permalink: /publication/generative-conformal-prediction
-excerpt: "A generative conformal framework that constructs adaptive, efficient prediction regions for complex multidimensional outcomes."
-date: 2024-10-17
-venue: "arXiv preprint"
+excerpt: "ORCA uses density-ranked generative samples and optimized coverage allocation to construct efficient prediction regions with finite-sample marginal coverage. <a href='/orca/'>Project page and interactive demo</a>."
+date: 2026-09-24
+venue: "NeurIPS"
+status: accepted
 paperurl: "https://arxiv.org/abs/2410.13735"
-citation: 'Minxing Zheng and Shixiang Zhu. (2024). &quot;Generative Conformal Prediction with Vectorized Non-Conformity Scores.&quot; <i>arXiv:2410.13735</i>.'
+paper_label: "Earlier arXiv preprint"
+citation: 'Minxing Zheng and Shixiang Zhu. (2026). &quot;Generative Conformal Prediction with Optimized Coverage Allocation.&quot; <i>NeurIPS 2026</i> (to appear). <a href="/orca/">Project page and interactive demo</a>.'
 ---
 
-We vectorize non-conformity scores across samples from a conditional generative model and optimize uncertainty allocation across density levels. The resulting prediction regions adapt to complex outcome geometry while retaining conformal validity.
+ORCA ranks samples from a conditional generative model using a local density proxy, optimizes rank-specific radii on an exploration split, and calibrates the result on a separate split. This yields adaptive prediction regions with finite-sample marginal coverage.
+
+The [project page and interactive demo](/orca/) explains the geometry. The linked arXiv version currently has the earlier preprint title; the updated version is forthcoming.
