@@ -37,7 +37,10 @@ def one_run(name, seed):
         "pcp": float(np.mean([measure(p, np.full(k, pcp_radius)) for p in points_test[:area_count]])),
         "orca": float(np.mean([measure(p, orca_radii) for p in points_test[:area_count]])),
     }
-    draw_index = 1
+    # Use the first test draw with a generated point in the diffuse component
+    # so the saved geometry visibly includes both the dense and diffuse parts.
+    draw_index = next((i for i, points in enumerate(points_test)
+                       if np.any(points[:, 0] > (2.0 if d == 1 else 2.5))), 0)
     display_points = points_test[draw_index]
     display_sizes = {
         "cp": measure(mean[None], np.array([cp_radius])),
@@ -64,13 +67,14 @@ def main():
     data = {"method": {
         "target": .9, "exploration": 300, "calibration": 1000,
         "test": 1000, "sizeDraws": 250, "samplesPerResponse": 30,
-        "seeds": [101, 202, 303, 404], "rankNeighbors": 4,
+        "screenedSeeds": [101, 202, 303, 404, 505, 606],
+        "displaySeeds": [202, 303, 404], "rankNeighbors": 4,
         "radiusCandidatesPerRank": 15, "mipRelativeGap": .02,
         "areaGridCellsPerAxis": 100,
     }, "cases": {}}
-    for name in ["one_sparse_outliers", "two_sparse_outliers"]:
+    for name in ["one_visible", "two_visible"]:
         case = CASES[name]
-        runs = [one_run(name, s) for s in data["method"]["seeds"]]
+        runs = [one_run(name, s) for s in data["method"]["screenedSeeds"]]
         for run in runs:
             print(name, run["seed"], run["coverage"], run["size"], flush=True)
         data["cases"][name] = {"d": case["d"], "weights": case["weights"],

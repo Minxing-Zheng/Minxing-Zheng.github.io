@@ -12,6 +12,8 @@ from scipy.sparse import coo_matrix
 
 
 CASES = {
+    "one_visible": {"d": 1, "weights": [.60, .32, .08], "means": [[-1.1], [-.65], [5.0]], "sd": [.18, .18, 1.80]},
+    "two_visible": {"d": 2, "weights": [.92, .08], "means": [[-1.0, 0], [4.5, 4.5]], "sd": [.32, 2.20]},
     "one_tail": {"d": 1, "weights": [.90, .10], "means": [[-1.5], [2.7]], "sd": [.38, 1.35]},
     "one_two_modes": {"d": 1, "weights": [.50, .40, .10], "means": [[-1.8], [1.4], [3.0]], "sd": [.30, .28, 1.40]},
     "one_hetero": {"d": 1, "weights": [.75, .18, .07], "means": [[-1.4], [1.5], [3.4]], "sd": [.28, .68, 1.80]},
