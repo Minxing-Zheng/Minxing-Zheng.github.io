@@ -9,16 +9,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student at Carnegie Mellon University, advised by [Prof. Shixiang Zhu](https://www.andrew.cmu.edu/user/shixianz/) and [Prof. Holly Wiberg](https://www.heinz.cmu.edu/faculty-research/profiles/wiberg-holly). My research focuses on uncertainty quantification, particularly conformal prediction, and human–AI collaboration for decision-making.
+I am a Ph.D. student at Carnegie Mellon University, advised by [Prof. Shixiang Zhu](https://www.andrew.cmu.edu/user/shixianz/) and [Prof. Holly Wiberg](https://www.heinz.cmu.edu/faculty-research/profiles/wiberg-holly). My research develops statistical and optimization methods for reliable decision-making under uncertainty. I am particularly interested in conformal prediction, hypothesis testing, and decision-focused learning.
 
 Before joining Carnegie Mellon, I received an M.S. in Statistics from the University of Southern California, where I worked with [Prof. Paromita Dubey](https://www.paromitadubey.com/) on change-point detection for metric-space data. I also earned an M.S. in Statistics from the University of Wisconsin–Madison, where I worked with [Prof. Kris Sankaran](https://krisrs1128.github.io/LSLab/_includes/team) and [Prof. Keith Levin](https://stat.wisc.edu/staff/levin-keith/) on machine-learning interpretability and statistical network analysis. I earned a B.S. in Statistics and a B.S. in Applied Mathematics from Renmin University of China.
 
 ## Research interests
 
-- Conformal prediction and distribution-free uncertainty quantification
-- Reliable and secure machine learning
-- Scientific machine learning and statistical decision-making
-- Human–AI collaboration
+- Uncertainty quantification and conformal prediction
+- Statistical inference and hypothesis testing
+- Decision-focused learning and stochastic optimization
 
 ## Recent work
 
