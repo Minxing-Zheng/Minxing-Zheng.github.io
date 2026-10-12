@@ -80,6 +80,8 @@ author:
 publication_category:
   conferences:
     title: 'Conference Papers'
+  workshops:
+    title: 'Workshop Papers'
   journals:
     title: 'Journal Papers'
   preprints:

@@ -37,7 +37,7 @@
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
     {% if post.status == 'accepted' %}
-      <p class="publication-venue publication-venue--accepted"><strong class="publication-venue__badge">Accepted to {{ post.venue }} {{ post.date | date: "%Y" }}</strong><span>Conference paper</span></p>
+      <p class="publication-venue publication-venue--accepted"><strong class="publication-venue__badge">{% if post.acceptance_note %}{{ post.acceptance_note }}{% else %}Accepted to {{ post.venue }} {{ post.date | date: "%Y" }}{% endif %}</strong><span>{{ post.publication_type | default: "Conference paper" }}</span></p>
     {% elsif post.category == 'preprints' %}
       <p class="publication-venue publication-venue--preprint"><strong class="publication-venue__badge">Preprint</strong><span>{{ post.venue }}</span></p>
     {% elsif post.category == 'journals' %}

@@ -32,9 +32,9 @@ Before joining Carnegie Mellon, I received an M.S. in Statistics from the Univer
   </article>
 
   <article class="recent-paper">
-    <h3>Beyond Predicting Responses: Conformal Inference for Latent Distributional Parameters</h3>
+    <h3>Beyond Prediction: Conformal Inference for Latent Distributional Parameters</h3>
     <p class="paper-authors"><strong>Minxing Zheng</strong>, Wenbin Zhou, and Shixiang Zhu</p>
-    <p class="paper-venue"><strong class="paper-venue__badge paper-venue__badge--preprint">Preprint</strong><span class="paper-venue__status">arXiv · 2026</span></p>
+    <p class="paper-venue"><strong class="paper-venue__badge">Shorter version accepted to NeurIPS 2026 MLxOR Workshop</strong><span class="paper-venue__status">Workshop paper · full preprint on arXiv</span></p>
     <p>We introduce LatentCP, a prior-free framework that constructs uncertainty sets for unobserved, instance-specific distributional parameters using only observed context–response pairs and a specified forward model. It provides finite-sample marginal coverage without latent calibration labels or knowledge of the latent mixing distribution, with an application to latent wildfire intensity.</p>
     <p class="paper-links"><a href="https://arxiv.org/abs/2608.03607">arXiv</a> · <a href="https://arxiv.org/pdf/2608.03607">PDF</a></p>
   </article>
