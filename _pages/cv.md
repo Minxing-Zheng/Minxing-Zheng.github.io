@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* **Ph.D. student, Statistics & Data Science** — Carnegie Mellon University, 2025–present<br>
+* **Ph.D. student** — Carnegie Mellon University, 2025–present<br>
   Advisors: [Prof. Shixiang Zhu](https://www.andrew.cmu.edu/user/shixianz/) and [Prof. Holly Wiberg](https://www.heinz.cmu.edu/faculty-research/profiles/wiberg-holly)
 * **M.S., Statistics** — University of Southern California, 2022–2024<br>
   Advisor: [Prof. Paromita Dubey](https://www.paromitadubey.com/)
