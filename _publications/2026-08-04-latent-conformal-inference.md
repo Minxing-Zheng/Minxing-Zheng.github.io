@@ -15,4 +15,6 @@ citation_label: "Full preprint"
 citation: 'Minxing Zheng, Wenbin Zhou, and Shixiang Zhu. (2026). &quot;Beyond Prediction: Conformal Inference for Latent Distributional Parameters.&quot; <i>arXiv:2608.03607</i>.'
 ---
 
+**Shorter version accepted to NeurIPS 2026 MLxOR Workshop.** The full preprint is available on [arXiv](https://arxiv.org/abs/2608.03607).
+
 We develop LatentCP, a conformal framework that transfers calibrated uncertainty in observable response space back to an unobserved latent parameter through a known forward model. The method provides finite-sample marginal coverage without latent calibration labels, a unique inverse mapping, or knowledge of the latent mixing distribution.
