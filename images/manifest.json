@@ -1,5 +1,5 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Minxing Zheng",
 	"icons": [
 		{
 			"src": "/images/favicon-192x192.png",
@@ -11,5 +11,7 @@
 			"sizes": "512x512",
 			"type": "image/png"
 		}
-	]
+	],
+	"theme_color": "#111418",
+	"background_color": "#ffffff"
 }

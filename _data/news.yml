@@ -1,11 +1,36 @@
 # Homepage news, newest first. `text` accepts Markdown.
+- date: Nov 2026
+  upcoming: true
+  text: "Presenting [Learning to Test](/publication/learning-to-test) at the 2026 INFORMS Annual Meeting, San Francisco: Tue Nov 3, 4:15–5:30 PM, Moscone South 308. Come say hi!"
+- date: Oct 2026
+  text: "Presented *Topology-Aware Uncertainty Quantification for Power-System Resilience and Restoration* at the [2026 CEIC Advisory Committee Meeting](https://www.cmu.edu/ceic/events-seminars/index.html), in collaboration with Duquesne Light Company, Pittsburgh's primary electric utility."
 - date: Oct 2026
   text: "Short version of [LatentCP](/publication/latent-conformal-inference) accepted to the **NeurIPS 2026 Workshop on ML×OR**."
 - date: Oct 2026
-  text: "Two new preprints: [CASA](/publication/sample-efficient-generative-conformal-prediction) for sample-efficient generative conformal prediction, and [decision-focused calibration](/publication/decision-focused-calibration)."
+  text: "Two new preprints:"
+  bullets:
+    - "[CASA](/publication/sample-efficient-generative-conformal-prediction) adaptively allocates generated samples across inputs, making generative conformal prediction more sample-efficient."
+    - "[AdaCF](/publication/decision-focused-calibration) adapts conformal predictive distributions to downstream decisions while keeping finite-sample calibration."
+- date: Sep 2026
+  text: "Presented a [poster](/files/posters/learning-to-test_poster.pdf) on [Learning to Test](/publication/learning-to-test) at the [NSF AI-SDM Workshop on Human-AI Complementarity](https://www.cmu.edu/ai-sdm/research/human-ai-workshop/index.html)."
 - date: Sep 2026
   text: "[ORCA](/publication/generative-conformal-prediction) accepted to **NeurIPS 2026**. Try the [interactive demo](/orca/)."
 - date: Aug 2026
-  text: "New preprints: [RADAR](/publication/deciding-when-to-decide) and [LatentCP](/publication/latent-conformal-inference)."
+  text: "Presented a [poster](/files/posters/latentcp_poster.pdf) on [LatentCP](/publication/latent-conformal-inference) at the YinzOR 2026 student conference at CMU."
+- date: Aug 2026
+  text: "Two new preprints:"
+  bullets:
+    - "[RADAR](/publication/deciding-when-to-decide) tests whether a deployed decision has become materially suboptimal under distributional shift."
+    - "[LatentCP](/publication/latent-conformal-inference) builds uncertainty sets for unobserved latent parameters using only observed data and a forward model."
+- date: May 2026
+  text: "Presented a poster on [Learning to Test](/publication/learning-to-test) at the CMU Doctoral Student Participatory Workshop on Climate and Energy Decision Making."
+- date: May 2026
+  text: "Started a summer Ph.D. research internship at **Argonne National Laboratory** (Grid Optimization and Analytics), developing conformal survival models to predict hydropower outages."
 - date: Apr 2026
-  text: "New preprint: [Learning to Test](/publication/learning-to-test)."
+  text: "New preprint:"
+  bullets:
+    - "[Learning to Test](/publication/learning-to-test) learns a latent representation that turns stability monitoring under distribution shift into a statistical test."
+- date: Mar 2026
+  text: "Presented a poster on [Learning to Test](/publication/learning-to-test) at the CMU Energy Week 2026 Student Energy and Sustainability Research Symposium."
+- date: Oct 2025
+  text: "Presented an [ORCA](/publication/generative-conformal-prediction) poster and a talk at the 2025 INFORMS Annual Meeting."

@@ -8,7 +8,6 @@ excerpt: "A defense against model extraction that preserves benign utility witho
 date: 2025-06-03
 venue: "arXiv preprint"
 authors: "Xueqi Cheng, Minxing Zheng, Shixiang Zhu, and Yushun Dong"
-codeurl: "https://github.com/LabRAI/MISLEADER"
 paperurl: "https://arxiv.org/abs/2506.02362"
 citation: 'Xueqi Cheng, Minxing Zheng, Shixiang Zhu, and Yushun Dong. (2025). &quot;MISLEADER: Defending against Model Extraction with Ensembles of Distilled Models.&quot; <i>arXiv:2506.02362</i>.'
 ---

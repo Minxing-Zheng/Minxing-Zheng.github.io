@@ -1,0 +1,12 @@
+{% assign item = include.item %}
+<li>
+  <span class="news-list__date">{{ item.date }}</span>
+  <div class="news-list__text">
+    {% if item.upcoming %}<span class="news-list__tag">Upcoming</span> {% endif %}{% capture news_html %}{{ item.text | markdownify | remove: "<p>" | remove: "</p>" }}{% endcapture %}{% include nowidow.html html=news_html %}
+    {% if item.bullets %}
+    <ul class="news-list__bullets">
+      {% for bullet in item.bullets %}{% capture bullet_html %}{{ bullet | markdownify | remove: "<p>" | remove: "</p>" }}{% endcapture %}<li>{% include nowidow.html html=bullet_html %}</li>{% endfor %}
+    </ul>
+    {% endif %}
+  </div>
+</li>

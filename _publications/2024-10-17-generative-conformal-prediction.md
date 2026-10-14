@@ -13,6 +13,7 @@ venues:
   - name: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
 authors: "Minxing Zheng and Shixiang Zhu"
 paperurl: "https://neurips.cc/virtual/2026/poster/149988"
+posterurl: "/files/posters/orca_poster.pdf"
 paper_label: "NeurIPS page"
 preprinturl: "https://arxiv.org/abs/2410.13735"
 projecturl: "/orca/"

@@ -16,6 +16,7 @@ acceptance_note: "Short version accepted at the NeurIPS 2026 Workshop on ML×OR"
 publication_type: "Workshop paper"
 authors: "Minxing Zheng, Wenbin Zhou, and Shixiang Zhu"
 paperurl: "https://arxiv.org/abs/2608.03607"
+posterurl: "/files/posters/latentcp_poster.pdf"
 paper_label: "Current arXiv preprint"
 citation_label: "Full preprint"
 featured: true

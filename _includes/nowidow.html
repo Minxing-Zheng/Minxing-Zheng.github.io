@@ -1,0 +1,15 @@
+{%- comment -%}
+  Prints include.html with its last two words joined by a non-breaking space,
+  so a line of text never ends with a single word on its own line.
+{%- endcomment -%}
+{%- assign nw_text = include.html | strip -%}
+{%- assign nw_words = nw_text | split: " " -%}
+{%- assign nw_last = nw_words | last -%}
+{%- if nw_words.size > 2 and nw_last contains '="' -%}
+  {{- nw_text -}}
+{%- elsif nw_words.size > 2 -%}
+  {%- assign nw_head_len = nw_text.size | minus: nw_last.size | minus: 1 -%}
+  {{- nw_text | slice: 0, nw_head_len -}}&nbsp;{{- nw_last -}}
+{%- else -%}
+  {{- nw_text -}}
+{%- endif -%}

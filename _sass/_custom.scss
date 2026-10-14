@@ -112,13 +112,40 @@ html[data-theme="dark"] {
   list-style: none;
 }
 
-.news-list li {
+.news-list > li {
   display: flex;
   gap: 1rem;
   margin: 0;
   padding: 0.3rem 0;
   font-size: 0.93rem;
   line-height: 1.55;
+}
+
+.news-list__text {
+  min-width: 0;
+}
+
+.news-list__bullets {
+  margin: 0.15rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-list__bullets li {
+  position: relative;
+  margin: 0.1rem 0 0;
+  padding-left: 1rem;
+  color: var(--site-text);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.news-list__bullets li::before {
+  content: "\2022";
+  position: absolute;
+  left: 0.2rem;
+  color: var(--site-muted);
 }
 
 .news-list__date {
@@ -128,8 +155,61 @@ html[data-theme="dark"] {
   white-space: nowrap;
 }
 
+/* Avoid one-word last lines in news items and paper titles (Chrome, Edge, Safari). */
+.news-list__text,
+.paper__title {
+  text-wrap: pretty;
+}
+
 .news-list__text strong {
   color: var(--site-ink);
+}
+
+.news-list__tag {
+  display: inline-block;
+  margin-right: 0.15rem;
+  padding: 0.05rem 0.4rem;
+  border-radius: 3px;
+  box-shadow: inset 0 0 0 1px var(--site-ink);
+  color: var(--site-ink);
+  font-size: 0.72rem;
+  font-weight: 700;
+  line-height: 1.4;
+  vertical-align: 0.08em;
+}
+
+.news-more {
+  margin-top: 0.3rem;
+}
+
+.news-more > summary {
+  display: inline-block;
+  padding: 0.3rem 0;
+  color: var(--site-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.news-more > summary::-webkit-details-marker {
+  display: none;
+}
+
+.news-more > summary::after {
+  content: " \25BE";
+}
+
+.news-more[open] > summary::after {
+  content: " \25B4";
+}
+
+.news-more > summary:hover {
+  color: var(--site-ink);
+}
+
+.news-more .news-list {
+  margin-top: 0;
 }
 
 /* ---------- Paper list (homepage + Publications page) ---------- */

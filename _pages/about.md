@@ -21,11 +21,22 @@ Before joining Carnegie Mellon, I received an {{ usc.degree }} in {{ usc.field }
 
 ## News
 
+{% assign news_shown = 8 %}
 <ul class="news-list">
-{% for item in site.data.news %}
-  <li><span class="news-list__date">{{ item.date }}</span><span class="news-list__text">{{ item.text | markdownify | remove: "<p>" | remove: "</p>" | strip }}</span></li>
+{% for item in site.data.news limit: news_shown %}
+  {% include news-item.html item=item %}
 {% endfor %}
 </ul>
+{% if site.data.news.size > news_shown %}
+<details class="news-more">
+<summary>Earlier news</summary>
+<ul class="news-list">
+{% for item in site.data.news offset: news_shown %}
+  {% include news-item.html item=item %}
+{% endfor %}
+</ul>
+</details>
+{% endif %}
 
 ## Publications
 
