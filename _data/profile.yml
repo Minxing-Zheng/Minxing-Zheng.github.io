@@ -1,0 +1,42 @@
+# Shared facts for the homepage and web CV. Keep the PDF CV in assets/cv/.
+research_focus:
+  - uncertainty quantification for LLMs and generative models
+  - trustworthy AI for high-stakes decisions
+
+research_interests:
+  - Uncertainty quantification and conformal prediction
+  - Statistical inference and hypothesis testing
+  - Decision-focused learning and stochastic optimization
+
+education:
+  - institution: Carnegie Mellon University
+    degree: Ph.D. student
+    dates: 2025–present
+    advisors:
+      - name: Shixiang Zhu
+        url: https://www.andrew.cmu.edu/user/shixianz/
+      - name: Holly Wiberg
+        url: https://www.heinz.cmu.edu/faculty-research/profiles/wiberg-holly
+  - institution: University of Southern California
+    degree: M.S.
+    field: Statistics
+    dates: 2022–2024
+    advisors:
+      - name: Paromita Dubey
+        url: https://www.paromitadubey.com/
+  - institution: University of Wisconsin–Madison
+    degree: M.S.
+    field: Statistics
+    dates: 2020–2022
+    advisors:
+      - name: Kris Sankaran
+        url: https://krisrs1128.github.io/LSLab/_includes/team
+      - name: Keith Levin
+        url: https://stat.wisc.edu/staff/levin-keith/
+  - institution: Renmin University of China
+    dates: 2017–2021
+    degrees:
+      - degree: B.S.
+        field: Statistics
+      - degree: B.S.
+        field: Applied Mathematics

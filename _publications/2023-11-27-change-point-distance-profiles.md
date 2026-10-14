@@ -2,6 +2,7 @@
 title: "Change Point Inference for Non-Euclidean Data Sequences using Distance Profiles"
 collection: publications
 category: preprints
+cv_order: 7
 permalink: /publication/change-point-distance-profiles
 excerpt: "A tuning-parameter-free, fully nonparametric framework for detecting and locating distributional changes in metric-space data using distance profiles."
 date: 2023-11-27

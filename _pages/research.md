@@ -6,7 +6,7 @@ excerpt: "Research in uncertainty quantification, conformal prediction, reliable
 author_profile: true
 ---
 
-My research develops statistical methods that make machine-learning systems more reliable, informative, and useful for decision-making. I am especially interested in settings where standard point predictions are not enough: complex outputs, hidden targets, distribution shifts, and high-stakes scientific systems.
+My research focuses on {{ site.data.profile.research_focus[0] }} and {{ site.data.profile.research_focus[1] }}. I am especially interested in settings where standard point predictions are not enough: complex outputs, hidden targets, distribution shifts, and high-stakes scientific systems.
 
 <div class="research-theme-grid">
   <article>
@@ -40,10 +40,10 @@ My research develops statistical methods that make machine-learning systems more
 
 ## Ongoing projects
 
-- **[ORCA: Generative Conformal Prediction with Optimized Coverage Allocation](/orca/).** Accepted to NeurIPS 2026. The current citable version is the [arXiv preprint](https://arxiv.org/abs/2410.13735), which has an earlier title. Explore the interactive comparison of prediction-set geometries.
-- **Deciding When to Decide: Decision-Focused Testing under Distributional Shift.** A framework for testing whether a decision optimized in one domain remains approximately optimal after a context or feature distribution shift.
-- **Derandomized Multiple Change Point Detection with FDR Control using Distance Profiles.** A nonparametric approach to detecting multiple changes in sequences of metric-space objects while controlling false discoveries.
-- **Asymptotic Behavior of the Maximum Degree Distribution under Graphon Models.** Bootstrap inference for extremal network statistics from a single observed graph.
+- **[ORCA: Generative Conformal Prediction with Optimized Coverage Allocation](/orca/).** A [NeurIPS 2026 paper](https://neurips.cc/virtual/2026/poster/149988) on adaptive prediction-set geometry, with an interactive project page.
+- **[Sample-Efficient Generative Conformal Prediction](/publication/sample-efficient-generative-conformal-prediction).** CASA allocates generator samples across inputs under an average sampling budget.
+- **[Deciding When to Decide: Testing Operational Suboptimality under Distributional Shift](/publication/deciding-when-to-decide).** RADAR tests whether a deployed decision has become materially suboptimal after distribution shift.
+- **[Beyond Prediction: Conformal Inference for Latent Distributional Parameters](/publication/latent-conformal-inference).** Conformal inference for latent quantities; a short version was accepted at the NeurIPS 2026 Workshop on ML×OR.
 
 <div class="research-contact">
   <p>Interested in one of these questions?</p>

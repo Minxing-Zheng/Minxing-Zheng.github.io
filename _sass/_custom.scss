@@ -97,6 +97,15 @@ html[data-theme="dark"] {
   line-height: 1.4;
 }
 
+.page__content .recent-paper h3 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.page__content .recent-paper h3 a:hover {
+  text-decoration: underline;
+}
+
 .page__content .recent-paper p {
   margin-bottom: 0.55rem;
   font-size: 0.92rem;

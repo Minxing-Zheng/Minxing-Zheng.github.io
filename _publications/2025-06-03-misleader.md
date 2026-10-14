@@ -2,6 +2,7 @@
 title: "MISLEADER: Defending against Model Extraction with Ensembles of Distilled Models"
 collection: publications
 category: preprints
+cv_order: 6
 permalink: /publication/misleader
 excerpt: "A defense against model extraction that preserves benign utility without relying on out-of-distribution query assumptions."
 date: 2025-06-03

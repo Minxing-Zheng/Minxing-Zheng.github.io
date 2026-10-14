@@ -11,6 +11,13 @@ local/
 # Ignore the Gemfile that is generated
 Gemfile.lock
 
+# LaTeX CV build byproducts
+assets/cv/*.aux
+assets/cv/*.log
+assets/cv/*.out
+assets/cv/*.synctex.gz
+
 # Ingore files created by npm
 node_modules
 package-lock.json
+.DS_Store

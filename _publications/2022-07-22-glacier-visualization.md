@@ -2,6 +2,7 @@
 title: "Interactive Visualization and Representation Analysis Applied to Glacier Segmentation"
 collection: publications
 category: journals
+cv_order: 2
 permalink: /publication/glacier-visualization
 excerpt: "Interactive visualization and representation analysis for understanding glacier segmentation models, diagnosing data issues, and guiding model improvement."
 date: 2022-07-22

@@ -40,6 +40,8 @@
 
         {% if post.collection == 'teaching' %}
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif post.collection == 'publications' and post.status == 'published' and post.category == 'conferences' %}
+          <p class="publication-venue publication-venue--accepted"><strong class="publication-venue__badge">{{ post.venue }} {{ post.date | default: "1900-01-01" | date: "%Y" }}</strong><span>Conference paper</span></p>
         {% elsif post.collection == 'publications' and post.status == 'accepted' %}
           <p class="publication-venue publication-venue--accepted"><strong class="publication-venue__badge">{% if post.acceptance_note %}{{ post.acceptance_note }}{% else %}Accepted to {{ post.venue }} {{ post.date | default: "1900-01-01" | date: "%Y" }}{% endif %}</strong><span>{{ post.publication_type | default: "Conference paper" }}</span></p>
         {% elsif post.collection == 'publications' and post.category == 'preprints' %}

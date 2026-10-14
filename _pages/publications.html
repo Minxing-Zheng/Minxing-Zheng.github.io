@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <p class="archive-intro">My research spans conformal inference, reliable machine learning, scientific AI, and interpretable modeling. For citation counts and the latest updates, visit <a href="{{site.author.googlescholar}}">Google Scholar</a> or <a href="{{ site.author.arxiv }}">arXiv</a>.</p>
+  <p class="archive-intro">My research focuses on {{ site.data.profile.research_focus[0] }} and {{ site.data.profile.research_focus[1] }}. For citation counts and the latest updates, visit <a href="{{site.author.googlescholar}}">Google Scholar</a> or <a href="{{ site.author.arxiv }}">arXiv</a>.</p>
 {% endif %}
 
 {% include base_path %}
@@ -31,5 +31,4 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
 

@@ -7,49 +7,59 @@ redirect_from:
   - /resume
 ---
 
-{% include base_path %}
+[Download the PDF CV](/assets/cv/MinxingZheng_CV.pdf)
+
+**Research:** {{ site.data.profile.research_focus[0] }}; {{ site.data.profile.research_focus[1] }}.
 
 Education
 ======
-* **Ph.D. student** — Carnegie Mellon University, 2025–present<br>
-  Advisors: [Prof. Shixiang Zhu](https://www.andrew.cmu.edu/user/shixianz/) and [Prof. Holly Wiberg](https://www.heinz.cmu.edu/faculty-research/profiles/wiberg-holly)
-* **M.S., Statistics** — University of Southern California, 2022–2024<br>
-  Advisor: [Prof. Paromita Dubey](https://www.paromitadubey.com/)
-* **M.S., Statistics** — University of Wisconsin–Madison, 2020–2022<br>
-  Advisors: [Prof. Kris Sankaran](https://krisrs1128.github.io/LSLab/_includes/team) and [Prof. Keith Levin](https://stat.wisc.edu/staff/levin-keith/)
-* **B.S., Statistics; B.S., Applied Mathematics** — Renmin University of China, 2017–2021
-
-Research interests
-======
-Conformal prediction and inference; uncertainty quantification; reliable and secure machine learning; scientific AI; human–AI collaboration and decision-making.
+<ul>
+{% for entry in site.data.profile.education %}
+  <li><strong>{{ entry.institution }}</strong> — {% if entry.degrees %}{% for credential in entry.degrees %}{{ credential.degree }}, {{ credential.field }}{% unless forloop.last %}; {% endunless %}{% endfor %}{% else %}{{ entry.degree }}{% if entry.field %}, {{ entry.field }}{% endif %}{% endif %}, {{ entry.dates }}{% if entry.advisors %}<br>{% if entry.advisors.size == 1 %}Advisor{% else %}Advisors{% endif %}: {% for advisor in entry.advisors %}<a href="{{ advisor.url }}">Prof. {{ advisor.name }}</a>{% unless forloop.last %} and {% endunless %}{% endfor %}{% endif %}</li>
+{% endfor %}
+</ul>
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+
+### Conference and journal papers
+
+<ul>
+{% assign cv_papers = site.publications | sort: "cv_order" %}
+{% for post in cv_papers %}
+  {% if post.category == 'conferences' or post.category == 'journals' %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endif %}
+{% endfor %}
+</ul>
 
-Research projects
-======
-* **Deciding When to Decide: Decision-Focused Testing under Distributional Shift** — working paper, 2025–present<br>
-  A decision-focused testing framework for assessing whether a decision optimized in one domain remains approximately optimal after a context or feature distribution shift.
-* **Learning to Test: Physics-Informed Representation for Dynamical Instability Detection** — 2025–present<br>
-  Physics-informed representation learning for efficient reliability testing under exogenous distribution shifts.
-* **Generative Conformal Prediction with Optimized Coverage Allocation (ORCA)** — accepted to NeurIPS 2026<br>
-  Adaptive conformal uncertainty sets for multimodal targets with finite-sample validity. Cite the current [arXiv preprint](https://arxiv.org/abs/2410.13735) until the proceedings appear. [Project page and interactive demo](/orca/).
-* **Derandomized Multiple Change Point Detection with FDR Control using Distance Profiles** — 2025–present<br>
-  Nonparametric change-point inference for metric-space objects, including extensions to multiple changes and false-discovery-rate control.
-* **Asymptotic Behavior of the Maximum Degree Distribution under Graphon Models** — 2021–2022<br>
-  Bootstrap inference for maximum-degree distributions under latent graphon models.
+### Preprints
 
-Service & honors
-======
-* Reviewer: AISTATS, NeurIPS, ICLR, and ICML
-* University of Southern California Marshall School Fellowship, 2022–2024
+<ul>
+{% for post in cv_papers %}
+  {% if post.category == 'preprints' or post.category == 'workshops' %}
+    {% include archive-single-cv.html %}
+  {% endif %}
+{% endfor %}
+</ul>
 
-Selected methods & applications
+Internship experience
 ======
-Distribution-free inference, generative modeling, hypothesis testing under distribution shift, model security, representation analysis, geospatial machine learning, and statistical network analysis.
+**Argonne National Laboratory**, Lemont, IL — Ph.D. Research Intern, ESI Grid Optimization and Analytics, May–July 2026<br>
+Mentor: Feng Qiu. Developed conformal survival models to predict forced outages of hydropower units from equipment sensor telemetry and outage-event records, in collaboration with the Hydropower Research Institute. Manuscript in preparation.
+
+Honors and fellowships
+======
+- Heinz College Dean’s Fellowship, Carnegie Mellon University, 2025–2026
+- Marshall School Fellowship, University of Southern California, 2022–2024
+
+Service
+======
+Conference reviewer: NeurIPS, ICLR, ICML, AISTATS, AAAI
+
+Technical skills
+======
+Uncertainty estimation and calibration for generative models · LLM fine-tuning and large-scale sampling · Differentiable optimization for decision-focused learning · Large-scale HPC experiments (Slurm, HTCondor) · Python (PyTorch, JAX), R, C++, MATLAB
 
 Professional links
 ======

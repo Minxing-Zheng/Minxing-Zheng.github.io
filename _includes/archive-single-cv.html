@@ -12,9 +12,8 @@
   {% assign title = post.title %}
 {% endif %}
 
-<div class="{{ include.type | default: "list" }}__item">
+<li class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <li>
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src=
@@ -36,16 +35,17 @@
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
-    {% if post.status == 'accepted' %}
+    {% if post.status == 'published' and post.category == 'conferences' %}
+      <p class="publication-venue publication-venue--accepted"><strong class="publication-venue__badge">{{ post.venue }} {{ post.date | date: "%Y" }}</strong><span>Conference paper</span></p>
+    {% elsif post.status == 'accepted' %}
       <p class="publication-venue publication-venue--accepted"><strong class="publication-venue__badge">{% if post.acceptance_note %}{{ post.acceptance_note }}{% else %}Accepted to {{ post.venue }} {{ post.date | date: "%Y" }}{% endif %}</strong><span>{{ post.publication_type | default: "Conference paper" }}</span></p>
     {% elsif post.category == 'preprints' %}
-      <p class="publication-venue publication-venue--preprint"><strong class="publication-venue__badge">Preprint</strong><span>{{ post.venue }}</span></p>
+      <p class="publication-venue publication-venue--preprint"><strong class="publication-venue__badge">Preprint</strong>{% if post.venue contains 'revised' %}<span>{{ post.venue }}</span>{% endif %}</p>
     {% elsif post.category == 'journals' %}
       <p class="publication-venue publication-venue--journal"><strong class="publication-venue__badge">Journal</strong><span>{{ post.venue }}</span></p>
     {% endif %}
     {% if post.citation %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.citation_label | default: "Citation" }}: {{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">{{ post.paper_label | default: "Paper" }}</a>{% endif %}</p>
+      <p class="archive__item-excerpt" itemprop="description">{{ post.citation_label | default: "Citation" }}: {{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">{{ post.paper_label | default: "Paper" }}</a>{% endif %}{% if post.preprinturl %} · <a href="{{ post.preprinturl }}">Earlier arXiv version</a>{% endif %}</p>
     {% endif %}
-    </li>
  </article>
-</div>
+</li>

@@ -1,0 +1,75 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[left=0.70in,right=0.70in,top=0.45in,bottom=0.45in]{geometry}
+\usepackage{newtxtext}
+\usepackage{xcolor}
+\definecolor{linkblue}{RGB}{20,50,120}
+\usepackage[colorlinks=true,urlcolor=linkblue,linkcolor=linkblue]{hyperref}
+\hypersetup{pdftitle={Minxing Zheng -- CV},pdfauthor={Minxing Zheng}}
+\usepackage{microtype}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+
+% Section heading with rule
+\newcommand{\cvsection}[1]{\par\vspace{7pt}{\large\bfseries\scshape #1}\par\vspace{1.5pt}\hrule height 0.5pt\vspace{5pt}}
+% Publication sub-heading
+\newcommand{\cvsub}[1]{\par\vspace{3pt}{\itshape #1}\par\vspace{2pt}}
+% Two-line dated entry: bold institution / italic role
+\newcommand{\dated}[3]{\textbf{#1}\hfill #3\par\emph{#2}\par\vspace{4pt}}
+% Numbered reference with hanging label
+\newlength{\reflabel}\setlength{\reflabel}{2.7em}
+\newcommand{\pub}[2]{\par\hangindent=\reflabel\hangafter=1\noindent\makebox[\reflabel][l]{[#1]}#2\par\vspace{1.5pt}}
+\newcommand{\me}{\textbf{Minxing Zheng}}
+
+\begin{document}
+\raggedright
+\begin{center}
+  {\LARGE\bfseries Minxing Zheng}\par\vspace{5pt}
+  \href{tel:+16089823701}{(608) 982-3701}
+  \enspace$\vert$\enspace
+  \href{mailto:minxingz@andrew.cmu.edu}{minxingz@andrew.cmu.edu}
+  \enspace$\vert$\enspace
+  \href{https://minxing-zheng.github.io/}{Personal Website}
+  \enspace$\vert$\enspace
+  \href{https://scholar.google.com/citations?user=JM-PxSQAAAAJ\&hl=en}{Google Scholar}
+  \enspace$\vert$\enspace
+  \href{https://github.com/Minxing-Zheng}{GitHub}\par\vspace{4pt}
+  \textbf{Research:} uncertainty quantification for LLMs and generative models; trustworthy AI for high-stakes decisions.\par\vspace{2pt}
+  {\color{linkblue}\textbf{Seeking Ph.D. Research Scientist Internships, Summer 2027}}
+\end{center}
+
+\cvsection{Education}
+\textbf{Carnegie Mellon University}, \emph{Ph.D. student}\hfill 2025--present\par\vspace{2pt}
+\textbf{University of Southern California}, \emph{M.S., Statistics}\hfill 2022--2024\par\vspace{2pt}
+\textbf{University of Wisconsin--Madison}, \emph{M.S., Statistics}\hfill 2020--2022\par\vspace{2pt}
+\textbf{Renmin University of China}, \emph{B.S., Statistics; B.S., Applied Mathematics}\hfill 2017--2021\par
+
+\cvsection{Publications}
+\cvsub{Conference and Journal Papers}
+\pub{C1}{\me{} and Shixiang Zhu. Generative conformal prediction with optimized coverage allocation. In \emph{Advances in Neural Information Processing Systems} (\textbf{NeurIPS}), 2026. \href{https://neurips.cc/virtual/2026/poster/149988}{[NeurIPS page]} \href{https://minxing-zheng.github.io/orca/}{[project page]}.}
+\pub{J1}{\me{}, Xinran Miao, and Kris Sankaran. Interactive visualization and representation analysis applied to glacier segmentation. \emph{ISPRS International Journal of Geo-Information}, 11(8):415, 2022. \href{https://doi.org/10.3390/ijgi11080415}{doi:10.3390/ijgi11080415}.}
+
+\cvsub{Preprints}
+\pub{P1}{\me{}, Wenbin Zhou, and Shixiang Zhu. Beyond prediction: Conformal inference for latent distributional parameters. \emph{arXiv preprint} \href{https://arxiv.org/abs/2608.03607}{arXiv:2608.03607}, 2026. Short version accepted at the \textbf{NeurIPS 2026 Workshop on ML$\times$OR}.}
+\pub{P2}{\me{} and Shixiang Zhu. Sample-efficient generative conformal prediction. \emph{arXiv preprint} \href{https://arxiv.org/abs/2610.11349}{arXiv:2610.11349}, 2026.}
+\pub{P3}{\me{}, Trevor Harris, and Shixiang Zhu. Decision-focused calibration with adaptive conformal predictive distributions. \emph{Preprint}, 2026.}
+\pub{P4}{\me{}, Holly Wiberg, and Shixiang Zhu. Deciding when to decide: Testing operational suboptimality under distributional shift. \emph{arXiv preprint} \href{https://arxiv.org/abs/2608.29465}{arXiv:2608.29465}, 2026.}
+\pub{P5}{\me{}, Zewei Deng, Liyan Xie, and Shixiang Zhu. Learning to test: Latent representation learning for dynamic instability detection. \emph{arXiv preprint} \href{https://arxiv.org/abs/2604.10967}{arXiv:2604.10967}, 2026.}
+\pub{P6}{Xueqi Cheng, \me{}, Shixiang Zhu, and Yushun Dong. MISLEADER: Defending against model extraction with ensembles of distilled models. \emph{arXiv preprint} \href{https://arxiv.org/abs/2506.02362}{arXiv:2506.02362}, 2025.}
+\pub{P7}{Paromita Dubey and \me{}. Change point inference for non-Euclidean data sequences using distance profiles. \emph{arXiv preprint} \href{https://arxiv.org/abs/2311.16025}{arXiv:2311.16025}, 2023.}
+
+\cvsection{Internship Experience}
+\dated{Argonne National Laboratory\normalfont, Lemont, IL}{Ph.D. Research Intern, ESI Grid Optimization and Analytics (Mentor: Feng Qiu)}{May--Jul.\ 2026}
+\vspace{-2pt}Developed conformal survival models to predict forced outages of hydropower units from equipment sensor telemetry and outage-event records, in collaboration with the Hydropower Research Institute (HRI). Manuscript in preparation.\par
+\cvsection{Honors and Fellowships}
+Heinz College Dean's Fellowship, Carnegie Mellon University\hfill 2025--2026\par\vspace{2pt}
+Marshall School Fellowship, University of Southern California\hfill 2022--2024\par
+
+\cvsection{Service}
+\textbf{Conference Reviewer:} NeurIPS, ICLR, ICML, AISTATS, AAAI\par
+
+\cvsection{Technical Skills}
+Uncertainty estimation and calibration for generative models~$\cdot$\hspace{0.5em}LLM fine-tuning and large-scale~sampling~$\cdot$\hspace{0.5em}Differentiable optimization for decision-focused learning~$\cdot$\hspace{0.5em}\mbox{Large-scale HPC experiments (Slurm, HTCondor)}~$\cdot$\hspace{0.5em}Python (PyTorch,~JAX), R, C++,~MATLAB\par
+
+
+\end{document}
