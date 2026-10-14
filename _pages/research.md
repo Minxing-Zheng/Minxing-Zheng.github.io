@@ -6,7 +6,7 @@ excerpt: "Research in uncertainty quantification, conformal prediction, reliable
 author_profile: true
 ---
 
-My research focuses on {{ site.data.profile.research_focus[0] }} and {{ site.data.profile.research_focus[1] }}. I am especially interested in settings where standard point predictions are not enough: complex outputs, hidden targets, distribution shifts, and high-stakes scientific systems.
+My research focuses on {{ site.data.profile.research_focus[0] }}; I also work on {{ site.data.profile.research_focus[1] }}. I am interested in settings where standard point predictions are not enough: complex outputs, hidden targets, distribution shifts, and high-stakes scientific systems.
 
 <div class="research-theme-grid">
   <article>

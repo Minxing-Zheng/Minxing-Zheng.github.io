@@ -1,6 +1,6 @@
 # Shared facts for the homepage and web CV. Keep the PDF CV in assets/cv/.
 research_focus:
-  - uncertainty quantification for LLMs and generative models
+  - uncertainty quantification for machine learning, especially generative models and LLMs
   - trustworthy AI for high-stakes decisions
 
 research_interests:
