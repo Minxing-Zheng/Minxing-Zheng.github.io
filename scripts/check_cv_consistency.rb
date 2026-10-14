@@ -6,7 +6,7 @@ require 'yaml'
 
 root = File.expand_path('..', __dir__)
 profile = YAML.safe_load_file(File.join(root, '_data/profile.yml'), permitted_classes: [Date])
-pdf_path = File.join(root, 'assets/cv/MinxingZheng_CV.pdf')
+pdf_path = File.join(root, 'assets/cv/CV_github.pdf')
 tex = File.read(File.join(root, 'assets/cv/MinxingZheng_CV.tex'))
 web_cv = File.read(File.join(root, '_pages/cv.md'))
 pdf, status = Open3.capture2('pdftotext', '-layout', pdf_path, '-')
@@ -51,7 +51,12 @@ end
   check.call(tex, term, 'LaTeX CV detail')
 end
 
-errors << 'CV page does not embed the public PDF' unless web_cv.include?('src="/assets/cv/MinxingZheng_CV.pdf#view=FitH"')
+errors << 'CV page does not embed the public PDF' unless web_cv.include?('src="/assets/cv/CV_github.pdf#view=FitH"')
+errors << 'CV download link does not use the public PDF' unless web_cv.include?('](/assets/cv/CV_github.pdf)')
+errors << 'Public CV source contains the internship search line' if tex.include?('Seeking Ph.D. Research Scientist Internships')
+errors << 'Public CV PDF contains the internship search line' if pdf.include?('Seeking Ph.D. Research Scientist Internships')
+legacy_pdf_path = File.join(root, 'assets/cv/MinxingZheng_CV.pdf')
+errors << 'Legacy CV URL differs from the public PDF' unless File.binread(legacy_pdf_path) == File.binread(pdf_path)
 
 if errors.empty?
   puts "CV and website facts agree (#{publication_files.length} publications)."

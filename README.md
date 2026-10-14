@@ -30,7 +30,7 @@ GitHub Pages rebuilds the public site automatically after the push. The deployme
 - Homepage layout and selected work: `_pages/about.md`
 - Research overview: `_pages/research.md`
 - Web CV layout: `_pages/cv.md`
-- PDF CV and its LaTeX source: `assets/cv/MinxingZheng_CV.pdf` and `assets/cv/MinxingZheng_CV.tex`
+- Public PDF CV and its LaTeX source: `assets/cv/CV_github.pdf` and `assets/cv/MinxingZheng_CV.tex`
 - Publications: one Markdown file per paper in `_publications/`; these records feed the homepage, web CV, and Publications page
 - Name, email, profiles, and site metadata: `_config.yml`
 - Navigation: `_data/navigation.yml`
@@ -45,7 +45,7 @@ Copy an existing file in `_publications/`, rename it with the publication date a
 
 - Edit `_data/profile.yml` for shared biographical facts. The homepage, Research page, Publications intro, and web CV read from it.
 - Edit a paper's `_publications/` file for its title, authors, status, citation, and links. The homepage's featured cards use records with `featured: true`; set `featured_order` to control their order. The web CV lists the same records, ordered by `cv_order` within its two sections.
-- Edit `assets/cv/MinxingZheng_CV.tex` when the PDF CV changes. Recompile it and replace `assets/cv/MinxingZheng_CV.pdf`. The PDF is a snapshot, while the web CV is assembled from the shared site data. Run `ruby scripts/check_cv_consistency.rb` to catch mismatches in research focus, education, and publication titles before pushing.
+- Edit `assets/cv/MinxingZheng_CV.tex` when the public PDF CV changes. Recompile it and replace `assets/cv/CV_github.pdf` and the legacy `assets/cv/MinxingZheng_CV.pdf` copy. The website previews `CV_github.pdf`. Run `ruby scripts/check_cv_consistency.rb` to catch mismatches in research focus, education, and publication titles before pushing. Keep internship-only wording in a separate local CV outside this public repository.
 
 ## Local setup (first time only)
 

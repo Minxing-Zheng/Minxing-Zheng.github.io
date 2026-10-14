@@ -7,6 +7,6 @@ redirect_from:
   - /resume
 ---
 
-[Download or open my CV as a PDF](/assets/cv/MinxingZheng_CV.pdf){: target="_blank" rel="noopener" }
+[Download or open my CV as a PDF](/assets/cv/CV_github.pdf){: target="_blank" rel="noopener" }
 
-<iframe class="cv-pdf-preview" src="/assets/cv/MinxingZheng_CV.pdf#view=FitH" title="Minxing Zheng CV PDF preview"></iframe>
+<iframe class="cv-pdf-preview" src="/assets/cv/CV_github.pdf#view=FitH" title="Minxing Zheng CV PDF preview"></iframe>
