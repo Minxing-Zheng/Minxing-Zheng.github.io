@@ -24,12 +24,10 @@ Before joining Carnegie Mellon, I received an {{ usc.degree }} in {{ usc.field }
 <div class="recent-work">
 {% assign featured_papers = site.publications | where: "featured", true | sort: "featured_order" %}
 {% for paper in featured_papers %}
-  <article class="recent-paper{% if forloop.first %} recent-paper--featured{% endif %}">
-    <h3><a href="{{ paper.url }}">{{ paper.title }}</a></h3>
-    <p class="paper-authors">{{ paper.authors }}</p>
-    <p class="paper-venue">{% if paper.status == 'published' %}<strong class="paper-venue__badge">{{ paper.venue }} {{ paper.date | date: "%Y" }}</strong><span class="paper-venue__status">Conference paper</span>{% elsif paper.status == 'accepted' %}<strong class="paper-venue__badge">{{ paper.acceptance_note }}</strong><span class="paper-venue__status">{{ paper.publication_type | default: "Workshop paper" }}</span>{% else %}<strong class="paper-venue__badge paper-venue__badge--preprint">Preprint</strong><span class="paper-venue__status">{{ paper.venue }} · {{ paper.date | date: "%Y" }}</span>{% endif %}</p>
-    <p>{{ paper.feature_summary }}</p>
-    <p class="paper-links"><a href="{{ paper.url }}">Paper details</a>{% if paper.paperurl %} · <a href="{{ paper.paperurl }}">{{ paper.paper_label | default: "Read paper" }}</a>{% endif %}{% if paper.projecturl %} · <a href="{{ paper.projecturl }}">Project page &amp; demo</a>{% endif %}{% if paper.preprinturl %} · <a href="{{ paper.preprinturl }}">Earlier arXiv version</a>{% endif %}</p>
+  <article class="recent-paper">
+    <h3><a href="{{ paper.url }}">{{ paper.title }}</a><span class="recent-paper__links">{% if paper.paperurl %} <a href="{{ paper.paperurl }}">[{% if paper.paperurl contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %}]</a>{% endif %}{% if paper.projecturl %} <a href="{{ paper.projecturl }}">[Project]</a>{% endif %}{% if paper.preprinturl %} <a href="{{ paper.preprinturl }}">[Earlier arXiv]</a>{% endif %}</span></h3>
+    <p class="recent-paper__authors">{{ paper.authors }}</p>
+    {% if paper.status == 'published' %}<p class="recent-paper__venue">Accepted to {{ paper.venue }} {{ paper.date | date: "%Y" }}</p>{% elsif paper.status == 'accepted' %}<p class="recent-paper__venue">{{ paper.acceptance_note }}</p>{% endif %}
   </article>
 {% endfor %}
 </div>
