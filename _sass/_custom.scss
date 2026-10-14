@@ -52,6 +52,17 @@ html[data-theme="dark"] {
   line-height: 1.65;
 }
 
+.cv-pdf-preview {
+  display: block;
+  width: 100%;
+  height: 85vh;
+  min-height: 650px;
+  max-height: 1050px;
+  margin-top: 1rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+}
+
 .archive__item {
   padding-bottom: 1.1rem;
   border-bottom: 1px solid var(--global-border-color);

@@ -48,8 +48,10 @@ end
 
 %w[Argonne AAAI].each do |term|
   check.call(pdf, term, 'PDF CV detail')
-  check.call(web_cv, term, 'Web CV detail')
+  check.call(tex, term, 'LaTeX CV detail')
 end
+
+errors << 'CV page does not embed the public PDF' unless web_cv.include?('src="/assets/cv/MinxingZheng_CV.pdf#view=FitH"')
 
 if errors.empty?
   puts "CV and website facts agree (#{publication_files.length} publications)."
