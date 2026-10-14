@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Minxing Zheng"
   pronouns         : #
-  bio              : "Ph.D. student at Carnegie Mellon University"
+  bio              : "Ph.D. student at CMU"
   location         : # Omit the nonessential sidebar line.
   employer         : # Listed in the bio above; omit the duplicate sidebar line.
   uri              : # URL
@@ -33,7 +33,6 @@ author:
 
   # Academic websites
   academia         : # URL
-  arxiv            : "https://arxiv.org/search/?searchtype=author&query=Zheng%2C+Minxing"
   googlescholar    : "https://scholar.google.com/citations?user=JM-PxSQAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : # "http://orcid.org/yourorcidurl"
