@@ -3,11 +3,6 @@ research_focus:
   - uncertainty quantification for machine learning, especially generative models and LLMs
   - trustworthy AI for high-stakes decisions
 
-research_interests:
-  - Uncertainty quantification and conformal prediction
-  - Statistical inference and hypothesis testing
-  - Decision-focused learning and stochastic optimization
-
 education:
   - institution: Carnegie Mellon University
     degree: Ph.D. student

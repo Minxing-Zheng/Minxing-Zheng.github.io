@@ -52,15 +52,10 @@ html[data-theme="dark"] {
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
-.sidebar .author__email,
-.sidebar .author__contact-note {
+.sidebar .author__email {
   margin: 0 0 0.5rem;
   overflow-wrap: anywhere;
   line-height: 1.4;
-}
-
-.sidebar .author__contact-note {
-  color: var(--global-text-color-light);
 }
 
 .archive-intro {

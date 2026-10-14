@@ -19,11 +19,6 @@ I am a {{ phd.degree }} at {{ phd.institution }}, advised by {% for advisor in p
 
 Before joining Carnegie Mellon, I received an {{ usc.degree }} in {{ usc.field }} from the {{ usc.institution }}, where I worked with [Prof. {{ usc.advisors[0].name }}]({{ usc.advisors[0].url }}) on change-point detection for metric-space data. I also earned an {{ wisconsin.degree }} in {{ wisconsin.field }} from the {{ wisconsin.institution }}, where I worked with [Prof. {{ wisconsin.advisors[0].name }}]({{ wisconsin.advisors[0].url }}) and [Prof. {{ wisconsin.advisors[1].name }}]({{ wisconsin.advisors[1].url }}) on machine-learning interpretability and statistical network analysis. I earned a {{ renmin.degrees[0].degree }} in {{ renmin.degrees[0].field }} and a {{ renmin.degrees[1].degree }} in {{ renmin.degrees[1].field }} from {{ renmin.institution }}.
 
-## Research interests
-
-{% for interest in site.data.profile.research_interests %}- {{ interest }}
-{% endfor %}
-
 ## Recent work
 
 <div class="recent-work">
