@@ -45,7 +45,7 @@
       <p class="publication-venue publication-venue--journal"><strong class="publication-venue__badge">Journal</strong><span>{{ post.venue }}</span></p>
     {% endif %}
     {% if post.citation %}
-      <p class="archive__item-excerpt" itemprop="description">{{ post.citation_label | default: "Citation" }}: {{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">{{ post.paper_label | default: "Paper" }}</a>{% endif %}{% if post.preprinturl %} · <a href="{{ post.preprinturl }}">Earlier arXiv version</a>{% endif %}</p>
+      <p class="archive__item-excerpt" itemprop="description">{{ post.citation_label | default: "Citation" }}: {{ post.citation }}{% if post.paperurl %} <a href="{{ post.paperurl }}">{{ post.paper_label | default: "Paper" }}</a>{% endif %}{% if post.preprinturl %} · <a href="{{ post.preprinturl }}">arXiv preprint</a>{% endif %}</p>
     {% endif %}
  </article>
 </li>

@@ -24,4 +24,4 @@ citation: 'Minxing Zheng and Shixiang Zhu. (2026). &quot;Generative Conformal Pr
 
 ORCA ranks samples from a conditional generative model using a local density proxy, optimizes rank-specific radii on an exploration split, and calibrates the result on a separate split. This yields adaptive prediction regions with finite-sample marginal coverage.
 
-See the [NeurIPS paper page](https://neurips.cc/virtual/2026/poster/149988) and the [project page and interactive demo](/orca/). The earlier [arXiv preprint](https://arxiv.org/abs/2410.13735) has a different title.
+See the [NeurIPS paper page](https://neurips.cc/virtual/2026/poster/149988), the [revised arXiv preprint](https://arxiv.org/abs/2410.13735), and the [project page and interactive demo](/orca/).
