@@ -8,6 +8,9 @@ excerpt: "ORCA uses density-ranked generative samples and optimized coverage all
 date: 2026-09-24
 venue: "NeurIPS"
 status: published
+badge: "NeurIPS 2026"
+venues:
+  - name: "Advances in Neural Information Processing Systems (NeurIPS), 2026"
 authors: "Minxing Zheng and Shixiang Zhu"
 paperurl: "https://neurips.cc/virtual/2026/poster/149988"
 paper_label: "NeurIPS page"

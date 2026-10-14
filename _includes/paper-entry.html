@@ -1,0 +1,23 @@
+{% include base_path %}
+{% assign p = include.paper %}
+<li class="paper{% if include.accepted %} paper--accepted{% endif %}">
+  <div class="paper__tag">
+    {% if include.accepted %}
+      <span class="paper__badge{% if p.category == 'workshops' %} paper__badge--workshop{% endif %}">{{ p.badge | default: p.venue }}</span>
+    {% else %}
+      <span class="paper__badge paper__badge--preprint">Preprint</span>
+    {% endif %}
+    <span class="paper__date">{{ p.date | date: "%b %Y" }}</span>
+  </div>
+  <div class="paper__body">
+    <a class="paper__title" href="{{ base_path }}{{ p.url }}">{{ p.title }}</a>
+    <div class="paper__authors">{{ p.authors | replace: "Minxing Zheng", '<span class="paper__me">Minxing Zheng</span>' }}</div>
+    {% for v in p.venues %}<div class="paper__venue">{% if v.label %}<span class="paper__venue-label">{{ v.label }}:</span> {% endif %}<em>{{ v.name }}</em></div>{% endfor %}
+    <div class="paper__links">
+      {% if p.paperurl %}<a href="{{ p.paperurl }}">{% if p.paperurl contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %}</a>{% endif %}
+      {% if p.preprinturl %}<a href="{{ p.preprinturl }}">arXiv</a>{% endif %}
+      {% if p.projecturl %}<a href="{{ base_path }}{{ p.projecturl }}">Project &amp; demo</a>{% endif %}
+      {% if p.codeurl %}<a href="{{ p.codeurl }}">Code</a>{% endif %}
+    </div>
+  </div>
+</li>

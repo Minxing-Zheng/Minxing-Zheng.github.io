@@ -1,0 +1,31 @@
+{% comment %}
+  All papers, newest first: accepted/published papers, then preprints.
+  A paper counts as accepted when its front matter has status: published or status: accepted.
+  Workshop papers are listed with the preprints (their full versions are still preprints).
+  Preprints with `pinned: true` are listed first.
+{% endcomment %}
+{% assign papers = site.publications | sort: "date" | reverse %}
+
+<h3 class="paper-group">Published &amp; accepted</h3>
+<ol class="paper-list">
+{% for paper in papers %}
+  {% assign accepted = false %}
+  {% if paper.status == 'published' or paper.status == 'accepted' %}{% unless paper.category == 'workshops' %}{% assign accepted = true %}{% endunless %}{% endif %}
+  {% if accepted %}{% include paper-entry.html paper=paper accepted=true %}{% endif %}
+{% endfor %}
+</ol>
+
+<h3 class="paper-group">Preprints</h3>
+<ol class="paper-list">
+{% for pass in (1..2) %}
+  {% for paper in papers %}
+    {% assign accepted = false %}
+    {% if paper.status == 'published' or paper.status == 'accepted' %}{% unless paper.category == 'workshops' %}{% assign accepted = true %}{% endunless %}{% endif %}
+    {% assign pinned = false %}{% if paper.pinned %}{% assign pinned = true %}{% endif %}
+    {% unless accepted %}
+      {% if pass == 1 and pinned %}{% include paper-entry.html paper=paper %}{% endif %}
+      {% if pass == 2 and pinned == false %}{% include paper-entry.html paper=paper %}{% endif %}
+    {% endunless %}
+  {% endfor %}
+{% endfor %}
+</ol>
