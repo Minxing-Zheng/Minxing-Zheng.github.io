@@ -26,7 +26,7 @@ author:
   name             : "Minxing Zheng"
   pronouns         : #
   bio              : "Ph.D. student at Carnegie Mellon University"
-  location         : "Pittsburgh, PA"
+  location         : # Omit the nonessential sidebar line.
   employer         : # Listed in the bio above; omit the duplicate sidebar line.
   uri              : # URL
   email            : "minxingz@andrew.cmu.edu" 

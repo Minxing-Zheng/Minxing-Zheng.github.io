@@ -5,7 +5,7 @@
 
 @media (min-width: 768px) {
   html {
-    font-size: 17px;
+    font-size: 16px;
   }
 }
 
@@ -31,7 +31,7 @@ html[data-theme="dark"] {
 }
 
 .page__content {
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 .page__content h2 {
@@ -48,33 +48,19 @@ html[data-theme="dark"] {
 }
 
 .author__avatar img {
+  max-width: 145px;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
-.homepage-actions {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
-  margin: 1.35rem 0 1.7rem;
-  padding: 0.9rem 1rem;
-  border-left: 4px solid var(--site-accent);
-  border-radius: 4px;
-  background: var(--global-code-background-color);
-}
-
-.page__content .homepage-actions p {
-  margin: 0;
-  font-size: 0.9rem;
+.sidebar .author__email,
+.sidebar .author__contact-note {
+  margin: 0 0 0.5rem;
+  overflow-wrap: anywhere;
   line-height: 1.4;
 }
 
-.homepage-actions strong {
-  display: block;
-  margin-bottom: 0.2rem;
-}
-
-.homepage-actions a {
-  overflow-wrap: anywhere;
+.sidebar .author__contact-note {
+  color: var(--global-text-color-light);
 }
 
 .archive-intro {
@@ -271,10 +257,6 @@ html[data-theme="dark"] .publication-venue {
 }
 
 @media (max-width: 680px) {
-  .homepage-actions {
-    grid-template-columns: 1fr;
-  }
-
   .research-theme-grid {
     grid-template-columns: 1fr;
   }
