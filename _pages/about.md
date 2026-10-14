@@ -39,4 +39,4 @@ Before joining Carnegie Mellon, I received an {{ usc.degree }} in {{ usc.field }
 {% endfor %}
 </div>
 
-See the [publications page](/publications/) for a complete list and [Google Scholar](https://scholar.google.com/citations?user=JM-PxSQAAAAJ&hl=en) for citation records. For research correspondence, email [minxingz@andrew.cmu.edu](mailto:minxingz@andrew.cmu.edu).
+For a full list of my papers, see [Google Scholar](https://scholar.google.com/citations?user=JM-PxSQAAAAJ&hl=en). For research collaborations and opportunities, feel free to email me at [minxingz@andrew.cmu.edu](mailto:minxingz@andrew.cmu.edu).
