@@ -104,6 +104,27 @@ html[data-theme="dark"] {
   color: var(--site-ink);
 }
 
+/* ---------- Collaboration call-out ---------- */
+
+.collab-callout {
+  margin: 1.6rem 0 0;
+  padding: 0.85rem 1.1rem;
+  background: var(--site-chip-bg);
+  border-left: 3px solid var(--site-ink);
+  border-radius: 0;
+  font-size: 0.93rem;
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+
+.collab-callout p {
+  margin: 0;
+}
+
+.collab-callout strong {
+  color: var(--site-ink);
+}
+
 /* ---------- News ---------- */
 
 .news-list {

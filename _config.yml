@@ -35,7 +35,7 @@ author:
   academia         : # URL
   googlescholar    : "https://scholar.google.com/citations?user=JM-PxSQAAAAJ&hl=en"
   impactstory      : # URL
-  orcid            : # "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0002-1490-9744"
   semantic         : # URL
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
@@ -138,7 +138,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "og-image.jpg" # link preview image (1200x630)
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
