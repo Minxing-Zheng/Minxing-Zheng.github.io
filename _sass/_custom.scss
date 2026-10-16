@@ -53,6 +53,7 @@ html[data-theme="dark"] {
 }
 
 .page__content {
+  font-size: 1.0625rem;
   line-height: 1.6;
 }
 
@@ -137,7 +138,7 @@ html[data-theme="dark"] {
   background: var(--site-chip-bg);
   border-left: 3px solid var(--site-ink);
   border-radius: 0;
-  font-size: 0.93rem;
+  font-size: 1rem;
   line-height: 1.6;
   text-wrap: pretty;
 }
@@ -163,7 +164,7 @@ html[data-theme="dark"] {
   gap: 1rem;
   margin: 0;
   padding: 0.3rem 0;
-  font-size: 0.93rem;
+  font-size: 1rem;
   line-height: 1.55;
 }
 
@@ -182,7 +183,7 @@ html[data-theme="dark"] {
   margin: 0.1rem 0 0;
   padding-left: 1rem;
   color: var(--site-text);
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 1.5;
   text-wrap: pretty;
 }
@@ -326,7 +327,7 @@ html[data-theme="dark"] {
 
 .paper__body {
   min-width: 0;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
   line-height: 1.5;
 }
 
@@ -335,7 +336,7 @@ html[data-theme="dark"] {
   display: block;
   margin-bottom: 0.2rem;
   color: var(--site-ink);
-  font-size: 1rem;
+  font-size: 1.05rem;
   font-weight: 700;
   line-height: 1.4;
   text-decoration: none;
