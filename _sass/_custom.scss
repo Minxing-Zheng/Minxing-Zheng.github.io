@@ -104,6 +104,31 @@ html[data-theme="dark"] {
   color: var(--site-ink);
 }
 
+/* Larger sidebar text: the theme default (12px) is small next to 16px body text. */
+@media (min-width: 1024px) {
+  .sidebar .author__name {
+    font-size: 1.2rem;
+  }
+
+  .sidebar .author__bio {
+    font-size: 0.95rem;
+    line-height: 1.4;
+  }
+
+  .sidebar .author__urls li,
+  .sidebar .author__urls li a {
+    font-size: 0.97rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--site-ink);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .sidebar .author__urls li {
+    margin-bottom: 0.55rem;
+  }
+}
+
 /* ---------- Collaboration call-out ---------- */
 
 .collab-callout {
