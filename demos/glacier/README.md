@@ -2,15 +2,17 @@
 
 A browser-based reconstruction of the interactive results accompanying **Interactive Visualization and Representation Analysis Applied to Glacier Segmentation**, Minxing Zheng, Xinran Miao, and Kris Sankaran (2022).
 
+Public demo: https://minxing-zheng.github.io/demos/glacier/
+
 ## Run locally
 
-Serve `dist` with any static web server, for example:
+From the website repository root, serve this folder with any static web server:
 
 ```sh
-python3 -m http.server 8917 --directory dist
+python3 -m http.server 8917 --directory demos/glacier
 ```
 
-Open http://localhost:8917. No Node build, Shiny server, or account is required. Use the contents of `dist` as the root for GitHub Pages or another static host. Basemap tiles require an internet connection.
+Open http://localhost:8917. No Node build, Shiny server, or account is required. Use the contents of `demos/glacier` as the root for GitHub Pages or another static host. Basemap tiles require an internet connection.
 
 ## Explore
 
@@ -20,7 +22,7 @@ Click a map marker, accuracy point, or patch row to select the same case across 
 
 All 147 input/reference/prediction triplets and reported pixel accuracies were recovered from the public original Shiny panel. All 147 coordinates were read from its public marker popups, preserving the displayed 0.001-degree precision. These coordinates locate cases; the images are not georeferenced overlays. The collection contains archived outputs, not a model inference service. Visual difference layers are inspection aids and are not new IoU or accuracy measurements.
 
-The default Glacier palette recolors archived mask classes without changing their assignment. The original colors remain available. `dist/assets/provenance.json`, `palette.json`, `glaciers-summary.json`, and preparation scripts document the processing. Glacier context derives from 30,096 archived vector features, with invalid geometries repaired, empty geometries omitted, and class footprints simplified for display. Asset preparation dependencies are separate from the dependency-free browser app.
+The default Glacier palette recolors archived mask classes without changing their assignment. The original colors remain available. `assets/provenance.json`, `assets/palette.json`, and `assets/glaciers-summary.json` document the processing. Glacier context derives from 30,096 archived vector features, with invalid geometries repaired, empty geometries omitted, and class footprints simplified for display. The browser app requires no package installation or build step.
 
 Original paper: https://doi.org/10.3390/ijgi11080415
 
