@@ -12,6 +12,7 @@ badge: "IJGI 2022"
 venues:
   - name: "ISPRS International Journal of Geo-Information, 11(8), 415, 2022"
 authors: "Minxing Zheng, Xinran Miao, and Kris Sankaran"
+demourl: "/demos/glacier/"
 codeurl: "https://github.com/krisrs1128/geo_mlvis"
 paperurl: "https://doi.org/10.3390/ijgi11080415"
 citation: 'Minxing Zheng, Xinran Miao, and Kris Sankaran. (2022). &quot;Interactive Visualization and Representation Analysis Applied to Glacier Segmentation.&quot; <i>ISPRS International Journal of Geo-Information</i>, 11(8), 415.'
@@ -19,4 +20,6 @@ citation: 'Minxing Zheng, Xinran Miao, and Kris Sankaran. (2022). &quot;Interact
 
 This work uses interactive visualization and representation analysis to interpret a U-Net for glacier segmentation. The visual workflow supports model diagnosis from preprocessing through error analysis and helps uncover systematic issues in source labels.
 
-[Code](https://github.com/krisrs1128/geo_mlvis)
+[Interactive demo](/demos/glacier/) · [Code](https://github.com/krisrs1128/geo_mlvis)
+
+The interactive demo is a 2026 reconstruction of the original app’s 147 publicly displayed patch results, with linked map exploration and image comparisons.

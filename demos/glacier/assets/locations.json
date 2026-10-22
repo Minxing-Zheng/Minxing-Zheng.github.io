@@ -1,0 +1,1031 @@
+[
+  {
+    "id": 1,
+    "longitude": 75.433,
+    "latitude": 36.001,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 2,
+    "longitude": 75.176,
+    "latitude": 35.801,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 3,
+    "longitude": 72.191,
+    "latitude": 35.779,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 4,
+    "longitude": 75.895,
+    "latitude": 36.028,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 5,
+    "longitude": 76.036,
+    "latitude": 35.811,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 6,
+    "longitude": 71.921,
+    "latitude": 36.312,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 7,
+    "longitude": 75.634,
+    "latitude": 35.884,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 8,
+    "longitude": 72.748,
+    "latitude": 35.471,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 9,
+    "longitude": 75.628,
+    "latitude": 36.031,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 10,
+    "longitude": 76.753,
+    "latitude": 34.655,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 11,
+    "longitude": 71.227,
+    "latitude": 36.02,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 12,
+    "longitude": 72.315,
+    "latitude": 35.708,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 13,
+    "longitude": 88.345,
+    "latitude": 27.695,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 14,
+    "longitude": 70.984,
+    "latitude": 35.732,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 15,
+    "longitude": 83.115,
+    "latitude": 28.751,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 16,
+    "longitude": 75.685,
+    "latitude": 35.779,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 17,
+    "longitude": 75.223,
+    "latitude": 35.943,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 18,
+    "longitude": 82.727,
+    "latitude": 29.322,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 19,
+    "longitude": 72.82,
+    "latitude": 35.429,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 20,
+    "longitude": 86.51,
+    "latitude": 27.938,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 21,
+    "longitude": 86.527,
+    "latitude": 27.851,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 22,
+    "longitude": 86.916,
+    "latitude": 27.97,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 23,
+    "longitude": 72.296,
+    "latitude": 35.798,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 24,
+    "longitude": 75.489,
+    "latitude": 35.76,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 25,
+    "longitude": 77.308,
+    "latitude": 33.041,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 26,
+    "longitude": 75.116,
+    "latitude": 35.941,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 27,
+    "longitude": 72.753,
+    "latitude": 35.397,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 28,
+    "longitude": 75.306,
+    "latitude": 35.929,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 29,
+    "longitude": 76.736,
+    "latitude": 35.697,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 30,
+    "longitude": 75.65,
+    "latitude": 35.87,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 31,
+    "longitude": 83.284,
+    "latitude": 28.758,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 32,
+    "longitude": 75.517,
+    "latitude": 35.845,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 33,
+    "longitude": 75.581,
+    "latitude": 36,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 34,
+    "longitude": 76.66,
+    "latitude": 33.391,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 35,
+    "longitude": 76.524,
+    "latitude": 35.881,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 36,
+    "longitude": 76.834,
+    "latitude": 33.146,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 37,
+    "longitude": 76.72,
+    "latitude": 35.664,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 38,
+    "longitude": 74.243,
+    "latitude": 35.044,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 39,
+    "longitude": 75.808,
+    "latitude": 35.817,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 40,
+    "longitude": 73.054,
+    "latitude": 36.648,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 41,
+    "longitude": 75.761,
+    "latitude": 34.973,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 42,
+    "longitude": 88.264,
+    "latitude": 27.717,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 43,
+    "longitude": 76.52,
+    "latitude": 35.756,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 44,
+    "longitude": 83.171,
+    "latitude": 28.983,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 45,
+    "longitude": 75.495,
+    "latitude": 35.831,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 46,
+    "longitude": 86.532,
+    "latitude": 28.01,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 47,
+    "longitude": 76.035,
+    "latitude": 35.925,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 48,
+    "longitude": 72.828,
+    "latitude": 36.379,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 49,
+    "longitude": 73.629,
+    "latitude": 35.034,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 50,
+    "longitude": 82.546,
+    "latitude": 29.382,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 51,
+    "longitude": 75.507,
+    "latitude": 35.948,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 52,
+    "longitude": 88.242,
+    "latitude": 27.689,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 53,
+    "longitude": 75.668,
+    "latitude": 35.987,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 54,
+    "longitude": 72.48,
+    "latitude": 36.735,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 55,
+    "longitude": 86.955,
+    "latitude": 27.867,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 56,
+    "longitude": 72.307,
+    "latitude": 35.808,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 57,
+    "longitude": 72.558,
+    "latitude": 35.756,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 58,
+    "longitude": 90.5,
+    "latitude": 28.052,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 59,
+    "longitude": 75.979,
+    "latitude": 36.014,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 60,
+    "longitude": 83.4,
+    "latitude": 28.79,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 61,
+    "longitude": 76.73,
+    "latitude": 33.508,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 62,
+    "longitude": 75.174,
+    "latitude": 35.998,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 63,
+    "longitude": 76.059,
+    "latitude": 35.884,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 64,
+    "longitude": 82.758,
+    "latitude": 29.154,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 65,
+    "longitude": 76.906,
+    "latitude": 33.133,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 66,
+    "longitude": 82.732,
+    "latitude": 29.237,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 67,
+    "longitude": 76.589,
+    "latitude": 35.751,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 68,
+    "longitude": 76.065,
+    "latitude": 35.976,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 69,
+    "longitude": 72.821,
+    "latitude": 35.423,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 70,
+    "longitude": 75.764,
+    "latitude": 35.746,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 71,
+    "longitude": 76.531,
+    "latitude": 33.885,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 72,
+    "longitude": 72.246,
+    "latitude": 35.936,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 73,
+    "longitude": 75.812,
+    "latitude": 35.89,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 74,
+    "longitude": 76.66,
+    "latitude": 33.396,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 75,
+    "longitude": 75.273,
+    "latitude": 35.856,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 76,
+    "longitude": 76.113,
+    "latitude": 35.806,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 77,
+    "longitude": 75.761,
+    "latitude": 35.848,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 78,
+    "longitude": 86.11,
+    "latitude": 28.01,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 79,
+    "longitude": 72.33,
+    "latitude": 36.174,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 80,
+    "longitude": 75.634,
+    "latitude": 35.9,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 81,
+    "longitude": 82.61,
+    "latitude": 29.289,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 82,
+    "longitude": 74.979,
+    "latitude": 35.85,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 83,
+    "longitude": 75.214,
+    "latitude": 35.796,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 84,
+    "longitude": 86.662,
+    "latitude": 28.045,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 85,
+    "longitude": 86.984,
+    "latitude": 27.851,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 86,
+    "longitude": 75.726,
+    "latitude": 35.923,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 87,
+    "longitude": 86.601,
+    "latitude": 28.05,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 88,
+    "longitude": 86.927,
+    "latitude": 27.944,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 89,
+    "longitude": 76.105,
+    "latitude": 35.863,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 90,
+    "longitude": 74.25,
+    "latitude": 35.04,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 91,
+    "longitude": 73.026,
+    "latitude": 36.61,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 92,
+    "longitude": 76.849,
+    "latitude": 33.22,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 93,
+    "longitude": 76.109,
+    "latitude": 35.792,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 94,
+    "longitude": 75.276,
+    "latitude": 35.759,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 95,
+    "longitude": 82.751,
+    "latitude": 29.128,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 96,
+    "longitude": 88.253,
+    "latitude": 27.699,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 97,
+    "longitude": 76.827,
+    "latitude": 33.378,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 98,
+    "longitude": 76.685,
+    "latitude": 35.68,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 99,
+    "longitude": 76.02,
+    "latitude": 35.89,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 100,
+    "longitude": 75.828,
+    "latitude": 35.872,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 101,
+    "longitude": 83.22,
+    "latitude": 28.722,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 102,
+    "longitude": 75.902,
+    "latitude": 35.875,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 103,
+    "longitude": 71.929,
+    "latitude": 36.32,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 104,
+    "longitude": 72.018,
+    "latitude": 36.26,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 105,
+    "longitude": 72.29,
+    "latitude": 35.748,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 106,
+    "longitude": 86.948,
+    "latitude": 27.955,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 107,
+    "longitude": 76.621,
+    "latitude": 35.644,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 108,
+    "longitude": 72.405,
+    "latitude": 36.181,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 109,
+    "longitude": 88.138,
+    "latitude": 27.644,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 110,
+    "longitude": 75.135,
+    "latitude": 35.928,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 111,
+    "longitude": 74.968,
+    "latitude": 35.87,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 112,
+    "longitude": 70.992,
+    "latitude": 35.719,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 113,
+    "longitude": 75.115,
+    "latitude": 36.007,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 114,
+    "longitude": 90.68,
+    "latitude": 28.061,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 115,
+    "longitude": 72.821,
+    "latitude": 35.392,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 116,
+    "longitude": 75.001,
+    "latitude": 35.778,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 117,
+    "longitude": 72.328,
+    "latitude": 36.666,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 118,
+    "longitude": 73.028,
+    "latitude": 36.55,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 119,
+    "longitude": 71.361,
+    "latitude": 36.149,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 120,
+    "longitude": 92.629,
+    "latitude": 27.89,
+    "source": "Public original map marker popup",
+    "precision": "As displayed by the original app"
+  },
+  {
+    "id": 121,
+    "longitude": 75.59,
+    "latitude": 36.001,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 122,
+    "longitude": 75.729,
+    "latitude": 35.872,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 123,
+    "longitude": 76.555,
+    "latitude": 33.592,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 124,
+    "longitude": 72.386,
+    "latitude": 35.908,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 125,
+    "longitude": 76.602,
+    "latitude": 33.564,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 126,
+    "longitude": 75.893,
+    "latitude": 36,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 127,
+    "longitude": 76.65,
+    "latitude": 35.626,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 128,
+    "longitude": 75.788,
+    "latitude": 35.823,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 129,
+    "longitude": 75.594,
+    "latitude": 35.841,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 130,
+    "longitude": 83.319,
+    "latitude": 28.743,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 131,
+    "longitude": 76.701,
+    "latitude": 35.719,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 132,
+    "longitude": 76.795,
+    "latitude": 33.34,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 133,
+    "longitude": 72.383,
+    "latitude": 36.753,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 134,
+    "longitude": 75.771,
+    "latitude": 35.925,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 135,
+    "longitude": 76.587,
+    "latitude": 35.628,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 136,
+    "longitude": 75.682,
+    "latitude": 36.093,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 137,
+    "longitude": 72.974,
+    "latitude": 36.691,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 138,
+    "longitude": 72.884,
+    "latitude": 36.489,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 139,
+    "longitude": 72.37,
+    "latitude": 36.006,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 140,
+    "longitude": 76.11,
+    "latitude": 35.823,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 141,
+    "longitude": 86.718,
+    "latitude": 28.076,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 142,
+    "longitude": 72.57,
+    "latitude": 35.63,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 143,
+    "longitude": 71.127,
+    "latitude": 35.946,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 144,
+    "longitude": 76.631,
+    "latitude": 35.763,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 145,
+    "longitude": 75.174,
+    "latitude": 35.929,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 146,
+    "longitude": 75.228,
+    "latitude": 35.859,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  },
+  {
+    "id": 147,
+    "longitude": 77.306,
+    "latitude": 32.954,
+    "source": "Public original map marker popup",
+    "precision": "0.001 degrees (as displayed by original app)"
+  }
+]

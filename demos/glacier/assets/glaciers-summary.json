@@ -1,0 +1,240 @@
+{
+  "title": "Hindu Kush Himalaya glacier inventory context",
+  "coverageDescription": "Broad Hindu Kush Himalaya inventory, extending from Afghanistan and Pakistan through Nepal and Bhutan to the eastern Himalaya and Qinghai-Tibetan region; coverage follows the recovered source and is not a complete modern inventory.",
+  "classMap": {
+    "0": "Clean Ice",
+    "1": "Debris covered"
+  },
+  "source": {
+    "file": "shiny/glaciers.geojson (recovered original project data)",
+    "sha256": "5eed02852bbcdd5a26bb9ee566a4233cf48066ce5829ad5228be5dcf37aca378",
+    "bytes": 69008213,
+    "featureCount": 30096,
+    "geometryTypes": {
+      "Polygon": 29407,
+      "MultiPolygon": 688,
+      "null": 1
+    },
+    "coordinateCount": 1461148,
+    "bounds": [
+      67.62538855088546,
+      27.49793466401042,
+      98.17080988200718,
+      38.3480946934047
+    ],
+    "classCounts": {
+      "Clean Ice": 28570,
+      "Debris covered": 1526
+    },
+    "regionCounts": {
+      "": 677,
+      "Afghanistan": 3940,
+      "Arunanchal": 260,
+      "Bhutan": 840,
+      "Himachal": 3431,
+      "Jammu & Kashmir": 7141,
+      "Nepal": 4039,
+      "Pakistan": 6418,
+      "Pakistan/India Boundary": 41,
+      "Qinghai-Tibetan": 472,
+      "Sikkim": 418,
+      "Uttrakhand": 2419
+    },
+    "countryCounts": {
+      "": 4034,
+      "AFGHANISTAN": 3940,
+      "BHUTAN": 840,
+      "CHINA": 472,
+      "INDIA": 10312,
+      "NEPAL": 4039,
+      "PAKISTAN": 6418,
+      "PAKISTAN/INDIA": 41
+    },
+    "majorBasinCounts": {
+      "Amudarya": 3558,
+      "Brahmaputra": 1518,
+      "Ganges": 6532,
+      "Indus": 17883,
+      "Irrawaddy": 133,
+      "Qinghai-Tibetan": 472
+    },
+    "labelsNote": "Region, country, and basin labels reproduce source spellings verbatim; empty strings are unspecified source values.",
+    "coordinateReference": "Source coordinates are longitude, latitude in degrees. The file provides no explicit CRS metadata."
+  },
+  "processing": {
+    "library": "Shapely 2.1.2",
+    "geosVersion": "3.13.1",
+    "method": "Repair invalid source polygons with make_valid(method=linework); retain polygonal parts; dissolve exactly by class; Douglas-Peucker simplify with preserve_topology=True; quantize on a valid-output grid; validate final serialized geometry.",
+    "simplificationToleranceDegrees": 0.0004,
+    "simplificationToleranceDescription": "Approximately 45 m maximum degree-plane displacement before grid quantization, intended for context at zoom 6\u201311.",
+    "coordinateGridDegrees": 1e-06,
+    "coordinateDecimalPlaces": 6,
+    "nullGeometrySourceFeatureNumbers": [
+      25641
+    ],
+    "emptyGeometrySourceFeatureNumbers": [
+      14905
+    ],
+    "omittedNullGeometryCount": 1,
+    "omittedEmptyGeometryCount": 1,
+    "repairedInvalidGeometryCount": 18,
+    "repairedInvalidGeometries": [
+      {
+        "sourceFeatureNumber": 2012,
+        "reason": "Ring Self-intersection[83.7262499135199 29.0156311338593]",
+        "resultType": "Polygon"
+      },
+      {
+        "sourceFeatureNumber": 2475,
+        "reason": "Ring Self-intersection[84.6148314299369 28.4351789450939]",
+        "resultType": "Polygon"
+      },
+      {
+        "sourceFeatureNumber": 2632,
+        "reason": "Ring Self-intersection[84.1343810034244 28.8215297647646]",
+        "resultType": "GeometryCollection"
+      },
+      {
+        "sourceFeatureNumber": 3384,
+        "reason": "Ring Self-intersection[87.9304110209147 27.7507718404133]",
+        "resultType": "Polygon"
+      },
+      {
+        "sourceFeatureNumber": 5878,
+        "reason": "Self-intersection[80.3799975547256 30.1979362390606]",
+        "resultType": "MultiPolygon"
+      },
+      {
+        "sourceFeatureNumber": 9003,
+        "reason": "Self-intersection[75.8607045630086 35.5505447528748]",
+        "resultType": "MultiPolygon"
+      },
+      {
+        "sourceFeatureNumber": 12563,
+        "reason": "Self-intersection[75.5346523417957 36.149420247054]",
+        "resultType": "MultiPolygon"
+      },
+      {
+        "sourceFeatureNumber": 13915,
+        "reason": "Self-intersection[76.625094196474 33.326595225404]",
+        "resultType": "Polygon"
+      },
+      {
+        "sourceFeatureNumber": 18824,
+        "reason": "Self-intersection[76.2179426742509 35.3581170948543]",
+        "resultType": "MultiPolygon"
+      },
+      {
+        "sourceFeatureNumber": 19627,
+        "reason": "Self-intersection[77.9615679351628 33.9263592091487]",
+        "resultType": "GeometryCollection"
+      },
+      {
+        "sourceFeatureNumber": 20762,
+        "reason": "Self-intersection[76.3725610863567 33.654659465814]",
+        "resultType": "MultiPolygon"
+      },
+      {
+        "sourceFeatureNumber": 21030,
+        "reason": "Ring Self-intersection[71.0103830739238 35.7146359665098]",
+        "resultType": "Polygon"
+      },
+      {
+        "sourceFeatureNumber": 24239,
+        "reason": "Self-intersection[78.7171725959279 31.2635944638711]",
+        "resultType": "MultiPolygon"
+      },
+      {
+        "sourceFeatureNumber": 26330,
+        "reason": "Ring Self-intersection[74.3430708623278 37.1806143945575]",
+        "resultType": "Polygon"
+      },
+      {
+        "sourceFeatureNumber": 26525,
+        "reason": "Ring Self-intersection[74.4278199113528 37.0230029192285]",
+        "resultType": "Polygon"
+      },
+      {
+        "sourceFeatureNumber": 26556,
+        "reason": "Ring Self-intersection[74.3335498227589 37.1081200069281]",
+        "resultType": "Polygon"
+      },
+      {
+        "sourceFeatureNumber": 26640,
+        "reason": "Ring Self-intersection[73.3451697112081 37.1304825542788]",
+        "resultType": "Polygon"
+      },
+      {
+        "sourceFeatureNumber": 27162,
+        "reason": "Ring Self-intersection[72.3782552801128 36.7879823375494]",
+        "resultType": "Polygon"
+      }
+    ],
+    "discardedNonpolygonRepairComponents": 2,
+    "sourceFeatureNumberConvention": "One-based position within original FeatureCollection.",
+    "outputProperties": {
+      "class": "0 = Clean Ice; 1 = Debris covered"
+    },
+    "individualGlacierBoundariesDissolved": true,
+    "crossClassTopologyNote": "Each class footprint is valid. Existing cross-class overlaps follow the source; this is not a mutually exclusive classified raster or a complete topology-normalized inventory."
+  },
+  "output": {
+    "file": "assets/glaciers.geojson",
+    "sha256": "e140ef556d973ec4c79cbcaee8c87abab4f72225dcafbed7ab13d236211baa24",
+    "bytes": 12365806,
+    "gzipBytes": 3875146,
+    "gzipFile": "assets/glaciers.geojson.gz",
+    "features": 2,
+    "geometryType": "MultiPolygon",
+    "coordinateCount": 562461,
+    "allGeometriesValid": true,
+    "classDetails": [
+      {
+        "id": 0,
+        "label": "Clean Ice",
+        "sourceFeatures": 28570,
+        "sourceFeaturesWithNonemptyPolygonGeometry": 28568,
+        "sourcePolygonPartsAfterRepair": 29981,
+        "dissolvedPolygonParts": 25236,
+        "simplifiedPolygonParts": 25236,
+        "outputPolygonParts": 25221,
+        "outputCoordinateCount": 515635,
+        "outputBounds": [
+          67.625617,
+          27.498015,
+          98.170771,
+          38.348095
+        ],
+        "valid": true
+      },
+      {
+        "id": 1,
+        "label": "Debris covered",
+        "sourceFeatures": 1526,
+        "sourceFeaturesWithNonemptyPolygonGeometry": 1526,
+        "sourcePolygonPartsAfterRepair": 1602,
+        "dissolvedPolygonParts": 1600,
+        "simplifiedPolygonParts": 1600,
+        "outputPolygonParts": 1601,
+        "outputCoordinateCount": 46826,
+        "outputBounds": [
+          67.628054,
+          27.556528,
+          92.424097,
+          37.347466
+        ],
+        "valid": true
+      }
+    ]
+  },
+  "limitations": [
+    "This is a simplified geographic context layer from an older recovered inventory; it is not a current glacier-change product.",
+    "The geographic layer is not a georeferencing source for the 147 recovered prediction patches; no patch coordinates are inferred from it.",
+    "Same-class internal boundaries are dissolved. Use the original source for individual glacier attributes, exact boundaries, or measurements.",
+    "Repair and valid-output quantization may remove degenerate nonpolygon or subgrid artifacts; no new glacier observations have been added."
+  ],
+  "methodDocumentation": [
+    "https://shapely.readthedocs.io/en/stable/reference/shapely.simplify.html",
+    "https://shapely.readthedocs.io/en/stable/reference/shapely.make_valid.html"
+  ]
+}

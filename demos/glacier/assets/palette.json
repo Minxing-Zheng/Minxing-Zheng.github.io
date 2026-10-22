@@ -1,0 +1,5191 @@
+{
+  "title": "Contemporary semantic display palette",
+  "classes": [
+    {
+      "id": "cleanIce",
+      "label": "Clean Ice",
+      "sourceRgb": [
+        0,
+        0,
+        255
+      ],
+      "displayRgb": [
+        88,
+        200,
+        214
+      ],
+      "displayHex": "#58c8d6"
+    },
+    {
+      "id": "debrisCovered",
+      "label": "Debris covered",
+      "sourceRgb": [
+        85,
+        170,
+        0
+      ],
+      "displayRgb": [
+        216,
+        169,
+        109
+      ],
+      "displayHex": "#d8a96d"
+    },
+    {
+      "id": "background",
+      "label": "Background",
+      "sourceRgb": [
+        233,
+        233,
+        233
+      ],
+      "displayRgb": [
+        38,
+        57,
+        69
+      ],
+      "displayHex": "#263945"
+    }
+  ],
+  "mapping": {
+    "description": "Deterministic color-only lookup. Infer nonnegative source-palette contribution weights for subtle raster antialias colors and blend the target palette with those weights. Out-of-palette artifacts snap to the nearest source palette class. Preserve the Euclidean RGB nearest-palette class of every source pixel after target quantization.",
+    "classDefinitionForRenderedPixels": "Minimum squared Euclidean RGB distance to the three original dominant palette colors; ties follow class order cleanIce, debrisCovered, background.",
+    "originalSourceFilesModified": false,
+    "resampled": false,
+    "orientationChanged": false,
+    "pixelLocationsChanged": false,
+    "generativeProcessing": false,
+    "sourceColors": [
+      {
+        "sourceRgb": [
+          233,
+          233,
+          233
+        ],
+        "targetRgb": [
+          38,
+          57,
+          69
+        ],
+        "pixelCount": 77873749,
+        "class": "background",
+        "sourcePaletteWeights": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "method": "normalized nonnegative source-palette contribution weights"
+      },
+      {
+        "sourceRgb": [
+          0,
+          0,
+          255
+        ],
+        "targetRgb": [
+          88,
+          200,
+          214
+        ],
+        "pixelCount": 25565321,
+        "class": "cleanIce",
+        "sourcePaletteWeights": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "method": "normalized nonnegative source-palette contribution weights"
+      },
+      {
+        "sourceRgb": [
+          85,
+          170,
+          0
+        ],
+        "targetRgb": [
+          216,
+          169,
+          109
+        ],
+        "pixelCount": 4486019,
+        "class": "debrisCovered",
+        "sourcePaletteWeights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "method": "normalized nonnegative source-palette contribution weights"
+      },
+      {
+        "sourceRgb": [
+          2,
+          2,
+          255
+        ],
+        "targetRgb": [
+          88,
+          199,
+          213
+        ],
+        "pixelCount": 37148,
+        "class": "cleanIce",
+        "sourcePaletteWeights": [
+          0.9914226609932895,
+          0.0,
+          0.008577339006710507
+        ],
+        "method": "normalized nonnegative source-palette contribution weights"
+      },
+      {
+        "sourceRgb": [
+          86,
+          171,
+          2
+        ],
+        "targetRgb": [
+          215,
+          169,
+          109
+        ],
+        "pixelCount": 5084,
+        "class": "debrisCovered",
+        "sourcePaletteWeights": [
+          0.0038896215548468783,
+          0.9918534964859856,
+          0.004256881959167406
+        ],
+        "method": "normalized nonnegative source-palette contribution weights"
+      },
+      {
+        "sourceRgb": [
+          0,
+          2,
+          2
+        ],
+        "targetRgb": [
+          216,
+          169,
+          109
+        ],
+        "pixelCount": 63,
+        "class": "debrisCovered",
+        "sourcePaletteWeights": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "method": "nearest-class fallback for out-of-palette rendering artifact"
+      }
+    ]
+  },
+  "interpretation": "These are display variants of recovered rendered masks. They retain the source rendered-image approximation and do not reconstruct original model arrays or probabilities.",
+  "verification": {
+    "images": 294,
+    "pixels": 107967384,
+    "allOriginalFilesUnchanged": true,
+    "allDecodedOutputsLossless": true,
+    "allRenderedPixelClassAssignmentsIdentical": true,
+    "allDimensionsAndOrientationsRetained": true,
+    "totalOutputBytes": 1424982
+  },
+  "outputs": [
+    {
+      "patchId": 1,
+      "kind": "label",
+      "sourceFile": "assets/patches/001-label.webp",
+      "sourceSha256": "207a08de9b6956d902c8c2449bdb69cf3171cba0f26375e731d2ded91279ca77",
+      "outputFile": "assets/patches/001-label-modern.webp",
+      "outputSha256": "62fc25f4f2da8c969c6ad78c61801263e412e4d0a3eb06f0b53bfe3d35cde8a0",
+      "bytes": 5686,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 66751,
+        "debrisCovered": 32502,
+        "background": 267983
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 1,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/001-prediction.webp",
+      "sourceSha256": "001bbbee5963dfdf424623379229f1e2dcd49acb16b414e94cabd0dd68db4b51",
+      "outputFile": "assets/patches/001-prediction-modern.webp",
+      "outputSha256": "5fd0866ec995647682b7c8d4244ca701b78fbf8c36df9baefca4673426822119",
+      "bytes": 5392,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 104913,
+        "debrisCovered": 28464,
+        "background": 233859
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 2,
+      "kind": "label",
+      "sourceFile": "assets/patches/002-label.webp",
+      "sourceSha256": "2a2c2a45ea80c96aa7aee05a7a6bb35b90505cb3644e87c86cba753998db875e",
+      "outputFile": "assets/patches/002-label-modern.webp",
+      "outputSha256": "4d7e52ecef973354d9f9dabd84352c65859fb6c5c0a2178009e97b86d6643928",
+      "bytes": 6618,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 81762,
+        "debrisCovered": 17367,
+        "background": 268107
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 2,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/002-prediction.webp",
+      "sourceSha256": "d12b84328d97bcd13a3d5b28f8e9f7a6c4b70c4e67bfa1405bdd4d7755c6da81",
+      "outputFile": "assets/patches/002-prediction-modern.webp",
+      "outputSha256": "3031d889f40dd6d1f4d8a71e8feb070939bebbc1c4bd0a76278d1ac5f88d84e8",
+      "bytes": 6576,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 111295,
+        "debrisCovered": 6635,
+        "background": 249306
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 3,
+      "kind": "label",
+      "sourceFile": "assets/patches/003-label.webp",
+      "sourceSha256": "37217a915b9cc3c0e024ede33930f25b26b47cb6c2ac1aff079bd01b0b7f075f",
+      "outputFile": "assets/patches/003-label-modern.webp",
+      "outputSha256": "227699f3a65f576f4119194bc36e0d6d9a4c17a8b04234e23ea895818b5308bc",
+      "bytes": 5104,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 82825,
+        "debrisCovered": 3129,
+        "background": 281282
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 3,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/003-prediction.webp",
+      "sourceSha256": "b96ab0473c9ec9f64e9587b5ddd751160b1c92bc05bb1f54036d21ad19269c87",
+      "outputFile": "assets/patches/003-prediction-modern.webp",
+      "outputSha256": "e7f1f951ace63b0f55348a7cfa37fa24a4add0ac1f4e9d0e2dc9081c3a151392",
+      "bytes": 5700,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 96078,
+        "debrisCovered": 5322,
+        "background": 265836
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 4,
+      "kind": "label",
+      "sourceFile": "assets/patches/004-label.webp",
+      "sourceSha256": "b1fa92ec4f5d435bfe3604eb998bcbe43f1391c6962985042e2134b748b993ce",
+      "outputFile": "assets/patches/004-label-modern.webp",
+      "outputSha256": "1f8f4a3ee83bf29fc23e307c20d27bb49cfc3deb506b3354e57d38c0bb91fe9b",
+      "bytes": 5532,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 184854,
+        "debrisCovered": 6908,
+        "background": 175474
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 4,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/004-prediction.webp",
+      "sourceSha256": "cf2dd36abf274f76038c26bd5906f9c6dda710ea80125a4138ee24273c02dd2c",
+      "outputFile": "assets/patches/004-prediction-modern.webp",
+      "outputSha256": "febcc14763f6ba925fec4435c169e1ce8ae0d2168011c4bd5756e9f332f3aa7b",
+      "bytes": 5252,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 100207,
+        "debrisCovered": 2899,
+        "background": 264130
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 5,
+      "kind": "label",
+      "sourceFile": "assets/patches/005-label.webp",
+      "sourceSha256": "00828f1f39b548c53b240d54be2863721328f3519f24bee7f08fe3ae74e7dd22",
+      "outputFile": "assets/patches/005-label-modern.webp",
+      "outputSha256": "93d9fa8b9e043c7e7557c1043d8125777aa5a4cd9ba20584cb39bd48354e4695",
+      "bytes": 6274,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 188324,
+        "debrisCovered": 3979,
+        "background": 174933
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 5,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/005-prediction.webp",
+      "sourceSha256": "dc10cc4a020acbd83bdd5c6e6c8e4273ed7cc978bb715a50ec9a8e572b550c65",
+      "outputFile": "assets/patches/005-prediction-modern.webp",
+      "outputSha256": "3e1f6e5f32f8673ce661b1b6dd4eb5c806b214e8a0cfcebadcbf0403db0d08db",
+      "bytes": 5694,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 161901,
+        "debrisCovered": 2585,
+        "background": 202750
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 6,
+      "kind": "label",
+      "sourceFile": "assets/patches/006-label.webp",
+      "sourceSha256": "67560beb085d9ec9180d21d638ee7391f2cb49cfe72623f2800a5de6e76d5976",
+      "outputFile": "assets/patches/006-label-modern.webp",
+      "outputSha256": "fe9c143d54d2e7b727ca37388cac12643458bc9884cbe894987c0c5f7907a04e",
+      "bytes": 4222,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 48780,
+        "debrisCovered": 17496,
+        "background": 300960
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 6,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/006-prediction.webp",
+      "sourceSha256": "f444fb1e64be005c6f8e4df6a2294e9f59ae4633eab57051f61696214fa56a9c",
+      "outputFile": "assets/patches/006-prediction-modern.webp",
+      "outputSha256": "9478ba74dda5b796219e55fa658de135b3c80d06ac9a96a2cc2bea90a5f59d26",
+      "bytes": 3384,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 20792,
+        "debrisCovered": 35651,
+        "background": 310793
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 7,
+      "kind": "label",
+      "sourceFile": "assets/patches/007-label.webp",
+      "sourceSha256": "8334a2dfde37ea254d18582f31d010878452809f4737bc51561fb938ff5ec9e9",
+      "outputFile": "assets/patches/007-label-modern.webp",
+      "outputSha256": "9a8b91db9b428e73c3d51180892129c3a385094ed36670f8596db91740f64d75",
+      "bytes": 6946,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 147549,
+        "debrisCovered": 30836,
+        "background": 188851
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 7,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/007-prediction.webp",
+      "sourceSha256": "10c9040f91ddf4ce4c8c7a0d513fa9ebf93bc46cbd1e03613b789d2bcf2595d6",
+      "outputFile": "assets/patches/007-prediction-modern.webp",
+      "outputSha256": "6fe93e0e292767c75a1431779f88fe184c93581530d6c04d3d66ea5398b4eab5",
+      "bytes": 6250,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 131733,
+        "debrisCovered": 23158,
+        "background": 212345
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 8,
+      "kind": "label",
+      "sourceFile": "assets/patches/008-label.webp",
+      "sourceSha256": "a435c2779e228ab3555dd84e377b043d76a6430f0b471015cb0243fb49caeaac",
+      "outputFile": "assets/patches/008-label-modern.webp",
+      "outputSha256": "f2c31e6dfe89a81f9017f0e3222004c6bcf4e4d47acb04d7b71fbc481b60e1f1",
+      "bytes": 2380,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 31077,
+        "debrisCovered": 0,
+        "background": 336159
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 8,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/008-prediction.webp",
+      "sourceSha256": "f921be84f6086bfa4c0a62b7a1ac8e66742953e2f999842069caca421b04806f",
+      "outputFile": "assets/patches/008-prediction-modern.webp",
+      "outputSha256": "2b05b075b899ea1cb039a04b8c3625b4994cee23adc6a265d5cf46a3b02779fe",
+      "bytes": 4188,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 60031,
+        "debrisCovered": 5103,
+        "background": 302102
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 9,
+      "kind": "label",
+      "sourceFile": "assets/patches/009-label.webp",
+      "sourceSha256": "3990844b30376ac99d4f47722b6407fee6706f8f115512d68ecf71872a3733e1",
+      "outputFile": "assets/patches/009-label-modern.webp",
+      "outputSha256": "5f7f61af0bce5275af6f851fcd8a27ee6c4aa5719850252afc36b7ff1ebab8ac",
+      "bytes": 3456,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 283549,
+        "debrisCovered": 0,
+        "background": 83687
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 9,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/009-prediction.webp",
+      "sourceSha256": "ba8003b0494ecd6114beab16481d13d41beb32d4398c455ad3cc31888680c9f7",
+      "outputFile": "assets/patches/009-prediction-modern.webp",
+      "outputSha256": "1b6bfdd3341a6ee8429e289017f9a874ca91897063ed27af32447b1563104213",
+      "bytes": 5066,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 197665,
+        "debrisCovered": 0,
+        "background": 169571
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 10,
+      "kind": "label",
+      "sourceFile": "assets/patches/010-label.webp",
+      "sourceSha256": "dc4e8d6d97383b657aa2cb4df15d6fb16c2e7442edaabadf15609d317d0ee744",
+      "outputFile": "assets/patches/010-label-modern.webp",
+      "outputSha256": "3cd1b3bac276531346e38693ba9372346ac7923b35416a7a29361c9291ae6e41",
+      "bytes": 1120,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 14262,
+        "debrisCovered": 0,
+        "background": 352974
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 10,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/010-prediction.webp",
+      "sourceSha256": "d4500dffda73b605121904f642c5e52cad2de343be358a9c271a634008d4ef4d",
+      "outputFile": "assets/patches/010-prediction-modern.webp",
+      "outputSha256": "5321cf05fb86ea6d3aa432b25044ba11920b5b6b93b6333ba99dcf3d20a38193",
+      "bytes": 5682,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 61852,
+        "debrisCovered": 6832,
+        "background": 298552
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 11,
+      "kind": "label",
+      "sourceFile": "assets/patches/011-label.webp",
+      "sourceSha256": "a0245a83412b273c519bdb030d9ce9129b47cc63d6cde8733070c29ab0fe43c7",
+      "outputFile": "assets/patches/011-label-modern.webp",
+      "outputSha256": "9918916b1f97b2225206fff380f8cb3cf0f17285c957387650549b9b22178c09",
+      "bytes": 770,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 4981,
+        "debrisCovered": 84,
+        "background": 362171
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 11,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/011-prediction.webp",
+      "sourceSha256": "62734f19623c25f4eba94338e8d797e84369929446fbb0f40e47781ac3f72388",
+      "outputFile": "assets/patches/011-prediction-modern.webp",
+      "outputSha256": "30dc86d297665f13953003e47d806c110b9930f3c4b94490e35467fa1db197e0",
+      "bytes": 2662,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 21364,
+        "debrisCovered": 1061,
+        "background": 344811
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 12,
+      "kind": "label",
+      "sourceFile": "assets/patches/012-label.webp",
+      "sourceSha256": "42625d15115edd9aec4c5e6be33521bb90098b0edc5e02a66bca8fdd62a7a489",
+      "outputFile": "assets/patches/012-label-modern.webp",
+      "outputSha256": "b1357d5f8f63a2a4b5543c8ca3f8b4c2cbeca88f8bcbffb127e16936565c8090",
+      "bytes": 2974,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 33993,
+        "debrisCovered": 3032,
+        "background": 330211
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 12,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/012-prediction.webp",
+      "sourceSha256": "0fa186ac7969637ee840b4befb765529f93f2331136de9341d27cda2c3a3466e",
+      "outputFile": "assets/patches/012-prediction-modern.webp",
+      "outputSha256": "cb8a58143855ba10f5ecadf6c78acb33cea7a50b6680de240c96da290f2317de",
+      "bytes": 3122,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 27424,
+        "debrisCovered": 6685,
+        "background": 333127
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 13,
+      "kind": "label",
+      "sourceFile": "assets/patches/013-label.webp",
+      "sourceSha256": "00d60932f8907016ed4055ef254775224eea4ee8194453855a5c92085a28fee5",
+      "outputFile": "assets/patches/013-label-modern.webp",
+      "outputSha256": "3ca328a99252e8e972656463a010a810f66e99938205f1b9282cc48493cb9c92",
+      "bytes": 2652,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 32827,
+        "debrisCovered": 6225,
+        "background": 328184
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 13,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/013-prediction.webp",
+      "sourceSha256": "cc6545447fca6b75bcdfc918f77fc1ffbc706dc116c3346eeb40a9d603728a07",
+      "outputFile": "assets/patches/013-prediction-modern.webp",
+      "outputSha256": "9254b1f81bdc5bf907a550c7743e8231d6096936c58d620c7ff4a50d6d5a4a24",
+      "bytes": 5092,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 52056,
+        "debrisCovered": 23179,
+        "background": 292001
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 14,
+      "kind": "label",
+      "sourceFile": "assets/patches/014-label.webp",
+      "sourceSha256": "4d39f1f28a1638012ce38335407b075ed4a9435ee344c32caed673265b8765d7",
+      "outputFile": "assets/patches/014-label-modern.webp",
+      "outputSha256": "bfb2fcad3a5cebc1d52588e22a3981b55ecd62708df96eb98770d239fe5a558e",
+      "bytes": 3288,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 38768,
+        "debrisCovered": 4626,
+        "background": 323842
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 14,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/014-prediction.webp",
+      "sourceSha256": "44c5a6e9c5309570d6a28c6bc757181a635961489000b757d4e23889a612c8e0",
+      "outputFile": "assets/patches/014-prediction-modern.webp",
+      "outputSha256": "86aba67446e88d2dae77fc84fa84fc18cfb612848b452202dc8771befb348218",
+      "bytes": 4318,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 41749,
+        "debrisCovered": 7702,
+        "background": 317785
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 15,
+      "kind": "label",
+      "sourceFile": "assets/patches/015-label.webp",
+      "sourceSha256": "752f5d3fdb235e1d2a8020eced79ebd7e4494fc832ea9169dbd5e0afcfb38de0",
+      "outputFile": "assets/patches/015-label-modern.webp",
+      "outputSha256": "e308c488a1a8b91441fac47306462aed5447f30d573be84ddd3fd782b490f9f8",
+      "bytes": 3778,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 94947,
+        "debrisCovered": 3936,
+        "background": 268353
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 15,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/015-prediction.webp",
+      "sourceSha256": "42b2536ceac8a73a0e10d0bf2d35f8c3d4069b82b646b5285ade2554c563c2c8",
+      "outputFile": "assets/patches/015-prediction-modern.webp",
+      "outputSha256": "a7ab59135edf08494fb8a1b57ad85cc80a41664de666941ed877c7c570e082a7",
+      "bytes": 5876,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 81478,
+        "debrisCovered": 14791,
+        "background": 270967
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 16,
+      "kind": "label",
+      "sourceFile": "assets/patches/016-label.webp",
+      "sourceSha256": "2c529e492dc98382dbb3bafdfcbd8241c1f2ae21838400025c2e6931cd47894e",
+      "outputFile": "assets/patches/016-label-modern.webp",
+      "outputSha256": "00b90fdd078918d9a9c23eb4ac5454eb2812a4543379f7101fab25fa08c313ab",
+      "bytes": 5274,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 94728,
+        "debrisCovered": 12318,
+        "background": 260190
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 16,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/016-prediction.webp",
+      "sourceSha256": "46b65fb86ad5fc3276ed4c10aac404e64cf941f50e959c2e6e86ac31e9306792",
+      "outputFile": "assets/patches/016-prediction-modern.webp",
+      "outputSha256": "09a59a7bb6044ff86053c62a43ebc8150e557a142cc4279886d3ec80840501bc",
+      "bytes": 5700,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 116682,
+        "debrisCovered": 9086,
+        "background": 241468
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 17,
+      "kind": "label",
+      "sourceFile": "assets/patches/017-label.webp",
+      "sourceSha256": "6dd8e5e5ee33a9df761ebbe24ab27bd776767bc4aab427a45c4901616b9a2cac",
+      "outputFile": "assets/patches/017-label-modern.webp",
+      "outputSha256": "5adda86c90d599a955d7cbd671f820abb3c2b8d59636cb6759970ee70ccbbe7e",
+      "bytes": 5812,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 55659,
+        "debrisCovered": 50439,
+        "background": 261138
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 17,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/017-prediction.webp",
+      "sourceSha256": "58fcaf65d0870a1102b34347e870aac6c86f00f3a3e07de31777572f35a72c09",
+      "outputFile": "assets/patches/017-prediction-modern.webp",
+      "outputSha256": "2e78267fd6ee2f061bdcfe14f6ec1230f1c65a157336dbdbd7953491f28feb4d",
+      "bytes": 5646,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 69062,
+        "debrisCovered": 46701,
+        "background": 251473
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 18,
+      "kind": "label",
+      "sourceFile": "assets/patches/018-label.webp",
+      "sourceSha256": "f74ee8c67e8e7ecde2842d75595751c6d681e8228d8ddae0888666362dd08191",
+      "outputFile": "assets/patches/018-label-modern.webp",
+      "outputSha256": "027704a8049a4bf58ec7169ef5a160fa995c5bc13ebc6478ab345a9bd756644c",
+      "bytes": 4272,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 71757,
+        "debrisCovered": 11191,
+        "background": 284288
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 18,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/018-prediction.webp",
+      "sourceSha256": "35c2dbab0d875c140b1dc6478e6f35c9366c92bab7bd90f691e3b78e94407d65",
+      "outputFile": "assets/patches/018-prediction-modern.webp",
+      "outputSha256": "4791a42d7247193e64caa66e06142870db6d93f809ac34dfe22aba17737d1e25",
+      "bytes": 5050,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 54580,
+        "debrisCovered": 23863,
+        "background": 288793
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 19,
+      "kind": "label",
+      "sourceFile": "assets/patches/019-label.webp",
+      "sourceSha256": "65d92af883d3a2d6934c4ab85e4632d18c02ef4683f644796ee35e46b2c087b9",
+      "outputFile": "assets/patches/019-label-modern.webp",
+      "outputSha256": "71dbb6cbe061ed90143cf659bde197a514405ceb52972e186053e8399dea07fe",
+      "bytes": 1836,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 35307,
+        "debrisCovered": 0,
+        "background": 331929
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 19,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/019-prediction.webp",
+      "sourceSha256": "8ce6800ebf1424f79c08867e261e99197cdaff6e520f6a3957516b69649eff77",
+      "outputFile": "assets/patches/019-prediction-modern.webp",
+      "outputSha256": "28939ead4d9a27cbeef2b8e4a81100c464c779f196c4555bd66daa1264824942",
+      "bytes": 2914,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 49709,
+        "debrisCovered": 3358,
+        "background": 314169
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 20,
+      "kind": "label",
+      "sourceFile": "assets/patches/020-label.webp",
+      "sourceSha256": "40dc77df8869f7b41e3eddb8896d50f514f225ba3f34d9a7afe3ebab99fb456a",
+      "outputFile": "assets/patches/020-label-modern.webp",
+      "outputSha256": "dd41b17087186f0a83c70d02bf363a373e2699fb12c17c815fc23a80d949a487",
+      "bytes": 5546,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 87912,
+        "debrisCovered": 25115,
+        "background": 254209
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 20,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/020-prediction.webp",
+      "sourceSha256": "27f3ffeec33440623627b2ff51682e35b5c0a369f7f6c163a5caef96ac3072f0",
+      "outputFile": "assets/patches/020-prediction-modern.webp",
+      "outputSha256": "06c29a2c84831f3419bdcc65757cf1cdb4485b2bd87d4c7a602c49649f2ad7eb",
+      "bytes": 6876,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 94450,
+        "debrisCovered": 15331,
+        "background": 257455
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 21,
+      "kind": "label",
+      "sourceFile": "assets/patches/021-label.webp",
+      "sourceSha256": "641631b71991707f24a91a668d520f3e30fbcef4b12a5b0a44e35a50b9310cab",
+      "outputFile": "assets/patches/021-label-modern.webp",
+      "outputSha256": "1e1576c6192394d14dac094dc3b6fe260876d04ac9abee343bc197e7f60f8e6b",
+      "bytes": 5890,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 97780,
+        "debrisCovered": 18204,
+        "background": 251252
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 21,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/021-prediction.webp",
+      "sourceSha256": "57127297ec319b4aea0003ecdec94d1f38116b445dcd7685c1fa560f2a00cbd6",
+      "outputFile": "assets/patches/021-prediction-modern.webp",
+      "outputSha256": "481acfc38752cb788562867b015f16cf5fbf01bdf4ee82d8187509a3150b60db",
+      "bytes": 6878,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 88568,
+        "debrisCovered": 19905,
+        "background": 258763
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 22,
+      "kind": "label",
+      "sourceFile": "assets/patches/022-label.webp",
+      "sourceSha256": "798d0f09ee32c81ab5d0c93ff2096486908ea738f4bf27c79e056ca0553ce412",
+      "outputFile": "assets/patches/022-label-modern.webp",
+      "outputSha256": "bb4dab947b7e4b6ce767fd403f7d9428605fa16bc8bf793cb7c421b1b63a1b58",
+      "bytes": 3374,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 56062,
+        "debrisCovered": 16407,
+        "background": 294767
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 22,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/022-prediction.webp",
+      "sourceSha256": "d6f4a7ff210fe58e7305eee039175cc6a1174f8d59c38feaa552681c4b05dbba",
+      "outputFile": "assets/patches/022-prediction-modern.webp",
+      "outputSha256": "c79d9b322041afa80df84301c01b2ccdc443388ca392232b4d675a55cef9ea5f",
+      "bytes": 8008,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 150101,
+        "debrisCovered": 24745,
+        "background": 192390
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 23,
+      "kind": "label",
+      "sourceFile": "assets/patches/023-label.webp",
+      "sourceSha256": "89d55031c3f909890d08fabc99dd86ff8df4186a080aada62064ad4569a9ce42",
+      "outputFile": "assets/patches/023-label-modern.webp",
+      "outputSha256": "14731c117a77ed88d1f3f6ad4a01935c95ed2f8858a064a59b781a4fc6d30e81",
+      "bytes": 5264,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 93118,
+        "debrisCovered": 10641,
+        "background": 263477
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 23,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/023-prediction.webp",
+      "sourceSha256": "ecfcb0c0009fb3c71c64d18bcde88c7e9ff70a649b5cb1adf7f6710497a176ca",
+      "outputFile": "assets/patches/023-prediction-modern.webp",
+      "outputSha256": "c30235cd8aa19369d8290a1c6c549519d6bfa34d7d632a36514cbfc1a3ed4225",
+      "bytes": 4710,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 76292,
+        "debrisCovered": 7299,
+        "background": 283645
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 24,
+      "kind": "label",
+      "sourceFile": "assets/patches/024-label.webp",
+      "sourceSha256": "c6909bf1f1a40168e0388935d01739e41cfce36675126d095f077295cccc2771",
+      "outputFile": "assets/patches/024-label-modern.webp",
+      "outputSha256": "9c0de5513ec971bdfbb3a3a0716fc3cec6f08656d6f4e45414daa7e3e08ad133",
+      "bytes": 2472,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 34463,
+        "debrisCovered": 3448,
+        "background": 329325
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 24,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/024-prediction.webp",
+      "sourceSha256": "eddd14a14affc10dc4f75a6b25cd83ad1bac990bc6274b35a8c8ebf8332d2985",
+      "outputFile": "assets/patches/024-prediction-modern.webp",
+      "outputSha256": "3937957a1453e0cdfb2329f822e7c4b10f654efe44333d14d085e33e7ba4a001",
+      "bytes": 3624,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 54505,
+        "debrisCovered": 14831,
+        "background": 297900
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 25,
+      "kind": "label",
+      "sourceFile": "assets/patches/025-label.webp",
+      "sourceSha256": "6cda8567a9a8c001711e0ec18b65f3d273d0312b5fd69355db0c31fb00c6fce5",
+      "outputFile": "assets/patches/025-label-modern.webp",
+      "outputSha256": "4c1371d2197b78350a2ee91077779071558d06e099c8e4bdffe5e6a35ac0bbe8",
+      "bytes": 2044,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 21277,
+        "debrisCovered": 0,
+        "background": 345959
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 25,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/025-prediction.webp",
+      "sourceSha256": "ed087c9aff0f9283775c1d5dd030efafdb3411b8174f264ad1790d87823fd39f",
+      "outputFile": "assets/patches/025-prediction-modern.webp",
+      "outputSha256": "5c78c1c11fdef35de4e6bcb63b74e20975176c11b3730bca5eebdc60d396a234",
+      "bytes": 3250,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 33396,
+        "debrisCovered": 1442,
+        "background": 332398
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 26,
+      "kind": "label",
+      "sourceFile": "assets/patches/026-label.webp",
+      "sourceSha256": "6c2686feb3af8e403af6663dbd844a8afeb34748ae5906a671f519022af8d794",
+      "outputFile": "assets/patches/026-label-modern.webp",
+      "outputSha256": "c69017acb1a45d45a8cfc86094e4633841591967af578c51bd19c8d60b41fc9d",
+      "bytes": 7400,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 90815,
+        "debrisCovered": 61337,
+        "background": 215084
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 26,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/026-prediction.webp",
+      "sourceSha256": "0ce6f13c61e24c30e5cfffbba6953db55127391e96ea7f4403b5ec85c040d397",
+      "outputFile": "assets/patches/026-prediction-modern.webp",
+      "outputSha256": "e927d985e87e53f6c9e3a095c90f4ee0195cbf006e6509bb154e4cf9c34c549b",
+      "bytes": 6698,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 79926,
+        "debrisCovered": 48236,
+        "background": 239074
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 27,
+      "kind": "label",
+      "sourceFile": "assets/patches/027-label.webp",
+      "sourceSha256": "c2ce8eafb919d050363e05a0f94f06e52ce68e82c9ce3c05bb8546f2bb75e77a",
+      "outputFile": "assets/patches/027-label-modern.webp",
+      "outputSha256": "3fba259d4acab36f80bd0a6086a8ec446ffe1e931672cf7fb51a562839e5661b",
+      "bytes": 3822,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 85744,
+        "debrisCovered": 0,
+        "background": 281492
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 27,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/027-prediction.webp",
+      "sourceSha256": "8ce70932a553d6dfa7b2544cb2b43e235f6292fa846ba86652e594c9b2e05c84",
+      "outputFile": "assets/patches/027-prediction-modern.webp",
+      "outputSha256": "063abcda9706b89854c692a6cdf653c319d594148d1a96789dcb3f429cd712c2",
+      "bytes": 5140,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 96910,
+        "debrisCovered": 4141,
+        "background": 266185
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 28,
+      "kind": "label",
+      "sourceFile": "assets/patches/028-label.webp",
+      "sourceSha256": "d9a81548283f3367508130b49f11726d537b5220ba68f6f1e0624ff463826ff9",
+      "outputFile": "assets/patches/028-label-modern.webp",
+      "outputSha256": "afd8b07f294954a4b11ed236b550544b0b452f9bcc87e9caf4cb92cb4b5b6656",
+      "bytes": 3400,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 21840,
+        "debrisCovered": 24110,
+        "background": 321286
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 28,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/028-prediction.webp",
+      "sourceSha256": "6f5ccce79e4c561aa7731675e4869fad1c5d09531455871509b794630ca336eb",
+      "outputFile": "assets/patches/028-prediction-modern.webp",
+      "outputSha256": "4199656aa5723fd7b7a0a52da4c360fdccd0e87f8ae86b5762c06cccf733406d",
+      "bytes": 4596,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 55225,
+        "debrisCovered": 20742,
+        "background": 291269
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 29,
+      "kind": "label",
+      "sourceFile": "assets/patches/029-label.webp",
+      "sourceSha256": "0dcc1c9fd3a21d7eea662e22052f516eddeb69b45642d77724aeb7a9c2d859cc",
+      "outputFile": "assets/patches/029-label-modern.webp",
+      "outputSha256": "5d7995b73484aa68d2abe90efbca931d52ac77b55601be85c23ee338d7cef1c5",
+      "bytes": 1560,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 58899,
+        "debrisCovered": 106,
+        "background": 308231
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 29,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/029-prediction.webp",
+      "sourceSha256": "2fc97b18ef99d3757e6c6329d07eda4aaf0429446ad1b05c258369a520da200a",
+      "outputFile": "assets/patches/029-prediction-modern.webp",
+      "outputSha256": "6900297023032dc3a0ab0185a467c2a507e747a12c9a985f47747792f8b150c1",
+      "bytes": 6080,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 101130,
+        "debrisCovered": 13221,
+        "background": 252885
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 30,
+      "kind": "label",
+      "sourceFile": "assets/patches/030-label.webp",
+      "sourceSha256": "a45c228df06f926fb214346a0dd780ff6bcf220e69c551d81e6e9a5460a47958",
+      "outputFile": "assets/patches/030-label-modern.webp",
+      "outputSha256": "5e84e69e3945c950f03a4db8d50a01ddf4e2540260e4d02abfde4ea3ad2b8553",
+      "bytes": 7020,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 128892,
+        "debrisCovered": 22263,
+        "background": 216081
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 30,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/030-prediction.webp",
+      "sourceSha256": "4ad64e8885445750d0fa8915352865d73f127343467657f4d0748d8e6a0fe399",
+      "outputFile": "assets/patches/030-prediction-modern.webp",
+      "outputSha256": "ca6f585d4b98bd37490411f3ca53087e91d3e69397200952d39445c0202e6527",
+      "bytes": 6004,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 113112,
+        "debrisCovered": 16959,
+        "background": 237165
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 31,
+      "kind": "label",
+      "sourceFile": "assets/patches/031-label.webp",
+      "sourceSha256": "feecb11c105bce0f1703756e73ae8dae2e97af86f949f502bf609a56ad79ef98",
+      "outputFile": "assets/patches/031-label-modern.webp",
+      "outputSha256": "0ad29500703b54ebd72b577b33e7f858b23d243758cd978924daa8b65a57210d",
+      "bytes": 3204,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 122974,
+        "debrisCovered": 2223,
+        "background": 242039
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 31,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/031-prediction.webp",
+      "sourceSha256": "42f8875d4031782a002faf0ae60e472f905e2eaa5f6b4df8bd18740aa355a9dd",
+      "outputFile": "assets/patches/031-prediction-modern.webp",
+      "outputSha256": "443fc2bbc0e9b4c578e9f6e70f35ff4dac637d0f748561044015f4b7871fb692",
+      "bytes": 6230,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 134864,
+        "debrisCovered": 8693,
+        "background": 223679
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 32,
+      "kind": "label",
+      "sourceFile": "assets/patches/032-label.webp",
+      "sourceSha256": "fb89c484dc051a7f4c33413104b6ef8728c250ff775239f0f1054db833986b7f",
+      "outputFile": "assets/patches/032-label-modern.webp",
+      "outputSha256": "b08029193c3cbf915a1c0c7ee3aab95f7c3a8f3d292ebac862400704c8a005f3",
+      "bytes": 6660,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 94909,
+        "debrisCovered": 38693,
+        "background": 233634
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 32,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/032-prediction.webp",
+      "sourceSha256": "ee2bea11444bc8e3a3d87d54fc5efc7c18daaa8bd45ba22edddaba7638c4a971",
+      "outputFile": "assets/patches/032-prediction-modern.webp",
+      "outputSha256": "ab0be85709b15db1edf3542dc2bd3afd0749665f9f1b840459f38ebc7cd82922",
+      "bytes": 6996,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 116042,
+        "debrisCovered": 24848,
+        "background": 226346
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 33,
+      "kind": "label",
+      "sourceFile": "assets/patches/033-label.webp",
+      "sourceSha256": "096622aee812e01d0c4d7743c5e4a90f1444b673efa5bc7ead5e41e9ea9b8d3f",
+      "outputFile": "assets/patches/033-label-modern.webp",
+      "outputSha256": "31f5ddb725066c21db92da362278dd4e40eabfaa8536f57f95589714ec47713c",
+      "bytes": 4954,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 234593,
+        "debrisCovered": 4715,
+        "background": 127928
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 33,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/033-prediction.webp",
+      "sourceSha256": "326696d6d9cea8555d0ad4bce4da5bf6357c15e7a63fb913133225624ad1229e",
+      "outputFile": "assets/patches/033-prediction-modern.webp",
+      "outputSha256": "382fddbe863e862dcd3b1898992022092f77668e8eb6aa9319f0b5d2a5f07948",
+      "bytes": 4182,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 164676,
+        "debrisCovered": 427,
+        "background": 202133
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 34,
+      "kind": "label",
+      "sourceFile": "assets/patches/034-label.webp",
+      "sourceSha256": "c32f5876a9f967f63968923de287700c480e30980a13fbaeaf3d17af5f5340bc",
+      "outputFile": "assets/patches/034-label-modern.webp",
+      "outputSha256": "c0f605f9fd7e317060c41429346ac5a9ced06e98f34765a87dbf9c86dafba140",
+      "bytes": 4586,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 137542,
+        "debrisCovered": 716,
+        "background": 228978
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 34,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/034-prediction.webp",
+      "sourceSha256": "81e9106f7978f9ae19f4145660f898730aba1087f004e29ac675a96c79e1f2d4",
+      "outputFile": "assets/patches/034-prediction-modern.webp",
+      "outputSha256": "d3b1ab7976f8ac2d1be62be718101731c77d9e5bb760fdb13abd1a94e8ed0a19",
+      "bytes": 6892,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 168919,
+        "debrisCovered": 5639,
+        "background": 192678
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 35,
+      "kind": "label",
+      "sourceFile": "assets/patches/035-label.webp",
+      "sourceSha256": "fe50e74626fc17298592f4e934ec3d25e4e1fc195598ddb285491f32d07e33e5",
+      "outputFile": "assets/patches/035-label-modern.webp",
+      "outputSha256": "595aa547c0d1863e94ca57a5d7f97b958f63c59c2f8245e63a1e2d69ee275b87",
+      "bytes": 4320,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 133671,
+        "debrisCovered": 2146,
+        "background": 231419
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 35,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/035-prediction.webp",
+      "sourceSha256": "10f371926cf40187f753c2cb5e91b08d34724c15235f031b84a5b46be84e5ad4",
+      "outputFile": "assets/patches/035-prediction-modern.webp",
+      "outputSha256": "e687b6154b0b88c542835f94fb259051e70fc16d9e1c353941886b73e7196e78",
+      "bytes": 7362,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 116065,
+        "debrisCovered": 19479,
+        "background": 231692
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 36,
+      "kind": "label",
+      "sourceFile": "assets/patches/036-label.webp",
+      "sourceSha256": "6e57c87daad37180fab7ff4668c516f85361df43e762d486979b24f126ab1dea",
+      "outputFile": "assets/patches/036-label-modern.webp",
+      "outputSha256": "db5a49c44fec86a884645efd127c3fc424807268e4fbe5ad572c4a6aa49dc03c",
+      "bytes": 4324,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 100722,
+        "debrisCovered": 5391,
+        "background": 261123
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 36,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/036-prediction.webp",
+      "sourceSha256": "f4b32f92b0d839fc3012dfb818baa917cd436c982f0d12614daf6d0a707795d0",
+      "outputFile": "assets/patches/036-prediction-modern.webp",
+      "outputSha256": "086d2e01d387a1c91c520d17f463ce19d1e3b9c35f87cde5ec8355016eb3a38b",
+      "bytes": 7358,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 152519,
+        "debrisCovered": 6966,
+        "background": 207751
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 37,
+      "kind": "label",
+      "sourceFile": "assets/patches/037-label.webp",
+      "sourceSha256": "2c342bc49a3d2dbe95342930a0206cdea0d9dc056344bbfc312c6a38fe8c0c01",
+      "outputFile": "assets/patches/037-label-modern.webp",
+      "outputSha256": "996de7e3c458d762604d93433140f2664dc699578c6c071e971e876c85d00c79",
+      "bytes": 3060,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 145394,
+        "debrisCovered": 1175,
+        "background": 220667
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 37,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/037-prediction.webp",
+      "sourceSha256": "f7b548f2d71ab36cc535c463dcb2e85d7421b48c36c562668552dd79cef036c6",
+      "outputFile": "assets/patches/037-prediction-modern.webp",
+      "outputSha256": "b4c22c8fdfab83c3cbf0d9d2354f518fb9bbb578c121570be328f172dd82e834",
+      "bytes": 6174,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 90155,
+        "debrisCovered": 7361,
+        "background": 269720
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 38,
+      "kind": "label",
+      "sourceFile": "assets/patches/038-label.webp",
+      "sourceSha256": "9be704de23848d67e14fbabb4ad2510353fe0fef4c842a80f9eb8450b7757540",
+      "outputFile": "assets/patches/038-label-modern.webp",
+      "outputSha256": "d62899396d3126ff0931ef5651992fd26d14b5ff1daa17ea4bccffe46159a772",
+      "bytes": 1464,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 16597,
+        "debrisCovered": 0,
+        "background": 350639
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 38,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/038-prediction.webp",
+      "sourceSha256": "3f82c6dfc07d9bf196c43a4863653b0e62748083c645aee9537521ed42fae409",
+      "outputFile": "assets/patches/038-prediction-modern.webp",
+      "outputSha256": "5f9d0fcf65b8dac4de4275a54712722f99cb53a7814d6e6d06643d0ed12b92f9",
+      "bytes": 4988,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 47748,
+        "debrisCovered": 1310,
+        "background": 318178
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 39,
+      "kind": "label",
+      "sourceFile": "assets/patches/039-label.webp",
+      "sourceSha256": "61d9f43c3249ba89682a0ac380836faf63b7670b138b7c186bc3d27f4341e923",
+      "outputFile": "assets/patches/039-label-modern.webp",
+      "outputSha256": "8bce6e0eadcc9569a47f0880fd3b020b1db19afbc1a04c8c33ebba5beecaaade",
+      "bytes": 6720,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 114656,
+        "debrisCovered": 54582,
+        "background": 197998
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 39,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/039-prediction.webp",
+      "sourceSha256": "f2533531f9747ded36ef872b92d4b5d1148e07077ddd9e19c81243f4b015d8dc",
+      "outputFile": "assets/patches/039-prediction-modern.webp",
+      "outputSha256": "230cd918be0798446f24d12b50e540a0198da3849ce0f45f3053cc202227328b",
+      "bytes": 6862,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 108812,
+        "debrisCovered": 54361,
+        "background": 204063
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 40,
+      "kind": "label",
+      "sourceFile": "assets/patches/040-label.webp",
+      "sourceSha256": "cd6afbb265daecb9713b98ba3eeeebb06448f310e3295b55f3b49ef90cdbc786",
+      "outputFile": "assets/patches/040-label-modern.webp",
+      "outputSha256": "e2a5777632656d308fd5e4f29d47ddb33a2bce40eb9822ecefbab44272605886",
+      "bytes": 4068,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 75954,
+        "debrisCovered": 9159,
+        "background": 282123
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 40,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/040-prediction.webp",
+      "sourceSha256": "514a48c266a2a7527ac3181c17131cdad5231aa1870662ea0b5a3e130a8f0562",
+      "outputFile": "assets/patches/040-prediction-modern.webp",
+      "outputSha256": "de04519a9b7dd7a8c7c60321fe1aa655d9fd75163abe4a228e497db9508578ad",
+      "bytes": 4496,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 64784,
+        "debrisCovered": 20355,
+        "background": 282097
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 41,
+      "kind": "label",
+      "sourceFile": "assets/patches/041-label.webp",
+      "sourceSha256": "1700611962aab845cfc0e90407315b0b7aea4d03ea51886d1922deb7b10671b1",
+      "outputFile": "assets/patches/041-label-modern.webp",
+      "outputSha256": "29979913d83e869871af376105df67aa6e761cb4e2a85f06c47420ff9a3f5899",
+      "bytes": 730,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 7663,
+        "debrisCovered": 0,
+        "background": 359573
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 41,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/041-prediction.webp",
+      "sourceSha256": "c941bf01b89a1d78bd651f4d6e6659c4b4cc3977e0e78af072a53f649da9e59d",
+      "outputFile": "assets/patches/041-prediction-modern.webp",
+      "outputSha256": "771541375556810b99b6a3de1931d2c525655072d8e8e55e5ff6151909146199",
+      "bytes": 5818,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 69058,
+        "debrisCovered": 7326,
+        "background": 290852
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 42,
+      "kind": "label",
+      "sourceFile": "assets/patches/042-label.webp",
+      "sourceSha256": "65e4cce93d05c82109f918c67bd65d6ec6f373576eced9660938b96a4c990bd8",
+      "outputFile": "assets/patches/042-label-modern.webp",
+      "outputSha256": "2a5b9e0f2dc6ff60fc5be4e46e6e3a18af37a7a2e64da321fb9e1dbda4a6e47c",
+      "bytes": 2372,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 46185,
+        "debrisCovered": 3335,
+        "background": 317716
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 42,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/042-prediction.webp",
+      "sourceSha256": "fc27200bd2d792f22df568314051df0992a4a0ca6bad38577a90ccade2fcd208",
+      "outputFile": "assets/patches/042-prediction-modern.webp",
+      "outputSha256": "77048c0d9d4849a2aa36f3a650c65d88b161596615cf9a72e138118d4b65601a",
+      "bytes": 6852,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 101109,
+        "debrisCovered": 33415,
+        "background": 232712
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 43,
+      "kind": "label",
+      "sourceFile": "assets/patches/043-label.webp",
+      "sourceSha256": "e75fbd7e3057381d349fe7b88629d7f4ee83b2faf220f1a6e03db11363a163f1",
+      "outputFile": "assets/patches/043-label-modern.webp",
+      "outputSha256": "24681b603c7f2cecf48935620d7b5fdad595e7c06698b96ec7b2284765eb1301",
+      "bytes": 7174,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 98443,
+        "debrisCovered": 66337,
+        "background": 202456
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 43,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/043-prediction.webp",
+      "sourceSha256": "12fdd54c536cf6484abfdd2233914ea14cc26382724055bf4eac8475128fce7d",
+      "outputFile": "assets/patches/043-prediction-modern.webp",
+      "outputSha256": "1877860f4eed9da9330407f0d93541c9a658d837b48f457d6f09021282104310",
+      "bytes": 7150,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 79330,
+        "debrisCovered": 49582,
+        "background": 238324
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 44,
+      "kind": "label",
+      "sourceFile": "assets/patches/044-label.webp",
+      "sourceSha256": "4474aa560e15700a83e412aea797f9888a7b9f750019b80ae053e3d4ac0dbff6",
+      "outputFile": "assets/patches/044-label-modern.webp",
+      "outputSha256": "44bc52ae5c09099f9d46bc616771c49c24dd943be1e39981af0aec599681c540",
+      "bytes": 678,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 11418,
+        "debrisCovered": 0,
+        "background": 355818
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 44,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/044-prediction.webp",
+      "sourceSha256": "c96ac6bf7255da1fe023d452ad7594044ff6b86ef193e8269394f4b5daf63326",
+      "outputFile": "assets/patches/044-prediction-modern.webp",
+      "outputSha256": "c239cf431aeb2e70cdd000ad5cf8a16613131185501cde0b74f6edcfee485284",
+      "bytes": 1812,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 14213,
+        "debrisCovered": 2531,
+        "background": 350492
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 45,
+      "kind": "label",
+      "sourceFile": "assets/patches/045-label.webp",
+      "sourceSha256": "3b84411b8ae7b508dc1e1054d287673ffb96b1e2078ab3dc1aea41d7416f4be4",
+      "outputFile": "assets/patches/045-label-modern.webp",
+      "outputSha256": "ad2faccc63421053dd9d3a6dfbcd534edd5453476edf6264528c5b6b741f82ad",
+      "bytes": 4726,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 79914,
+        "debrisCovered": 6826,
+        "background": 280496
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 45,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/045-prediction.webp",
+      "sourceSha256": "4f14229941abbd7e48ec0b42c8c8a04eb7c5730449899a0835a69669376d61f6",
+      "outputFile": "assets/patches/045-prediction-modern.webp",
+      "outputSha256": "6e1880268b5ad708d09db183870d41e424d3e28a77975f6736e6dea8effc36e6",
+      "bytes": 4618,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 90073,
+        "debrisCovered": 783,
+        "background": 276380
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 46,
+      "kind": "label",
+      "sourceFile": "assets/patches/046-label.webp",
+      "sourceSha256": "999ef0c91bae89f85f9d77542d341c797c8a4d9ff20575c9d063ba6494abd110",
+      "outputFile": "assets/patches/046-label-modern.webp",
+      "outputSha256": "d7a4b7b4eb1446344ff25eee4dffd9a4c04dcc72a5145a92304cbfa47f59f234",
+      "bytes": 4182,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 45894,
+        "debrisCovered": 34673,
+        "background": 286669
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 46,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/046-prediction.webp",
+      "sourceSha256": "6daa99a1f212a3c41b7e4084f886ffe7ca485f85de234456ffa548bddf602ae9",
+      "outputFile": "assets/patches/046-prediction-modern.webp",
+      "outputSha256": "05fe0de11fed23dc493bef5cc7b036a860293090bfe7966a9d99828c2b3a52fa",
+      "bytes": 6588,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 73528,
+        "debrisCovered": 24840,
+        "background": 268868
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 47,
+      "kind": "label",
+      "sourceFile": "assets/patches/047-label.webp",
+      "sourceSha256": "0fb50668d29043325bf679a8bbe3c141f544c8f6bf8ac233dd5c135a791327fa",
+      "outputFile": "assets/patches/047-label-modern.webp",
+      "outputSha256": "60e05eff1e1d32f3cef8c9ad58b41781b265d421a332b3bf545c5c28cb576b08",
+      "bytes": 6836,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 128722,
+        "debrisCovered": 31517,
+        "background": 206997
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 47,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/047-prediction.webp",
+      "sourceSha256": "9fe39034b7e4aab206461552ece70375f9fca77f33d820facccbd527065fe5f3",
+      "outputFile": "assets/patches/047-prediction-modern.webp",
+      "outputSha256": "6448ac4fcd6468df720c8f64bba00cfad901e362526ce47a412e3a31b586776c",
+      "bytes": 5974,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 104472,
+        "debrisCovered": 25891,
+        "background": 236873
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 48,
+      "kind": "label",
+      "sourceFile": "assets/patches/048-label.webp",
+      "sourceSha256": "a2086f93ec1fe3fbd88aabb4eed772e04d25b630437c07fae2297f560233decd",
+      "outputFile": "assets/patches/048-label-modern.webp",
+      "outputSha256": "7f09a02960133e450c2814482d237726fea8b7224da0da94a6f2e9ee3cbd8ee2",
+      "bytes": 2356,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 33996,
+        "debrisCovered": 590,
+        "background": 332650
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 48,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/048-prediction.webp",
+      "sourceSha256": "92160e2872fab3bc460e33c467640a18a1b1458583456a3152a4f998b1ab179f",
+      "outputFile": "assets/patches/048-prediction-modern.webp",
+      "outputSha256": "2d312db53a751dabc75c66cd0ddfb20dd0b0fa8099de38b540888fc1d0b369a5",
+      "bytes": 4194,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 45344,
+        "debrisCovered": 5600,
+        "background": 316292
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 49,
+      "kind": "label",
+      "sourceFile": "assets/patches/049-label.webp",
+      "sourceSha256": "725b46b8d1cf4d85d106b8b82b47147414b834e3267b7135b01305f6a05f66ea",
+      "outputFile": "assets/patches/049-label-modern.webp",
+      "outputSha256": "b3007f2f0165762fe982eaf9c13d97274dea0f7b3c46217656711d441f16cc61",
+      "bytes": 1832,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 16771,
+        "debrisCovered": 0,
+        "background": 350465
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 49,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/049-prediction.webp",
+      "sourceSha256": "9929667fe4553c33a63b16cfc9708ef1e82027d947684ed5951bd5868179c24b",
+      "outputFile": "assets/patches/049-prediction-modern.webp",
+      "outputSha256": "85c18e0c4593c4d88731d2793d6ab420a6cbfab0d2e44dd53b69e4045d19c95f",
+      "bytes": 5630,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 45440,
+        "debrisCovered": 3396,
+        "background": 318400
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 50,
+      "kind": "label",
+      "sourceFile": "assets/patches/050-label.webp",
+      "sourceSha256": "d1946e534a94ddd06d69265c59cc8b34e4c482444b46e1bbcced507970a07c45",
+      "outputFile": "assets/patches/050-label-modern.webp",
+      "outputSha256": "02db79a7339131eda402cc5a46125bf1f11afde6cb3e41ef68d703bc3433c0e6",
+      "bytes": 3974,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 71686,
+        "debrisCovered": 4763,
+        "background": 290787
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 50,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/050-prediction.webp",
+      "sourceSha256": "580926f7b0cb3be3c9d097b0d0aaff4c605844958f71ce9a29de9c0f541be472",
+      "outputFile": "assets/patches/050-prediction-modern.webp",
+      "outputSha256": "61d6b3e61ff81981ae6ee7a8264768be3aada21276fe9b7ba96f6baddbec320f",
+      "bytes": 3902,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 46952,
+        "debrisCovered": 13630,
+        "background": 306654
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 51,
+      "kind": "label",
+      "sourceFile": "assets/patches/051-label.webp",
+      "sourceSha256": "093373b2f3e0256bfd1cc8c164f88ce90dac97d3885451529d74d10415575652",
+      "outputFile": "assets/patches/051-label-modern.webp",
+      "outputSha256": "1523b7f27b9e06367587407e377f5aad85c7efacae9406bc3386a8d40a4a574a",
+      "bytes": 5596,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 84663,
+        "debrisCovered": 29937,
+        "background": 252636
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 51,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/051-prediction.webp",
+      "sourceSha256": "e403b381ff36edd9ba3d3d97cdf2374b8081ca8779e37be918a6e465fb054869",
+      "outputFile": "assets/patches/051-prediction-modern.webp",
+      "outputSha256": "0fa7494f040966081b756d0f4a3ac71d96e874e4648d2763e15920c11083a7c0",
+      "bytes": 5556,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 94331,
+        "debrisCovered": 29069,
+        "background": 243836
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 52,
+      "kind": "label",
+      "sourceFile": "assets/patches/052-label.webp",
+      "sourceSha256": "5bd8ead1fb1baed3067c2564e886e5cb2b703a3c2611bcba9b3a82ae7a037801",
+      "outputFile": "assets/patches/052-label-modern.webp",
+      "outputSha256": "4c08c8b92b696bf37f2a23a46fc8c94acc5bcb07c4016f088ef5e3ade2bcd86a",
+      "bytes": 3002,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 57613,
+        "debrisCovered": 6569,
+        "background": 303054
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 52,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/052-prediction.webp",
+      "sourceSha256": "ea9092951392a2dc5c2ed396340a0fd684055b29239bd94eb358b1fcd9025c72",
+      "outputFile": "assets/patches/052-prediction-modern.webp",
+      "outputSha256": "7a1dac519a6e93e787363deb59a270992d5b286f827981ddf51cac1497f565d4",
+      "bytes": 6080,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 77378,
+        "debrisCovered": 39976,
+        "background": 249882
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 53,
+      "kind": "label",
+      "sourceFile": "assets/patches/053-label.webp",
+      "sourceSha256": "19a8ee8ba38b36e3b4d88c6b2a61433e0c891dbf17b980c0b6ef8e100919eaf9",
+      "outputFile": "assets/patches/053-label-modern.webp",
+      "outputSha256": "4fba8bdfff272b66b4455cf4fbe6eed40d22fc9baef7139ad3ee201c7d806e92",
+      "bytes": 4876,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 257329,
+        "debrisCovered": 3390,
+        "background": 106517
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 53,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/053-prediction.webp",
+      "sourceSha256": "8fc65fde2912051eae56607e7cbf198412a52aa0d11db08b2f88cbe01592c176",
+      "outputFile": "assets/patches/053-prediction-modern.webp",
+      "outputSha256": "04305b461b203a6cee5a29810d6ef9549652f604591856b212781d240e9b9c91",
+      "bytes": 3766,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 165720,
+        "debrisCovered": 578,
+        "background": 200938
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 54,
+      "kind": "label",
+      "sourceFile": "assets/patches/054-label.webp",
+      "sourceSha256": "84199021cd9557c504d957e2f9329cf94cb179348f3c41be8c02950eacbe47c7",
+      "outputFile": "assets/patches/054-label-modern.webp",
+      "outputSha256": "978cd0a12e303b0763777c9a08c3c02cc2a39bc55b42615f8950111180bf4804",
+      "bytes": 4296,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 80222,
+        "debrisCovered": 5850,
+        "background": 281164
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 54,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/054-prediction.webp",
+      "sourceSha256": "4360f522f69b717c7a5b946853f8421964a13d82f1691d34d7de2a9aeeab1204",
+      "outputFile": "assets/patches/054-prediction-modern.webp",
+      "outputSha256": "dc17f1f68078cb4bd0c786a62bbfe8485b2eb5d7cf5bb318aa31f45629a102c8",
+      "bytes": 5608,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 104905,
+        "debrisCovered": 12422,
+        "background": 249909
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 55,
+      "kind": "label",
+      "sourceFile": "assets/patches/055-label.webp",
+      "sourceSha256": "d918011e88be93470ff461129f30ca25eaaaf7d8150fa03d2c3ffda30cf0f20b",
+      "outputFile": "assets/patches/055-label-modern.webp",
+      "outputSha256": "0525b67f9e281bef8a2d3d382fd24295c7e8d5eda1fd294178d658af1e2748fc",
+      "bytes": 6780,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 88032,
+        "debrisCovered": 35928,
+        "background": 243276
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 55,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/055-prediction.webp",
+      "sourceSha256": "d6721298ec7a226635c0d0a704498b160606bd9df0f4bf808818f3237d72bbc1",
+      "outputFile": "assets/patches/055-prediction-modern.webp",
+      "outputSha256": "beae671d70430c27d4c2d15d69f64bf0aa2a8e828ec824259ee81633b6477dff",
+      "bytes": 6230,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 73307,
+        "debrisCovered": 26788,
+        "background": 267141
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 56,
+      "kind": "label",
+      "sourceFile": "assets/patches/056-label.webp",
+      "sourceSha256": "f769e70f14c494e0df714ae01d06cfaab0291c3c06c79e9c7e10d456c370b368",
+      "outputFile": "assets/patches/056-label-modern.webp",
+      "outputSha256": "49352a779cb1c91eed87dbaa3e709cc64d14099248233cccf9ddd8da7efc6ccc",
+      "bytes": 6080,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 102066,
+        "debrisCovered": 11209,
+        "background": 253961
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 56,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/056-prediction.webp",
+      "sourceSha256": "9c8a8eb22d1cfa68147ec4e2cd59c39aaa8c973945a99c9f9fc445d682696519",
+      "outputFile": "assets/patches/056-prediction-modern.webp",
+      "outputSha256": "a0e4758997170ae35868a5e6c5e3f33451087d216d09a3d0264f3fc7a80ff044",
+      "bytes": 4612,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 77348,
+        "debrisCovered": 6240,
+        "background": 283648
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 57,
+      "kind": "label",
+      "sourceFile": "assets/patches/057-label.webp",
+      "sourceSha256": "b5a8fea97d2162ab570a3668cfebcb25a897fdd52d6ce8d0300b5fc1b78b9281",
+      "outputFile": "assets/patches/057-label-modern.webp",
+      "outputSha256": "773016a28b819d41a11a9bbcc6798993c364bd282d61f351a719b1640b7786b1",
+      "bytes": 2570,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 33047,
+        "debrisCovered": 0,
+        "background": 334189
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 57,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/057-prediction.webp",
+      "sourceSha256": "bc5f5123f0029321ca8de329e0f899a074a6a38b99043a03c6819ee57a7e3652",
+      "outputFile": "assets/patches/057-prediction-modern.webp",
+      "outputSha256": "22fb583fae82e97ba356efe2800b7850ec7c75631d0fb4b05bc74dfc969ebff6",
+      "bytes": 4766,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 49063,
+        "debrisCovered": 7228,
+        "background": 310945
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 58,
+      "kind": "label",
+      "sourceFile": "assets/patches/058-label.webp",
+      "sourceSha256": "05b594b4be961d316d516bb36b64503f0e3d6a877f564d350982586fccfbf0dc",
+      "outputFile": "assets/patches/058-label-modern.webp",
+      "outputSha256": "707457eb59724840cf818d9e81e785193c7cc941d540f77200f275b11197cf71",
+      "bytes": 1774,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 26652,
+        "debrisCovered": 10597,
+        "background": 329987
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 58,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/058-prediction.webp",
+      "sourceSha256": "14e5315a19ae57a86f407125b3384223a072be5777481ed3df6c47849f8ab07d",
+      "outputFile": "assets/patches/058-prediction-modern.webp",
+      "outputSha256": "d91d01ded1a2077cd126780ae5525ad651e809a7167cde72b23816aef851b9aa",
+      "bytes": 6726,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 134480,
+        "debrisCovered": 14553,
+        "background": 218203
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 59,
+      "kind": "label",
+      "sourceFile": "assets/patches/059-label.webp",
+      "sourceSha256": "2c67faad75975f8775c0f8c894b3f63a9719661ac4d03e348e583f17425cefa2",
+      "outputFile": "assets/patches/059-label-modern.webp",
+      "outputSha256": "7e7fac85aad74cde528e17b2dbe04b397236b38a6b1d518c4a25cce0e01d2196",
+      "bytes": 6364,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 152045,
+        "debrisCovered": 16333,
+        "background": 198858
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 59,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/059-prediction.webp",
+      "sourceSha256": "36bbc5039ad04c2703b7cead9d10ca67f98477bc8721929e372039aa91f4840c",
+      "outputFile": "assets/patches/059-prediction-modern.webp",
+      "outputSha256": "7c81d88ee5aa36be5152df51ecb02c106e5bd94acee4e081a5fe57b681f12665",
+      "bytes": 6598,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 127388,
+        "debrisCovered": 11574,
+        "background": 228274
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 60,
+      "kind": "label",
+      "sourceFile": "assets/patches/060-label.webp",
+      "sourceSha256": "e7cba12f2d1b751cff7f6885ae134c0baea60b281f6206ffe8c8742e21d699ee",
+      "outputFile": "assets/patches/060-label-modern.webp",
+      "outputSha256": "38cf0edfbd128b10bceaba677d5426ef6b50010f13205d9de9df51cded748943",
+      "bytes": 1550,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 61559,
+        "debrisCovered": 1077,
+        "background": 304600
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 60,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/060-prediction.webp",
+      "sourceSha256": "bf7c6b1154212cda70b6da22421a5f5a6f41aa247836c5ffc07119e7109cc8c6",
+      "outputFile": "assets/patches/060-prediction-modern.webp",
+      "outputSha256": "79646d93dbbaad7fb415d20cba2f1b8202965e995ee3fc9901a40df92e6d5a37",
+      "bytes": 4154,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 104078,
+        "debrisCovered": 2731,
+        "background": 260427
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 61,
+      "kind": "label",
+      "sourceFile": "assets/patches/061-label.webp",
+      "sourceSha256": "b9d7e4f042a61a1caa0196bf163be411879c29134ea83aab676e616315721baa",
+      "outputFile": "assets/patches/061-label-modern.webp",
+      "outputSha256": "d67184a99d4be64ce16977d67a20d92ff0f808271049287bceb6e11fa2f232c7",
+      "bytes": 1684,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 22193,
+        "debrisCovered": 0,
+        "background": 345043
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 61,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/061-prediction.webp",
+      "sourceSha256": "1391ed5b603588f3ead7ef97bf5d83c94896dfca8d47a031cd8b27679e7bc5ed",
+      "outputFile": "assets/patches/061-prediction-modern.webp",
+      "outputSha256": "10abf27baf9d9e19cf7dee6e4ab3c7595350a6c914f37960e419f4ff10f51c88",
+      "bytes": 1946,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 19088,
+        "debrisCovered": 2326,
+        "background": 345822
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 62,
+      "kind": "label",
+      "sourceFile": "assets/patches/062-label.webp",
+      "sourceSha256": "59e8c4cc795617364b265d0fb5ad2b02ec0f3f28526ffddc1b7f28ee4ea1bb42",
+      "outputFile": "assets/patches/062-label-modern.webp",
+      "outputSha256": "f8b5a0b5bcda220f0e9b5d4f00ad2afe68dc822bfb1578c3e259d3cdf17f5225",
+      "bytes": 7748,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 106795,
+        "debrisCovered": 35409,
+        "background": 225032
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 62,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/062-prediction.webp",
+      "sourceSha256": "6d00d170e0895ca04a637e384e66d959164fcdfb6657890bba9fba098a999deb",
+      "outputFile": "assets/patches/062-prediction-modern.webp",
+      "outputSha256": "6fd6ac19c71f90a6f366f4db101bc69a0e7dc214cc428825121ce94c8c35bd1e",
+      "bytes": 6978,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 120550,
+        "debrisCovered": 24846,
+        "background": 221840
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 63,
+      "kind": "label",
+      "sourceFile": "assets/patches/063-label.webp",
+      "sourceSha256": "5331ad050187d8998a6c84cd5841d5b4458ebe341cd591ed8dd863470be03cc8",
+      "outputFile": "assets/patches/063-label-modern.webp",
+      "outputSha256": "a8f59449f4967fe52759a833be91f9f96a9156b7b7ee19d85f37a6f892422054",
+      "bytes": 5880,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 178655,
+        "debrisCovered": 5769,
+        "background": 182812
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 63,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/063-prediction.webp",
+      "sourceSha256": "a05ef299177c01cd767b17a2e6f75126de44bee4f83661f0a201125797ce3dd2",
+      "outputFile": "assets/patches/063-prediction-modern.webp",
+      "outputSha256": "35de4f365636d26a49ad9763d2d1126e7d9bc7e903a10b0ecc392c8edb90439a",
+      "bytes": 6354,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 162418,
+        "debrisCovered": 6150,
+        "background": 198668
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 64,
+      "kind": "label",
+      "sourceFile": "assets/patches/064-label.webp",
+      "sourceSha256": "899342341cd7b9e5581c0cd77428fad44f2e7138b099f3fd0372d4798b06a0f2",
+      "outputFile": "assets/patches/064-label-modern.webp",
+      "outputSha256": "4c7ede78039152cf22ad2b39d1d77503af530af39c93f121597c1afb2f1f3d15",
+      "bytes": 2568,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 60410,
+        "debrisCovered": 0,
+        "background": 306826
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 64,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/064-prediction.webp",
+      "sourceSha256": "b13688adeb926e9ca5bd1b5fd99885fcec424cc0ac7e43edfb73e45722d99869",
+      "outputFile": "assets/patches/064-prediction-modern.webp",
+      "outputSha256": "be9e96cb32cd25e41eacb62db0708e1e54816abcdad5dc4bb14804f36678194d",
+      "bytes": 3180,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 39476,
+        "debrisCovered": 2756,
+        "background": 325004
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 65,
+      "kind": "label",
+      "sourceFile": "assets/patches/065-label.webp",
+      "sourceSha256": "22d783d5ee3316ab604a9ec274dada817ec3b75817247c365ac875b019a627db",
+      "outputFile": "assets/patches/065-label-modern.webp",
+      "outputSha256": "96144d80d481c1a49acdecbe15231b9c1fa95633e90b2901f18a5a7df380dfca",
+      "bytes": 5330,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 120588,
+        "debrisCovered": 6069,
+        "background": 240579
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 65,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/065-prediction.webp",
+      "sourceSha256": "9522bf7c628df20d2aa681115605be0d131d60f2d5c08ae9f7b3cc0cb1efb3e7",
+      "outputFile": "assets/patches/065-prediction-modern.webp",
+      "outputSha256": "885be1ca941daf0cbe91b5fd19b94a550f9f875d200db4a4567da576cfec3c6f",
+      "bytes": 6812,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 134685,
+        "debrisCovered": 7328,
+        "background": 225223
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 66,
+      "kind": "label",
+      "sourceFile": "assets/patches/066-label.webp",
+      "sourceSha256": "fa20871e2c945334ab2077ec0c146e27855cd73326ac021483d11d025737e769",
+      "outputFile": "assets/patches/066-label-modern.webp",
+      "outputSha256": "67e6bd7409d96727dd03bf59f9aaf2737fabef264ac5292e3c7efa449f556201",
+      "bytes": 2998,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 51717,
+        "debrisCovered": 3024,
+        "background": 312495
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 66,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/066-prediction.webp",
+      "sourceSha256": "35c4dbb0c5ddba71c81047d0174fae5c62293c214c4cd4414692a7a9b9bd78ca",
+      "outputFile": "assets/patches/066-prediction-modern.webp",
+      "outputSha256": "70b6f7a4668ef1c2bd656d974d2c948da9ea3b40a75f1a8de310ebf831a16245",
+      "bytes": 4290,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 39475,
+        "debrisCovered": 12308,
+        "background": 315453
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 67,
+      "kind": "label",
+      "sourceFile": "assets/patches/067-label.webp",
+      "sourceSha256": "35711a237b4674b406ce83b248344bf6fd1ba1fb962dfdef916f6d3f9f4f906c",
+      "outputFile": "assets/patches/067-label-modern.webp",
+      "outputSha256": "f0bae5a2a31acc2ba1b5a9831c8240d1521b8bacba530cc14ed83d76f8fcb5ee",
+      "bytes": 7398,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 118633,
+        "debrisCovered": 42429,
+        "background": 206174
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 67,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/067-prediction.webp",
+      "sourceSha256": "7822a3ddcd67fcb12e980d4aa272c1ee4f6215e52e2fc8b45383ffd4da0b4fa3",
+      "outputFile": "assets/patches/067-prediction-modern.webp",
+      "outputSha256": "e275b18819dfb9052c5571f394a4ca58df33644cdf7ea1b387b37565ba2f3a00",
+      "bytes": 8482,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 120677,
+        "debrisCovered": 22217,
+        "background": 224342
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 68,
+      "kind": "label",
+      "sourceFile": "assets/patches/068-label.webp",
+      "sourceSha256": "52a95e4789e2cfc6a4a045954159c9889163942c9db2aa6de6aa03a6b2bdfc15",
+      "outputFile": "assets/patches/068-label-modern.webp",
+      "outputSha256": "9624f5113b95cbcb21afe9609fbbf5e9ef7390747a45492e073036293d70fcc6",
+      "bytes": 3642,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 83075,
+        "debrisCovered": 11477,
+        "background": 272684
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 68,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/068-prediction.webp",
+      "sourceSha256": "e807a11229e7b0510e68f528ea53efda56f2961d03ca3fed37c3c4b1fdd8f331",
+      "outputFile": "assets/patches/068-prediction-modern.webp",
+      "outputSha256": "73e34bcb7ff8d1f21794aa89732fc301b7bdf803185395c1ab4401175363b122",
+      "bytes": 6418,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 144030,
+        "debrisCovered": 5932,
+        "background": 217274
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 69,
+      "kind": "label",
+      "sourceFile": "assets/patches/069-label.webp",
+      "sourceSha256": "463582909bdbb69faf728fbb4e6799847e4313c42a0d029a9fea1ca716c7e34e",
+      "outputFile": "assets/patches/069-label-modern.webp",
+      "outputSha256": "c23b5c5a3e0a088aa155c7f058cfeadd643f051ab0562b671926eb128ffcef1d",
+      "bytes": 3018,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 66992,
+        "debrisCovered": 0,
+        "background": 300244
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 69,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/069-prediction.webp",
+      "sourceSha256": "adc368600018361d63d7724d94351a816cfc5b0a343afd8194f3a9c4cf23337d",
+      "outputFile": "assets/patches/069-prediction-modern.webp",
+      "outputSha256": "13f943668aa1e9390c658769db2784805693665b8e9a0b697000ff01c20adde7",
+      "bytes": 4218,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 82942,
+        "debrisCovered": 4001,
+        "background": 280293
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 70,
+      "kind": "label",
+      "sourceFile": "assets/patches/070-label.webp",
+      "sourceSha256": "73f32e140f24a82285de71a57e938d913e31957d2a37c5af210146c0805b957a",
+      "outputFile": "assets/patches/070-label-modern.webp",
+      "outputSha256": "b54a0ec20c8af5beda7b714f75a9bb272cb485c7660dbd8a898279ef148525b6",
+      "bytes": 4146,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 85603,
+        "debrisCovered": 8349,
+        "background": 273284
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 70,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/070-prediction.webp",
+      "sourceSha256": "4a7a219940b11e7b0f4e9c51b4303594118e66acab084e47e9e52da013e94745",
+      "outputFile": "assets/patches/070-prediction-modern.webp",
+      "outputSha256": "0a2d5af31330e2266c88ddb9dd38e96f3e42f8a9989e11fce94e2b80a8f358b7",
+      "bytes": 4746,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 96753,
+        "debrisCovered": 6370,
+        "background": 264113
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 71,
+      "kind": "label",
+      "sourceFile": "assets/patches/071-label.webp",
+      "sourceSha256": "13fe1ae76711cabf563665343f231524de0aac0137bebb2f3b9337fda6910631",
+      "outputFile": "assets/patches/071-label-modern.webp",
+      "outputSha256": "6ae4eaf284805b8b52efa84041766844fba1c2dd5e6f66baa986a92610d17082",
+      "bytes": 3500,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 69683,
+        "debrisCovered": 0,
+        "background": 297553
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 71,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/071-prediction.webp",
+      "sourceSha256": "e812c778a67d5b175f1302b8f8212a8ebfb1be17f5d88a555bf1f22e6a115d4c",
+      "outputFile": "assets/patches/071-prediction-modern.webp",
+      "outputSha256": "de4dd7283a0b76820f6cab31f78bf7facb49738f4c88450e71a67776803cefc8",
+      "bytes": 5600,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 96927,
+        "debrisCovered": 3044,
+        "background": 267265
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 72,
+      "kind": "label",
+      "sourceFile": "assets/patches/072-label.webp",
+      "sourceSha256": "d36316c7806e25d28ae23dc2c45efdd1bd34a50aa4c48a6805582b7d74c5d7f4",
+      "outputFile": "assets/patches/072-label-modern.webp",
+      "outputSha256": "f4153b90dde3ba26848c7d54b8c1604cff8d1efb2843b12980d4d65a3cbc80c5",
+      "bytes": 3678,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 52717,
+        "debrisCovered": 5838,
+        "background": 308681
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 72,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/072-prediction.webp",
+      "sourceSha256": "566daec362e7f8a379553fb028de433c0a34314b5f74bb67ad0f66743fb5cf5b",
+      "outputFile": "assets/patches/072-prediction-modern.webp",
+      "outputSha256": "eee53429f8992e979978abd3da9b34ba67c8c1517aa4f826b5262efb4fbbea03",
+      "bytes": 4740,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 47765,
+        "debrisCovered": 10428,
+        "background": 309043
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 73,
+      "kind": "label",
+      "sourceFile": "assets/patches/073-label.webp",
+      "sourceSha256": "28c802e344049ac606076a842a2304c001c0186929c500ed0b52d1291709ae9e",
+      "outputFile": "assets/patches/073-label-modern.webp",
+      "outputSha256": "9e4e8ed37f5d15ea04f3bfc12e15913a126e980d922453d984138d96f073d6a4",
+      "bytes": 7008,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 117007,
+        "debrisCovered": 47499,
+        "background": 202730
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 73,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/073-prediction.webp",
+      "sourceSha256": "a006a6be498ebfc216dfeaf678f9b51705d2f31b5417a3711a1cb1875457a6fc",
+      "outputFile": "assets/patches/073-prediction-modern.webp",
+      "outputSha256": "64e0a64d11cae787a5785de34b8f6e102e71cfc788d3071693e8ab052d693808",
+      "bytes": 6064,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 88185,
+        "debrisCovered": 45112,
+        "background": 233939
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 74,
+      "kind": "label",
+      "sourceFile": "assets/patches/074-label.webp",
+      "sourceSha256": "43134bc522b15bf1d43d62654dc2eb245e6f09a7131100343248319497b3bf91",
+      "outputFile": "assets/patches/074-label-modern.webp",
+      "outputSha256": "c9048b3cc3d7f406156de7df2da59b52697a22cf91778e76253d892a72d5dbd1",
+      "bytes": 2840,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 91829,
+        "debrisCovered": 174,
+        "background": 275233
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 74,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/074-prediction.webp",
+      "sourceSha256": "2e904545a1a853f60da85758134f76ac949f3cef2a8569b0c22cda96c621a260",
+      "outputFile": "assets/patches/074-prediction-modern.webp",
+      "outputSha256": "9947aa354ceb787be309d354e9e434adcb36486ed925900e78aecba72fe52c71",
+      "bytes": 6514,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 151454,
+        "debrisCovered": 10866,
+        "background": 204916
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 75,
+      "kind": "label",
+      "sourceFile": "assets/patches/075-label.webp",
+      "sourceSha256": "22a260474cbd20cb10cc487d6e08623ea59e159194eef289cbcdfd251e8a571e",
+      "outputFile": "assets/patches/075-label-modern.webp",
+      "outputSha256": "40ac89aaf5a780598fd8e5a7b9cce7dfbfb448c9556aedead3362217552a777a",
+      "bytes": 3814,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 35373,
+        "debrisCovered": 36899,
+        "background": 294964
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 75,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/075-prediction.webp",
+      "sourceSha256": "2a47a726e7c1b35dbd9967721e377dec26db56649366f791912f7bbd1cad861d",
+      "outputFile": "assets/patches/075-prediction-modern.webp",
+      "outputSha256": "fce6d53ca4e42c8d597356a7f6233688348f1e25f247beda590bc355ab30b7a8",
+      "bytes": 4446,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 52169,
+        "debrisCovered": 36053,
+        "background": 279014
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 76,
+      "kind": "label",
+      "sourceFile": "assets/patches/076-label.webp",
+      "sourceSha256": "173644464fc3cca1386f766f8bb642b87ac60c1ef30665eab871b27df0a451e2",
+      "outputFile": "assets/patches/076-label-modern.webp",
+      "outputSha256": "52b022db768b1fcdfd7d8175b2c5b1b30b25994338edcd7530c318d60f2d37ac",
+      "bytes": 6860,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 193545,
+        "debrisCovered": 11670,
+        "background": 162021
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 76,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/076-prediction.webp",
+      "sourceSha256": "85967475a08eae3ee4709bdd4ab6e741c8a7cc18ad5788ac0c3664be9f1e592b",
+      "outputFile": "assets/patches/076-prediction-modern.webp",
+      "outputSha256": "86bf9c55924e2b4a4844d753adb8e8f0bf92c40811b88e0e42c001cb1ed2b915",
+      "bytes": 5776,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 98035,
+        "debrisCovered": 3682,
+        "background": 265519
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 77,
+      "kind": "label",
+      "sourceFile": "assets/patches/077-label.webp",
+      "sourceSha256": "5f175db96f0d2a380cef5356457128c1fd6c42723bb2eead8af6b0643220319b",
+      "outputFile": "assets/patches/077-label-modern.webp",
+      "outputSha256": "48adc8be7e6735e11a71ab69afc5043552c414b38f34988e62423761403b767c",
+      "bytes": 7018,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 119088,
+        "debrisCovered": 47468,
+        "background": 200680
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 77,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/077-prediction.webp",
+      "sourceSha256": "65d196850d38a6400746f15f0ed4b5bf98e9f409d67dfe8c9e603948732c38dc",
+      "outputFile": "assets/patches/077-prediction-modern.webp",
+      "outputSha256": "9d24516f66686aa455dd8f1a55aa4383f9788d3a6e2efb1169f485ea3f03d293",
+      "bytes": 6112,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 101723,
+        "debrisCovered": 41068,
+        "background": 224445
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 78,
+      "kind": "label",
+      "sourceFile": "assets/patches/078-label.webp",
+      "sourceSha256": "673da3e593be218f208ae6b8279e44241a07d13a0f15d934d8a948db598f0f3a",
+      "outputFile": "assets/patches/078-label-modern.webp",
+      "outputSha256": "36d8abe8b48e437b8301d6e3a9102a09b8265b5ad9a2c78d93b14e9e1ef67d98",
+      "bytes": 1410,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 21251,
+        "debrisCovered": 0,
+        "background": 345985
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 78,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/078-prediction.webp",
+      "sourceSha256": "f0974e9af45ac5c2a1e9ec8e7089aa07dee6dce9d4fd5055ac68694428f795d0",
+      "outputFile": "assets/patches/078-prediction-modern.webp",
+      "outputSha256": "8e7cc2427cf1ae1f21c89c6e5c05389024bc6f51692fce105e0b262e669022aa",
+      "bytes": 3052,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 28829,
+        "debrisCovered": 3004,
+        "background": 335403
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 79,
+      "kind": "label",
+      "sourceFile": "assets/patches/079-label.webp",
+      "sourceSha256": "3f7d77e6eab6cec6ffb36b984a585269eed194a02f3257d6c911947f8769e325",
+      "outputFile": "assets/patches/079-label-modern.webp",
+      "outputSha256": "88856f37e8db1e68df28d391a4211f9b1a8c2cf29808d8784ac382aa2a9655c0",
+      "bytes": 3182,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 43855,
+        "debrisCovered": 6045,
+        "background": 317336
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 79,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/079-prediction.webp",
+      "sourceSha256": "46508a90103d97be6dd54e41fe4a4c167e2a2eb323ac39b9d04b0d01931c6870",
+      "outputFile": "assets/patches/079-prediction-modern.webp",
+      "outputSha256": "4e4010a38a9f68bf2218c753262308c31dae49be9e08b31fc78b6399a28c3432",
+      "bytes": 3730,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 70152,
+        "debrisCovered": 2558,
+        "background": 294526
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 80,
+      "kind": "label",
+      "sourceFile": "assets/patches/080-label.webp",
+      "sourceSha256": "f74ffae6f0ed4201a94995dcdb73e4f3c630263f4559be569d32bb1c0b0c81e0",
+      "outputFile": "assets/patches/080-label-modern.webp",
+      "outputSha256": "4c14eb62efb70b196943cc6cab2dbec9df3beae181202180b423731fabf50f02",
+      "bytes": 7096,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 113383,
+        "debrisCovered": 48383,
+        "background": 205470
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 80,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/080-prediction.webp",
+      "sourceSha256": "db0b9b5c438158f3274e8578360b2e498e8c53a7962729a2654794d0e411dfa9",
+      "outputFile": "assets/patches/080-prediction-modern.webp",
+      "outputSha256": "0ab789a2d7a384177350253a4f429f05d713c43b1e369a872eddae6db9806eb9",
+      "bytes": 5878,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 94951,
+        "debrisCovered": 16131,
+        "background": 256154
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 81,
+      "kind": "label",
+      "sourceFile": "assets/patches/081-label.webp",
+      "sourceSha256": "f7fedc6fc23447443630ea791df6e54e5ca08d4bb728b333442ec3115dda6dac",
+      "outputFile": "assets/patches/081-label-modern.webp",
+      "outputSha256": "e8817b51c73613c3d970b6c3faaab3ed26f4e2c727c20c3b2c22d8f269b244b1",
+      "bytes": 3974,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 79250,
+        "debrisCovered": 3370,
+        "background": 284616
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 81,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/081-prediction.webp",
+      "sourceSha256": "f84d158b3a575a7a8fd3ab89520c7404e5d909eb9b3945071404f0457c61d91a",
+      "outputFile": "assets/patches/081-prediction-modern.webp",
+      "outputSha256": "c39f215e5faceb3067271126571cf63b6262c524926dd9158bc01b4f9cf80863",
+      "bytes": 4202,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 52157,
+        "debrisCovered": 11199,
+        "background": 303880
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 82,
+      "kind": "label",
+      "sourceFile": "assets/patches/082-label.webp",
+      "sourceSha256": "8d3d8266a560623cd5a1255ba93a0612fb3f02367e0c7690b35ee1f54b0945e5",
+      "outputFile": "assets/patches/082-label-modern.webp",
+      "outputSha256": "16eb2f940c1f1ca3f4a15746ff8c49c0bf8b88e1efc1293a6d5c18ad49f8128c",
+      "bytes": 6658,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 164583,
+        "debrisCovered": 13842,
+        "background": 188811
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 82,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/082-prediction.webp",
+      "sourceSha256": "fc95d27332de662924b28e244dc4ff6a6271c1aa19876bd4d988df36e217909c",
+      "outputFile": "assets/patches/082-prediction-modern.webp",
+      "outputSha256": "7f25e939eab3a517aaeb372ab790e63a9d16b1d85522fae1c2ce0edb5d7f464e",
+      "bytes": 6104,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 116525,
+        "debrisCovered": 19230,
+        "background": 231481
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 83,
+      "kind": "label",
+      "sourceFile": "assets/patches/083-label.webp",
+      "sourceSha256": "493f09211dedbba76920e64cc72628a0aabe98a85e28217b84b6586a817945b0",
+      "outputFile": "assets/patches/083-label-modern.webp",
+      "outputSha256": "d7b3acfa4fe795d2fe58c765c33c6f4ec75d3685187ab88abffff7ed31e60eb5",
+      "bytes": 4528,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 66790,
+        "debrisCovered": 9043,
+        "background": 291403
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 83,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/083-prediction.webp",
+      "sourceSha256": "2082875ad7183bdea3482d53f44a9d60360bae3f3e6f55672a2b4c77d6bca4bc",
+      "outputFile": "assets/patches/083-prediction-modern.webp",
+      "outputSha256": "3ed1bd3a2b290044bb71aeada615ea9c15ec95a592ce898378addfeefc619d1f",
+      "bytes": 5758,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 97926,
+        "debrisCovered": 4481,
+        "background": 264829
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 84,
+      "kind": "label",
+      "sourceFile": "assets/patches/084-label.webp",
+      "sourceSha256": "34bf7b80d63613434adf248f9d20c75de0442c35ee44ce60e90ecbde8496d4fe",
+      "outputFile": "assets/patches/084-label-modern.webp",
+      "outputSha256": "682a18813458e72a75349dbc59e1d19350732407f38b146f53139ed397814435",
+      "bytes": 4732,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 95757,
+        "debrisCovered": 44088,
+        "background": 227391
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 84,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/084-prediction.webp",
+      "sourceSha256": "513dcc23ed2adf1de03a14836974b957fa1e8051be33a5a660d3867dac824a40",
+      "outputFile": "assets/patches/084-prediction-modern.webp",
+      "outputSha256": "bc5a053405ad06a2ef80867fd5348d0d515dbc13508f98d25058851a39a18f85",
+      "bytes": 5514,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 105927,
+        "debrisCovered": 39065,
+        "background": 222244
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 85,
+      "kind": "label",
+      "sourceFile": "assets/patches/085-label.webp",
+      "sourceSha256": "eec8a3a708b8c431c86ada202e1ef53da78a708ebe6bb924faa457db58c0fcc2",
+      "outputFile": "assets/patches/085-label-modern.webp",
+      "outputSha256": "9a97954be8ebc770fda42c4f12fa61a6c8af4993ce0c64ee977e004a8cec84b8",
+      "bytes": 2892,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 38451,
+        "debrisCovered": 12064,
+        "background": 316721
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 85,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/085-prediction.webp",
+      "sourceSha256": "c63e7bdcf81eef3ab4d8999db6551e31d30988f0c16e3baa130563a78232190e",
+      "outputFile": "assets/patches/085-prediction-modern.webp",
+      "outputSha256": "be340721b680eb6ee43700c1eae245e8af6f96ba199204c0f37dbb47b9823443",
+      "bytes": 7468,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 123528,
+        "debrisCovered": 18566,
+        "background": 225142
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 86,
+      "kind": "label",
+      "sourceFile": "assets/patches/086-label.webp",
+      "sourceSha256": "37738ed9dc3634cf0bdc55dd4d7a9647fdb7f00a814d094717137c7a46c0e0cc",
+      "outputFile": "assets/patches/086-label-modern.webp",
+      "outputSha256": "1ec61bf9c77cec5971f050ab0b285e067e82bce251daeef00c1f190dcf1bc95b",
+      "bytes": 6288,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 198440,
+        "debrisCovered": 21332,
+        "background": 147464
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 86,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/086-prediction.webp",
+      "sourceSha256": "1ca0447f8a3257ca6a9239f6843e60cf776a6700c7e515647c4ba1cf9dce9884",
+      "outputFile": "assets/patches/086-prediction-modern.webp",
+      "outputSha256": "95203411c4ddd6ee77fdf09d3eef6dd939ccc20b85e99b757bc4999043e57352",
+      "bytes": 6036,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 151051,
+        "debrisCovered": 8129,
+        "background": 208056
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 87,
+      "kind": "label",
+      "sourceFile": "assets/patches/087-label.webp",
+      "sourceSha256": "d01a079532cba762717bf966ae60ce2e01f614d2eeafb3549c4d013b24e0a626",
+      "outputFile": "assets/patches/087-label-modern.webp",
+      "outputSha256": "0f251ad2258038a57d68d99c3739f6051fd9116e44bdc5c514a14e8f9cc56247",
+      "bytes": 3324,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 39975,
+        "debrisCovered": 30590,
+        "background": 296671
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 87,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/087-prediction.webp",
+      "sourceSha256": "744c7664d954b71e7dee51830252e9289f23664cfec4a0c5876d62afa702bd0d",
+      "outputFile": "assets/patches/087-prediction-modern.webp",
+      "outputSha256": "321ad186cb99318b635c129cfcfe953a4dbda2c90fd655b2e8435423df1c1c63",
+      "bytes": 7446,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 95992,
+        "debrisCovered": 34992,
+        "background": 236252
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 88,
+      "kind": "label",
+      "sourceFile": "assets/patches/088-label.webp",
+      "sourceSha256": "85f0bc4ca3e7acd6c708edc8be602ed50b3226df842e3c2236472a1132256932",
+      "outputFile": "assets/patches/088-label-modern.webp",
+      "outputSha256": "f5025b0717450ffc7d1bef9f18ba9525f663e00a44ae6774879091257401e4c6",
+      "bytes": 3310,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 47640,
+        "debrisCovered": 23116,
+        "background": 296480
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 88,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/088-prediction.webp",
+      "sourceSha256": "caadafe7d51854e2df1f0ffced96b217507301f3d998453635a787d6585150ba",
+      "outputFile": "assets/patches/088-prediction-modern.webp",
+      "outputSha256": "99639825a41f6e5535c5503265bcc210aad33473b386b820f833eb0670ff5efe",
+      "bytes": 7362,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 118349,
+        "debrisCovered": 44496,
+        "background": 204391
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 89,
+      "kind": "label",
+      "sourceFile": "assets/patches/089-label.webp",
+      "sourceSha256": "5a1a5b8c90a424a9bd26819c0a79d723d997ba1705801084c4c7acbc0b616673",
+      "outputFile": "assets/patches/089-label-modern.webp",
+      "outputSha256": "c02a7ae8354381331a7029bab162d47b918e7e2f09e1d83654b43b2d490a351b",
+      "bytes": 6206,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 203553,
+        "debrisCovered": 6406,
+        "background": 157277
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 89,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/089-prediction.webp",
+      "sourceSha256": "383b3adf19445baafae9f3b819202bfe447dd7ada78bb1a5e81e9ea6d14a621e",
+      "outputFile": "assets/patches/089-prediction-modern.webp",
+      "outputSha256": "f44189f3821cf0c6ba8bd4400e7a5f35ad66f98780fab3a7508867ac9b174140",
+      "bytes": 6304,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 120224,
+        "debrisCovered": 3945,
+        "background": 243067
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 90,
+      "kind": "label",
+      "sourceFile": "assets/patches/090-label.webp",
+      "sourceSha256": "e82c497ed40d9256839d1981c556b23c266ceb9609241814fa10fbc8ad5e2fc6",
+      "outputFile": "assets/patches/090-label-modern.webp",
+      "outputSha256": "3555e18fbfb058698a52e89f9d451d9c7f1c73700fd7c27722b42e8ed1d628a8",
+      "bytes": 1622,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 19410,
+        "debrisCovered": 0,
+        "background": 347826
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 90,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/090-prediction.webp",
+      "sourceSha256": "76564d1b36645aa42cf69bb2410223c92dfd1b4973df2ab3a71b7809f508bb92",
+      "outputFile": "assets/patches/090-prediction-modern.webp",
+      "outputSha256": "5528fcaad0ef639605c250bca6dd5c34c5839f3758e98451d76dec4e452ce94e",
+      "bytes": 5850,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 56533,
+        "debrisCovered": 2268,
+        "background": 308435
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 91,
+      "kind": "label",
+      "sourceFile": "assets/patches/091-label.webp",
+      "sourceSha256": "15e948d82da432fab1c354d7f62f9cb898d9f9bd77793988569332d9077c5b6b",
+      "outputFile": "assets/patches/091-label-modern.webp",
+      "outputSha256": "8a56e49a8b876b3fb9d551b7ece06908911f9ca565b4c02db9d7e0141be38af1",
+      "bytes": 3656,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 47829,
+        "debrisCovered": 11352,
+        "background": 308055
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 91,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/091-prediction.webp",
+      "sourceSha256": "2ad6170dd491af2c6377effe7a149f21ca0c290464ed7a60e1b3bd1b674c83b3",
+      "outputFile": "assets/patches/091-prediction-modern.webp",
+      "outputSha256": "225b7a484d4520e21d8dc8b6464b87238716e49dadd2bf741df4dc357b344aca",
+      "bytes": 4410,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 45092,
+        "debrisCovered": 26747,
+        "background": 295397
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 92,
+      "kind": "label",
+      "sourceFile": "assets/patches/092-label.webp",
+      "sourceSha256": "7921600f1df596099571974b3901b46a7e90af8571131cd5dbc6aff5d031f353",
+      "outputFile": "assets/patches/092-label-modern.webp",
+      "outputSha256": "16433bbe044d004dba9ffc510d3efe6fbd5dc9baacca311c4c62c387a449ecc4",
+      "bytes": 4556,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 80083,
+        "debrisCovered": 1216,
+        "background": 285937
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 92,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/092-prediction.webp",
+      "sourceSha256": "4d148769aa0cd92c126de700d5408b9d9215ff501c7d2843571c77c0eafdd1ff",
+      "outputFile": "assets/patches/092-prediction-modern.webp",
+      "outputSha256": "87422534c654f6c120883c372c6145a3e5383c82f2fdbc002840117c939933f8",
+      "bytes": 5332,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 101811,
+        "debrisCovered": 6002,
+        "background": 259423
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 93,
+      "kind": "label",
+      "sourceFile": "assets/patches/093-label.webp",
+      "sourceSha256": "06148265a5bba37ff12782873f1076762c8c9ba735943276ac77de54f8356096",
+      "outputFile": "assets/patches/093-label-modern.webp",
+      "outputSha256": "84bf4d2e8e2ecc8b6200f713fb547979ecee0eda7c019c6f75da076acb22b4f1",
+      "bytes": 6630,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 197026,
+        "debrisCovered": 12603,
+        "background": 157607
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 93,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/093-prediction.webp",
+      "sourceSha256": "1e92abc34a24ea980313f3d67c2d1de15ce4aeb5b3426291baa52ed5d550584f",
+      "outputFile": "assets/patches/093-prediction-modern.webp",
+      "outputSha256": "c7fd254c201c9f866c5be1317caa867a166a6fee01c0e1774e8a8f4109acd754",
+      "bytes": 6430,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 126493,
+        "debrisCovered": 5232,
+        "background": 235511
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 94,
+      "kind": "label",
+      "sourceFile": "assets/patches/094-label.webp",
+      "sourceSha256": "fd408d8e04b06988c5f72d5ac4bca83a9461f168d6af1ef7aebadca5a19fae8f",
+      "outputFile": "assets/patches/094-label-modern.webp",
+      "outputSha256": "95394b081c618b0a316c315c523bf4803856d0d166d1d18752a369ddcf0f1af1",
+      "bytes": 3866,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 56510,
+        "debrisCovered": 7240,
+        "background": 303486
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 94,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/094-prediction.webp",
+      "sourceSha256": "f5b20f3497a02d8a55a396173dc69065e6154f553b1c7621b7b2f477850c882e",
+      "outputFile": "assets/patches/094-prediction-modern.webp",
+      "outputSha256": "4ff29d14e34f22a1b93855d8a73b22cecf3be6e142749eb6680e7ff30e2989b8",
+      "bytes": 5732,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 102494,
+        "debrisCovered": 5947,
+        "background": 258795
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 95,
+      "kind": "label",
+      "sourceFile": "assets/patches/095-label.webp",
+      "sourceSha256": "3bfa0a43165e9d6fa1c93395a64fe92c6b70469dabe8cab28568ceb8285b2401",
+      "outputFile": "assets/patches/095-label-modern.webp",
+      "outputSha256": "862af1fe0f054cd86c02c74ce3411eaa49b1d849a6a9f66ea31b12f58d0a04cd",
+      "bytes": 1872,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 37141,
+        "debrisCovered": 0,
+        "background": 330095
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 95,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/095-prediction.webp",
+      "sourceSha256": "e0b0d007f465ba7d97f8348e0d094de14d13b5e5885264869068d25a5add22e6",
+      "outputFile": "assets/patches/095-prediction-modern.webp",
+      "outputSha256": "a40ce96d52a939659562a371f45062cebf192ccff145b2f5012204ae2c2fd03c",
+      "bytes": 2524,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 30209,
+        "debrisCovered": 2512,
+        "background": 334515
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 96,
+      "kind": "label",
+      "sourceFile": "assets/patches/096-label.webp",
+      "sourceSha256": "018a1ea50cc0a41adf97aff08c2ca4a4135d7c612e2a7b393f2c670bfec3922f",
+      "outputFile": "assets/patches/096-label-modern.webp",
+      "outputSha256": "f2f2c32dac31926b9c06c4e6c4eb0197eff124147b29d028c58cf878d2162567",
+      "bytes": 3224,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 60461,
+        "debrisCovered": 7194,
+        "background": 299581
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 96,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/096-prediction.webp",
+      "sourceSha256": "53e425e5764aaf5a3224e94af8760138a00217e2f4cfce50eb8bc70fa532a002",
+      "outputFile": "assets/patches/096-prediction-modern.webp",
+      "outputSha256": "c305555e14d0d19bd58b1faa2ed8bcb581dd6ebfd0a4c0917b62d4b2fb25dfc7",
+      "bytes": 5968,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 73051,
+        "debrisCovered": 38416,
+        "background": 255769
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 97,
+      "kind": "label",
+      "sourceFile": "assets/patches/097-label.webp",
+      "sourceSha256": "af7c08b4d1e1bea4727841efc38d43e7afd65f3612fee02394b907987e3a1b64",
+      "outputFile": "assets/patches/097-label-modern.webp",
+      "outputSha256": "ae94207435e96436cdcaa3b566ba740c2a58e9d24ad8f08366f19b65934d3585",
+      "bytes": 3758,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 47851,
+        "debrisCovered": 3377,
+        "background": 316008
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 97,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/097-prediction.webp",
+      "sourceSha256": "26ef252f176cb2da70dcc6ebbd3a2e53cba8719db7cb91924864daddcdb6bf6b",
+      "outputFile": "assets/patches/097-prediction-modern.webp",
+      "outputSha256": "486354c6a61b26c2e74639cf447006bcc77050bb0be35af628c94dde53a46f10",
+      "bytes": 3490,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 39729,
+        "debrisCovered": 3403,
+        "background": 324104
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 98,
+      "kind": "label",
+      "sourceFile": "assets/patches/098-label.webp",
+      "sourceSha256": "03dc5242cc4af6bd9acbbd7cc1e403343f23170477375acb2213fa2faecf8ede",
+      "outputFile": "assets/patches/098-label-modern.webp",
+      "outputSha256": "7a983302681cd4e0886f1ff7befe0c10061cf2fd4cb6eafcb827b9a57a59ed9a",
+      "bytes": 3798,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 178691,
+        "debrisCovered": 2334,
+        "background": 186211
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 98,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/098-prediction.webp",
+      "sourceSha256": "9fe8b1806fb64c316a28623101d310efee7b34860f1010a8d0ef424d2447f59c",
+      "outputFile": "assets/patches/098-prediction-modern.webp",
+      "outputSha256": "e5d445c6aeefcf5ad38f3524638399300d4124d745b20d11ade37888713702f1",
+      "bytes": 6392,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 105201,
+        "debrisCovered": 10525,
+        "background": 251510
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 99,
+      "kind": "label",
+      "sourceFile": "assets/patches/099-label.webp",
+      "sourceSha256": "d0c895ee3edd7276369d0a79eced90dba29a48017eb03dc2367779446817208d",
+      "outputFile": "assets/patches/099-label-modern.webp",
+      "outputSha256": "7f920102946ceb0d2dd024d6a5acfcfac22d493f503b65de31fcb0ea10665a6a",
+      "bytes": 6390,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 130260,
+        "debrisCovered": 27051,
+        "background": 209925
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 99,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/099-prediction.webp",
+      "sourceSha256": "1a3e1f22b0724bae958b45d93b0fcb4f3a847ef199ba02b6d6103cba66aa3720",
+      "outputFile": "assets/patches/099-prediction-modern.webp",
+      "outputSha256": "7737d14251ba6377fcd3d4abc9a3b7e0df1bb4d9b3c3910429979af5aa6dc9ad",
+      "bytes": 5746,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 114894,
+        "debrisCovered": 27835,
+        "background": 224507
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 100,
+      "kind": "label",
+      "sourceFile": "assets/patches/100-label.webp",
+      "sourceSha256": "89ec1a5f76c0feb85f754205e89aed403c801d40c0f336133380f9d3bd4becbc",
+      "outputFile": "assets/patches/100-label-modern.webp",
+      "outputSha256": "fce5a7690086e53bd3be8ce09d0a622156c98ff97ba32fdf3112a97af62efb0c",
+      "bytes": 7088,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 147280,
+        "debrisCovered": 25096,
+        "background": 194860
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 100,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/100-prediction.webp",
+      "sourceSha256": "1aaf98b66c8a6a89270e647fd3c4f352f5d89380bd52fd399a37901a2932bd53",
+      "outputFile": "assets/patches/100-prediction-modern.webp",
+      "outputSha256": "6cc67284d5984f949b464c7fb692447f64144a7306e646843cc0b2fc0f992fa0",
+      "bytes": 6672,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 110412,
+        "debrisCovered": 24145,
+        "background": 232679
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 101,
+      "kind": "label",
+      "sourceFile": "assets/patches/101-label.webp",
+      "sourceSha256": "4c37576a84a57ee5741358100d9ee1c7f62b55f36e5c985d1f3f0c710425668d",
+      "outputFile": "assets/patches/101-label-modern.webp",
+      "outputSha256": "da34a10474eea2462f17be3a249c71c3bf96fb102edafa36922a10307179d92e",
+      "bytes": 4454,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 140405,
+        "debrisCovered": 6976,
+        "background": 219855
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 101,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/101-prediction.webp",
+      "sourceSha256": "2bddd8661c69f96069f80542cf37cce62814758de5515378514fe37cd7bd3d4f",
+      "outputFile": "assets/patches/101-prediction-modern.webp",
+      "outputSha256": "081190ca4cbc39893d4c98eb47dd543e006af2f9ce21b7984adb7adf8fc651d1",
+      "bytes": 5992,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 109998,
+        "debrisCovered": 11889,
+        "background": 245349
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 102,
+      "kind": "label",
+      "sourceFile": "assets/patches/102-label.webp",
+      "sourceSha256": "4ca57ae72efb877b297a644187931d901b8c371f27a4416db971db5b62a3ba55",
+      "outputFile": "assets/patches/102-label-modern.webp",
+      "outputSha256": "e1905271ae94fc78b3e7186aa2582c3ccd54e4d378f8c4c69b51bd60f784b2d4",
+      "bytes": 7244,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 134526,
+        "debrisCovered": 41540,
+        "background": 191170
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 102,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/102-prediction.webp",
+      "sourceSha256": "c838ee40fd73c35120261996df707c4b388e8303653be6dc916df79a15280ac3",
+      "outputFile": "assets/patches/102-prediction-modern.webp",
+      "outputSha256": "87427caaa9a64fed6d6dffcf2a1626066173d2430e1a30b527fcaa52b3391aa4",
+      "bytes": 6646,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 127681,
+        "debrisCovered": 34637,
+        "background": 204918
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 103,
+      "kind": "label",
+      "sourceFile": "assets/patches/103-label.webp",
+      "sourceSha256": "3731f9aa9517e9d9366b963e5e72e561694c5903c6c6819a8b6acbda6f426b29",
+      "outputFile": "assets/patches/103-label-modern.webp",
+      "outputSha256": "21a49a519901f089468407e73e98ecdef4ac79930d97c15f2d5903e9704082a5",
+      "bytes": 4464,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 55411,
+        "debrisCovered": 22796,
+        "background": 289029
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 103,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/103-prediction.webp",
+      "sourceSha256": "c9a1bb784f6d9989673f9c74cafd1b842b0a36d9172ef2e7792d2f09b21f6bdf",
+      "outputFile": "assets/patches/103-prediction-modern.webp",
+      "outputSha256": "bed93a09b93a2f63c0150c2b0cb50d9b91f0369da6c84d2794096fb62e6c7821",
+      "bytes": 4486,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 38291,
+        "debrisCovered": 42764,
+        "background": 286181
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 104,
+      "kind": "label",
+      "sourceFile": "assets/patches/104-label.webp",
+      "sourceSha256": "22d8f646fbff7f565e6789cb42eaeb8b3de02ce61b5e858225524870bdb5f239",
+      "outputFile": "assets/patches/104-label-modern.webp",
+      "outputSha256": "66f511dbf054293c27c1f3470e096678b2d0cbcc1652f4016715736e3d73300c",
+      "bytes": 1444,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 13322,
+        "debrisCovered": 3648,
+        "background": 350266
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 104,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/104-prediction.webp",
+      "sourceSha256": "5ad630380082f58702017117daaf5b45661f16896467f0c1f26729a70c42678c",
+      "outputFile": "assets/patches/104-prediction-modern.webp",
+      "outputSha256": "29a52d1c712ec0a7e3a69c14f062bfeb365e7d7cf83d21aeeff46334cd67acb5",
+      "bytes": 5506,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 69809,
+        "debrisCovered": 7622,
+        "background": 289805
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 105,
+      "kind": "label",
+      "sourceFile": "assets/patches/105-label.webp",
+      "sourceSha256": "07bd0ab9d5382fc96df5abcc7c6ae97a6155f9b8efa2f58c068034a6b4990251",
+      "outputFile": "assets/patches/105-label-modern.webp",
+      "outputSha256": "3e70bbdb893a63498c3d345f7aa813842443254601b52b89ff0e584ba68a9a4d",
+      "bytes": 4894,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 90798,
+        "debrisCovered": 2964,
+        "background": 273474
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 105,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/105-prediction.webp",
+      "sourceSha256": "18c16a7f3359a23d91c6a8d21b3ef3ac7dcc6b5869a02b0467fe0a4e0cea1d11",
+      "outputFile": "assets/patches/105-prediction-modern.webp",
+      "outputSha256": "b5a06301a6b1bca3c2c853a39a5fe01d1aab2f59997616ede7d6bfce9e63f586",
+      "bytes": 4186,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 77642,
+        "debrisCovered": 4368,
+        "background": 285226
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 106,
+      "kind": "label",
+      "sourceFile": "assets/patches/106-label.webp",
+      "sourceSha256": "b32e74af1ff50e289fbd58528a36935eea8bf49e4d79f130eb5b4e90b441e08d",
+      "outputFile": "assets/patches/106-label-modern.webp",
+      "outputSha256": "7592b0c9a01edf73ded39476a112e8e9cc9c14b6c365365c395c6947171802c4",
+      "bytes": 3212,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 42324,
+        "debrisCovered": 19745,
+        "background": 305167
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 106,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/106-prediction.webp",
+      "sourceSha256": "53e235f9e3a7b25587dc54389d48db7cc6577e82e93314e42114888bb6882715",
+      "outputFile": "assets/patches/106-prediction-modern.webp",
+      "outputSha256": "33025476c94d7bc732ffecca96020ae7cdd9dacf6a4f19a06f7abfcc94a4b70a",
+      "bytes": 7092,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 105480,
+        "debrisCovered": 49435,
+        "background": 212321
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 107,
+      "kind": "label",
+      "sourceFile": "assets/patches/107-label.webp",
+      "sourceSha256": "ffd94154dc9f527dae82455a6cc33b0146aeb9dffe708def70f9a714415d2aee",
+      "outputFile": "assets/patches/107-label-modern.webp",
+      "outputSha256": "1e187f2bbabb3f3eb3597d37633f898d8d1226a9eff27be27ee368e32f0159de",
+      "bytes": 4068,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 157526,
+        "debrisCovered": 10774,
+        "background": 198936
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 107,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/107-prediction.webp",
+      "sourceSha256": "7e088e1e74faf3e339fac0e9a4ce9513b015b262c0dc6821b4868a0a7d79305f",
+      "outputFile": "assets/patches/107-prediction-modern.webp",
+      "outputSha256": "a59a004e105f960528284ff19cf96208b59b5952e7e2afaa435c49476eca64f4",
+      "bytes": 7184,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 101124,
+        "debrisCovered": 16520,
+        "background": 249592
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 108,
+      "kind": "label",
+      "sourceFile": "assets/patches/108-label.webp",
+      "sourceSha256": "1fafdd584ec424b67c5fc6119b11e2901a29b348c41b9cba200f1b9d4f00e1d5",
+      "outputFile": "assets/patches/108-label-modern.webp",
+      "outputSha256": "88134f74e3e80b2358f17aaa59b87ec7681557c3ae2eb6a7bb323bdc04897ea7",
+      "bytes": 2618,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 30166,
+        "debrisCovered": 5359,
+        "background": 331711
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 108,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/108-prediction.webp",
+      "sourceSha256": "de486065dfd6bd0e33a264618dfee1adee7e8c5d495a49a85cb75878c0e98001",
+      "outputFile": "assets/patches/108-prediction-modern.webp",
+      "outputSha256": "155ba8d67adc8a41f0d6ded4caaa0a20b2a00d204beb962bf0bafe92b4f6f71c",
+      "bytes": 3850,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 64659,
+        "debrisCovered": 5007,
+        "background": 297570
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 109,
+      "kind": "label",
+      "sourceFile": "assets/patches/109-label.webp",
+      "sourceSha256": "5775b34c215af73736bb1cc039d57042cb35869a7d4e684e414ffc81ae3f4c48",
+      "outputFile": "assets/patches/109-label-modern.webp",
+      "outputSha256": "3bc89c7ae56fbb4eb0c261a71194fe7a491414c0116fb3d32d12ac5c298e836b",
+      "bytes": 3932,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 64512,
+        "debrisCovered": 17506,
+        "background": 285218
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 109,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/109-prediction.webp",
+      "sourceSha256": "71f432e1d27971a483578687efce2f2b33ce76a6335a613de9e5924ffd4c1c66",
+      "outputFile": "assets/patches/109-prediction-modern.webp",
+      "outputSha256": "4fe6ee7a39b7b9a81b88fe94505fc0692d947fe3ab8d476dd651704eead4429b",
+      "bytes": 6846,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 85832,
+        "debrisCovered": 24178,
+        "background": 257226
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 110,
+      "kind": "label",
+      "sourceFile": "assets/patches/110-label.webp",
+      "sourceSha256": "a690cd755671775b53b96cd47a8b6aecd934cd0815be572944c291466881be23",
+      "outputFile": "assets/patches/110-label-modern.webp",
+      "outputSha256": "adccd9b29f713db1b87d6e5fd63641ec132b6028dbb402ba4f22ab604a28dcd4",
+      "bytes": 7496,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 95911,
+        "debrisCovered": 60359,
+        "background": 210966
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 110,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/110-prediction.webp",
+      "sourceSha256": "0607ba453a7ee1302c16fa5818b7a36dfbaf81e399670eeeff969068c673cac6",
+      "outputFile": "assets/patches/110-prediction-modern.webp",
+      "outputSha256": "7e6745cacd4b5f8ce68e66a12b00eeeec048a4a2093f15ad0e80bed438b81df6",
+      "bytes": 7080,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 96488,
+        "debrisCovered": 42729,
+        "background": 228019
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 111,
+      "kind": "label",
+      "sourceFile": "assets/patches/111-label.webp",
+      "sourceSha256": "05fd1bcd27d1e83c02efe17902f31ea73cd20ae6db11ae96ecc3fac3c3b036c3",
+      "outputFile": "assets/patches/111-label-modern.webp",
+      "outputSha256": "a4fa82451dfb7fe501f452200389b451b779585a226f9a05c6cd7b9f79c08a85",
+      "bytes": 6746,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 167639,
+        "debrisCovered": 12289,
+        "background": 187308
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 111,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/111-prediction.webp",
+      "sourceSha256": "c783122e89abc898d93c5be7336fd1d78b32d48d51cd667e17046aa92e53d276",
+      "outputFile": "assets/patches/111-prediction-modern.webp",
+      "outputSha256": "95c21cdae805b16812932724e81c07d9e42de4d7b2ff7ae19e7bcf32a48867a8",
+      "bytes": 6438,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 117444,
+        "debrisCovered": 17796,
+        "background": 231996
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 112,
+      "kind": "label",
+      "sourceFile": "assets/patches/112-label.webp",
+      "sourceSha256": "e5842072c3ab9cfcba333fb6da6f3ea147fbc319828b5f3e38ee8856b98f3da0",
+      "outputFile": "assets/patches/112-label-modern.webp",
+      "outputSha256": "4925dfd3403d092e09fc25cab793dc341915ac666c37882031e8bf3844a5d9c0",
+      "bytes": 3084,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 38568,
+        "debrisCovered": 3837,
+        "background": 324831
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 112,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/112-prediction.webp",
+      "sourceSha256": "9fbcadc67729369da4c1e711b3c5beeae5a8e4d1a963ef9b6317d20e904cfa7f",
+      "outputFile": "assets/patches/112-prediction-modern.webp",
+      "outputSha256": "748d424d3132e0aeac51ad5e77291fdd3047cf53acd0cc9a519cf644f0a2e6b6",
+      "bytes": 4502,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 43745,
+        "debrisCovered": 7555,
+        "background": 315936
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 113,
+      "kind": "label",
+      "sourceFile": "assets/patches/113-label.webp",
+      "sourceSha256": "0c2d10026370d6b4ff639e7e6357ae684e384a3cbaf083c17e5c44129e007b18",
+      "outputFile": "assets/patches/113-label-modern.webp",
+      "outputSha256": "8957de37afbbfd58f2911c7589f1ef08ec778ebb434a6e46a9df9c3d9cba5072",
+      "bytes": 6952,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 89346,
+        "debrisCovered": 36786,
+        "background": 241104
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 113,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/113-prediction.webp",
+      "sourceSha256": "40b418f193c9f0e881c8e8634c7db7bc12b1255906eab191873345000bb3c483",
+      "outputFile": "assets/patches/113-prediction-modern.webp",
+      "outputSha256": "b9639c2cb20f6dd16c50df1fcf9e0dd3e8986923e4e6ac374cd7e1f476689197",
+      "bytes": 7170,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 114038,
+        "debrisCovered": 20888,
+        "background": 232310
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 114,
+      "kind": "label",
+      "sourceFile": "assets/patches/114-label.webp",
+      "sourceSha256": "7b2dda4adcb34d90a044a6e6f6480eb5e2ebb0bb4f8d272bade1e5bcd3a8df41",
+      "outputFile": "assets/patches/114-label-modern.webp",
+      "outputSha256": "534069ded3494ac979b24e95180a28a18157abc190389382c16cc79c5fc5e5a8",
+      "bytes": 2276,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 42233,
+        "debrisCovered": 1727,
+        "background": 323276
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 114,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/114-prediction.webp",
+      "sourceSha256": "e8a69081f8b294e7ed6ddb12d548d83d939bddf0630ea2acf31b8fbc0aa53c23",
+      "outputFile": "assets/patches/114-prediction-modern.webp",
+      "outputSha256": "d3162edab5c0b46def58f069387dc46a93c19f02464392d42b0b829a12a54390",
+      "bytes": 4806,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 78953,
+        "debrisCovered": 12649,
+        "background": 275634
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 115,
+      "kind": "label",
+      "sourceFile": "assets/patches/115-label.webp",
+      "sourceSha256": "86228db7923e5f9aacc8a76a3d9d702644f9a07c3e4f91af9e28ad33640f0ca0",
+      "outputFile": "assets/patches/115-label-modern.webp",
+      "outputSha256": "51918a7b66865350ed78f9c83e5b7925a535ae50a50244838d5141ec3412aafe",
+      "bytes": 3088,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 68757,
+        "debrisCovered": 0,
+        "background": 298479
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 115,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/115-prediction.webp",
+      "sourceSha256": "a27e5c6cc1291640389298202164cb0e1290bd3af4f6be0a6e28f31f205a174e",
+      "outputFile": "assets/patches/115-prediction-modern.webp",
+      "outputSha256": "5d992c8f60fafc3d0a6b009ed4d9e8b91a1dca64e4812516ce923be03505001b",
+      "bytes": 4128,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 79785,
+        "debrisCovered": 2322,
+        "background": 285129
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 116,
+      "kind": "label",
+      "sourceFile": "assets/patches/116-label.webp",
+      "sourceSha256": "70a193b1da9983e40bae081d5329d5a8908fe41bbd9719fa74413eb779c5580a",
+      "outputFile": "assets/patches/116-label-modern.webp",
+      "outputSha256": "4273e2719175cff153cd518281b36a825ef896c0d7ab0c43181d78a11112c2e5",
+      "bytes": 4856,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 67330,
+        "debrisCovered": 16754,
+        "background": 283152
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 116,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/116-prediction.webp",
+      "sourceSha256": "d86227593ac56a42601b60acd167a8672ced00d591b5e7e163717227b525e366",
+      "outputFile": "assets/patches/116-prediction-modern.webp",
+      "outputSha256": "d9bffd6e24581f2e5ac98178fab32437460a9bb38aec9e40c92c207258f9b8d4",
+      "bytes": 5274,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 82970,
+        "debrisCovered": 21040,
+        "background": 263226
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 117,
+      "kind": "label",
+      "sourceFile": "assets/patches/117-label.webp",
+      "sourceSha256": "887c120196fceb1c3dd12f1076b8aed813cd7d21658f3fe2d4cec47bb1c976d7",
+      "outputFile": "assets/patches/117-label-modern.webp",
+      "outputSha256": "9c5ae23800bab681fccdd4f4a8b91bd336924be9edd78aa7afac98a0e388a2e7",
+      "bytes": 4240,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 76399,
+        "debrisCovered": 9195,
+        "background": 281642
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 117,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/117-prediction.webp",
+      "sourceSha256": "29232a9edfcaffd5b360d92135ba299ae813a00b3c0d0f6802615496b308ae7a",
+      "outputFile": "assets/patches/117-prediction-modern.webp",
+      "outputSha256": "2d0859e2789fd5570a8b2b4bd4f64a606cec6291a6de56b4f3972c931fc95a8a",
+      "bytes": 4776,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 93787,
+        "debrisCovered": 3472,
+        "background": 269977
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 118,
+      "kind": "label",
+      "sourceFile": "assets/patches/118-label.webp",
+      "sourceSha256": "7724bb406e0e25e7c3faee191d840d785685dc2cea071ea823ba60541114becd",
+      "outputFile": "assets/patches/118-label-modern.webp",
+      "outputSha256": "38d014e426c0a9fbbd7c51219ff2f5135e546703927962e15f3e62445addc07a",
+      "bytes": 3028,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 30935,
+        "debrisCovered": 13087,
+        "background": 323214
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 118,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/118-prediction.webp",
+      "sourceSha256": "aaa215afa28c39de3c3f20590c0263744579e0bf841a26683a782133231acc02",
+      "outputFile": "assets/patches/118-prediction-modern.webp",
+      "outputSha256": "86d92be5086e5ea5964b6b8d8393b8d419b6348323cc19b6c2e9193f32e34191",
+      "bytes": 4350,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 33967,
+        "debrisCovered": 26221,
+        "background": 307048
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 119,
+      "kind": "label",
+      "sourceFile": "assets/patches/119-label.webp",
+      "sourceSha256": "c4b8b32bab885174c8731c546e541c5ee280e36ce62d4c81784ada97a7dfa302",
+      "outputFile": "assets/patches/119-label-modern.webp",
+      "outputSha256": "b380aaf15c4613468eb3bb5590ed12e0522f736b2a8a530cbc08836ca0d4b814",
+      "bytes": 876,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 10629,
+        "debrisCovered": 0,
+        "background": 356607
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 119,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/119-prediction.webp",
+      "sourceSha256": "988c3223743cbcd69034c500715a545a607779110a0014fa02609ce28c3d8870",
+      "outputFile": "assets/patches/119-prediction-modern.webp",
+      "outputSha256": "fed37a01282a8d7274f2d6a03362668f1030c33373f07c899fadf7527a666974",
+      "bytes": 4536,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 61467,
+        "debrisCovered": 2535,
+        "background": 303234
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 120,
+      "kind": "label",
+      "sourceFile": "assets/patches/120-label.webp",
+      "sourceSha256": "c689fce81d2a4d53bcc27fd37e0701cba57636fcc21050f888abfcca1faddede",
+      "outputFile": "assets/patches/120-label-modern.webp",
+      "outputSha256": "400581eb77fd7205290e7d3679274efda8f8da9b21e87626840551693a2c06aa",
+      "bytes": 334,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 5479,
+        "debrisCovered": 0,
+        "background": 361757
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 120,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/120-prediction.webp",
+      "sourceSha256": "b52af34be3ca1b07376d4789a0a0548384b9245fd812a93abdbac23b199ee2f8",
+      "outputFile": "assets/patches/120-prediction-modern.webp",
+      "outputSha256": "954233bfac579f8cb760a7bf47efc69a32623d142968066f1d624d5453821e43",
+      "bytes": 5146,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 72117,
+        "debrisCovered": 1086,
+        "background": 294033
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 121,
+      "kind": "label",
+      "sourceFile": "assets/patches/121-label.webp",
+      "sourceSha256": "e0f795f43f8ef4e695b8c9d7f295d0620c67deb4a4e459ea011f927001f27d1f",
+      "outputFile": "assets/patches/121-label-modern.webp",
+      "outputSha256": "c2eae29120e6957c172cbf843d420b4bf5784f43d1647506c3ed29db36562201",
+      "bytes": 5542,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 216581,
+        "debrisCovered": 7770,
+        "background": 142885
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 121,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/121-prediction.webp",
+      "sourceSha256": "7938ae8fdead2b6ef96f6ca1118c93b7a8d5c504be7ecd2dc749d8f747cc6af3",
+      "outputFile": "assets/patches/121-prediction-modern.webp",
+      "outputSha256": "2c2b4315fc82f46bb9e981804b8832e9d5c872404e1fd1d49516c1a4cabb56fa",
+      "bytes": 4132,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 142909,
+        "debrisCovered": 533,
+        "background": 223794
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 122,
+      "kind": "label",
+      "sourceFile": "assets/patches/122-label.webp",
+      "sourceSha256": "76e8bc16318f60487dfd16cefbb0dfd80cea6f92ce02e9e83fa1c379bf3a7512",
+      "outputFile": "assets/patches/122-label-modern.webp",
+      "outputSha256": "3b942597c7d828adbecbc8abfe3bf1c43327e1d8bfee7c075caf216ac3a6d014",
+      "bytes": 7408,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 124659,
+        "debrisCovered": 48999,
+        "background": 193578
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 122,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/122-prediction.webp",
+      "sourceSha256": "7a750c988e1ea64788454607fbabc415d0a4fd48d23764a40b71a8dc0402d4b5",
+      "outputFile": "assets/patches/122-prediction-modern.webp",
+      "outputSha256": "f687a286ee28eae5aa9d82fd16e4283879fe04ae9978f0a8a0ae6d6503a1e66d",
+      "bytes": 6404,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 101312,
+        "debrisCovered": 46038,
+        "background": 219886
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 123,
+      "kind": "label",
+      "sourceFile": "assets/patches/123-label.webp",
+      "sourceSha256": "ca4c50e9734d6e40a1898510b463142f57f7422b81f79c524d1b20c6b0640269",
+      "outputFile": "assets/patches/123-label-modern.webp",
+      "outputSha256": "67c6ff585b0783e17d6da49f037a335d5f41cf7662cbbdd52a78c7c234f019fd",
+      "bytes": 5226,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 96018,
+        "debrisCovered": 7888,
+        "background": 263330
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 123,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/123-prediction.webp",
+      "sourceSha256": "f8fac2246a9eb15209d4ca648d7bb16447c863a5c1a86f08868874a8cfb08cb7",
+      "outputFile": "assets/patches/123-prediction-modern.webp",
+      "outputSha256": "fe32a686fd3774d925a4ebd7605ab943d1c01b7ff0a55c882b8618a353120fa5",
+      "bytes": 5130,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 92183,
+        "debrisCovered": 10868,
+        "background": 264185
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 124,
+      "kind": "label",
+      "sourceFile": "assets/patches/124-label.webp",
+      "sourceSha256": "5adec95143a8901facccd15d792c35cd46bd057c8130529b4a21831172c2fb10",
+      "outputFile": "assets/patches/124-label-modern.webp",
+      "outputSha256": "8b6b2ae206cec68be1d575a352d445c29d83d280d0e998d992b11045377d6e23",
+      "bytes": 2414,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 31374,
+        "debrisCovered": 1157,
+        "background": 334705
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 124,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/124-prediction.webp",
+      "sourceSha256": "e59535cd4560f98c1ab02b1ea7c9f2b8d4b77f0d222c192f63b6b5dbcea80b99",
+      "outputFile": "assets/patches/124-prediction-modern.webp",
+      "outputSha256": "6aa613fa8397cefedc0cdd9d1681d056ade9823bf0c8d007d8c1add5a41b2f14",
+      "bytes": 3622,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 36313,
+        "debrisCovered": 13541,
+        "background": 317382
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 125,
+      "kind": "label",
+      "sourceFile": "assets/patches/125-label.webp",
+      "sourceSha256": "188458c6508cdbd7407d817173e3a131740692d87f13728bae1e7e11ec39216c",
+      "outputFile": "assets/patches/125-label-modern.webp",
+      "outputSha256": "536da6880b739eb502678958bebd6b43578a0defe5d5ea03351bf08dd6433807",
+      "bytes": 4384,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 62567,
+        "debrisCovered": 7045,
+        "background": 297624
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 125,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/125-prediction.webp",
+      "sourceSha256": "fd04fb910420eb2f4753349146a4d4fb0c88c388ce488be84599e83d2a701441",
+      "outputFile": "assets/patches/125-prediction-modern.webp",
+      "outputSha256": "5984e0cbcf34ed3fce0e9c492f65ad7dd3c1d300ebe86a5dcd1a50a80f9e9258",
+      "bytes": 4268,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 58341,
+        "debrisCovered": 9418,
+        "background": 299477
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 126,
+      "kind": "label",
+      "sourceFile": "assets/patches/126-label.webp",
+      "sourceSha256": "17b59a555822225b5a3a2209fcf7ef3020255132237166f2e78ff5ad6aa22c55",
+      "outputFile": "assets/patches/126-label-modern.webp",
+      "outputSha256": "621653acd9e6fe22ce709c03658387cb202ecf15e4a0bb76ef9bf2e77c1d3b31",
+      "bytes": 7056,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 190781,
+        "debrisCovered": 18737,
+        "background": 157718
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 126,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/126-prediction.webp",
+      "sourceSha256": "271f173c8e7c94a3f9a68d5c828772218db55fc7a0edac445894224865281d73",
+      "outputFile": "assets/patches/126-prediction-modern.webp",
+      "outputSha256": "13d9e75f88451af8ea9a6a5084da829cbc91da48dc50421e837274a2349c9a3c",
+      "bytes": 5810,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 86339,
+        "debrisCovered": 16147,
+        "background": 264750
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 127,
+      "kind": "label",
+      "sourceFile": "assets/patches/127-label.webp",
+      "sourceSha256": "64dafd2ca708e66632066780a075bed516472f3c021c70adc8916acd86eb5994",
+      "outputFile": "assets/patches/127-label-modern.webp",
+      "outputSha256": "4ab5e10d131a032aca60e27cf9e5745cfe0f336de202c7f01f4479851cfd78d3",
+      "bytes": 2646,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 138492,
+        "debrisCovered": 3999,
+        "background": 224745
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 127,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/127-prediction.webp",
+      "sourceSha256": "3571bbb438583fb6fc12afa7f92c2aef782ff3a0b1f8de7eb20f62803c8c0818",
+      "outputFile": "assets/patches/127-prediction-modern.webp",
+      "outputSha256": "8712fd98d73b247a62d556bbc8571dfa34858a2ea657945d24bbf0d639ac0b5c",
+      "bytes": 6642,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 95132,
+        "debrisCovered": 27314,
+        "background": 244790
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 128,
+      "kind": "label",
+      "sourceFile": "assets/patches/128-label.webp",
+      "sourceSha256": "c275eecf41f8080d2898089502f26ceeb9463ced3360f56b59bc3327eff36a9f",
+      "outputFile": "assets/patches/128-label-modern.webp",
+      "outputSha256": "66fd7a6761a0dc01d9a400d688fc6b84c91ea0c8265b9668aa7245e11a90276c",
+      "bytes": 6534,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 110632,
+        "debrisCovered": 54412,
+        "background": 202192
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 128,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/128-prediction.webp",
+      "sourceSha256": "523bcb9ab64102e57f539812dfcc9cfb78de254e478da7c82a6d54af03fec8aa",
+      "outputFile": "assets/patches/128-prediction-modern.webp",
+      "outputSha256": "cc41284eb85b5f812687c849a0fb3d0b64e948e4d98ab8b940057bf6337b3075",
+      "bytes": 6524,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 96833,
+        "debrisCovered": 56271,
+        "background": 214132
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 129,
+      "kind": "label",
+      "sourceFile": "assets/patches/129-label.webp",
+      "sourceSha256": "6babe087e6f71cc92fbdb74a590118d5728aa3e661c3bd9f6e40823aec39726e",
+      "outputFile": "assets/patches/129-label-modern.webp",
+      "outputSha256": "c94b6e9756e98c3e86a2a4ad17d22d018b57fa62eb64eb098bf1338e7a5ddd78",
+      "bytes": 5178,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 67793,
+        "debrisCovered": 35481,
+        "background": 263962
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 129,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/129-prediction.webp",
+      "sourceSha256": "4ee720649f71128316a10df2c6fb148e4a8dfc75bd762fd68964acfa0d566c40",
+      "outputFile": "assets/patches/129-prediction-modern.webp",
+      "outputSha256": "baecc7868b6a08e2c837ab0343623ed5ad229e7f2612d04f8b35605747475235",
+      "bytes": 5518,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 72786,
+        "debrisCovered": 29719,
+        "background": 264731
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 130,
+      "kind": "label",
+      "sourceFile": "assets/patches/130-label.webp",
+      "sourceSha256": "5a90579407c608462fc5d6173e2bf2ccde0fe18a62727ba0c62fb28b02c18d2c",
+      "outputFile": "assets/patches/130-label-modern.webp",
+      "outputSha256": "e7994bc46464b4f914bb7e172d4b09fe69898eec0c41b7d54bb674f108fc3132",
+      "bytes": 1778,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 79528,
+        "debrisCovered": 865,
+        "background": 286843
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 130,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/130-prediction.webp",
+      "sourceSha256": "782a96bf0a42bc62904e569e3fb1a9647b546e8fc1523f1eb50192d3cf26e34a",
+      "outputFile": "assets/patches/130-prediction-modern.webp",
+      "outputSha256": "79e6b9ff9ffe5ec7103bbd460b1383a96c64981292bb2a20158cfce92cf2640b",
+      "bytes": 4534,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 91454,
+        "debrisCovered": 7650,
+        "background": 268132
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 131,
+      "kind": "label",
+      "sourceFile": "assets/patches/131-label.webp",
+      "sourceSha256": "48e7d33e48f9525b1e3b3e184a2c11498e67fb3bbb6dac31e9e368d69c112175",
+      "outputFile": "assets/patches/131-label-modern.webp",
+      "outputSha256": "cb5481aa83e23128574bdb9dceba7bab5a76cb3c2ffefd44da7c82541ac3bbe2",
+      "bytes": 3924,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 142812,
+        "debrisCovered": 3128,
+        "background": 221296
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 131,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/131-prediction.webp",
+      "sourceSha256": "6d85c73364078005c80de92449e05b513bef5fbb34ee0dd0470c3503ecc39d92",
+      "outputFile": "assets/patches/131-prediction-modern.webp",
+      "outputSha256": "8ca841ecb2eb8c7bd3b2314364628f5218233a86a58085e6d18876c9c86bc41b",
+      "bytes": 7142,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 123332,
+        "debrisCovered": 13997,
+        "background": 229907
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 132,
+      "kind": "label",
+      "sourceFile": "assets/patches/132-label.webp",
+      "sourceSha256": "e6963b4a7616173a587c0f1649a0bf8ccc40938c727b5f15949be5964bd28220",
+      "outputFile": "assets/patches/132-label-modern.webp",
+      "outputSha256": "3da37cc01447c395b75037b8db711b62e0905d8819cddd449bcde2b020e9f66c",
+      "bytes": 5214,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 74495,
+        "debrisCovered": 4525,
+        "background": 288216
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 132,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/132-prediction.webp",
+      "sourceSha256": "1a7f1fb6948b180324db4ad98d54cd36e88583045a508eeed40064248de7bfe4",
+      "outputFile": "assets/patches/132-prediction-modern.webp",
+      "outputSha256": "6469f318b9a88ea600361b67eedeffaae4ef23e11340ac4353287e174e536cf4",
+      "bytes": 4504,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 60522,
+        "debrisCovered": 5228,
+        "background": 301486
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 133,
+      "kind": "label",
+      "sourceFile": "assets/patches/133-label.webp",
+      "sourceSha256": "26dffcd1a36324f32ca865f4d62238c75aad3bffd7346efa9a2e7ffe53f18f4d",
+      "outputFile": "assets/patches/133-label-modern.webp",
+      "outputSha256": "13627c9f261f26b18c8f5074792773a9a85cac82a1f63200e75ba75c27f0ff87",
+      "bytes": 2394,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 31059,
+        "debrisCovered": 6402,
+        "background": 329775
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 133,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/133-prediction.webp",
+      "sourceSha256": "23a28994eb2e49ab7d6c9cb7a5522f29053fc4f6808b968499cfb7b90e046a93",
+      "outputFile": "assets/patches/133-prediction-modern.webp",
+      "outputSha256": "bd742126e903441813505bbebdc7b8f182a0add0f3492a4c7cce3add30f046d6",
+      "bytes": 5752,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 80031,
+        "debrisCovered": 20408,
+        "background": 266797
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 134,
+      "kind": "label",
+      "sourceFile": "assets/patches/134-label.webp",
+      "sourceSha256": "59932f61cca9b815ced78689fdcdd4a2499c6f89afe688cbfddb3955f3ed25b7",
+      "outputFile": "assets/patches/134-label-modern.webp",
+      "outputSha256": "2eb45d23e7792da69d48b89956c34e4efb8078af2e44127349572b06498d1f2b",
+      "bytes": 6806,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 130570,
+        "debrisCovered": 43990,
+        "background": 192676
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 134,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/134-prediction.webp",
+      "sourceSha256": "297a1ec8b289ebfe0838e76e5bb34b8fe6fd7d36638adb42d6ce84d9da589da8",
+      "outputFile": "assets/patches/134-prediction-modern.webp",
+      "outputSha256": "63834cc7b403cf42eba4098385a423321c398acf76f83b4348eb333b36178f4d",
+      "bytes": 5604,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 86239,
+        "debrisCovered": 38188,
+        "background": 242809
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 135,
+      "kind": "label",
+      "sourceFile": "assets/patches/135-label.webp",
+      "sourceSha256": "27949595927566a5491212a54ef30daab175a4519b5501daadde071ffbc9ae6f",
+      "outputFile": "assets/patches/135-label-modern.webp",
+      "outputSha256": "0918c5d068fcc8cc09d951f3ccfadac55bc2a17062fdf5138bc963c304ac02e3",
+      "bytes": 4114,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 128804,
+        "debrisCovered": 10326,
+        "background": 228106
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 135,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/135-prediction.webp",
+      "sourceSha256": "4fee9331229af7c0cf86240dad32df872e863816dd7555c27d4f359811e75203",
+      "outputFile": "assets/patches/135-prediction-modern.webp",
+      "outputSha256": "f2565861e025ebdcfec7b2247a7dd8df8424f2fe20bb8bc6c4e3ba3a56f79c51",
+      "bytes": 6500,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 94461,
+        "debrisCovered": 22679,
+        "background": 250096
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 136,
+      "kind": "label",
+      "sourceFile": "assets/patches/136-label.webp",
+      "sourceSha256": "a986db806454a695d9685d6448eb735a0576514f7854faf7d7f7474a725439f7",
+      "outputFile": "assets/patches/136-label-modern.webp",
+      "outputSha256": "91ab6e981afeb11b1d1ff7c356198912b00af1a04544d7697f4a7fa5cc2099e7",
+      "bytes": 1598,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 121900,
+        "debrisCovered": 0,
+        "background": 245336
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 136,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/136-prediction.webp",
+      "sourceSha256": "ff2f27053d47d9f2e5cbad0dc8dd77172994148291c238c590c81f4417ce545b",
+      "outputFile": "assets/patches/136-prediction-modern.webp",
+      "outputSha256": "7fab5d2984d1631a232dc18d1f67dd4589cbf859150650e8299675242bd89f89",
+      "bytes": 5712,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 126822,
+        "debrisCovered": 4,
+        "background": 240410
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 137,
+      "kind": "label",
+      "sourceFile": "assets/patches/137-label.webp",
+      "sourceSha256": "1afef135c2bed9c74d48f7074156f62f7ea96825118b863c29476374ca1152a4",
+      "outputFile": "assets/patches/137-label-modern.webp",
+      "outputSha256": "09a81e3ff1b143af3541e562b9fdf7a2eea6eabc4e293b638d646c52ce9299ae",
+      "bytes": 4982,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 67699,
+        "debrisCovered": 12514,
+        "background": 287023
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 137,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/137-prediction.webp",
+      "sourceSha256": "84badda89e3c35cf64de1c775567150b564978c39238904c2ce816b1cdd78306",
+      "outputFile": "assets/patches/137-prediction-modern.webp",
+      "outputSha256": "f4bd85a6f97f5f85c4aa4139c3ff9550fce9c84305249b7022a5da1318c6b3f7",
+      "bytes": 5948,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 88320,
+        "debrisCovered": 17369,
+        "background": 261547
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 138,
+      "kind": "label",
+      "sourceFile": "assets/patches/138-label.webp",
+      "sourceSha256": "f19df2ac20ffbc3960f27894dd2bbe00711305516890d33acd5a1e727b419f18",
+      "outputFile": "assets/patches/138-label-modern.webp",
+      "outputSha256": "1835f795c1a207daf9f4e7d2f70fd2250a1994b2ccd5bcb34f599c77bf3cc634",
+      "bytes": 2012,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 22884,
+        "debrisCovered": 3708,
+        "background": 340644
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 138,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/138-prediction.webp",
+      "sourceSha256": "d6c31005335a77ade32f2032fcfba7b0b8f73609ccb459475d2ca8697c9b51fb",
+      "outputFile": "assets/patches/138-prediction-modern.webp",
+      "outputSha256": "385c383f122b24587c14987f8d4e9656bbaa22c485ef209a5726706ac4fcb0f2",
+      "bytes": 2990,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 22194,
+        "debrisCovered": 16501,
+        "background": 328541
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 139,
+      "kind": "label",
+      "sourceFile": "assets/patches/139-label.webp",
+      "sourceSha256": "6a589a3e8049cf47dc365d84aa90582a455ab84ac58bba2dd76a46c8076e690e",
+      "outputFile": "assets/patches/139-label-modern.webp",
+      "outputSha256": "939f4eee73489d52581189de2c78a2e7f9a64f09c574b0dbce2aeb6b8f3262de",
+      "bytes": 1990,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 17849,
+        "debrisCovered": 6313,
+        "background": 343074
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 139,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/139-prediction.webp",
+      "sourceSha256": "cb59a77b7296f2378f57d80127f605a1c6def614a7cc9a3ef16f203a445496db",
+      "outputFile": "assets/patches/139-prediction-modern.webp",
+      "outputSha256": "ba9f75def80d7edd3c8bdce5124dd928cb61dae5995d6341db04aadec4a1e58f",
+      "bytes": 3826,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 29399,
+        "debrisCovered": 17315,
+        "background": 320522
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 140,
+      "kind": "label",
+      "sourceFile": "assets/patches/140-label.webp",
+      "sourceSha256": "f9f652f038a0d1d98ba9a66f7516555c3cbe536d791d2ed33722343683b12a10",
+      "outputFile": "assets/patches/140-label-modern.webp",
+      "outputSha256": "3ad92d614db33d8cbd209e741868a329d7c3a9f907fe859a3e6c0624032732b3",
+      "bytes": 6472,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 174009,
+        "debrisCovered": 14674,
+        "background": 178553
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 140,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/140-prediction.webp",
+      "sourceSha256": "519d124d3979566c1f54108dd3ae7f7c96549cc0b2ce1a021e53e93ca221f221",
+      "outputFile": "assets/patches/140-prediction-modern.webp",
+      "outputSha256": "09ec116366ccec94a67a4ce272ba3ef64e1df3240f4b3e74bf70651eb1914ce2",
+      "bytes": 5958,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 96948,
+        "debrisCovered": 6444,
+        "background": 263844
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 141,
+      "kind": "label",
+      "sourceFile": "assets/patches/141-label.webp",
+      "sourceSha256": "672559b7dd664cef9f2de936d4fc5569e1020d7915e87550a765769cb510dadb",
+      "outputFile": "assets/patches/141-label-modern.webp",
+      "outputSha256": "db3ebbdab18030f36d7a5aa21f569116479dd9c2defa57d399b519d383361ba8",
+      "bytes": 2870,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 83260,
+        "debrisCovered": 12987,
+        "background": 270989
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 141,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/141-prediction.webp",
+      "sourceSha256": "ac42c5f57fc31eba992a81e05a795d37738d6bf4ea90536d67569ec7299144a0",
+      "outputFile": "assets/patches/141-prediction-modern.webp",
+      "outputSha256": "95355e79609a9795168e6b060b905bf9c0c61bbc79ea06361f11914d1baf47fe",
+      "bytes": 7832,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 181416,
+        "debrisCovered": 21446,
+        "background": 164374
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 142,
+      "kind": "label",
+      "sourceFile": "assets/patches/142-label.webp",
+      "sourceSha256": "d927b5d2b3934dc9940f18fb068dcad82660b9577b3785f1c62e098b7a294c69",
+      "outputFile": "assets/patches/142-label-modern.webp",
+      "outputSha256": "52fd57b7e7f39e2c87dc64f9457b1b481990bd74e0ac3d07c4769e6b4f220c2a",
+      "bytes": 1700,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 16951,
+        "debrisCovered": 0,
+        "background": 350285
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 142,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/142-prediction.webp",
+      "sourceSha256": "cd8d3c03abaabc526aca380e33bbc9b796f465cc5dad0e30c7c0de4ec071f5c9",
+      "outputFile": "assets/patches/142-prediction-modern.webp",
+      "outputSha256": "75fd985fc91677173a99150e7ad6483ab5f053a900956762bae255a39d54f782",
+      "bytes": 6434,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 76843,
+        "debrisCovered": 4280,
+        "background": 286113
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 143,
+      "kind": "label",
+      "sourceFile": "assets/patches/143-label.webp",
+      "sourceSha256": "18df32bad4f49b56826ce41726aa9e9c1c5931757075d551de809a4a88c9081c",
+      "outputFile": "assets/patches/143-label-modern.webp",
+      "outputSha256": "f67ae1a87e4bac34370e03294a04a50d1c7f51db59109acd83e58acb10d52a5e",
+      "bytes": 2766,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 31705,
+        "debrisCovered": 5351,
+        "background": 330180
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 143,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/143-prediction.webp",
+      "sourceSha256": "1d3304e1622aa65e5994b4e126d09302a58c7668a7f2029099f43e85461646d3",
+      "outputFile": "assets/patches/143-prediction-modern.webp",
+      "outputSha256": "0c0886e845100d11e1970a737d22ad000a3b5ab3c17ebc94388eb58ccc5b8fcd",
+      "bytes": 4020,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 54681,
+        "debrisCovered": 3524,
+        "background": 309031
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 144,
+      "kind": "label",
+      "sourceFile": "assets/patches/144-label.webp",
+      "sourceSha256": "721b6c84ae9cda078fdcffa1e29a1e851f9d17b83a01577ed45e4b7756818382",
+      "outputFile": "assets/patches/144-label-modern.webp",
+      "outputSha256": "bf67e9887647c5de249d6da86df3088471d3c580e4d6e08b77ceaf48900bbe03",
+      "bytes": 6138,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 108265,
+        "debrisCovered": 31415,
+        "background": 227556
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 144,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/144-prediction.webp",
+      "sourceSha256": "41b6d23e8b1a814f8e483a8a813e1ae29b889a77eac17b7f39518323e58f289b",
+      "outputFile": "assets/patches/144-prediction-modern.webp",
+      "outputSha256": "2022b97a54836ab0c0079ac744bbb7b31f09edd858086b7717ce989744cd5094",
+      "bytes": 8034,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 133253,
+        "debrisCovered": 21858,
+        "background": 212125
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 145,
+      "kind": "label",
+      "sourceFile": "assets/patches/145-label.webp",
+      "sourceSha256": "db1fe8c09e07ab944998208a30b89238ae5db33a1eb5cd53432e50157007abe9",
+      "outputFile": "assets/patches/145-label-modern.webp",
+      "outputSha256": "d8ae804912389c60a66289f894a84c5f3a7aa383705dfee862e26e9e06ab86fd",
+      "bytes": 7158,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 74999,
+        "debrisCovered": 60142,
+        "background": 232095
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 145,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/145-prediction.webp",
+      "sourceSha256": "d47b538ca2485d12e17797cf606092aa49d3dc61525260d207c54fe11747e083",
+      "outputFile": "assets/patches/145-prediction-modern.webp",
+      "outputSha256": "90033d37ac0eef2d0de2598c5469c82fb647afe4e6bf5bbb3501a9e97ef2fe60",
+      "bytes": 6964,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 100270,
+        "debrisCovered": 47191,
+        "background": 219775
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 146,
+      "kind": "label",
+      "sourceFile": "assets/patches/146-label.webp",
+      "sourceSha256": "91065dcfff91b178e0cf83d3f326d36805ca6436b64694bd94bdcaad37a3678f",
+      "outputFile": "assets/patches/146-label-modern.webp",
+      "outputSha256": "062d0ea3c591a7ebe02e2cbc9486edf9c4c1d179d76dac6b3a5a9f8dc9055e59",
+      "bytes": 4870,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 36957,
+        "debrisCovered": 53497,
+        "background": 276782
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 146,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/146-prediction.webp",
+      "sourceSha256": "7b1a79e51979bf595efb35bfc0aac2e91b1447d3b73e17548a2e69c2e2c2160f",
+      "outputFile": "assets/patches/146-prediction-modern.webp",
+      "outputSha256": "380137782abd87976cc52c0a20fe77da1f0dfe6cbb8b0057dd6a8ba3e012d7db",
+      "bytes": 5106,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 50214,
+        "debrisCovered": 48461,
+        "background": 268561
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 147,
+      "kind": "label",
+      "sourceFile": "assets/patches/147-label.webp",
+      "sourceSha256": "d139556d256e7e9eed98ea7025ad62a1599d1edbc3b38dcd9c3d7239b05be0fc",
+      "outputFile": "assets/patches/147-label-modern.webp",
+      "outputSha256": "e1bc39b609db6efac3559f67a6a63428082d02433ecdff389fc0fc4c9d69f834",
+      "bytes": 2856,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 47754,
+        "debrisCovered": 0,
+        "background": 319482
+      },
+      "decodedClassAssignmentsIdentical": true
+    },
+    {
+      "patchId": 147,
+      "kind": "prediction",
+      "sourceFile": "assets/patches/147-prediction.webp",
+      "sourceSha256": "700df47cecf6d0f9e065a9319eba22d0cb223a5774d96b2c0836edbb6c02bc31",
+      "outputFile": "assets/patches/147-prediction-modern.webp",
+      "outputSha256": "acb7e7e434a45de223622b316063548e5b95c944128d19a867ddd2336bcc718e",
+      "bytes": 4980,
+      "width": 606,
+      "height": 606,
+      "renderedPixelClassCounts": {
+        "cleanIce": 72056,
+        "debrisCovered": 11314,
+        "background": 283866
+      },
+      "decodedClassAssignmentsIdentical": true
+    }
+  ]
+}

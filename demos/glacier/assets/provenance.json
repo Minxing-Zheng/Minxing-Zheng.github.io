@@ -1,0 +1,3300 @@
+{
+  "title": "Glacier segmentation public panel display assets",
+  "source": {
+    "url": "https://bruce-zheng.shinyapps.io/glacier_segmententation/",
+    "description": "147 publicly displayed comparison figures archived from the original Shiny application.",
+    "selectionManifest": "patches-verified.json",
+    "selectionManifestSha256": "798c9215a83e598edbdec42b1068bd2f37d6d4b2d93e566b68eda7e83e7d88f5",
+    "imageDimensions": [
+      2640,
+      660
+    ],
+    "patchIds": {
+      "first": 1,
+      "last": 147,
+      "count": 147
+    }
+  },
+  "processing": {
+    "description": "Deterministic rectangular crops of rendered RGB scientific figures, encoded as lossless WebP.",
+    "cropConvention": "[left, top, right, bottom]; right and bottom exclusive; original image pixel coordinates.",
+    "cropBoxes": {
+      "raw": [
+        140,
+        48,
+        746,
+        654
+      ],
+      "label": [
+        1020,
+        48,
+        1626,
+        654
+      ],
+      "prediction": [
+        1900,
+        48,
+        2506,
+        654
+      ]
+    },
+    "outputDimensions": [
+      606,
+      606
+    ],
+    "resampled": false,
+    "recolored": false,
+    "orientationChanged": false,
+    "compression": "lossless WebP; each decoded image is byte-identical to the source RGB crop"
+  },
+  "limitations": [
+    "Images are recovered rendered visualizations, rather than original satellite arrays or model output arrays.",
+    "Original rendered colors and antialiasing are retained; image colors must not be treated as exact class probabilities.",
+    "Accuracy values reproduce the public application display and retain its reported three-decimal precision.",
+    "No coordinates, class coverage, IoU, model metrics, or other measurements have been inferred."
+  ],
+  "verification": {
+    "uniqueSourceImages": 147,
+    "triplets": 147,
+    "outputImages": 441,
+    "allOutputPixelsIdenticalToSourceCrop": true,
+    "allMaskPanelBoundariesVerified": true,
+    "totalImageBytes": 50373784
+  },
+  "patches": [
+    {
+      "id": 1,
+      "sourceFile": "patch-1-comparison.png",
+      "sourceSha256": "b221f0e3cfb8828610b1777ac77d05d7ae433501d4bca2836798725e8b6b3750",
+      "outputs": {
+        "raw": {
+          "file": "patches/001-raw.webp",
+          "sha256": "b5c30a30211d3b11afa49ddddc8b318bc2e60ffe82c441bd268b9d3722ec4bb8",
+          "bytes": 364860
+        },
+        "label": {
+          "file": "patches/001-label.webp",
+          "sha256": "207a08de9b6956d902c8c2449bdb69cf3171cba0f26375e731d2ded91279ca77",
+          "bytes": 5698
+        },
+        "prediction": {
+          "file": "patches/001-prediction.webp",
+          "sha256": "001bbbee5963dfdf424623379229f1e2dcd49acb16b414e94cabd0dd68db4b51",
+          "bytes": 5392
+        }
+      }
+    },
+    {
+      "id": 2,
+      "sourceFile": "patch-2-comparison.png",
+      "sourceSha256": "01c230cfbaeeafe59ee228afe2b1bcaeb7251511f12055d5d96ebecc430b9b7f",
+      "outputs": {
+        "raw": {
+          "file": "patches/002-raw.webp",
+          "sha256": "e09bc237eed6186f01f354fb30307c6ec20b20f5b1c5accb45aa9618ade1bcbf",
+          "bytes": 411862
+        },
+        "label": {
+          "file": "patches/002-label.webp",
+          "sha256": "2a2c2a45ea80c96aa7aee05a7a6bb35b90505cb3644e87c86cba753998db875e",
+          "bytes": 6618
+        },
+        "prediction": {
+          "file": "patches/002-prediction.webp",
+          "sha256": "d12b84328d97bcd13a3d5b28f8e9f7a6c4b70c4e67bfa1405bdd4d7755c6da81",
+          "bytes": 6574
+        }
+      }
+    },
+    {
+      "id": 3,
+      "sourceFile": "patch-3-comparison.png",
+      "sourceSha256": "14306d07ff0269aed91c33f64c5ae24dbfab82a3d2c949a70831ac0a224dd4e9",
+      "outputs": {
+        "raw": {
+          "file": "patches/003-raw.webp",
+          "sha256": "ca1b68896dd15db71b11cf8811f81b9534b4b77391124998e1ba0a10f9f92a76",
+          "bytes": 315568
+        },
+        "label": {
+          "file": "patches/003-label.webp",
+          "sha256": "37217a915b9cc3c0e024ede33930f25b26b47cb6c2ac1aff079bd01b0b7f075f",
+          "bytes": 5200
+        },
+        "prediction": {
+          "file": "patches/003-prediction.webp",
+          "sha256": "b96ab0473c9ec9f64e9587b5ddd751160b1c92bc05bb1f54036d21ad19269c87",
+          "bytes": 5714
+        }
+      }
+    },
+    {
+      "id": 4,
+      "sourceFile": "patch-4-comparison.png",
+      "sourceSha256": "68f8184dbf0afcc3e22fb867b64b2d6ce4d729063db8cba7921e256c6ff2fa91",
+      "outputs": {
+        "raw": {
+          "file": "patches/004-raw.webp",
+          "sha256": "d2fb164d31efa505ddf053d6a49f80a499fd8b5d630c3927d6295f14972f8c96",
+          "bytes": 275582
+        },
+        "label": {
+          "file": "patches/004-label.webp",
+          "sha256": "b1fa92ec4f5d435bfe3604eb998bcbe43f1391c6962985042e2134b748b993ce",
+          "bytes": 5534
+        },
+        "prediction": {
+          "file": "patches/004-prediction.webp",
+          "sha256": "cf2dd36abf274f76038c26bd5906f9c6dda710ea80125a4138ee24273c02dd2c",
+          "bytes": 5260
+        }
+      }
+    },
+    {
+      "id": 5,
+      "sourceFile": "patch-5-comparison.png",
+      "sourceSha256": "1f1c6fdfc777cd3b8b17d7f0afaebfc27ea5b3540b232858ef2710b10bc928d9",
+      "outputs": {
+        "raw": {
+          "file": "patches/005-raw.webp",
+          "sha256": "b3d6c89e2445d52c9d7a4396c08b0139d7eb3730ef0e01eca699aeba6c2608c6",
+          "bytes": 376512
+        },
+        "label": {
+          "file": "patches/005-label.webp",
+          "sha256": "00828f1f39b548c53b240d54be2863721328f3519f24bee7f08fe3ae74e7dd22",
+          "bytes": 6270
+        },
+        "prediction": {
+          "file": "patches/005-prediction.webp",
+          "sha256": "dc10cc4a020acbd83bdd5c6e6c8e4273ed7cc978bb715a50ec9a8e572b550c65",
+          "bytes": 5690
+        }
+      }
+    },
+    {
+      "id": 6,
+      "sourceFile": "patch-6-comparison.png",
+      "sourceSha256": "eabf9120d5827769083858205ffadee1beb396e5881762836d12945c32a36cf0",
+      "outputs": {
+        "raw": {
+          "file": "patches/006-raw.webp",
+          "sha256": "6eed4cfaee4a3a76bf98434b61bc9593eac4291a1dfdc156af9b4b055aae0fe6",
+          "bytes": 337184
+        },
+        "label": {
+          "file": "patches/006-label.webp",
+          "sha256": "67560beb085d9ec9180d21d638ee7391f2cb49cfe72623f2800a5de6e76d5976",
+          "bytes": 4226
+        },
+        "prediction": {
+          "file": "patches/006-prediction.webp",
+          "sha256": "f444fb1e64be005c6f8e4df6a2294e9f59ae4633eab57051f61696214fa56a9c",
+          "bytes": 3392
+        }
+      }
+    },
+    {
+      "id": 7,
+      "sourceFile": "patch-7-comparison.png",
+      "sourceSha256": "53c0b24a172d397369a6194739369b5ed33b5e167186af7117954e03ea7eef9d",
+      "outputs": {
+        "raw": {
+          "file": "patches/007-raw.webp",
+          "sha256": "84fda3019f3e7825ae903cab5f099ae14cfb3bee412b71f43e451361a905c8e1",
+          "bytes": 370426
+        },
+        "label": {
+          "file": "patches/007-label.webp",
+          "sha256": "8334a2dfde37ea254d18582f31d010878452809f4737bc51561fb938ff5ec9e9",
+          "bytes": 6946
+        },
+        "prediction": {
+          "file": "patches/007-prediction.webp",
+          "sha256": "10c9040f91ddf4ce4c8c7a0d513fa9ebf93bc46cbd1e03613b789d2bcf2595d6",
+          "bytes": 6248
+        }
+      }
+    },
+    {
+      "id": 8,
+      "sourceFile": "patch-8-comparison.png",
+      "sourceSha256": "968467e8d6a6b97d966c8fa88a92dec70cb27183d2ec36853480a4964f79d118",
+      "outputs": {
+        "raw": {
+          "file": "patches/008-raw.webp",
+          "sha256": "fe83b37999bae1e2b2dc64633097d9b519491619d57647377eb62ba99e2fa6dd",
+          "bytes": 348948
+        },
+        "label": {
+          "file": "patches/008-label.webp",
+          "sha256": "a435c2779e228ab3555dd84e377b043d76a6430f0b471015cb0243fb49caeaac",
+          "bytes": 2404
+        },
+        "prediction": {
+          "file": "patches/008-prediction.webp",
+          "sha256": "f921be84f6086bfa4c0a62b7a1ac8e66742953e2f999842069caca421b04806f",
+          "bytes": 4204
+        }
+      }
+    },
+    {
+      "id": 9,
+      "sourceFile": "patch-9-comparison.png",
+      "sourceSha256": "1c9437853afa778d160f02d6b64a43770c13cbd4f00e62bc646cdff36610d675",
+      "outputs": {
+        "raw": {
+          "file": "patches/009-raw.webp",
+          "sha256": "b1af7d5c52b7d5e064ea13d0fb1fe6953bdccd9b05479ea07bfaaa5e7258396b",
+          "bytes": 175076
+        },
+        "label": {
+          "file": "patches/009-label.webp",
+          "sha256": "3990844b30376ac99d4f47722b6407fee6706f8f115512d68ecf71872a3733e1",
+          "bytes": 3446
+        },
+        "prediction": {
+          "file": "patches/009-prediction.webp",
+          "sha256": "ba8003b0494ecd6114beab16481d13d41beb32d4398c455ad3cc31888680c9f7",
+          "bytes": 5064
+        }
+      }
+    },
+    {
+      "id": 10,
+      "sourceFile": "patch-10-comparison.png",
+      "sourceSha256": "8881cfa6122be9cede1715138d529dd7ee8dadab45d5aaf9f09f8be4b48a0696",
+      "outputs": {
+        "raw": {
+          "file": "patches/010-raw.webp",
+          "sha256": "d7b02fec192c8707708019a072878fb3441b41e8464c685a80d7dedc9bf252e8",
+          "bytes": 178204
+        },
+        "label": {
+          "file": "patches/010-label.webp",
+          "sha256": "dc4e8d6d97383b657aa2cb4df15d6fb16c2e7442edaabadf15609d317d0ee744",
+          "bytes": 1138
+        },
+        "prediction": {
+          "file": "patches/010-prediction.webp",
+          "sha256": "d4500dffda73b605121904f642c5e52cad2de343be358a9c271a634008d4ef4d",
+          "bytes": 5710
+        }
+      }
+    },
+    {
+      "id": 11,
+      "sourceFile": "patch-11-comparison.png",
+      "sourceSha256": "f7f6e0b0990972b0cffd9f74686844c03870a51f3069722cb5b302f338199eaf",
+      "outputs": {
+        "raw": {
+          "file": "patches/011-raw.webp",
+          "sha256": "648bba6f9ea0c9fdcfd5abb96b13a7de74525a596bab5e5d61594ac31944661c",
+          "bytes": 302980
+        },
+        "label": {
+          "file": "patches/011-label.webp",
+          "sha256": "a0245a83412b273c519bdb030d9ce9129b47cc63d6cde8733070c29ab0fe43c7",
+          "bytes": 794
+        },
+        "prediction": {
+          "file": "patches/011-prediction.webp",
+          "sha256": "62734f19623c25f4eba94338e8d797e84369929446fbb0f40e47781ac3f72388",
+          "bytes": 2686
+        }
+      }
+    },
+    {
+      "id": 12,
+      "sourceFile": "patch-12-comparison.png",
+      "sourceSha256": "4cd1a65190b66470cadc50939eb94012d220f70da4021925c46929e16e709f32",
+      "outputs": {
+        "raw": {
+          "file": "patches/012-raw.webp",
+          "sha256": "005f94c9ac0cc690c5ee8f4a19df2aeac5cda4f50e907307d2ee72dff215dd29",
+          "bytes": 253394
+        },
+        "label": {
+          "file": "patches/012-label.webp",
+          "sha256": "42625d15115edd9aec4c5e6be33521bb90098b0edc5e02a66bca8fdd62a7a489",
+          "bytes": 3068
+        },
+        "prediction": {
+          "file": "patches/012-prediction.webp",
+          "sha256": "0fa186ac7969637ee840b4befb765529f93f2331136de9341d27cda2c3a3466e",
+          "bytes": 3136
+        }
+      }
+    },
+    {
+      "id": 13,
+      "sourceFile": "patch-13-comparison.png",
+      "sourceSha256": "99f42493d212d016767a95728f7935e088250b0e56b0cf5d0a92a67b94385a5a",
+      "outputs": {
+        "raw": {
+          "file": "patches/013-raw.webp",
+          "sha256": "03a104a7552fd39779aa23c28009dfbd812cc67db66297e7addb8f80eb402554",
+          "bytes": 438062
+        },
+        "label": {
+          "file": "patches/013-label.webp",
+          "sha256": "00d60932f8907016ed4055ef254775224eea4ee8194453855a5c92085a28fee5",
+          "bytes": 2672
+        },
+        "prediction": {
+          "file": "patches/013-prediction.webp",
+          "sha256": "cc6545447fca6b75bcdfc918f77fc1ffbc706dc116c3346eeb40a9d603728a07",
+          "bytes": 5104
+        }
+      }
+    },
+    {
+      "id": 14,
+      "sourceFile": "patch-14-comparison.png",
+      "sourceSha256": "64297cc7a4a9af5089fdc81cb156cd59aea98d80201dabcc941d191caf92c200",
+      "outputs": {
+        "raw": {
+          "file": "patches/014-raw.webp",
+          "sha256": "aa52df5be39cf7117655ae839f7287316899c7d18b4d3de7d41722866da214a0",
+          "bytes": 315582
+        },
+        "label": {
+          "file": "patches/014-label.webp",
+          "sha256": "4d39f1f28a1638012ce38335407b075ed4a9435ee344c32caed673265b8765d7",
+          "bytes": 3286
+        },
+        "prediction": {
+          "file": "patches/014-prediction.webp",
+          "sha256": "44c5a6e9c5309570d6a28c6bc757181a635961489000b757d4e23889a612c8e0",
+          "bytes": 4352
+        }
+      }
+    },
+    {
+      "id": 15,
+      "sourceFile": "patch-15-comparison.png",
+      "sourceSha256": "cab5e7831753aede1d7f0cd5419d6ac24886e96ecfffed2753e7fb80383a5513",
+      "outputs": {
+        "raw": {
+          "file": "patches/015-raw.webp",
+          "sha256": "c3e20097f48978a0e6a3856184ff2d93de3dace7964fd1adc445ef9c986b571b",
+          "bytes": 402838
+        },
+        "label": {
+          "file": "patches/015-label.webp",
+          "sha256": "752f5d3fdb235e1d2a8020eced79ebd7e4494fc832ea9169dbd5e0afcfb38de0",
+          "bytes": 3786
+        },
+        "prediction": {
+          "file": "patches/015-prediction.webp",
+          "sha256": "42b2536ceac8a73a0e10d0bf2d35f8c3d4069b82b646b5285ade2554c563c2c8",
+          "bytes": 5874
+        }
+      }
+    },
+    {
+      "id": 16,
+      "sourceFile": "patch-16-comparison.png",
+      "sourceSha256": "62b163787e290b9f26db0e7bc81b560eff180e5cee5b4d99b50aba3b6ba80447",
+      "outputs": {
+        "raw": {
+          "file": "patches/016-raw.webp",
+          "sha256": "bd17c9531ff2b423c43f680746dc0cc057ad13efca9d10e7ef525e0d4b60cc0c",
+          "bytes": 402344
+        },
+        "label": {
+          "file": "patches/016-label.webp",
+          "sha256": "2c529e492dc98382dbb3bafdfcbd8241c1f2ae21838400025c2e6931cd47894e",
+          "bytes": 5274
+        },
+        "prediction": {
+          "file": "patches/016-prediction.webp",
+          "sha256": "46b65fb86ad5fc3276ed4c10aac404e64cf941f50e959c2e6e86ac31e9306792",
+          "bytes": 5700
+        }
+      }
+    },
+    {
+      "id": 17,
+      "sourceFile": "patch-17-comparison.png",
+      "sourceSha256": "e867d40c1a684539c3a405efff977b29ef23a502cfac06d08bd911ce0d24d556",
+      "outputs": {
+        "raw": {
+          "file": "patches/017-raw.webp",
+          "sha256": "5d5233d997f8963b9d328baf5f6df5df764abeb8ebac72c509c62468e4d76193",
+          "bytes": 416280
+        },
+        "label": {
+          "file": "patches/017-label.webp",
+          "sha256": "6dd8e5e5ee33a9df761ebbe24ab27bd776767bc4aab427a45c4901616b9a2cac",
+          "bytes": 5850
+        },
+        "prediction": {
+          "file": "patches/017-prediction.webp",
+          "sha256": "58fcaf65d0870a1102b34347e870aac6c86f00f3a3e07de31777572f35a72c09",
+          "bytes": 5648
+        }
+      }
+    },
+    {
+      "id": 18,
+      "sourceFile": "patch-18-comparison.png",
+      "sourceSha256": "23fd587b9264e1d2057fb2d111e8eb227b47bd72cae9c24783b39fac571c6c8d",
+      "outputs": {
+        "raw": {
+          "file": "patches/018-raw.webp",
+          "sha256": "47466fa85c0c4e0b24cba6a31469c60800bd2ac82918fc80b2f74b070343c557",
+          "bytes": 416938
+        },
+        "label": {
+          "file": "patches/018-label.webp",
+          "sha256": "f74ee8c67e8e7ecde2842d75595751c6d681e8228d8ddae0888666362dd08191",
+          "bytes": 4288
+        },
+        "prediction": {
+          "file": "patches/018-prediction.webp",
+          "sha256": "35c2dbab0d875c140b1dc6478e6f35c9366c92bab7bd90f691e3b78e94407d65",
+          "bytes": 5068
+        }
+      }
+    },
+    {
+      "id": 19,
+      "sourceFile": "patch-19-comparison.png",
+      "sourceSha256": "91fdfe04b94c43ff05c16f03f9e001d581d2b2ee6eaf4f8d48d08333ceba73a7",
+      "outputs": {
+        "raw": {
+          "file": "patches/019-raw.webp",
+          "sha256": "3deae4ea400a33acbe93f67afdd45713c3c798c90afe0f9b9db6c96665847730",
+          "bytes": 346912
+        },
+        "label": {
+          "file": "patches/019-label.webp",
+          "sha256": "65d92af883d3a2d6934c4ab85e4632d18c02ef4683f644796ee35e46b2c087b9",
+          "bytes": 1844
+        },
+        "prediction": {
+          "file": "patches/019-prediction.webp",
+          "sha256": "8ce6800ebf1424f79c08867e261e99197cdaff6e520f6a3957516b69649eff77",
+          "bytes": 2922
+        }
+      }
+    },
+    {
+      "id": 20,
+      "sourceFile": "patch-20-comparison.png",
+      "sourceSha256": "e7aba1fcee9345a183bc7c09279a5d18ca0463f0c25f5660efa477a3abfa8bfe",
+      "outputs": {
+        "raw": {
+          "file": "patches/020-raw.webp",
+          "sha256": "07967c3a3f8d06acb7772a0ca5f46aa9a87aaab25cb4c9ee60cf1d6e55612e81",
+          "bytes": 358380
+        },
+        "label": {
+          "file": "patches/020-label.webp",
+          "sha256": "40dc77df8869f7b41e3eddb8896d50f514f225ba3f34d9a7afe3ebab99fb456a",
+          "bytes": 5548
+        },
+        "prediction": {
+          "file": "patches/020-prediction.webp",
+          "sha256": "27f3ffeec33440623627b2ff51682e35b5c0a369f7f6c163a5caef96ac3072f0",
+          "bytes": 6876
+        }
+      }
+    },
+    {
+      "id": 21,
+      "sourceFile": "patch-21-comparison.png",
+      "sourceSha256": "249b6ad80ba9b8631bbc715d1489117eb1424b580ea9292980c9044e1e1d327e",
+      "outputs": {
+        "raw": {
+          "file": "patches/021-raw.webp",
+          "sha256": "b918f1bc111aae2ed4260aa5215eb9e81cc112619f0ce1a38965dcf458d4532b",
+          "bytes": 361022
+        },
+        "label": {
+          "file": "patches/021-label.webp",
+          "sha256": "641631b71991707f24a91a668d520f3e30fbcef4b12a5b0a44e35a50b9310cab",
+          "bytes": 5896
+        },
+        "prediction": {
+          "file": "patches/021-prediction.webp",
+          "sha256": "57127297ec319b4aea0003ecdec94d1f38116b445dcd7685c1fa560f2a00cbd6",
+          "bytes": 6874
+        }
+      }
+    },
+    {
+      "id": 22,
+      "sourceFile": "patch-22-comparison.png",
+      "sourceSha256": "d0d14bf05d73cdb815b169d4e92da581edadeded4c32b1b3bc0e0ff89b643631",
+      "outputs": {
+        "raw": {
+          "file": "patches/022-raw.webp",
+          "sha256": "9b8bcf586eb61645ba79fda0436c17bd4147390de31c7f2c90a330e991037aab",
+          "bytes": 269374
+        },
+        "label": {
+          "file": "patches/022-label.webp",
+          "sha256": "798d0f09ee32c81ab5d0c93ff2096486908ea738f4bf27c79e056ca0553ce412",
+          "bytes": 3372
+        },
+        "prediction": {
+          "file": "patches/022-prediction.webp",
+          "sha256": "d6f4a7ff210fe58e7305eee039175cc6a1174f8d59c38feaa552681c4b05dbba",
+          "bytes": 8006
+        }
+      }
+    },
+    {
+      "id": 23,
+      "sourceFile": "patch-23-comparison.png",
+      "sourceSha256": "0fe205c2cebbe091559c57f8abfff0bbcf981ab4ed11f050a18a5879194cb12e",
+      "outputs": {
+        "raw": {
+          "file": "patches/023-raw.webp",
+          "sha256": "4166e781638ff3d27cca8972abdd65d03ebd24e9259c89de69cd800a997a2b04",
+          "bytes": 324148
+        },
+        "label": {
+          "file": "patches/023-label.webp",
+          "sha256": "89d55031c3f909890d08fabc99dd86ff8df4186a080aada62064ad4569a9ce42",
+          "bytes": 5280
+        },
+        "prediction": {
+          "file": "patches/023-prediction.webp",
+          "sha256": "ecfcb0c0009fb3c71c64d18bcde88c7e9ff70a649b5cb1adf7f6710497a176ca",
+          "bytes": 4708
+        }
+      }
+    },
+    {
+      "id": 24,
+      "sourceFile": "patch-24-comparison.png",
+      "sourceSha256": "c4fe55f602c7ea701b28d47bf21f7f929f3989825b488a434e4f8c188200d2c3",
+      "outputs": {
+        "raw": {
+          "file": "patches/024-raw.webp",
+          "sha256": "952f9d39f945d51f17df42306a1ae73edd417722ca756fff9fc54dd64397f369",
+          "bytes": 414820
+        },
+        "label": {
+          "file": "patches/024-label.webp",
+          "sha256": "c6909bf1f1a40168e0388935d01739e41cfce36675126d095f077295cccc2771",
+          "bytes": 2476
+        },
+        "prediction": {
+          "file": "patches/024-prediction.webp",
+          "sha256": "eddd14a14affc10dc4f75a6b25cd83ad1bac990bc6274b35a8c8ebf8332d2985",
+          "bytes": 3562
+        }
+      }
+    },
+    {
+      "id": 25,
+      "sourceFile": "patch-25-comparison.png",
+      "sourceSha256": "797ce46fc7b20ce66aad938a72258fe099d1e1c163cbe02b0a9119b9ed14de22",
+      "outputs": {
+        "raw": {
+          "file": "patches/025-raw.webp",
+          "sha256": "56bb3b823fa48e3decf0da8bd245a2e9f77e392c9be52c42b6bbee8414f9b55d",
+          "bytes": 432926
+        },
+        "label": {
+          "file": "patches/025-label.webp",
+          "sha256": "6cda8567a9a8c001711e0ec18b65f3d273d0312b5fd69355db0c31fb00c6fce5",
+          "bytes": 2072
+        },
+        "prediction": {
+          "file": "patches/025-prediction.webp",
+          "sha256": "ed087c9aff0f9283775c1d5dd030efafdb3411b8174f264ad1790d87823fd39f",
+          "bytes": 3250
+        }
+      }
+    },
+    {
+      "id": 26,
+      "sourceFile": "patch-26-comparison.png",
+      "sourceSha256": "d9b5b14476f651393affbf998f59c8474dc9e2b00d3011e98e1ae3f81aa8e323",
+      "outputs": {
+        "raw": {
+          "file": "patches/026-raw.webp",
+          "sha256": "3c9a8525baf9349a178b18cbd5fbe24f4b2670677ca1d0e4ce89d0f044008973",
+          "bytes": 394680
+        },
+        "label": {
+          "file": "patches/026-label.webp",
+          "sha256": "6c2686feb3af8e403af6663dbd844a8afeb34748ae5906a671f519022af8d794",
+          "bytes": 7400
+        },
+        "prediction": {
+          "file": "patches/026-prediction.webp",
+          "sha256": "0ce6f13c61e24c30e5cfffbba6953db55127391e96ea7f4403b5ec85c040d397",
+          "bytes": 6698
+        }
+      }
+    },
+    {
+      "id": 27,
+      "sourceFile": "patch-27-comparison.png",
+      "sourceSha256": "34c666c7bb5747a5968b9998da25fd27bdc344e3a53b50829bc5bae15ada52f9",
+      "outputs": {
+        "raw": {
+          "file": "patches/027-raw.webp",
+          "sha256": "94275ed1d258f0d9bd66b113f063ecd4f61902669569906bac561a7b5d88b5df",
+          "bytes": 301804
+        },
+        "label": {
+          "file": "patches/027-label.webp",
+          "sha256": "c2ce8eafb919d050363e05a0f94f06e52ce68e82c9ce3c05bb8546f2bb75e77a",
+          "bytes": 3846
+        },
+        "prediction": {
+          "file": "patches/027-prediction.webp",
+          "sha256": "8ce70932a553d6dfa7b2544cb2b43e235f6292fa846ba86652e594c9b2e05c84",
+          "bytes": 5152
+        }
+      }
+    },
+    {
+      "id": 28,
+      "sourceFile": "patch-28-comparison.png",
+      "sourceSha256": "37e2cf55f03a789032f3f3d9cc411262ab12b718d6f873d0001527edd57a7437",
+      "outputs": {
+        "raw": {
+          "file": "patches/028-raw.webp",
+          "sha256": "0e7d028fd2e991a991515b6a5982bbc7aeda285fb4ed3febcf848f0ff550c3bf",
+          "bytes": 424506
+        },
+        "label": {
+          "file": "patches/028-label.webp",
+          "sha256": "d9a81548283f3367508130b49f11726d537b5220ba68f6f1e0624ff463826ff9",
+          "bytes": 3398
+        },
+        "prediction": {
+          "file": "patches/028-prediction.webp",
+          "sha256": "6f5ccce79e4c561aa7731675e4869fad1c5d09531455871509b794630ca336eb",
+          "bytes": 4618
+        }
+      }
+    },
+    {
+      "id": 29,
+      "sourceFile": "patch-29-comparison.png",
+      "sourceSha256": "6380c86c2013bbea15f59237e9462bcd95ac7ddf4e68b7603f14f94ec1dc03e5",
+      "outputs": {
+        "raw": {
+          "file": "patches/029-raw.webp",
+          "sha256": "f54c05d48e3e1e92222072ad9d2b5cba4708d497027fc34fe27b0acb0bfbdb91",
+          "bytes": 200408
+        },
+        "label": {
+          "file": "patches/029-label.webp",
+          "sha256": "0dcc1c9fd3a21d7eea662e22052f516eddeb69b45642d77724aeb7a9c2d859cc",
+          "bytes": 1578
+        },
+        "prediction": {
+          "file": "patches/029-prediction.webp",
+          "sha256": "2fc97b18ef99d3757e6c6329d07eda4aaf0429446ad1b05c258369a520da200a",
+          "bytes": 6078
+        }
+      }
+    },
+    {
+      "id": 30,
+      "sourceFile": "patch-30-comparison.png",
+      "sourceSha256": "3f8458320a5a4cf67a8802dcb896703fd0e45ef71944e1c35999c0192733b721",
+      "outputs": {
+        "raw": {
+          "file": "patches/030-raw.webp",
+          "sha256": "657f4b2c0271aebe14decbcd6129e92227d5c176972c5a5c5dd98622a8980572",
+          "bytes": 393086
+        },
+        "label": {
+          "file": "patches/030-label.webp",
+          "sha256": "a45c228df06f926fb214346a0dd780ff6bcf220e69c551d81e6e9a5460a47958",
+          "bytes": 7058
+        },
+        "prediction": {
+          "file": "patches/030-prediction.webp",
+          "sha256": "4ad64e8885445750d0fa8915352865d73f127343467657f4d0748d8e6a0fe399",
+          "bytes": 6014
+        }
+      }
+    },
+    {
+      "id": 31,
+      "sourceFile": "patch-31-comparison.png",
+      "sourceSha256": "483081ec81891b080d1c03a8356356019139ef7559ee2aaef1e142b24af0f26c",
+      "outputs": {
+        "raw": {
+          "file": "patches/031-raw.webp",
+          "sha256": "a63355517ef2aed90fed1b4c434c6d486feb087473c7cf95f28a748e79548115",
+          "bytes": 293602
+        },
+        "label": {
+          "file": "patches/031-label.webp",
+          "sha256": "feecb11c105bce0f1703756e73ae8dae2e97af86f949f502bf609a56ad79ef98",
+          "bytes": 3216
+        },
+        "prediction": {
+          "file": "patches/031-prediction.webp",
+          "sha256": "42f8875d4031782a002faf0ae60e472f905e2eaa5f6b4df8bd18740aa355a9dd",
+          "bytes": 6238
+        }
+      }
+    },
+    {
+      "id": 32,
+      "sourceFile": "patch-32-comparison.png",
+      "sourceSha256": "7106f71d3a941cf96d01b5f3423ecac5f3064a0b5f660d81ae3f5f4ad7b95a99",
+      "outputs": {
+        "raw": {
+          "file": "patches/032-raw.webp",
+          "sha256": "80d8b4c45326481ea47fbe9cdff464a8cb13652443dd7daa050e5ea464bc0aee",
+          "bytes": 395414
+        },
+        "label": {
+          "file": "patches/032-label.webp",
+          "sha256": "fb89c484dc051a7f4c33413104b6ef8728c250ff775239f0f1054db833986b7f",
+          "bytes": 6660
+        },
+        "prediction": {
+          "file": "patches/032-prediction.webp",
+          "sha256": "ee2bea11444bc8e3a3d87d54fc5efc7c18daaa8bd45ba22edddaba7638c4a971",
+          "bytes": 6994
+        }
+      }
+    },
+    {
+      "id": 33,
+      "sourceFile": "patch-33-comparison.png",
+      "sourceSha256": "8d5d50cd49557fd5e6a49b3b038f35e87570b2f657de3f751df9fec025a2e782",
+      "outputs": {
+        "raw": {
+          "file": "patches/033-raw.webp",
+          "sha256": "f7c4322d5c9870e90ade20c1f2bd7df7b6b3ece704ae4a1c941a5f25838087f2",
+          "bytes": 241918
+        },
+        "label": {
+          "file": "patches/033-label.webp",
+          "sha256": "096622aee812e01d0c4d7743c5e4a90f1444b673efa5bc7ead5e41e9ea9b8d3f",
+          "bytes": 4946
+        },
+        "prediction": {
+          "file": "patches/033-prediction.webp",
+          "sha256": "326696d6d9cea8555d0ad4bce4da5bf6357c15e7a63fb913133225624ad1229e",
+          "bytes": 4190
+        }
+      }
+    },
+    {
+      "id": 34,
+      "sourceFile": "patch-34-comparison.png",
+      "sourceSha256": "98fd8c881e0e066fa766a65fe63f40c47ab57fcb80105e8587eaf55dd4a0ea6e",
+      "outputs": {
+        "raw": {
+          "file": "patches/034-raw.webp",
+          "sha256": "7247099989ba668b285d674c50b806aa3b3cf475d1510bd41f9844787f4d4f83",
+          "bytes": 388962
+        },
+        "label": {
+          "file": "patches/034-label.webp",
+          "sha256": "c32f5876a9f967f63968923de287700c480e30980a13fbaeaf3d17af5f5340bc",
+          "bytes": 4592
+        },
+        "prediction": {
+          "file": "patches/034-prediction.webp",
+          "sha256": "81e9106f7978f9ae19f4145660f898730aba1087f004e29ac675a96c79e1f2d4",
+          "bytes": 6890
+        }
+      }
+    },
+    {
+      "id": 35,
+      "sourceFile": "patch-35-comparison.png",
+      "sourceSha256": "1b6e10fa2b2026b54976f8665002cf9a2e543678a2cd8f4305a99a1dbdc66b80",
+      "outputs": {
+        "raw": {
+          "file": "patches/035-raw.webp",
+          "sha256": "6d81a4af97872657e7c043e191cad1b8a0e01426bc490372ed0d73c9b83af6d3",
+          "bytes": 190496
+        },
+        "label": {
+          "file": "patches/035-label.webp",
+          "sha256": "fe50e74626fc17298592f4e934ec3d25e4e1fc195598ddb285491f32d07e33e5",
+          "bytes": 4332
+        },
+        "prediction": {
+          "file": "patches/035-prediction.webp",
+          "sha256": "10f371926cf40187f753c2cb5e91b08d34724c15235f031b84a5b46be84e5ad4",
+          "bytes": 7370
+        }
+      }
+    },
+    {
+      "id": 36,
+      "sourceFile": "patch-36-comparison.png",
+      "sourceSha256": "2bb44a8b3f5c55b76ec0efd7eb4773e4f045e6e5ccb3c920f1662b54c436b0e7",
+      "outputs": {
+        "raw": {
+          "file": "patches/036-raw.webp",
+          "sha256": "b5aded461c54c6ca39d7e0704ebb4a9e8143dcced77e6880035ecde29f02b565",
+          "bytes": 388380
+        },
+        "label": {
+          "file": "patches/036-label.webp",
+          "sha256": "6e57c87daad37180fab7ff4668c516f85361df43e762d486979b24f126ab1dea",
+          "bytes": 4336
+        },
+        "prediction": {
+          "file": "patches/036-prediction.webp",
+          "sha256": "f4b32f92b0d839fc3012dfb818baa917cd436c982f0d12614daf6d0a707795d0",
+          "bytes": 7358
+        }
+      }
+    },
+    {
+      "id": 37,
+      "sourceFile": "patch-37-comparison.png",
+      "sourceSha256": "edac27e926d7298f3d6b897247cebe8c86c4acfbb6e754f5a0fd29c81189cb65",
+      "outputs": {
+        "raw": {
+          "file": "patches/037-raw.webp",
+          "sha256": "d1d3a8e9fc05a59a9d82741772b0d36a84db3fb493872105c41b9bf8b0070d24",
+          "bytes": 109772
+        },
+        "label": {
+          "file": "patches/037-label.webp",
+          "sha256": "2c342bc49a3d2dbe95342930a0206cdea0d9dc056344bbfc312c6a38fe8c0c01",
+          "bytes": 3066
+        },
+        "prediction": {
+          "file": "patches/037-prediction.webp",
+          "sha256": "f7b548f2d71ab36cc535c463dcb2e85d7421b48c36c562668552dd79cef036c6",
+          "bytes": 6180
+        }
+      }
+    },
+    {
+      "id": 38,
+      "sourceFile": "patch-38-comparison.png",
+      "sourceSha256": "b2ca098bf606d2ab2645cc00db5d44e26201ba3e8a2603daf76c90b31686130f",
+      "outputs": {
+        "raw": {
+          "file": "patches/038-raw.webp",
+          "sha256": "eaccd2e5bc7fed82504b2e74d6f662e641246de824da7e3950601615960ce039",
+          "bytes": 154094
+        },
+        "label": {
+          "file": "patches/038-label.webp",
+          "sha256": "9be704de23848d67e14fbabb4ad2510353fe0fef4c842a80f9eb8450b7757540",
+          "bytes": 1490
+        },
+        "prediction": {
+          "file": "patches/038-prediction.webp",
+          "sha256": "3f82c6dfc07d9bf196c43a4863653b0e62748083c645aee9537521ed42fae409",
+          "bytes": 4986
+        }
+      }
+    },
+    {
+      "id": 39,
+      "sourceFile": "patch-39-comparison.png",
+      "sourceSha256": "a7b2fb0f7fcdb095f52a9bd3473b2832344a3a2b5c58f6e03aa66604c20eadad",
+      "outputs": {
+        "raw": {
+          "file": "patches/039-raw.webp",
+          "sha256": "f4aa818f87eee0af00b6753efdb3800a669af81039e5ebcef3a89857a6e5b09c",
+          "bytes": 399540
+        },
+        "label": {
+          "file": "patches/039-label.webp",
+          "sha256": "61d9f43c3249ba89682a0ac380836faf63b7670b138b7c186bc3d27f4341e923",
+          "bytes": 6718
+        },
+        "prediction": {
+          "file": "patches/039-prediction.webp",
+          "sha256": "f2533531f9747ded36ef872b92d4b5d1148e07077ddd9e19c81243f4b015d8dc",
+          "bytes": 6854
+        }
+      }
+    },
+    {
+      "id": 40,
+      "sourceFile": "patch-40-comparison.png",
+      "sourceSha256": "f27bf6befdbfce7d4d518b0cd3bc1b0bd10a5f1404c52b98d0dad30f4fa82f80",
+      "outputs": {
+        "raw": {
+          "file": "patches/040-raw.webp",
+          "sha256": "16e8c809f52df6f591d325dc897ea3f69621ce2539f67c5d19fe407b4793c766",
+          "bytes": 320780
+        },
+        "label": {
+          "file": "patches/040-label.webp",
+          "sha256": "cd6afbb265daecb9713b98ba3eeeebb06448f310e3295b55f3b49ef90cdbc786",
+          "bytes": 4082
+        },
+        "prediction": {
+          "file": "patches/040-prediction.webp",
+          "sha256": "514a48c266a2a7527ac3181c17131cdad5231aa1870662ea0b5a3e130a8f0562",
+          "bytes": 4494
+        }
+      }
+    },
+    {
+      "id": 41,
+      "sourceFile": "patch-41-comparison.png",
+      "sourceSha256": "14304aeaa65d7daac7d427f9f9ec6a61d0d2536a4ce92eb9f497a343ca5e4e5f",
+      "outputs": {
+        "raw": {
+          "file": "patches/041-raw.webp",
+          "sha256": "d3a69c096dd02b12f3fe9902e97546d8247896c36f155c64f36290cf0aade1e9",
+          "bytes": 425844
+        },
+        "label": {
+          "file": "patches/041-label.webp",
+          "sha256": "1700611962aab845cfc0e90407315b0b7aea4d03ea51886d1922deb7b10671b1",
+          "bytes": 740
+        },
+        "prediction": {
+          "file": "patches/041-prediction.webp",
+          "sha256": "c941bf01b89a1d78bd651f4d6e6659c4b4cc3977e0e78af072a53f649da9e59d",
+          "bytes": 5836
+        }
+      }
+    },
+    {
+      "id": 42,
+      "sourceFile": "patch-42-comparison.png",
+      "sourceSha256": "b426171579986210cf86cdac8741797bf024607fa16891b983b9efdcd64d4957",
+      "outputs": {
+        "raw": {
+          "file": "patches/042-raw.webp",
+          "sha256": "0ea61037a2c22949828cf26e93a2291c2f7a71ddba565aed7c0e78cc6fea3037",
+          "bytes": 372490
+        },
+        "label": {
+          "file": "patches/042-label.webp",
+          "sha256": "65e4cce93d05c82109f918c67bd65d6ec6f373576eced9660938b96a4c990bd8",
+          "bytes": 2370
+        },
+        "prediction": {
+          "file": "patches/042-prediction.webp",
+          "sha256": "fc27200bd2d792f22df568314051df0992a4a0ca6bad38577a90ccade2fcd208",
+          "bytes": 6850
+        }
+      }
+    },
+    {
+      "id": 43,
+      "sourceFile": "patch-43-comparison.png",
+      "sourceSha256": "030e255594271c356dac672760e507a6936da5e5f39e26b53751624cacdcc3ea",
+      "outputs": {
+        "raw": {
+          "file": "patches/043-raw.webp",
+          "sha256": "22ade410e2c88e480829a6cbde5420f9ef689c01646b5e174ccc445410e0c634",
+          "bytes": 193018
+        },
+        "label": {
+          "file": "patches/043-label.webp",
+          "sha256": "e75fbd7e3057381d349fe7b88629d7f4ee83b2faf220f1a6e03db11363a163f1",
+          "bytes": 7172
+        },
+        "prediction": {
+          "file": "patches/043-prediction.webp",
+          "sha256": "12fdd54c536cf6484abfdd2233914ea14cc26382724055bf4eac8475128fce7d",
+          "bytes": 7160
+        }
+      }
+    },
+    {
+      "id": 44,
+      "sourceFile": "patch-44-comparison.png",
+      "sourceSha256": "215e9ee72a850c7882daff4d10a792995896742564acc677f1803b432bfde995",
+      "outputs": {
+        "raw": {
+          "file": "patches/044-raw.webp",
+          "sha256": "6e03e806d15e3ddc0b823b9719181074d53e54d176b92a32d23eb10679c7197a",
+          "bytes": 471630
+        },
+        "label": {
+          "file": "patches/044-label.webp",
+          "sha256": "4474aa560e15700a83e412aea797f9888a7b9f750019b80ae053e3d4ac0dbff6",
+          "bytes": 682
+        },
+        "prediction": {
+          "file": "patches/044-prediction.webp",
+          "sha256": "c96ac6bf7255da1fe023d452ad7594044ff6b86ef193e8269394f4b5daf63326",
+          "bytes": 1836
+        }
+      }
+    },
+    {
+      "id": 45,
+      "sourceFile": "patch-45-comparison.png",
+      "sourceSha256": "b12e05bd181db98eb1e1715751724548e82ccbee1c1b31e1f7dd7fd104745f98",
+      "outputs": {
+        "raw": {
+          "file": "patches/045-raw.webp",
+          "sha256": "8cc4ea2ffeea758bd0b05c6903760eac1052f6a2872a29f803247acef28f1e4a",
+          "bytes": 394738
+        },
+        "label": {
+          "file": "patches/045-label.webp",
+          "sha256": "3b84411b8ae7b508dc1e1054d287673ffb96b1e2078ab3dc1aea41d7416f4be4",
+          "bytes": 4736
+        },
+        "prediction": {
+          "file": "patches/045-prediction.webp",
+          "sha256": "4f14229941abbd7e48ec0b42c8c8a04eb7c5730449899a0835a69669376d61f6",
+          "bytes": 4634
+        }
+      }
+    },
+    {
+      "id": 46,
+      "sourceFile": "patch-46-comparison.png",
+      "sourceSha256": "1bda867453da3d7c821e1c1473a5ae6c6a927b84192190bc0c569815408138ad",
+      "outputs": {
+        "raw": {
+          "file": "patches/046-raw.webp",
+          "sha256": "4c5cff1e8e1fddbeac910ff9a52bdc82d6dd790a3c26e6df2ac01d05ab2c6a3e",
+          "bytes": 379070
+        },
+        "label": {
+          "file": "patches/046-label.webp",
+          "sha256": "999ef0c91bae89f85f9d77542d341c797c8a4d9ff20575c9d063ba6494abd110",
+          "bytes": 4188
+        },
+        "prediction": {
+          "file": "patches/046-prediction.webp",
+          "sha256": "6daa99a1f212a3c41b7e4084f886ffe7ca485f85de234456ffa548bddf602ae9",
+          "bytes": 6588
+        }
+      }
+    },
+    {
+      "id": 47,
+      "sourceFile": "patch-47-comparison.png",
+      "sourceSha256": "b3268f3edbd7d1e27ab5a114c418e036eaca564d58a548212a40955b52c6b718",
+      "outputs": {
+        "raw": {
+          "file": "patches/047-raw.webp",
+          "sha256": "0e95162c74fac3102c0d6ef145a191a4f323e535ee0afa3d1fd311157e6df835",
+          "bytes": 376770
+        },
+        "label": {
+          "file": "patches/047-label.webp",
+          "sha256": "0fb50668d29043325bf679a8bbe3c141f544c8f6bf8ac233dd5c135a791327fa",
+          "bytes": 6842
+        },
+        "prediction": {
+          "file": "patches/047-prediction.webp",
+          "sha256": "9fe39034b7e4aab206461552ece70375f9fca77f33d820facccbd527065fe5f3",
+          "bytes": 5976
+        }
+      }
+    },
+    {
+      "id": 48,
+      "sourceFile": "patch-48-comparison.png",
+      "sourceSha256": "8dee92c6dac31315fc297af72da194ef6844d760e3e8b075020adac0b8e0d73e",
+      "outputs": {
+        "raw": {
+          "file": "patches/048-raw.webp",
+          "sha256": "45085069a6a8f1f95a83f6433d3610d8ea8f2022277875d837c2acd58e8fcfeb",
+          "bytes": 325630
+        },
+        "label": {
+          "file": "patches/048-label.webp",
+          "sha256": "a2086f93ec1fe3fbd88aabb4eed772e04d25b630437c07fae2297f560233decd",
+          "bytes": 2354
+        },
+        "prediction": {
+          "file": "patches/048-prediction.webp",
+          "sha256": "92160e2872fab3bc460e33c467640a18a1b1458583456a3152a4f998b1ab179f",
+          "bytes": 4200
+        }
+      }
+    },
+    {
+      "id": 49,
+      "sourceFile": "patch-49-comparison.png",
+      "sourceSha256": "6608e9538b1605f2de469e88b493d9f91c5ac7aafe8011d093f85d6f37eeecfd",
+      "outputs": {
+        "raw": {
+          "file": "patches/049-raw.webp",
+          "sha256": "7e6a21cb8a07cb1587957739aab05be8c30dace3143c3c6a7f0a5e34768346a8",
+          "bytes": 147222
+        },
+        "label": {
+          "file": "patches/049-label.webp",
+          "sha256": "725b46b8d1cf4d85d106b8b82b47147414b834e3267b7135b01305f6a05f66ea",
+          "bytes": 1862
+        },
+        "prediction": {
+          "file": "patches/049-prediction.webp",
+          "sha256": "9929667fe4553c33a63b16cfc9708ef1e82027d947684ed5951bd5868179c24b",
+          "bytes": 5652
+        }
+      }
+    },
+    {
+      "id": 50,
+      "sourceFile": "patch-50-comparison.png",
+      "sourceSha256": "4ff89dd14cd274c9987c3fe0bcbc2924106bf76a1a796dc5735ca45dbfe17654",
+      "outputs": {
+        "raw": {
+          "file": "patches/050-raw.webp",
+          "sha256": "67d0ca4d742a0ebce6b4e42012514222aa8a8e4a2bc0ff205f5ad66368edb861",
+          "bytes": 327922
+        },
+        "label": {
+          "file": "patches/050-label.webp",
+          "sha256": "d1946e534a94ddd06d69265c59cc8b34e4c482444b46e1bbcced507970a07c45",
+          "bytes": 3992
+        },
+        "prediction": {
+          "file": "patches/050-prediction.webp",
+          "sha256": "580926f7b0cb3be3c9d097b0d0aaff4c605844958f71ce9a29de9c0f541be472",
+          "bytes": 3902
+        }
+      }
+    },
+    {
+      "id": 51,
+      "sourceFile": "patch-51-comparison.png",
+      "sourceSha256": "9d9c946d398d05ef2180dd80557d3c7ce0988c65d7b2426d917d5290f207e190",
+      "outputs": {
+        "raw": {
+          "file": "patches/051-raw.webp",
+          "sha256": "dae36948763a51b2517b64399123db09463b3890b7bc5035242054feffdc29a8",
+          "bytes": 353606
+        },
+        "label": {
+          "file": "patches/051-label.webp",
+          "sha256": "093373b2f3e0256bfd1cc8c164f88ce90dac97d3885451529d74d10415575652",
+          "bytes": 5596
+        },
+        "prediction": {
+          "file": "patches/051-prediction.webp",
+          "sha256": "e403b381ff36edd9ba3d3d97cdf2374b8081ca8779e37be918a6e465fb054869",
+          "bytes": 5554
+        }
+      }
+    },
+    {
+      "id": 52,
+      "sourceFile": "patch-52-comparison.png",
+      "sourceSha256": "cd00612aca2266ff4e8a4af805e0f21bcf8e93bd0daa3897aef301eff25e22f8",
+      "outputs": {
+        "raw": {
+          "file": "patches/052-raw.webp",
+          "sha256": "f07b6cfa7a12caeabeab3a50cfc1300ddd6a3950db5c4dc04b8cfd7eecf30b0a",
+          "bytes": 396486
+        },
+        "label": {
+          "file": "patches/052-label.webp",
+          "sha256": "5bd8ead1fb1baed3067c2564e886e5cb2b703a3c2611bcba9b3a82ae7a037801",
+          "bytes": 3010
+        },
+        "prediction": {
+          "file": "patches/052-prediction.webp",
+          "sha256": "ea9092951392a2dc5c2ed396340a0fd684055b29239bd94eb358b1fcd9025c72",
+          "bytes": 6080
+        }
+      }
+    },
+    {
+      "id": 53,
+      "sourceFile": "patch-53-comparison.png",
+      "sourceSha256": "03d48b293f05bce3e163f7fa978085335c1e38fc4c45eb2ec1f77b43c14e770d",
+      "outputs": {
+        "raw": {
+          "file": "patches/053-raw.webp",
+          "sha256": "f619b10ef021e287c2d4aa628c7dec263b7b8b9c528927599b4d1a73feb0e315",
+          "bytes": 232402
+        },
+        "label": {
+          "file": "patches/053-label.webp",
+          "sha256": "19a8ee8ba38b36e3b4d88c6b2a61433e0c891dbf17b980c0b6ef8e100919eaf9",
+          "bytes": 4858
+        },
+        "prediction": {
+          "file": "patches/053-prediction.webp",
+          "sha256": "8fc65fde2912051eae56607e7cbf198412a52aa0d11db08b2f88cbe01592c176",
+          "bytes": 3764
+        }
+      }
+    },
+    {
+      "id": 54,
+      "sourceFile": "patch-54-comparison.png",
+      "sourceSha256": "0d5d1f30f6f1757aff715ac403f44b08289df1b3afaf90876dbd0d86bd52006a",
+      "outputs": {
+        "raw": {
+          "file": "patches/054-raw.webp",
+          "sha256": "7ca36b6b4fb543c9c559821c41593cc49dcee6c509596a649ab061bc14269ed3",
+          "bytes": 288808
+        },
+        "label": {
+          "file": "patches/054-label.webp",
+          "sha256": "84199021cd9557c504d957e2f9329cf94cb179348f3c41be8c02950eacbe47c7",
+          "bytes": 4306
+        },
+        "prediction": {
+          "file": "patches/054-prediction.webp",
+          "sha256": "4360f522f69b717c7a5b946853f8421964a13d82f1691d34d7de2a9aeeab1204",
+          "bytes": 5612
+        }
+      }
+    },
+    {
+      "id": 55,
+      "sourceFile": "patch-55-comparison.png",
+      "sourceSha256": "cca0010d8536767d6f8d58701c01c2cc21f92f0eb30ee7abce3709e4bf4f5eeb",
+      "outputs": {
+        "raw": {
+          "file": "patches/055-raw.webp",
+          "sha256": "d6fae1fda3425a608ec7526613bdc4693d875707da6c0dbeffb8e484fb7f6995",
+          "bytes": 345542
+        },
+        "label": {
+          "file": "patches/055-label.webp",
+          "sha256": "d918011e88be93470ff461129f30ca25eaaaf7d8150fa03d2c3ffda30cf0f20b",
+          "bytes": 6786
+        },
+        "prediction": {
+          "file": "patches/055-prediction.webp",
+          "sha256": "d6721298ec7a226635c0d0a704498b160606bd9df0f4bf808818f3237d72bbc1",
+          "bytes": 6230
+        }
+      }
+    },
+    {
+      "id": 56,
+      "sourceFile": "patch-56-comparison.png",
+      "sourceSha256": "606b22c6c71c0231dc8ae3dc81efe700b65120df6a9b55cb7ea61c32812b578a",
+      "outputs": {
+        "raw": {
+          "file": "patches/056-raw.webp",
+          "sha256": "61e754f531ab868e2bb5abc53cccc437760028ffac5bc3274c501fd8a08d6393",
+          "bytes": 306806
+        },
+        "label": {
+          "file": "patches/056-label.webp",
+          "sha256": "f769e70f14c494e0df714ae01d06cfaab0291c3c06c79e9c7e10d456c370b368",
+          "bytes": 6068
+        },
+        "prediction": {
+          "file": "patches/056-prediction.webp",
+          "sha256": "9c8a8eb22d1cfa68147ec4e2cd59c39aaa8c973945a99c9f9fc445d682696519",
+          "bytes": 4614
+        }
+      }
+    },
+    {
+      "id": 57,
+      "sourceFile": "patch-57-comparison.png",
+      "sourceSha256": "79776cd853cb9bf4e10388e17ee9ef7311258c315e02abe1f00ec71f81950341",
+      "outputs": {
+        "raw": {
+          "file": "patches/057-raw.webp",
+          "sha256": "9da699fb8687684ea442f96d931d6ee0dd47ef74e2583ba1faa7939108e3c243",
+          "bytes": 272622
+        },
+        "label": {
+          "file": "patches/057-label.webp",
+          "sha256": "b5a8fea97d2162ab570a3668cfebcb25a897fdd52d6ce8d0300b5fc1b78b9281",
+          "bytes": 2590
+        },
+        "prediction": {
+          "file": "patches/057-prediction.webp",
+          "sha256": "bc5f5123f0029321ca8de329e0f899a074a6a38b99043a03c6819ee57a7e3652",
+          "bytes": 4796
+        }
+      }
+    },
+    {
+      "id": 58,
+      "sourceFile": "patch-58-comparison.png",
+      "sourceSha256": "fee1d62485b1471b61dfeff35cdf8219be33a764415f5fbe0c26f3ea27f38655",
+      "outputs": {
+        "raw": {
+          "file": "patches/058-raw.webp",
+          "sha256": "adcdb551222267533b10036fbbf7cd4be7a0f1f18ff666008d2fefc575f26b0d",
+          "bytes": 236404
+        },
+        "label": {
+          "file": "patches/058-label.webp",
+          "sha256": "05b594b4be961d316d516bb36b64503f0e3d6a877f564d350982586fccfbf0dc",
+          "bytes": 1780
+        },
+        "prediction": {
+          "file": "patches/058-prediction.webp",
+          "sha256": "14e5315a19ae57a86f407125b3384223a072be5777481ed3df6c47849f8ab07d",
+          "bytes": 6724
+        }
+      }
+    },
+    {
+      "id": 59,
+      "sourceFile": "patch-59-comparison.png",
+      "sourceSha256": "0e910aeeb2fd299d1734376297516199fc639a80826add4f1f07d7daccd9a3b2",
+      "outputs": {
+        "raw": {
+          "file": "patches/059-raw.webp",
+          "sha256": "907e5aaacbe6f14a1d0efccec5c78cd76b415d483fbf0427d9955dc21db2eaad",
+          "bytes": 302272
+        },
+        "label": {
+          "file": "patches/059-label.webp",
+          "sha256": "2c67faad75975f8775c0f8c894b3f63a9719661ac4d03e348e583f17425cefa2",
+          "bytes": 6396
+        },
+        "prediction": {
+          "file": "patches/059-prediction.webp",
+          "sha256": "36bbc5039ad04c2703b7cead9d10ca67f98477bc8721929e372039aa91f4840c",
+          "bytes": 6608
+        }
+      }
+    },
+    {
+      "id": 60,
+      "sourceFile": "patch-60-comparison.png",
+      "sourceSha256": "1f163a47fe4fa03eb5178f96cd6b60484b0d20cd84d02658f311bc2cf8c58332",
+      "outputs": {
+        "raw": {
+          "file": "patches/060-raw.webp",
+          "sha256": "cb2cca11eddd8bcd0db1e6d055d24b83597aff34ef29aca8db1b16f185bae655",
+          "bytes": 310222
+        },
+        "label": {
+          "file": "patches/060-label.webp",
+          "sha256": "e7cba12f2d1b751cff7f6885ae134c0baea60b281f6206ffe8c8742e21d699ee",
+          "bytes": 1552
+        },
+        "prediction": {
+          "file": "patches/060-prediction.webp",
+          "sha256": "bf7c6b1154212cda70b6da22421a5f5a6f41aa247836c5ffc07119e7109cc8c6",
+          "bytes": 4152
+        }
+      }
+    },
+    {
+      "id": 61,
+      "sourceFile": "patch-61-comparison.png",
+      "sourceSha256": "b549546e8bd9533f854fbc73f220f48ac8be65afef119d0c08ad90aeef3279c2",
+      "outputs": {
+        "raw": {
+          "file": "patches/061-raw.webp",
+          "sha256": "dc0dcd03dc72baeae99a95e25b0b887f581bc9762139cc0dacc23fde6ed84911",
+          "bytes": 437474
+        },
+        "label": {
+          "file": "patches/061-label.webp",
+          "sha256": "b9d7e4f042a61a1caa0196bf163be411879c29134ea83aab676e616315721baa",
+          "bytes": 1696
+        },
+        "prediction": {
+          "file": "patches/061-prediction.webp",
+          "sha256": "1391ed5b603588f3ead7ef97bf5d83c94896dfca8d47a031cd8b27679e7bc5ed",
+          "bytes": 1966
+        }
+      }
+    },
+    {
+      "id": 62,
+      "sourceFile": "patch-62-comparison.png",
+      "sourceSha256": "8d527ad10825b946d60fa746b56ba85ac1e6fe7895ed98cead9c33a17e522235",
+      "outputs": {
+        "raw": {
+          "file": "patches/062-raw.webp",
+          "sha256": "cbc9558280dab603039982705c7a09731f770beb117c146606ce1c81dc4f0da0",
+          "bytes": 379650
+        },
+        "label": {
+          "file": "patches/062-label.webp",
+          "sha256": "59e8c4cc795617364b265d0fb5ad2b02ec0f3f28526ffddc1b7f28ee4ea1bb42",
+          "bytes": 7748
+        },
+        "prediction": {
+          "file": "patches/062-prediction.webp",
+          "sha256": "6d00d170e0895ca04a637e384e66d959164fcdfb6657890bba9fba098a999deb",
+          "bytes": 6976
+        }
+      }
+    },
+    {
+      "id": 63,
+      "sourceFile": "patch-63-comparison.png",
+      "sourceSha256": "253140471887fd75e6861d2704d9c48a5657a47f33dc45f9eb7beb2062e7412a",
+      "outputs": {
+        "raw": {
+          "file": "patches/063-raw.webp",
+          "sha256": "55e933b1ec11baf3d982ff467b9a173aa52a0339a3dc0b7fedfa53f9dddd078d",
+          "bytes": 360494
+        },
+        "label": {
+          "file": "patches/063-label.webp",
+          "sha256": "5331ad050187d8998a6c84cd5841d5b4458ebe341cd591ed8dd863470be03cc8",
+          "bytes": 5880
+        },
+        "prediction": {
+          "file": "patches/063-prediction.webp",
+          "sha256": "a05ef299177c01cd767b17a2e6f75126de44bee4f83661f0a201125797ce3dd2",
+          "bytes": 6348
+        }
+      }
+    },
+    {
+      "id": 64,
+      "sourceFile": "patch-64-comparison.png",
+      "sourceSha256": "9da856ac34c08da91c22bb2d57140ea17bb924b625832005d4e546144d4c1d5e",
+      "outputs": {
+        "raw": {
+          "file": "patches/064-raw.webp",
+          "sha256": "4cbb3804d38161f1900bef335daff22ac2c71339fd3f40f2027e38582dbf8f11",
+          "bytes": 433914
+        },
+        "label": {
+          "file": "patches/064-label.webp",
+          "sha256": "899342341cd7b9e5581c0cd77428fad44f2e7138b099f3fd0372d4798b06a0f2",
+          "bytes": 2586
+        },
+        "prediction": {
+          "file": "patches/064-prediction.webp",
+          "sha256": "b13688adeb926e9ca5bd1b5fd99885fcec424cc0ac7e43edfb73e45722d99869",
+          "bytes": 3210
+        }
+      }
+    },
+    {
+      "id": 65,
+      "sourceFile": "patch-65-comparison.png",
+      "sourceSha256": "29067e381935f307afc3be4682abff1deca20d76aa7930ffb6604f0f0d329b29",
+      "outputs": {
+        "raw": {
+          "file": "patches/065-raw.webp",
+          "sha256": "86d805bb37b9c38dc9148fab08d5f6bd862fb6cf4d214821b5a44d0490b08b7b",
+          "bytes": 359978
+        },
+        "label": {
+          "file": "patches/065-label.webp",
+          "sha256": "22d783d5ee3316ab604a9ec274dada817ec3b75817247c365ac875b019a627db",
+          "bytes": 5334
+        },
+        "prediction": {
+          "file": "patches/065-prediction.webp",
+          "sha256": "9522bf7c628df20d2aa681115605be0d131d60f2d5c08ae9f7b3cc0cb1efb3e7",
+          "bytes": 6820
+        }
+      }
+    },
+    {
+      "id": 66,
+      "sourceFile": "patch-66-comparison.png",
+      "sourceSha256": "ffdf853fadfb7106e9c44fbd3a1f9f0419d9402c22ee3f63b1ad94d235efe5ef",
+      "outputs": {
+        "raw": {
+          "file": "patches/066-raw.webp",
+          "sha256": "ce03410516ed8683fc7a2fbe837098b060e7e94eb0ef321017acc20b64453f66",
+          "bytes": 446080
+        },
+        "label": {
+          "file": "patches/066-label.webp",
+          "sha256": "fa20871e2c945334ab2077ec0c146e27855cd73326ac021483d11d025737e769",
+          "bytes": 3026
+        },
+        "prediction": {
+          "file": "patches/066-prediction.webp",
+          "sha256": "35c4dbb0c5ddba71c81047d0174fae5c62293c214c4cd4414692a7a9b9bd78ca",
+          "bytes": 4310
+        }
+      }
+    },
+    {
+      "id": 67,
+      "sourceFile": "patch-67-comparison.png",
+      "sourceSha256": "464d60fd99c4bd51da8d8309d35db9e556a2ba09b94eee8e32aa5dc0bda94a68",
+      "outputs": {
+        "raw": {
+          "file": "patches/067-raw.webp",
+          "sha256": "8b60c0758b8bbbde64566acb862feea9eb20b5f11b352db9b74eecd84c098d43",
+          "bytes": 192314
+        },
+        "label": {
+          "file": "patches/067-label.webp",
+          "sha256": "35711a237b4674b406ce83b248344bf6fd1ba1fb962dfdef916f6d3f9f4f906c",
+          "bytes": 7386
+        },
+        "prediction": {
+          "file": "patches/067-prediction.webp",
+          "sha256": "7822a3ddcd67fcb12e980d4aa272c1ee4f6215e52e2fc8b45383ffd4da0b4fa3",
+          "bytes": 8464
+        }
+      }
+    },
+    {
+      "id": 68,
+      "sourceFile": "patch-68-comparison.png",
+      "sourceSha256": "2b9715f05bfd090325bdf5e40c658ab68b4f9483b80203600fcdd07f3976c769",
+      "outputs": {
+        "raw": {
+          "file": "patches/068-raw.webp",
+          "sha256": "5f546c03e6f2b75cde64e5528b1d40d6bb6f1ec03f918044b631c75935496d9f",
+          "bytes": 306388
+        },
+        "label": {
+          "file": "patches/068-label.webp",
+          "sha256": "52a95e4789e2cfc6a4a045954159c9889163942c9db2aa6de6aa03a6b2bdfc15",
+          "bytes": 3642
+        },
+        "prediction": {
+          "file": "patches/068-prediction.webp",
+          "sha256": "e807a11229e7b0510e68f528ea53efda56f2961d03ca3fed37c3c4b1fdd8f331",
+          "bytes": 6416
+        }
+      }
+    },
+    {
+      "id": 69,
+      "sourceFile": "patch-69-comparison.png",
+      "sourceSha256": "ff809fccc18e75c6d7be0ec49a79356a1e40a8c9ff64bed2c2cad70cc71f24c8",
+      "outputs": {
+        "raw": {
+          "file": "patches/069-raw.webp",
+          "sha256": "f6afd8902cee1b04f0da1aff098e8dd9d085901016f32b673f9253cadd7582d7",
+          "bytes": 317418
+        },
+        "label": {
+          "file": "patches/069-label.webp",
+          "sha256": "463582909bdbb69faf728fbb4e6799847e4313c42a0d029a9fea1ca716c7e34e",
+          "bytes": 3036
+        },
+        "prediction": {
+          "file": "patches/069-prediction.webp",
+          "sha256": "adc368600018361d63d7724d94351a816cfc5b0a343afd8194f3a9c4cf23337d",
+          "bytes": 4238
+        }
+      }
+    },
+    {
+      "id": 70,
+      "sourceFile": "patch-70-comparison.png",
+      "sourceSha256": "55f887aa254940bbd94338a15e639bbecea47d664dbf208ac8011a9e5d7120e1",
+      "outputs": {
+        "raw": {
+          "file": "patches/070-raw.webp",
+          "sha256": "6eddebb792a502bd4ec5d685bf1057cbeb233a26c1736455eca23d23bafaf9cf",
+          "bytes": 410474
+        },
+        "label": {
+          "file": "patches/070-label.webp",
+          "sha256": "73f32e140f24a82285de71a57e938d913e31957d2a37c5af210146c0805b957a",
+          "bytes": 4146
+        },
+        "prediction": {
+          "file": "patches/070-prediction.webp",
+          "sha256": "4a7a219940b11e7b0f4e9c51b4303594118e66acab084e47e9e52da013e94745",
+          "bytes": 4750
+        }
+      }
+    },
+    {
+      "id": 71,
+      "sourceFile": "patch-71-comparison.png",
+      "sourceSha256": "a7fef6ccba5fc51ffdcae7dc70ae03bdaee01435b59216ecac4279376ea3a2f1",
+      "outputs": {
+        "raw": {
+          "file": "patches/071-raw.webp",
+          "sha256": "274090874e11460ee4b94da6603af9c3d8f067d5863e032e020d5d9027fffa1b",
+          "bytes": 349552
+        },
+        "label": {
+          "file": "patches/071-label.webp",
+          "sha256": "13fe1ae76711cabf563665343f231524de0aac0137bebb2f3b9337fda6910631",
+          "bytes": 3520
+        },
+        "prediction": {
+          "file": "patches/071-prediction.webp",
+          "sha256": "e812c778a67d5b175f1302b8f8212a8ebfb1be17f5d88a555bf1f22e6a115d4c",
+          "bytes": 5612
+        }
+      }
+    },
+    {
+      "id": 72,
+      "sourceFile": "patch-72-comparison.png",
+      "sourceSha256": "3eff1624930aaeef981cf4625ef3af24b74c709e5b9c2ca52805c16412f713e0",
+      "outputs": {
+        "raw": {
+          "file": "patches/072-raw.webp",
+          "sha256": "28c8a28476eeb3b3502fb814ef44fdebf33951442c4470afea0c1f555aa59b0a",
+          "bytes": 340880
+        },
+        "label": {
+          "file": "patches/072-label.webp",
+          "sha256": "d36316c7806e25d28ae23dc2c45efdd1bd34a50aa4c48a6805582b7d74c5d7f4",
+          "bytes": 3704
+        },
+        "prediction": {
+          "file": "patches/072-prediction.webp",
+          "sha256": "566daec362e7f8a379553fb028de433c0a34314b5f74bb67ad0f66743fb5cf5b",
+          "bytes": 4752
+        }
+      }
+    },
+    {
+      "id": 73,
+      "sourceFile": "patch-73-comparison.png",
+      "sourceSha256": "1a2d9a56692f8ddc2b129189e370c06f0944ef29d0eca24e072c8164422ee263",
+      "outputs": {
+        "raw": {
+          "file": "patches/073-raw.webp",
+          "sha256": "bf8339f92873db5a006643f20ce03ee7398fe7befb573d2a976927047ce3092d",
+          "bytes": 374530
+        },
+        "label": {
+          "file": "patches/073-label.webp",
+          "sha256": "28c802e344049ac606076a842a2304c001c0186929c500ed0b52d1291709ae9e",
+          "bytes": 7008
+        },
+        "prediction": {
+          "file": "patches/073-prediction.webp",
+          "sha256": "a006a6be498ebfc216dfeaf678f9b51705d2f31b5417a3711a1cb1875457a6fc",
+          "bytes": 6062
+        }
+      }
+    },
+    {
+      "id": 74,
+      "sourceFile": "patch-74-comparison.png",
+      "sourceSha256": "ae8905a76fdc9719a37bf142cb29a86d3bbef6c095790eeb9160ae6cfeffe553",
+      "outputs": {
+        "raw": {
+          "file": "patches/074-raw.webp",
+          "sha256": "3c19daaa4ecfe72d451d3386aa50e43e39f913e1f5bdf986e723538975c3408c",
+          "bytes": 388176
+        },
+        "label": {
+          "file": "patches/074-label.webp",
+          "sha256": "43134bc522b15bf1d43d62654dc2eb245e6f09a7131100343248319497b3bf91",
+          "bytes": 2846
+        },
+        "prediction": {
+          "file": "patches/074-prediction.webp",
+          "sha256": "2e904545a1a853f60da85758134f76ac949f3cef2a8569b0c22cda96c621a260",
+          "bytes": 6524
+        }
+      }
+    },
+    {
+      "id": 75,
+      "sourceFile": "patch-75-comparison.png",
+      "sourceSha256": "b30cc134cb16ad4f83c8a443588b6b4225c1bb350df2288a0e704cf4db8455d6",
+      "outputs": {
+        "raw": {
+          "file": "patches/075-raw.webp",
+          "sha256": "bb9dce7e8942d8b8c8bdb76e28fcafa2e236477cfc4b81617c6fec011c433eb0",
+          "bytes": 425906
+        },
+        "label": {
+          "file": "patches/075-label.webp",
+          "sha256": "22a260474cbd20cb10cc487d6e08623ea59e159194eef289cbcdfd251e8a571e",
+          "bytes": 3812
+        },
+        "prediction": {
+          "file": "patches/075-prediction.webp",
+          "sha256": "2a47a726e7c1b35dbd9967721e377dec26db56649366f791912f7bbd1cad861d",
+          "bytes": 4456
+        }
+      }
+    },
+    {
+      "id": 76,
+      "sourceFile": "patch-76-comparison.png",
+      "sourceSha256": "3b24e41ee8c036b2dd13cb46692b3a1b997358f969ebeae217b8ba55cad6e460",
+      "outputs": {
+        "raw": {
+          "file": "patches/076-raw.webp",
+          "sha256": "c28952beecd6f80313a026b449fb9abd352a02cd67fc7bca9fb7937be9b8bda3",
+          "bytes": 343794
+        },
+        "label": {
+          "file": "patches/076-label.webp",
+          "sha256": "173644464fc3cca1386f766f8bb642b87ac60c1ef30665eab871b27df0a451e2",
+          "bytes": 6864
+        },
+        "prediction": {
+          "file": "patches/076-prediction.webp",
+          "sha256": "85967475a08eae3ee4709bdd4ab6e741c8a7cc18ad5788ac0c3664be9f1e592b",
+          "bytes": 5780
+        }
+      }
+    },
+    {
+      "id": 77,
+      "sourceFile": "patch-77-comparison.png",
+      "sourceSha256": "9166501b57db846c2203265d757e3d5f7aa25ca3e0076b9776f655144cddc03d",
+      "outputs": {
+        "raw": {
+          "file": "patches/077-raw.webp",
+          "sha256": "e4113ff6291f6f02de178ccbf55e03b1ff908d2ca6438ae192c5c9bb36c754f3",
+          "bytes": 382032
+        },
+        "label": {
+          "file": "patches/077-label.webp",
+          "sha256": "5f175db96f0d2a380cef5356457128c1fd6c42723bb2eead8af6b0643220319b",
+          "bytes": 7018
+        },
+        "prediction": {
+          "file": "patches/077-prediction.webp",
+          "sha256": "65d196850d38a6400746f15f0ed4b5bf98e9f409d67dfe8c9e603948732c38dc",
+          "bytes": 6110
+        }
+      }
+    },
+    {
+      "id": 78,
+      "sourceFile": "patch-78-comparison.png",
+      "sourceSha256": "a0a71598fba3885bef6727c88aec7deb424194a6195d08fbd7bff83fca9502e7",
+      "outputs": {
+        "raw": {
+          "file": "patches/078-raw.webp",
+          "sha256": "c0379f7b8468cf51fafe2de28c2be49c9867adf25c7a93f93981ba0da3730d1c",
+          "bytes": 450914
+        },
+        "label": {
+          "file": "patches/078-label.webp",
+          "sha256": "673da3e593be218f208ae6b8279e44241a07d13a0f15d934d8a948db598f0f3a",
+          "bytes": 1432
+        },
+        "prediction": {
+          "file": "patches/078-prediction.webp",
+          "sha256": "f0974e9af45ac5c2a1e9ec8e7089aa07dee6dce9d4fd5055ac68694428f795d0",
+          "bytes": 3092
+        }
+      }
+    },
+    {
+      "id": 79,
+      "sourceFile": "patch-79-comparison.png",
+      "sourceSha256": "35effc9bcdf78c5bda408b80f9a04b86abc9cf55d59a18d731750188b94775af",
+      "outputs": {
+        "raw": {
+          "file": "patches/079-raw.webp",
+          "sha256": "004fab70bc7cfe41ba29c5b0e8af0a0d04564308868ed05020509948d304e210",
+          "bytes": 368670
+        },
+        "label": {
+          "file": "patches/079-label.webp",
+          "sha256": "3f7d77e6eab6cec6ffb36b984a585269eed194a02f3257d6c911947f8769e325",
+          "bytes": 3188
+        },
+        "prediction": {
+          "file": "patches/079-prediction.webp",
+          "sha256": "46508a90103d97be6dd54e41fe4a4c167e2a2eb323ac39b9d04b0d01931c6870",
+          "bytes": 3742
+        }
+      }
+    },
+    {
+      "id": 80,
+      "sourceFile": "patch-80-comparison.png",
+      "sourceSha256": "ff502825d560bc96ff7a6669e623d848f942adafab55e8285d6d6c6410a7ba9b",
+      "outputs": {
+        "raw": {
+          "file": "patches/080-raw.webp",
+          "sha256": "12dbc46bb42c49609c6aef9162b3b950e772868896faa45d0c0e58b39297dc70",
+          "bytes": 385278
+        },
+        "label": {
+          "file": "patches/080-label.webp",
+          "sha256": "f74ffae6f0ed4201a94995dcdb73e4f3c630263f4559be569d32bb1c0b0c81e0",
+          "bytes": 7126
+        },
+        "prediction": {
+          "file": "patches/080-prediction.webp",
+          "sha256": "db0b9b5c438158f3274e8578360b2e498e8c53a7962729a2654794d0e411dfa9",
+          "bytes": 5878
+        }
+      }
+    },
+    {
+      "id": 81,
+      "sourceFile": "patch-81-comparison.png",
+      "sourceSha256": "e14ae8cd4c33e1dca7287659394442ce74481a00e98750ab88436ef4a30ece03",
+      "outputs": {
+        "raw": {
+          "file": "patches/081-raw.webp",
+          "sha256": "8776c70c6a20001fdb47bc0172944a36eaf5511a401c94343430204e4b921c43",
+          "bytes": 426932
+        },
+        "label": {
+          "file": "patches/081-label.webp",
+          "sha256": "f7fedc6fc23447443630ea791df6e54e5ca08d4bb728b333442ec3115dda6dac",
+          "bytes": 3988
+        },
+        "prediction": {
+          "file": "patches/081-prediction.webp",
+          "sha256": "f84d158b3a575a7a8fd3ab89520c7404e5d909eb9b3945071404f0457c61d91a",
+          "bytes": 4226
+        }
+      }
+    },
+    {
+      "id": 82,
+      "sourceFile": "patch-82-comparison.png",
+      "sourceSha256": "e098d118ae26a44f6491366e3831e7f02573948cdd2acdf15412e3bf55380fd1",
+      "outputs": {
+        "raw": {
+          "file": "patches/082-raw.webp",
+          "sha256": "337b01cb6fd7b479d87593118b73bf9715fb2c3150d06126f82027e92925abc4",
+          "bytes": 353100
+        },
+        "label": {
+          "file": "patches/082-label.webp",
+          "sha256": "8d3d8266a560623cd5a1255ba93a0612fb3f02367e0c7690b35ee1f54b0945e5",
+          "bytes": 6654
+        },
+        "prediction": {
+          "file": "patches/082-prediction.webp",
+          "sha256": "fc95d27332de662924b28e244dc4ff6a6271c1aa19876bd4d988df36e217909c",
+          "bytes": 6112
+        }
+      }
+    },
+    {
+      "id": 83,
+      "sourceFile": "patch-83-comparison.png",
+      "sourceSha256": "d2022cb3a522bc371c60cb70b728a0a7772cf97555eef5f2b4798c199950e867",
+      "outputs": {
+        "raw": {
+          "file": "patches/083-raw.webp",
+          "sha256": "c5a4be19030ccd9f09deca4c7addf8a005a8326317a55fb669113924acb998eb",
+          "bytes": 410676
+        },
+        "label": {
+          "file": "patches/083-label.webp",
+          "sha256": "493f09211dedbba76920e64cc72628a0aabe98a85e28217b84b6586a817945b0",
+          "bytes": 4526
+        },
+        "prediction": {
+          "file": "patches/083-prediction.webp",
+          "sha256": "2082875ad7183bdea3482d53f44a9d60360bae3f3e6f55672a2b4c77d6bca4bc",
+          "bytes": 5754
+        }
+      }
+    },
+    {
+      "id": 84,
+      "sourceFile": "patch-84-comparison.png",
+      "sourceSha256": "adb2eb6e7cd9d93a5629e30cee7493e4db3b68d14e96309ceab9fc353cf0a55e",
+      "outputs": {
+        "raw": {
+          "file": "patches/084-raw.webp",
+          "sha256": "e36ab6b9f258f72d3bcda48a21b1ba418acffb545c2e924e1f2d24775f18f7a0",
+          "bytes": 316116
+        },
+        "label": {
+          "file": "patches/084-label.webp",
+          "sha256": "34bf7b80d63613434adf248f9d20c75de0442c35ee44ce60e90ecbde8496d4fe",
+          "bytes": 4816
+        },
+        "prediction": {
+          "file": "patches/084-prediction.webp",
+          "sha256": "513dcc23ed2adf1de03a14836974b957fa1e8051be33a5a660d3867dac824a40",
+          "bytes": 5522
+        }
+      }
+    },
+    {
+      "id": 85,
+      "sourceFile": "patch-85-comparison.png",
+      "sourceSha256": "464e2edf6dc80278061044fba10dd80b85ed4be1ec3314060e8819f9475e70c8",
+      "outputs": {
+        "raw": {
+          "file": "patches/085-raw.webp",
+          "sha256": "92afae5e544a56f3b805fe91581459afd07c8ce77bdcaa4d8a4696571c06f64b",
+          "bytes": 285892
+        },
+        "label": {
+          "file": "patches/085-label.webp",
+          "sha256": "eec8a3a708b8c431c86ada202e1ef53da78a708ebe6bb924faa457db58c0fcc2",
+          "bytes": 2902
+        },
+        "prediction": {
+          "file": "patches/085-prediction.webp",
+          "sha256": "c63e7bdcf81eef3ab4d8999db6551e31d30988f0c16e3baa130563a78232190e",
+          "bytes": 7466
+        }
+      }
+    },
+    {
+      "id": 86,
+      "sourceFile": "patch-86-comparison.png",
+      "sourceSha256": "c6d8b6ffcd0510d35ae1c6364fea4ce191a8e3a8592ca7f6960e48e8d4eb7707",
+      "outputs": {
+        "raw": {
+          "file": "patches/086-raw.webp",
+          "sha256": "2de665afdc06118d44b7ea59596b602fa616f4fe2805f6fb3502f899850d450c",
+          "bytes": 318808
+        },
+        "label": {
+          "file": "patches/086-label.webp",
+          "sha256": "37738ed9dc3634cf0bdc55dd4d7a9647fdb7f00a814d094717137c7a46c0e0cc",
+          "bytes": 6250
+        },
+        "prediction": {
+          "file": "patches/086-prediction.webp",
+          "sha256": "1ca0447f8a3257ca6a9239f6843e60cf776a6700c7e515647c4ba1cf9dce9884",
+          "bytes": 6032
+        }
+      }
+    },
+    {
+      "id": 87,
+      "sourceFile": "patch-87-comparison.png",
+      "sourceSha256": "ddbb0449ebe6e5365c758ad62adc28c3303668835d699fa45feb2d6980497d18",
+      "outputs": {
+        "raw": {
+          "file": "patches/087-raw.webp",
+          "sha256": "6769c06f29b7592c514e72af3c5baec76c364296ac21c566fe468b0b8b935c29",
+          "bytes": 344118
+        },
+        "label": {
+          "file": "patches/087-label.webp",
+          "sha256": "d01a079532cba762717bf966ae60ce2e01f614d2eeafb3549c4d013b24e0a626",
+          "bytes": 3344
+        },
+        "prediction": {
+          "file": "patches/087-prediction.webp",
+          "sha256": "744c7664d954b71e7dee51830252e9289f23664cfec4a0c5876d62afa702bd0d",
+          "bytes": 7454
+        }
+      }
+    },
+    {
+      "id": 88,
+      "sourceFile": "patch-88-comparison.png",
+      "sourceSha256": "62cbf86d4c9dd426ab8d682335bfeb626142709cb62c51a84f09a2bee2493526",
+      "outputs": {
+        "raw": {
+          "file": "patches/088-raw.webp",
+          "sha256": "868d71aece090547fe6132a37d4e05285205272d5231490760c49266212c3711",
+          "bytes": 294292
+        },
+        "label": {
+          "file": "patches/088-label.webp",
+          "sha256": "85f0bc4ca3e7acd6c708edc8be602ed50b3226df842e3c2236472a1132256932",
+          "bytes": 3316
+        },
+        "prediction": {
+          "file": "patches/088-prediction.webp",
+          "sha256": "caadafe7d51854e2df1f0ffced96b217507301f3d998453635a787d6585150ba",
+          "bytes": 7376
+        }
+      }
+    },
+    {
+      "id": 89,
+      "sourceFile": "patch-89-comparison.png",
+      "sourceSha256": "36ea9eb63c452fc64fbfd0da1b64df8fa0594d616188f30d78abcf6e3504bf9b",
+      "outputs": {
+        "raw": {
+          "file": "patches/089-raw.webp",
+          "sha256": "2c44e84faffe50440f60e1c559de40bf31ceb1c2337ea484f50c797cd6044697",
+          "bytes": 348748
+        },
+        "label": {
+          "file": "patches/089-label.webp",
+          "sha256": "5a1a5b8c90a424a9bd26819c0a79d723d997ba1705801084c4c7acbc0b616673",
+          "bytes": 6202
+        },
+        "prediction": {
+          "file": "patches/089-prediction.webp",
+          "sha256": "383b3adf19445baafae9f3b819202bfe447dd7ada78bb1a5e81e9ea6d14a621e",
+          "bytes": 6310
+        }
+      }
+    },
+    {
+      "id": 90,
+      "sourceFile": "patch-90-comparison.png",
+      "sourceSha256": "6bf0d2db8b4145e4a0d2303b9bb3d1ead0d8c33c8f20993e65ca2c2a383d7ef6",
+      "outputs": {
+        "raw": {
+          "file": "patches/090-raw.webp",
+          "sha256": "15893e32b4bcd8846c8c10b36aeeaaafe51e3b389864a2a375ff81e68e9d5b1d",
+          "bytes": 177622
+        },
+        "label": {
+          "file": "patches/090-label.webp",
+          "sha256": "e82c497ed40d9256839d1981c556b23c266ceb9609241814fa10fbc8ad5e2fc6",
+          "bytes": 1644
+        },
+        "prediction": {
+          "file": "patches/090-prediction.webp",
+          "sha256": "76564d1b36645aa42cf69bb2410223c92dfd1b4973df2ab3a71b7809f508bb92",
+          "bytes": 5884
+        }
+      }
+    },
+    {
+      "id": 91,
+      "sourceFile": "patch-91-comparison.png",
+      "sourceSha256": "7edf8f971e8aaa3a09d5ca0b4ae87c0c08ef1a4a7a6a7e94b898e31ae564e0bf",
+      "outputs": {
+        "raw": {
+          "file": "patches/091-raw.webp",
+          "sha256": "7fb2a4d6ca7a87f996e6ede9c0d5a47a97e90bce1bd4a5e85bb1111e920a865e",
+          "bytes": 317902
+        },
+        "label": {
+          "file": "patches/091-label.webp",
+          "sha256": "15e948d82da432fab1c354d7f62f9cb898d9f9bd77793988569332d9077c5b6b",
+          "bytes": 3654
+        },
+        "prediction": {
+          "file": "patches/091-prediction.webp",
+          "sha256": "2ad6170dd491af2c6377effe7a149f21ca0c290464ed7a60e1b3bd1b674c83b3",
+          "bytes": 4408
+        }
+      }
+    },
+    {
+      "id": 92,
+      "sourceFile": "patch-92-comparison.png",
+      "sourceSha256": "d6fca9057762a26098b0b21ad7b323c71bac1bcb9594ce04ffc0b09b382de3c4",
+      "outputs": {
+        "raw": {
+          "file": "patches/092-raw.webp",
+          "sha256": "97e840031dbf750ebae1e4b72adf7d10173b8e158a74be53a2f2bb68c6944b69",
+          "bytes": 402496
+        },
+        "label": {
+          "file": "patches/092-label.webp",
+          "sha256": "7921600f1df596099571974b3901b46a7e90af8571131cd5dbc6aff5d031f353",
+          "bytes": 4554
+        },
+        "prediction": {
+          "file": "patches/092-prediction.webp",
+          "sha256": "4d148769aa0cd92c126de700d5408b9d9215ff501c7d2843571c77c0eafdd1ff",
+          "bytes": 5330
+        }
+      }
+    },
+    {
+      "id": 93,
+      "sourceFile": "patch-93-comparison.png",
+      "sourceSha256": "c6ca7d96c206fb3c3e42028527f2e9f333cab620b9acc7096ee1acbdee699c2b",
+      "outputs": {
+        "raw": {
+          "file": "patches/093-raw.webp",
+          "sha256": "6ae15f4e22c6d8a209c85606c9d44bf42680f476f0ebcb98d6a10ec6d1e39de2",
+          "bytes": 337754
+        },
+        "label": {
+          "file": "patches/093-label.webp",
+          "sha256": "06148265a5bba37ff12782873f1076762c8c9ba735943276ac77de54f8356096",
+          "bytes": 6632
+        },
+        "prediction": {
+          "file": "patches/093-prediction.webp",
+          "sha256": "1e92abc34a24ea980313f3d67c2d1de15ce4aeb5b3426291baa52ed5d550584f",
+          "bytes": 6442
+        }
+      }
+    },
+    {
+      "id": 94,
+      "sourceFile": "patch-94-comparison.png",
+      "sourceSha256": "54bda9f3229a4bda988cfc02c98c1f7b9b93912970d01c305fac1a6935ebc0ca",
+      "outputs": {
+        "raw": {
+          "file": "patches/094-raw.webp",
+          "sha256": "f5e6e89f9d8569e9ef39230200751cd2728509fb429420a966bb6f2ec989dcbe",
+          "bytes": 402394
+        },
+        "label": {
+          "file": "patches/094-label.webp",
+          "sha256": "fd408d8e04b06988c5f72d5ac4bca83a9461f168d6af1ef7aebadca5a19fae8f",
+          "bytes": 3884
+        },
+        "prediction": {
+          "file": "patches/094-prediction.webp",
+          "sha256": "f5b20f3497a02d8a55a396173dc69065e6154f553b1c7621b7b2f477850c882e",
+          "bytes": 5730
+        }
+      }
+    },
+    {
+      "id": 95,
+      "sourceFile": "patch-95-comparison.png",
+      "sourceSha256": "7f106d425c6b807e4c2a8b457925837d1bfeba92fbfbb73e6fa5e5014813c259",
+      "outputs": {
+        "raw": {
+          "file": "patches/095-raw.webp",
+          "sha256": "efc40c4640a9df623f97ba162683ce43240bdd5bfab397726dead3fd80ba975a",
+          "bytes": 441848
+        },
+        "label": {
+          "file": "patches/095-label.webp",
+          "sha256": "3bfa0a43165e9d6fa1c93395a64fe92c6b70469dabe8cab28568ceb8285b2401",
+          "bytes": 1886
+        },
+        "prediction": {
+          "file": "patches/095-prediction.webp",
+          "sha256": "e0b0d007f465ba7d97f8348e0d094de14d13b5e5885264869068d25a5add22e6",
+          "bytes": 2556
+        }
+      }
+    },
+    {
+      "id": 96,
+      "sourceFile": "patch-96-comparison.png",
+      "sourceSha256": "e5c79ca501d7eab08af18d69a96c4ad4a85b0cf9ba310122534d7bc95444ac7b",
+      "outputs": {
+        "raw": {
+          "file": "patches/096-raw.webp",
+          "sha256": "fe069e500b83be70a78a5b2b0b42ba3c0517002ee64273daef008cacabdf19ef",
+          "bytes": 400702
+        },
+        "label": {
+          "file": "patches/096-label.webp",
+          "sha256": "018a1ea50cc0a41adf97aff08c2ca4a4135d7c612e2a7b393f2c670bfec3922f",
+          "bytes": 3224
+        },
+        "prediction": {
+          "file": "patches/096-prediction.webp",
+          "sha256": "53e425e5764aaf5a3224e94af8760138a00217e2f4cfce50eb8bc70fa532a002",
+          "bytes": 5968
+        }
+      }
+    },
+    {
+      "id": 97,
+      "sourceFile": "patch-97-comparison.png",
+      "sourceSha256": "e562542ae92555b80c501dd6ba5a4d4ee024bbb3a627b7469877be80cb2839a7",
+      "outputs": {
+        "raw": {
+          "file": "patches/097-raw.webp",
+          "sha256": "d474a38c75cbe652f024e01a8f8ce847c267e64d8adaf5f66b26f132dbe41d21",
+          "bytes": 441466
+        },
+        "label": {
+          "file": "patches/097-label.webp",
+          "sha256": "af7c08b4d1e1bea4727841efc38d43e7afd65f3612fee02394b907987e3a1b64",
+          "bytes": 3782
+        },
+        "prediction": {
+          "file": "patches/097-prediction.webp",
+          "sha256": "26ef252f176cb2da70dcc6ebbd3a2e53cba8719db7cb91924864daddcdb6bf6b",
+          "bytes": 3502
+        }
+      }
+    },
+    {
+      "id": 98,
+      "sourceFile": "patch-98-comparison.png",
+      "sourceSha256": "850145330cc2e98d483587d44a2d936d5645be7e6a5d3b2ea1e23ea38b48dea2",
+      "outputs": {
+        "raw": {
+          "file": "patches/098-raw.webp",
+          "sha256": "45ae678e09314a0ff0073eef5080078aec406508e49be2123ea28cd60c431339",
+          "bytes": 114976
+        },
+        "label": {
+          "file": "patches/098-label.webp",
+          "sha256": "03dc5242cc4af6bd9acbbd7cc1e403343f23170477375acb2213fa2faecf8ede",
+          "bytes": 3802
+        },
+        "prediction": {
+          "file": "patches/098-prediction.webp",
+          "sha256": "9fe8b1806fb64c316a28623101d310efee7b34860f1010a8d0ef424d2447f59c",
+          "bytes": 6392
+        }
+      }
+    },
+    {
+      "id": 99,
+      "sourceFile": "patch-99-comparison.png",
+      "sourceSha256": "27ae8160dc7dbb63c6839f2477add557ee7244e78017e3787df285a6b665de72",
+      "outputs": {
+        "raw": {
+          "file": "patches/099-raw.webp",
+          "sha256": "14f74b31f595379f71fca2570e3a1c8bc192d5433d07034eb8d11b9c45757216",
+          "bytes": 383504
+        },
+        "label": {
+          "file": "patches/099-label.webp",
+          "sha256": "d0c895ee3edd7276369d0a79eced90dba29a48017eb03dc2367779446817208d",
+          "bytes": 6394
+        },
+        "prediction": {
+          "file": "patches/099-prediction.webp",
+          "sha256": "1a3e1f22b0724bae958b45d93b0fcb4f3a847ef199ba02b6d6103cba66aa3720",
+          "bytes": 5748
+        }
+      }
+    },
+    {
+      "id": 100,
+      "sourceFile": "patch-100-comparison.png",
+      "sourceSha256": "a6e0de8573837c51a3bff9ae47a50e97d11c026bc01b65411773c1e1084a88b4",
+      "outputs": {
+        "raw": {
+          "file": "patches/100-raw.webp",
+          "sha256": "b7118eea46ca44a0e172f2261e0aeed81f9c23ebd199fd33dfa9a28ee21f6d02",
+          "bytes": 375652
+        },
+        "label": {
+          "file": "patches/100-label.webp",
+          "sha256": "89ec1a5f76c0feb85f754205e89aed403c801d40c0f336133380f9d3bd4becbc",
+          "bytes": 7086
+        },
+        "prediction": {
+          "file": "patches/100-prediction.webp",
+          "sha256": "1aaf98b66c8a6a89270e647fd3c4f352f5d89380bd52fd399a37901a2932bd53",
+          "bytes": 6672
+        }
+      }
+    },
+    {
+      "id": 101,
+      "sourceFile": "patch-101-comparison.png",
+      "sourceSha256": "6b3df856fb4b6a9969160c81c8eae2e26f998895b2a08ba1a509d94ba790e753",
+      "outputs": {
+        "raw": {
+          "file": "patches/101-raw.webp",
+          "sha256": "caee2415e4b02e71cce2deb90ecb255da84fbd2d06936c3b4e592a9d9852fb7d",
+          "bytes": 337462
+        },
+        "label": {
+          "file": "patches/101-label.webp",
+          "sha256": "4c37576a84a57ee5741358100d9ee1c7f62b55f36e5c985d1f3f0c710425668d",
+          "bytes": 4460
+        },
+        "prediction": {
+          "file": "patches/101-prediction.webp",
+          "sha256": "2bddd8661c69f96069f80542cf37cce62814758de5515378514fe37cd7bd3d4f",
+          "bytes": 5998
+        }
+      }
+    },
+    {
+      "id": 102,
+      "sourceFile": "patch-102-comparison.png",
+      "sourceSha256": "26a555f168066f66256922486ffa344b5e3d607897704f1fc06970fb5b6bab66",
+      "outputs": {
+        "raw": {
+          "file": "patches/102-raw.webp",
+          "sha256": "40646596ffc51eee56431c13543f9304a35611b7a5d890042708ec3cafb7c315",
+          "bytes": 368426
+        },
+        "label": {
+          "file": "patches/102-label.webp",
+          "sha256": "4ca57ae72efb877b297a644187931d901b8c371f27a4416db971db5b62a3ba55",
+          "bytes": 7242
+        },
+        "prediction": {
+          "file": "patches/102-prediction.webp",
+          "sha256": "c838ee40fd73c35120261996df707c4b388e8303653be6dc916df79a15280ac3",
+          "bytes": 6658
+        }
+      }
+    },
+    {
+      "id": 103,
+      "sourceFile": "patch-103-comparison.png",
+      "sourceSha256": "58774f0737ca86a1df2dff989c79b0e9b9e3cc47d06dcab52cd03b7ae2100fd2",
+      "outputs": {
+        "raw": {
+          "file": "patches/103-raw.webp",
+          "sha256": "fd6f0cf35f4b5f919bbcb4061520a1a24cdfa18834c1ea250dc1d8a7fb3f72d9",
+          "bytes": 320084
+        },
+        "label": {
+          "file": "patches/103-label.webp",
+          "sha256": "3731f9aa9517e9d9366b963e5e72e561694c5903c6c6819a8b6acbda6f426b29",
+          "bytes": 4464
+        },
+        "prediction": {
+          "file": "patches/103-prediction.webp",
+          "sha256": "c9a1bb784f6d9989673f9c74cafd1b842b0a36d9172ef2e7792d2f09b21f6bdf",
+          "bytes": 4486
+        }
+      }
+    },
+    {
+      "id": 104,
+      "sourceFile": "patch-104-comparison.png",
+      "sourceSha256": "78e38068adf9956013703366cdd65e2d623f965640f97bce41d27e640ec2a83d",
+      "outputs": {
+        "raw": {
+          "file": "patches/104-raw.webp",
+          "sha256": "c8d07b6679a39f3843f4f6de9d83e5b6755546d79c098863151883befafbd1a7",
+          "bytes": 348948
+        },
+        "label": {
+          "file": "patches/104-label.webp",
+          "sha256": "22d8f646fbff7f565e6789cb42eaeb8b3de02ce61b5e858225524870bdb5f239",
+          "bytes": 1456
+        },
+        "prediction": {
+          "file": "patches/104-prediction.webp",
+          "sha256": "5ad630380082f58702017117daaf5b45661f16896467f0c1f26729a70c42678c",
+          "bytes": 5518
+        }
+      }
+    },
+    {
+      "id": 105,
+      "sourceFile": "patch-105-comparison.png",
+      "sourceSha256": "9a4be5fb0a806ba42e204cf05e8b2356ead2dcf02530338f28aace124fb810e3",
+      "outputs": {
+        "raw": {
+          "file": "patches/105-raw.webp",
+          "sha256": "9245fe4b1a0471e56a7a38085a2e00b6fde8147264c1a66d21ed0187c42a8d12",
+          "bytes": 276938
+        },
+        "label": {
+          "file": "patches/105-label.webp",
+          "sha256": "07bd0ab9d5382fc96df5abcc7c6ae97a6155f9b8efa2f58c068034a6b4990251",
+          "bytes": 4936
+        },
+        "prediction": {
+          "file": "patches/105-prediction.webp",
+          "sha256": "18c16a7f3359a23d91c6a8d21b3ef3ac7dcc6b5869a02b0467fe0a4e0cea1d11",
+          "bytes": 4206
+        }
+      }
+    },
+    {
+      "id": 106,
+      "sourceFile": "patch-106-comparison.png",
+      "sourceSha256": "5166049fae0231bd6dd28802663a58545d5cdb73377af5b1e4b4a100dbab4bb2",
+      "outputs": {
+        "raw": {
+          "file": "patches/106-raw.webp",
+          "sha256": "b3c7f1bbf5663d1001f05af1be02345b68086e4d3c892acf736b92cbd75f25dd",
+          "bytes": 304128
+        },
+        "label": {
+          "file": "patches/106-label.webp",
+          "sha256": "b32e74af1ff50e289fbd58528a36935eea8bf49e4d79f130eb5b4e90b441e08d",
+          "bytes": 3218
+        },
+        "prediction": {
+          "file": "patches/106-prediction.webp",
+          "sha256": "53e235f9e3a7b25587dc54389d48db7cc6577e82e93314e42114888bb6882715",
+          "bytes": 7104
+        }
+      }
+    },
+    {
+      "id": 107,
+      "sourceFile": "patch-107-comparison.png",
+      "sourceSha256": "20d48389188b09ae53b04c68febf338eed28395954d0bc43db23def8a72fa030",
+      "outputs": {
+        "raw": {
+          "file": "patches/107-raw.webp",
+          "sha256": "d294e91e936868151f7da051c1a17c9fbc993c0e3b4ddc0010b772855d1db5d6",
+          "bytes": 92912
+        },
+        "label": {
+          "file": "patches/107-label.webp",
+          "sha256": "ffd94154dc9f527dae82455a6cc33b0146aeb9dffe708def70f9a714415d2aee",
+          "bytes": 4078
+        },
+        "prediction": {
+          "file": "patches/107-prediction.webp",
+          "sha256": "7e088e1e74faf3e339fac0e9a4ce9513b015b262c0dc6821b4868a0a7d79305f",
+          "bytes": 7178
+        }
+      }
+    },
+    {
+      "id": 108,
+      "sourceFile": "patch-108-comparison.png",
+      "sourceSha256": "8277de2fa6f407816b0d1e0a221f91f70b1571b5f29959cfcd6d86cd2ac3a71c",
+      "outputs": {
+        "raw": {
+          "file": "patches/108-raw.webp",
+          "sha256": "20afb26aa69c3f510eee2abe0052ce6cbbc2ba83546a243bbb8ee9f9ec5fd8f6",
+          "bytes": 365176
+        },
+        "label": {
+          "file": "patches/108-label.webp",
+          "sha256": "1fafdd584ec424b67c5fc6119b11e2901a29b348c41b9cba200f1b9d4f00e1d5",
+          "bytes": 2618
+        },
+        "prediction": {
+          "file": "patches/108-prediction.webp",
+          "sha256": "de486065dfd6bd0e33a264618dfee1adee7e8c5d495a49a85cb75878c0e98001",
+          "bytes": 3868
+        }
+      }
+    },
+    {
+      "id": 109,
+      "sourceFile": "patch-109-comparison.png",
+      "sourceSha256": "e558c5fbff64100e2b0b32be2376d3cca00af9e63da53c1d2b1cc6bc150bc96a",
+      "outputs": {
+        "raw": {
+          "file": "patches/109-raw.webp",
+          "sha256": "117215fffdc02df00277b765372a3174c85592769d32a9cf8c4b039fc42f3975",
+          "bytes": 372894
+        },
+        "label": {
+          "file": "patches/109-label.webp",
+          "sha256": "5775b34c215af73736bb1cc039d57042cb35869a7d4e684e414ffc81ae3f4c48",
+          "bytes": 3950
+        },
+        "prediction": {
+          "file": "patches/109-prediction.webp",
+          "sha256": "71f432e1d27971a483578687efce2f2b33ce76a6335a613de9e5924ffd4c1c66",
+          "bytes": 6862
+        }
+      }
+    },
+    {
+      "id": 110,
+      "sourceFile": "patch-110-comparison.png",
+      "sourceSha256": "45d4c692c9da32beb2b89925255ad8820b6cf397d2a724b09aa796b82a71cf27",
+      "outputs": {
+        "raw": {
+          "file": "patches/110-raw.webp",
+          "sha256": "a6e482dd24ebc2336fd6e5de0435e2275b858eca6e85c9cae96d338bcf5c605e",
+          "bytes": 398884
+        },
+        "label": {
+          "file": "patches/110-label.webp",
+          "sha256": "a690cd755671775b53b96cd47a8b6aecd934cd0815be572944c291466881be23",
+          "bytes": 7496
+        },
+        "prediction": {
+          "file": "patches/110-prediction.webp",
+          "sha256": "0607ba453a7ee1302c16fa5818b7a36dfbaf81e399670eeeff969068c673cac6",
+          "bytes": 7078
+        }
+      }
+    },
+    {
+      "id": 111,
+      "sourceFile": "patch-111-comparison.png",
+      "sourceSha256": "61debb40f5494be2b8c54d7c1e585dacbdbb90acd8276aeb6dae79dd2d877723",
+      "outputs": {
+        "raw": {
+          "file": "patches/111-raw.webp",
+          "sha256": "df98330d9fb8bbb7a948b1fd5e6265d0d9a09f8cd973abcb0e7982135001a8d7",
+          "bytes": 348682
+        },
+        "label": {
+          "file": "patches/111-label.webp",
+          "sha256": "05fd1bcd27d1e83c02efe17902f31ea73cd20ae6db11ae96ecc3fac3c3b036c3",
+          "bytes": 6742
+        },
+        "prediction": {
+          "file": "patches/111-prediction.webp",
+          "sha256": "c783122e89abc898d93c5be7336fd1d78b32d48d51cd667e17046aa92e53d276",
+          "bytes": 6432
+        }
+      }
+    },
+    {
+      "id": 112,
+      "sourceFile": "patch-112-comparison.png",
+      "sourceSha256": "e56ddb7de1c49a778b1fe1805c2577861541163a3bb83521819a43dd43ade505",
+      "outputs": {
+        "raw": {
+          "file": "patches/112-raw.webp",
+          "sha256": "6c83542007478ad9300db13aaa14a43d5e452b741910ee34fffd350eb55b5f1a",
+          "bytes": 305590
+        },
+        "label": {
+          "file": "patches/112-label.webp",
+          "sha256": "e5842072c3ab9cfcba333fb6da6f3ea147fbc319828b5f3e38ee8856b98f3da0",
+          "bytes": 3114
+        },
+        "prediction": {
+          "file": "patches/112-prediction.webp",
+          "sha256": "9fbcadc67729369da4c1e711b3c5beeae5a8e4d1a963ef9b6317d20e904cfa7f",
+          "bytes": 4500
+        }
+      }
+    },
+    {
+      "id": 113,
+      "sourceFile": "patch-113-comparison.png",
+      "sourceSha256": "a8f7989885907df758b7400e373b4b42268962a255b3f49a12afee8cec9846c8",
+      "outputs": {
+        "raw": {
+          "file": "patches/113-raw.webp",
+          "sha256": "037e9de1def44387598efc957896c906bf5cc59e061f5425fd213a17f9c54da7",
+          "bytes": 376054
+        },
+        "label": {
+          "file": "patches/113-label.webp",
+          "sha256": "0c2d10026370d6b4ff639e7e6357ae684e384a3cbaf083c17e5c44129e007b18",
+          "bytes": 6956
+        },
+        "prediction": {
+          "file": "patches/113-prediction.webp",
+          "sha256": "40b418f193c9f0e881c8e8634c7db7bc12b1255906eab191873345000bb3c483",
+          "bytes": 7172
+        }
+      }
+    },
+    {
+      "id": 114,
+      "sourceFile": "patch-114-comparison.png",
+      "sourceSha256": "48f3ba048c9c6d0db38b5ce0cf539edda68cbe21183d93ca664255e82681060f",
+      "outputs": {
+        "raw": {
+          "file": "patches/114-raw.webp",
+          "sha256": "cc8a95fd74b1204d7bd474cf568a8d3165c9c337639cba7cb20ae3c4a25d2e57",
+          "bytes": 340406
+        },
+        "label": {
+          "file": "patches/114-label.webp",
+          "sha256": "7b2dda4adcb34d90a044a6e6f6480eb5e2ebb0bb4f8d272bade1e5bcd3a8df41",
+          "bytes": 2290
+        },
+        "prediction": {
+          "file": "patches/114-prediction.webp",
+          "sha256": "e8a69081f8b294e7ed6ddb12d548d83d939bddf0630ea2acf31b8fbc0aa53c23",
+          "bytes": 4820
+        }
+      }
+    },
+    {
+      "id": 115,
+      "sourceFile": "patch-115-comparison.png",
+      "sourceSha256": "146d74d76236d0dde8c76e6a787c870111d52f85d4b624cb49f7a4021181993e",
+      "outputs": {
+        "raw": {
+          "file": "patches/115-raw.webp",
+          "sha256": "48bf9f50fdda805f20d1a5836ae6317604066355d9aecce30bb7955604d68f1e",
+          "bytes": 309652
+        },
+        "label": {
+          "file": "patches/115-label.webp",
+          "sha256": "86228db7923e5f9aacc8a76a3d9d702644f9a07c3e4f91af9e28ad33640f0ca0",
+          "bytes": 3110
+        },
+        "prediction": {
+          "file": "patches/115-prediction.webp",
+          "sha256": "a27e5c6cc1291640389298202164cb0e1290bd3af4f6be0a6e28f31f205a174e",
+          "bytes": 4134
+        }
+      }
+    },
+    {
+      "id": 116,
+      "sourceFile": "patch-116-comparison.png",
+      "sourceSha256": "5337975e200f9f8d82985bfe8a1bb7f6f6ca4028d4c729d9576a02e2cf3b7129",
+      "outputs": {
+        "raw": {
+          "file": "patches/116-raw.webp",
+          "sha256": "f7d96dce2c8d45e94b468be60ee02e9544942d8170b054dac4e4c6e6551c3d41",
+          "bytes": 401088
+        },
+        "label": {
+          "file": "patches/116-label.webp",
+          "sha256": "70a193b1da9983e40bae081d5329d5a8908fe41bbd9719fa74413eb779c5580a",
+          "bytes": 4856
+        },
+        "prediction": {
+          "file": "patches/116-prediction.webp",
+          "sha256": "d86227593ac56a42601b60acd167a8672ced00d591b5e7e163717227b525e366",
+          "bytes": 5278
+        }
+      }
+    },
+    {
+      "id": 117,
+      "sourceFile": "patch-117-comparison.png",
+      "sourceSha256": "5365541fe8bc9c2676917981bb387ec465354c182f13cffda1f28dc6fc1cf12b",
+      "outputs": {
+        "raw": {
+          "file": "patches/117-raw.webp",
+          "sha256": "1d02e56cb319e2007d7e46b1cd0967d0d8dd60a40c8bd86fa98d1e511b23b9dc",
+          "bytes": 192614
+        },
+        "label": {
+          "file": "patches/117-label.webp",
+          "sha256": "887c120196fceb1c3dd12f1076b8aed813cd7d21658f3fe2d4cec47bb1c976d7",
+          "bytes": 4240
+        },
+        "prediction": {
+          "file": "patches/117-prediction.webp",
+          "sha256": "29232a9edfcaffd5b360d92135ba299ae813a00b3c0d0f6802615496b308ae7a",
+          "bytes": 4776
+        }
+      }
+    },
+    {
+      "id": 118,
+      "sourceFile": "patch-118-comparison.png",
+      "sourceSha256": "7964da6a93e1729e37c6092747fa47fa6b9cfa074e4c130c40b24039f6b2a839",
+      "outputs": {
+        "raw": {
+          "file": "patches/118-raw.webp",
+          "sha256": "e7ed63df2dc2e27b6069ca5d8ce0c697657c6c7a03542c40a0512a792305c3a5",
+          "bytes": 336514
+        },
+        "label": {
+          "file": "patches/118-label.webp",
+          "sha256": "7724bb406e0e25e7c3faee191d840d785685dc2cea071ea823ba60541114becd",
+          "bytes": 3024
+        },
+        "prediction": {
+          "file": "patches/118-prediction.webp",
+          "sha256": "aaa215afa28c39de3c3f20590c0263744579e0bf841a26683a782133231acc02",
+          "bytes": 4370
+        }
+      }
+    },
+    {
+      "id": 119,
+      "sourceFile": "patch-119-comparison.png",
+      "sourceSha256": "2f9af28aa1ad803554b9a6f608f789b24927c08d327dd14a373cdbeb56a5209d",
+      "outputs": {
+        "raw": {
+          "file": "patches/119-raw.webp",
+          "sha256": "fa4cbff7150c48aa308abacf47c5c795bcabc2bbd285f1d2eb1334e96d9024d5",
+          "bytes": 272552
+        },
+        "label": {
+          "file": "patches/119-label.webp",
+          "sha256": "c4b8b32bab885174c8731c546e541c5ee280e36ce62d4c81784ada97a7dfa302",
+          "bytes": 896
+        },
+        "prediction": {
+          "file": "patches/119-prediction.webp",
+          "sha256": "988c3223743cbcd69034c500715a545a607779110a0014fa02609ce28c3d8870",
+          "bytes": 4556
+        }
+      }
+    },
+    {
+      "id": 120,
+      "sourceFile": "patch-120-comparison.png",
+      "sourceSha256": "3cf928673a9dff84198ff55ca07f2fdba13e26db5de78fbb00e900bb1be9201e",
+      "outputs": {
+        "raw": {
+          "file": "patches/120-raw.webp",
+          "sha256": "fe9265f70ed7b87c37c1aac93f1c47549a14d4e7b0ea0ef1224378d6f8c0c52d",
+          "bytes": 289840
+        },
+        "label": {
+          "file": "patches/120-label.webp",
+          "sha256": "c689fce81d2a4d53bcc27fd37e0701cba57636fcc21050f888abfcca1faddede",
+          "bytes": 344
+        },
+        "prediction": {
+          "file": "patches/120-prediction.webp",
+          "sha256": "b52af34be3ca1b07376d4789a0a0548384b9245fd812a93abdbac23b199ee2f8",
+          "bytes": 5160
+        }
+      }
+    },
+    {
+      "id": 121,
+      "sourceFile": "patch-121-comparison.png",
+      "sourceSha256": "1776102455b8cb489159d563016f8f01fc14827225bacf6211cf5417f0401c0b",
+      "outputs": {
+        "raw": {
+          "file": "patches/121-raw.webp",
+          "sha256": "e79e3dfeece270b1c7384f0edb9902d481695ccd0903531b9596a84912437c2f",
+          "bytes": 254662
+        },
+        "label": {
+          "file": "patches/121-label.webp",
+          "sha256": "e0f795f43f8ef4e695b8c9d7f295d0620c67deb4a4e459ea011f927001f27d1f",
+          "bytes": 5542
+        },
+        "prediction": {
+          "file": "patches/121-prediction.webp",
+          "sha256": "7938ae8fdead2b6ef96f6ca1118c93b7a8d5c504be7ecd2dc749d8f747cc6af3",
+          "bytes": 4136
+        }
+      }
+    },
+    {
+      "id": 122,
+      "sourceFile": "patch-122-comparison.png",
+      "sourceSha256": "1e801717e0a8ba7459146a40e2fcc2a39c3107468131264e28d30ca10c93e01d",
+      "outputs": {
+        "raw": {
+          "file": "patches/122-raw.webp",
+          "sha256": "5aee1092b3ef448f40e35b41f33d8d9f1cebb17710c3a3b671cb17cd5e6ce1c8",
+          "bytes": 379814
+        },
+        "label": {
+          "file": "patches/122-label.webp",
+          "sha256": "76e8bc16318f60487dfd16cefbb0dfd80cea6f92ce02e9e83fa1c379bf3a7512",
+          "bytes": 7398
+        },
+        "prediction": {
+          "file": "patches/122-prediction.webp",
+          "sha256": "7a750c988e1ea64788454607fbabc415d0a4fd48d23764a40b71a8dc0402d4b5",
+          "bytes": 6430
+        }
+      }
+    },
+    {
+      "id": 123,
+      "sourceFile": "patch-123-comparison.png",
+      "sourceSha256": "75fc4aa539c5f73969b24f93a2e2e62e9c8f4889258bbed21338034fb986c1bd",
+      "outputs": {
+        "raw": {
+          "file": "patches/123-raw.webp",
+          "sha256": "2d65166fb9e89a7e4fb7e2a493eac44de0136c91ab781dfd9b84969d7474a2de",
+          "bytes": 412520
+        },
+        "label": {
+          "file": "patches/123-label.webp",
+          "sha256": "ca4c50e9734d6e40a1898510b463142f57f7422b81f79c524d1b20c6b0640269",
+          "bytes": 5234
+        },
+        "prediction": {
+          "file": "patches/123-prediction.webp",
+          "sha256": "f8fac2246a9eb15209d4ca648d7bb16447c863a5c1a86f08868874a8cfb08cb7",
+          "bytes": 5140
+        }
+      }
+    },
+    {
+      "id": 124,
+      "sourceFile": "patch-124-comparison.png",
+      "sourceSha256": "a8476c141f81fe3377109c574a64d8f32b6e062fe306306a7a44539af14a8724",
+      "outputs": {
+        "raw": {
+          "file": "patches/124-raw.webp",
+          "sha256": "3fd7f3a40e648da96e500e8cc551070aa2fe712462462efa9afb4f58301b7d18",
+          "bytes": 299126
+        },
+        "label": {
+          "file": "patches/124-label.webp",
+          "sha256": "5adec95143a8901facccd15d792c35cd46bd057c8130529b4a21831172c2fb10",
+          "bytes": 2428
+        },
+        "prediction": {
+          "file": "patches/124-prediction.webp",
+          "sha256": "e59535cd4560f98c1ab02b1ea7c9f2b8d4b77f0d222c192f63b6b5dbcea80b99",
+          "bytes": 3636
+        }
+      }
+    },
+    {
+      "id": 125,
+      "sourceFile": "patch-125-comparison.png",
+      "sourceSha256": "261598d0834a39b79237dda000be51ee7fa6c7825440dbf925e74414db2fe034",
+      "outputs": {
+        "raw": {
+          "file": "patches/125-raw.webp",
+          "sha256": "04ed96412944b93c86ed583506835fd54f5082aa8f205cebbb23d2c85f516200",
+          "bytes": 421796
+        },
+        "label": {
+          "file": "patches/125-label.webp",
+          "sha256": "188458c6508cdbd7407d817173e3a131740692d87f13728bae1e7e11ec39216c",
+          "bytes": 4400
+        },
+        "prediction": {
+          "file": "patches/125-prediction.webp",
+          "sha256": "fd04fb910420eb2f4753349146a4d4fb0c88c388ce488be84599e83d2a701441",
+          "bytes": 4282
+        }
+      }
+    },
+    {
+      "id": 126,
+      "sourceFile": "patch-126-comparison.png",
+      "sourceSha256": "b72e148c38f2be4b950586ea8eb86b6d224d2ae58d849fadb3b4c97b234cd208",
+      "outputs": {
+        "raw": {
+          "file": "patches/126-raw.webp",
+          "sha256": "c1fa548d82903589e5c1f2a04266911f69e1baafb8703f3d98fae04cbd6847ee",
+          "bytes": 300518
+        },
+        "label": {
+          "file": "patches/126-label.webp",
+          "sha256": "17b59a555822225b5a3a2209fcf7ef3020255132237166f2e78ff5ad6aa22c55",
+          "bytes": 7058
+        },
+        "prediction": {
+          "file": "patches/126-prediction.webp",
+          "sha256": "271f173c8e7c94a3f9a68d5c828772218db55fc7a0edac445894224865281d73",
+          "bytes": 5812
+        }
+      }
+    },
+    {
+      "id": 127,
+      "sourceFile": "patch-127-comparison.png",
+      "sourceSha256": "be959aee5325bd762660363600d4887469c85fd18ee7cb8d1794ab3943802cf7",
+      "outputs": {
+        "raw": {
+          "file": "patches/127-raw.webp",
+          "sha256": "a04d072211a22d2f48b3c2d4e90e58b86b695a547f95e3219766ee1f32e5a5d2",
+          "bytes": 67016
+        },
+        "label": {
+          "file": "patches/127-label.webp",
+          "sha256": "64dafd2ca708e66632066780a075bed516472f3c021c70adc8916acd86eb5994",
+          "bytes": 2646
+        },
+        "prediction": {
+          "file": "patches/127-prediction.webp",
+          "sha256": "3571bbb438583fb6fc12afa7f92c2aef782ff3a0b1f8de7eb20f62803c8c0818",
+          "bytes": 6640
+        }
+      }
+    },
+    {
+      "id": 128,
+      "sourceFile": "patch-128-comparison.png",
+      "sourceSha256": "5f676810f61911bc0f6bd40b4090b22a3040c9ec7b2004aa116a30c9642ac5a0",
+      "outputs": {
+        "raw": {
+          "file": "patches/128-raw.webp",
+          "sha256": "d803c2f3af0bab0044f6ec3822ccf999c0a72b62dc1d94cb0d31960416949727",
+          "bytes": 395984
+        },
+        "label": {
+          "file": "patches/128-label.webp",
+          "sha256": "c275eecf41f8080d2898089502f26ceeb9463ced3360f56b59bc3327eff36a9f",
+          "bytes": 6534
+        },
+        "prediction": {
+          "file": "patches/128-prediction.webp",
+          "sha256": "523bcb9ab64102e57f539812dfcc9cfb78de254e478da7c82a6d54af03fec8aa",
+          "bytes": 6504
+        }
+      }
+    },
+    {
+      "id": 129,
+      "sourceFile": "patch-129-comparison.png",
+      "sourceSha256": "da92e2afde956132e9713157b3d8303ab31945d9c2ebf207c95120839028b35d",
+      "outputs": {
+        "raw": {
+          "file": "patches/129-raw.webp",
+          "sha256": "3d07dc5ba540cdc7d73a3440a909a5bf0283297048cf7216b13683adeccf2dd1",
+          "bytes": 401238
+        },
+        "label": {
+          "file": "patches/129-label.webp",
+          "sha256": "6babe087e6f71cc92fbdb74a590118d5728aa3e661c3bd9f6e40823aec39726e",
+          "bytes": 5178
+        },
+        "prediction": {
+          "file": "patches/129-prediction.webp",
+          "sha256": "4ee720649f71128316a10df2c6fb148e4a8dfc75bd762fd68964acfa0d566c40",
+          "bytes": 5518
+        }
+      }
+    },
+    {
+      "id": 130,
+      "sourceFile": "patch-130-comparison.png",
+      "sourceSha256": "a9894e06b8a7e888a652b078b3ade507aed70a1658518fc31c3a613824ea9ced",
+      "outputs": {
+        "raw": {
+          "file": "patches/130-raw.webp",
+          "sha256": "5f58f64c8c1bc302d0a18a1d2135a5ede78cd1f78499ff8da10474507eba1706",
+          "bytes": 321552
+        },
+        "label": {
+          "file": "patches/130-label.webp",
+          "sha256": "5a90579407c608462fc5d6173e2bf2ccde0fe18a62727ba0c62fb28b02c18d2c",
+          "bytes": 1790
+        },
+        "prediction": {
+          "file": "patches/130-prediction.webp",
+          "sha256": "782a96bf0a42bc62904e569e3fb1a9647b546e8fc1523f1eb50192d3cf26e34a",
+          "bytes": 4534
+        }
+      }
+    },
+    {
+      "id": 131,
+      "sourceFile": "patch-131-comparison.png",
+      "sourceSha256": "d34d99bfb7a440f284c34d54a40f23718f181a923b6bd5fdc57e9262771fbe21",
+      "outputs": {
+        "raw": {
+          "file": "patches/131-raw.webp",
+          "sha256": "092e8061c5e96802a368df3993cc15caad0910ea71bef97fd6cdd81b12408347",
+          "bytes": 167078
+        },
+        "label": {
+          "file": "patches/131-label.webp",
+          "sha256": "48e7d33e48f9525b1e3b3e184a2c11498e67fb3bbb6dac31e9e368d69c112175",
+          "bytes": 3934
+        },
+        "prediction": {
+          "file": "patches/131-prediction.webp",
+          "sha256": "6d85c73364078005c80de92449e05b513bef5fbb34ee0dd0470c3503ecc39d92",
+          "bytes": 7136
+        }
+      }
+    },
+    {
+      "id": 132,
+      "sourceFile": "patch-132-comparison.png",
+      "sourceSha256": "1e7d396f018453b59b17915cbf1b0a2df931ecabe5521b8e4396902ded00ce14",
+      "outputs": {
+        "raw": {
+          "file": "patches/132-raw.webp",
+          "sha256": "ec29efcdab06051b0156bc3c1db2d363f37651156c18a2d5acc345b5d188ef4f",
+          "bytes": 423498
+        },
+        "label": {
+          "file": "patches/132-label.webp",
+          "sha256": "e6963b4a7616173a587c0f1649a0bf8ccc40938c727b5f15949be5964bd28220",
+          "bytes": 5258
+        },
+        "prediction": {
+          "file": "patches/132-prediction.webp",
+          "sha256": "1a7f1fb6948b180324db4ad98d54cd36e88583045a508eeed40064248de7bfe4",
+          "bytes": 4518
+        }
+      }
+    },
+    {
+      "id": 133,
+      "sourceFile": "patch-133-comparison.png",
+      "sourceSha256": "c9a08c86ebaedb0b69970a3e26fafc1aafd39c5f599c4d314976256176cc734b",
+      "outputs": {
+        "raw": {
+          "file": "patches/133-raw.webp",
+          "sha256": "dd2d2806973b9a4996664543f0afc19b002260180abbad0870e39aeeca385533",
+          "bytes": 301218
+        },
+        "label": {
+          "file": "patches/133-label.webp",
+          "sha256": "26dffcd1a36324f32ca865f4d62238c75aad3bffd7346efa9a2e7ffe53f18f4d",
+          "bytes": 2398
+        },
+        "prediction": {
+          "file": "patches/133-prediction.webp",
+          "sha256": "23a28994eb2e49ab7d6c9cb7a5522f29053fc4f6808b968499cfb7b90e046a93",
+          "bytes": 5752
+        }
+      }
+    },
+    {
+      "id": 134,
+      "sourceFile": "patch-134-comparison.png",
+      "sourceSha256": "39c687b5e606d77530196355a1300455e8c9d65cc317eba4a18685d1dd65edb6",
+      "outputs": {
+        "raw": {
+          "file": "patches/134-raw.webp",
+          "sha256": "a19b627fb2c1835ea9d6733a19fd7f5d0de881d994d3b161c645887ec317b9ba",
+          "bytes": 354112
+        },
+        "label": {
+          "file": "patches/134-label.webp",
+          "sha256": "59932f61cca9b815ced78689fdcdd4a2499c6f89afe688cbfddb3955f3ed25b7",
+          "bytes": 6804
+        },
+        "prediction": {
+          "file": "patches/134-prediction.webp",
+          "sha256": "297a1ec8b289ebfe0838e76e5bb34b8fe6fd7d36638adb42d6ce84d9da589da8",
+          "bytes": 5602
+        }
+      }
+    },
+    {
+      "id": 135,
+      "sourceFile": "patch-135-comparison.png",
+      "sourceSha256": "d46607281f20ed97db67c1c38c934d6765f929dda8c40684b8e2bd9c97600bed",
+      "outputs": {
+        "raw": {
+          "file": "patches/135-raw.webp",
+          "sha256": "9698bf340ab0c5440b2be4daed734aea81ad3a1cdc561c8bf210d3432d90d347",
+          "bytes": 119686
+        },
+        "label": {
+          "file": "patches/135-label.webp",
+          "sha256": "27949595927566a5491212a54ef30daab175a4519b5501daadde071ffbc9ae6f",
+          "bytes": 4114
+        },
+        "prediction": {
+          "file": "patches/135-prediction.webp",
+          "sha256": "4fee9331229af7c0cf86240dad32df872e863816dd7555c27d4f359811e75203",
+          "bytes": 6498
+        }
+      }
+    },
+    {
+      "id": 136,
+      "sourceFile": "patch-136-comparison.png",
+      "sourceSha256": "c1b481a24a811a466ff0a58db2ce7373fd3ed66f7864f95d77e1d56fb286ca77",
+      "outputs": {
+        "raw": {
+          "file": "patches/136-raw.webp",
+          "sha256": "4ae423ed94414066a42bc3e6ded31eef2e642f9c9d50554907016046f604ff51",
+          "bytes": 237226
+        },
+        "label": {
+          "file": "patches/136-label.webp",
+          "sha256": "a986db806454a695d9685d6448eb735a0576514f7854faf7d7f7474a725439f7",
+          "bytes": 1588
+        },
+        "prediction": {
+          "file": "patches/136-prediction.webp",
+          "sha256": "ff2f27053d47d9f2e5cbad0dc8dd77172994148291c238c590c81f4417ce545b",
+          "bytes": 5718
+        }
+      }
+    },
+    {
+      "id": 137,
+      "sourceFile": "patch-137-comparison.png",
+      "sourceSha256": "eff073a3201e64c36c5b1abca58a475d6f3b423e8b2c9705f9060adcffb5463a",
+      "outputs": {
+        "raw": {
+          "file": "patches/137-raw.webp",
+          "sha256": "2f1c10cc36902025dfbbdaf1e9e13565a75c652a71d0edf8a6a9d78122bf3d66",
+          "bytes": 379782
+        },
+        "label": {
+          "file": "patches/137-label.webp",
+          "sha256": "1afef135c2bed9c74d48f7074156f62f7ea96825118b863c29476374ca1152a4",
+          "bytes": 4982
+        },
+        "prediction": {
+          "file": "patches/137-prediction.webp",
+          "sha256": "84badda89e3c35cf64de1c775567150b564978c39238904c2ce816b1cdd78306",
+          "bytes": 5946
+        }
+      }
+    },
+    {
+      "id": 138,
+      "sourceFile": "patch-138-comparison.png",
+      "sourceSha256": "8f1db078c2b777c80e4b82ac6b206aacf7bf73dd9903c23ddd708a7f9ee83269",
+      "outputs": {
+        "raw": {
+          "file": "patches/138-raw.webp",
+          "sha256": "fdb75ed3cf3cdbf8d037b569c4d4502534ab7a984642437c8fe4f58e2df55584",
+          "bytes": 404966
+        },
+        "label": {
+          "file": "patches/138-label.webp",
+          "sha256": "f19df2ac20ffbc3960f27894dd2bbe00711305516890d33acd5a1e727b419f18",
+          "bytes": 2034
+        },
+        "prediction": {
+          "file": "patches/138-prediction.webp",
+          "sha256": "d6c31005335a77ade32f2032fcfba7b0b8f73609ccb459475d2ca8697c9b51fb",
+          "bytes": 2996
+        }
+      }
+    },
+    {
+      "id": 139,
+      "sourceFile": "patch-139-comparison.png",
+      "sourceSha256": "216cb70f81b69da70e728cc2e34f858a58c1b9245d99cb1bfed464ea3a289ffe",
+      "outputs": {
+        "raw": {
+          "file": "patches/139-raw.webp",
+          "sha256": "95fef76900024e3fb7da2f5ea0e4f1d89e592ea938cf52df4a77e3cfa1afd36e",
+          "bytes": 320266
+        },
+        "label": {
+          "file": "patches/139-label.webp",
+          "sha256": "6a589a3e8049cf47dc365d84aa90582a455ab84ac58bba2dd76a46c8076e690e",
+          "bytes": 2010
+        },
+        "prediction": {
+          "file": "patches/139-prediction.webp",
+          "sha256": "cb59a77b7296f2378f57d80127f605a1c6def614a7cc9a3ef16f203a445496db",
+          "bytes": 3826
+        }
+      }
+    },
+    {
+      "id": 140,
+      "sourceFile": "patch-140-comparison.png",
+      "sourceSha256": "18716460ca9da168359c0d3cb9ab30be6d15cb07541630197f861630f38c7764",
+      "outputs": {
+        "raw": {
+          "file": "patches/140-raw.webp",
+          "sha256": "8a7e6f228f4b93845b155b99f4fe092a01f503d42886e88daff318b552167746",
+          "bytes": 317996
+        },
+        "label": {
+          "file": "patches/140-label.webp",
+          "sha256": "f9f652f038a0d1d98ba9a66f7516555c3cbe536d791d2ed33722343683b12a10",
+          "bytes": 6470
+        },
+        "prediction": {
+          "file": "patches/140-prediction.webp",
+          "sha256": "519d124d3979566c1f54108dd3ae7f7c96549cc0b2ce1a021e53e93ca221f221",
+          "bytes": 5962
+        }
+      }
+    },
+    {
+      "id": 141,
+      "sourceFile": "patch-141-comparison.png",
+      "sourceSha256": "ce7f86c31d8e52ac54e0aed26da26628253ce02057e52e9ed88dba45b09e051d",
+      "outputs": {
+        "raw": {
+          "file": "patches/141-raw.webp",
+          "sha256": "3fab1f56b470ed48e7224f31b27c69dc53d39877b31d1fbdef70f2d907d2a537",
+          "bytes": 235004
+        },
+        "label": {
+          "file": "patches/141-label.webp",
+          "sha256": "672559b7dd664cef9f2de936d4fc5569e1020d7915e87550a765769cb510dadb",
+          "bytes": 2882
+        },
+        "prediction": {
+          "file": "patches/141-prediction.webp",
+          "sha256": "ac42c5f57fc31eba992a81e05a795d37738d6bf4ea90536d67569ec7299144a0",
+          "bytes": 7830
+        }
+      }
+    },
+    {
+      "id": 142,
+      "sourceFile": "patch-142-comparison.png",
+      "sourceSha256": "5584c771626ef9f479fcedde4f4e5603d947f7243ecbf562a7521e5233227769",
+      "outputs": {
+        "raw": {
+          "file": "patches/142-raw.webp",
+          "sha256": "5aebf565a3590906e14e3205fbabdba0d3e6823ff0ed7210db167f791f4bd3cf",
+          "bytes": 291434
+        },
+        "label": {
+          "file": "patches/142-label.webp",
+          "sha256": "d927b5d2b3934dc9940f18fb068dcad82660b9577b3785f1c62e098b7a294c69",
+          "bytes": 1712
+        },
+        "prediction": {
+          "file": "patches/142-prediction.webp",
+          "sha256": "cd8d3c03abaabc526aca380e33bbc9b796f465cc5dad0e30c7c0de4ec071f5c9",
+          "bytes": 6452
+        }
+      }
+    },
+    {
+      "id": 143,
+      "sourceFile": "patch-143-comparison.png",
+      "sourceSha256": "959b669b324b63d43e096629256edd1a09a6bed6079c79b1966e44903a0c3c60",
+      "outputs": {
+        "raw": {
+          "file": "patches/143-raw.webp",
+          "sha256": "e93504f33d56f42c770848c73a47bd011e6880faf0c1a5a95552477f96d3a1f6",
+          "bytes": 325758
+        },
+        "label": {
+          "file": "patches/143-label.webp",
+          "sha256": "18df32bad4f49b56826ce41726aa9e9c1c5931757075d551de809a4a88c9081c",
+          "bytes": 2800
+        },
+        "prediction": {
+          "file": "patches/143-prediction.webp",
+          "sha256": "1d3304e1622aa65e5994b4e126d09302a58c7668a7f2029099f43e85461646d3",
+          "bytes": 4016
+        }
+      }
+    },
+    {
+      "id": 144,
+      "sourceFile": "patch-144-comparison.png",
+      "sourceSha256": "f2a749ac7e98cbceaa7e23b4a50c65b4ab85e189f4996c62179b001b00322c5f",
+      "outputs": {
+        "raw": {
+          "file": "patches/144-raw.webp",
+          "sha256": "ca237863f28d266ea4e74328ac567acb97dd46e6be409cb21317e07e33860183",
+          "bytes": 200556
+        },
+        "label": {
+          "file": "patches/144-label.webp",
+          "sha256": "721b6c84ae9cda078fdcffa1e29a1e851f9d17b83a01577ed45e4b7756818382",
+          "bytes": 6138
+        },
+        "prediction": {
+          "file": "patches/144-prediction.webp",
+          "sha256": "41b6d23e8b1a814f8e483a8a813e1ae29b889a77eac17b7f39518323e58f289b",
+          "bytes": 8034
+        }
+      }
+    },
+    {
+      "id": 145,
+      "sourceFile": "patch-145-comparison.png",
+      "sourceSha256": "01b10098a52537d2216a7e17399784e973f7dab9311b8be28e31c165dcd08bc8",
+      "outputs": {
+        "raw": {
+          "file": "patches/145-raw.webp",
+          "sha256": "f7158e6ef11753056f52bff602e6a9e3b187eece7fd5a9c9f12356ee7ba1884f",
+          "bytes": 397044
+        },
+        "label": {
+          "file": "patches/145-label.webp",
+          "sha256": "db1fe8c09e07ab944998208a30b89238ae5db33a1eb5cd53432e50157007abe9",
+          "bytes": 7156
+        },
+        "prediction": {
+          "file": "patches/145-prediction.webp",
+          "sha256": "d47b538ca2485d12e17797cf606092aa49d3dc61525260d207c54fe11747e083",
+          "bytes": 6964
+        }
+      }
+    },
+    {
+      "id": 146,
+      "sourceFile": "patch-146-comparison.png",
+      "sourceSha256": "abc0ca8eeb73086a62ee0c4e333e05c60b15126dd706e88bada52d1f0e86aa0e",
+      "outputs": {
+        "raw": {
+          "file": "patches/146-raw.webp",
+          "sha256": "d7b3dd6889ce97e7ed885c52fa6933e5d3706951599b5a7486d79916e0ec4c8b",
+          "bytes": 420570
+        },
+        "label": {
+          "file": "patches/146-label.webp",
+          "sha256": "91065dcfff91b178e0cf83d3f326d36805ca6436b64694bd94bdcaad37a3678f",
+          "bytes": 4946
+        },
+        "prediction": {
+          "file": "patches/146-prediction.webp",
+          "sha256": "7b1a79e51979bf595efb35bfc0aac2e91b1447d3b73e17548a2e69c2e2c2160f",
+          "bytes": 5112
+        }
+      }
+    },
+    {
+      "id": 147,
+      "sourceFile": "patch-147-comparison.png",
+      "sourceSha256": "933ea0fa7e907cc8cd8f7941b9a48ef879605e20fe8daa63d0d787d5bc5ecc6a",
+      "outputs": {
+        "raw": {
+          "file": "patches/147-raw.webp",
+          "sha256": "390f8f7e57450db5568e49618225be6cd2b9c8685bb7e358e8cd80966ab526fd",
+          "bytes": 421106
+        },
+        "label": {
+          "file": "patches/147-label.webp",
+          "sha256": "d139556d256e7e9eed98ea7025ad62a1599d1edbc3b38dcd9c3d7239b05be0fc",
+          "bytes": 2874
+        },
+        "prediction": {
+          "file": "patches/147-prediction.webp",
+          "sha256": "700df47cecf6d0f9e065a9319eba22d0cb223a5774d96b2c0836edbb6c02bc31",
+          "bytes": 4978
+        }
+      }
+    }
+  ]
+}
