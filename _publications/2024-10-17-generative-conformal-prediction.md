@@ -4,7 +4,7 @@ collection: publications
 category: conferences
 cv_order: 1
 permalink: /publication/generative-conformal-prediction
-excerpt: "ORCA uses density-ranked generative samples and optimized coverage allocation to construct efficient prediction regions with finite-sample marginal coverage. <a href='/orca/'>Project page and interactive demo</a>."
+excerpt: "ORCA uses density-ranked generative samples and optimized coverage allocation to construct efficient prediction regions with finite-sample marginal coverage. <a href='/orca/'>Interactive demo</a>."
 date: 2026-09-24
 venue: "NeurIPS"
 status: published
@@ -25,4 +25,4 @@ citation: 'Minxing Zheng and Shixiang Zhu. (2026). &quot;Generative Conformal Pr
 
 ORCA ranks samples from a conditional generative model using a local density proxy, optimizes rank-specific radii on an exploration split, and calibrates the result on a separate split. This yields adaptive prediction regions with finite-sample marginal coverage.
 
-See the [NeurIPS paper page](https://neurips.cc/virtual/2026/poster/149988), the [revised arXiv preprint](https://arxiv.org/abs/2410.13735), and the [project page and interactive demo](/orca/).
+See the [NeurIPS paper page](https://neurips.cc/virtual/2026/poster/149988), the [revised arXiv preprint](https://arxiv.org/abs/2410.13735), and the [interactive demo](/orca/).

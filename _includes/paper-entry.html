@@ -16,8 +16,8 @@
     <div class="paper__links">
       {% if p.paperurl %}<a href="{{ p.paperurl }}">{% if p.paperurl contains 'arxiv.org' %}arXiv{% else %}Paper{% endif %}</a>{% endif %}
       {% if p.preprinturl %}<a href="{{ p.preprinturl }}">arXiv</a>{% endif %}
-      {% if p.projecturl %}<a href="{{ base_path }}{{ p.projecturl }}">Project &amp; demo</a>{% endif %}
-      {% if p.demourl %}<a href="{{ base_path }}{{ p.demourl }}">Demo</a>{% endif %}
+      {% if p.projecturl %}<a href="{{ base_path }}{{ p.projecturl }}">Interactive demo</a>{% endif %}
+      {% if p.demourl %}<a href="{{ base_path }}{{ p.demourl }}">Interactive demo</a>{% endif %}
       {% if p.codeurl %}<a href="{{ p.codeurl }}">Code</a>{% endif %}
       {% if p.posterurl %}<a href="{{ base_path }}{{ p.posterurl }}">Poster</a>{% endif %}
       {% if p.slidesurl %}<a href="{{ base_path }}{{ p.slidesurl }}">Slides</a>{% endif %}
