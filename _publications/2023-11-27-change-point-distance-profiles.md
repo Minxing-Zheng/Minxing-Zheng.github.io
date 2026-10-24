@@ -7,8 +7,6 @@ permalink: /publication/change-point-distance-profiles
 excerpt: "A tuning-parameter-free, fully nonparametric framework for detecting and locating distributional changes in metric-space data using distance profiles."
 date: 2023-11-27
 venue: "arXiv preprint"
-venues:
-  - name: "arXiv preprint"
 authors: "Paromita Dubey and Minxing Zheng"
 paperurl: "https://arxiv.org/abs/2311.16025"
 citation: 'Paromita Dubey and Minxing Zheng. (2023). &quot;Change Point Inference for Non-Euclidean Data Sequences using Distance Profiles.&quot; <i>arXiv:2311.16025</i>.'
