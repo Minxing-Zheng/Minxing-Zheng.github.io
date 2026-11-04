@@ -378,6 +378,29 @@ html[data-theme="dark"] {
   white-space: nowrap;
 }
 
+/* Key figure for featured papers, shown under the links. */
+.paper--teaser {
+  row-gap: 0.7rem;
+}
+
+.page__content .paper__teaser,
+.archive .paper__teaser {
+  display: block;
+  grid-column: 2;
+  max-width: 30rem;
+  overflow: hidden;
+  border: 1px solid var(--site-line);
+  border-radius: 4px;
+  background: #fff;
+  text-decoration: none;
+}
+
+.paper__teaser img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 @media (max-width: 600px) {
   .paper {
     grid-template-columns: 1fr;
@@ -387,6 +410,95 @@ html[data-theme="dark"] {
   .paper__tag {
     flex-direction: row;
     align-items: center;
+  }
+
+  .page__content .paper__teaser,
+  .archive .paper__teaser {
+    grid-column: 1;
+    margin-top: 0.4rem;
+  }
+}
+
+/* ---------- Talks & posters page ---------- */
+
+.talk-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.talk-list > li {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--site-line);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.talk-list > li:last-child {
+  border-bottom: 0;
+}
+
+.talk-list__date {
+  flex: 0 0 4.8rem;
+  color: var(--site-muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.talk-list__type {
+  flex: 0 0 3.4rem;
+  padding-top: 0.2rem;
+  color: var(--site-muted);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.talk-list__text {
+  min-width: 0;
+  text-wrap: pretty;
+}
+
+.archive .talk-list__title {
+  color: var(--site-ink);
+  font-weight: 600;
+}
+
+.archive .talk-list__title a {
+  color: var(--site-ink);
+  text-decoration: none;
+}
+
+.archive .talk-list__title a:hover {
+  text-decoration: underline;
+}
+
+.talk-list__event {
+  margin-top: 0.1rem;
+  color: var(--site-muted);
+  font-size: 0.92rem;
+}
+
+.page__content .talk-list__link,
+.archive .talk-list__link {
+  margin-left: 0.6rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  .talk-list > li {
+    flex-wrap: wrap;
+    gap: 0 0.8rem;
+  }
+
+  .talk-list__text {
+    flex: 1 1 100%;
   }
 }
 

@@ -18,6 +18,9 @@ paper_label: "NeurIPS page"
 preprinturl: "https://arxiv.org/abs/2410.13735"
 projecturl: "/orca/"
 codeurl: "https://github.com/Minxing-Zheng/ORCA"
+teaser: "/images/papers/orca.jpg"
+teaser_alt: "Prediction sets from Standard CP, PCP and ORCA on the same generated samples"
+teaser_link: "/orca/"
 featured: true
 featured_order: 1
 feature_summary: "ORCA ranks samples from a generative model by local density, optimizes rank-specific radii, and calibrates the resulting prediction regions for finite-sample marginal coverage."

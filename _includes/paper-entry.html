@@ -1,6 +1,6 @@
 {% include base_path %}
 {% assign p = include.paper %}
-<li class="paper{% if include.accepted %} paper--accepted{% endif %}">
+<li class="paper{% if include.accepted %} paper--accepted{% endif %}{% if p.teaser %} paper--teaser{% endif %}">
   <div class="paper__tag">
     {% if include.accepted %}
       <span class="paper__badge{% if p.category == 'workshops' %} paper__badge--workshop{% endif %}">{{ p.badge | default: p.venue }}</span>
@@ -23,4 +23,5 @@
       {% if p.slidesurl %}<a href="{{ base_path }}{{ p.slidesurl }}">Slides</a>{% endif %}
     </div>
   </div>
+  {% if p.teaser %}<a class="paper__teaser" href="{{ base_path }}{{ p.teaser_link | default: p.url }}"><img src="{{ base_path }}{{ p.teaser }}" alt="{{ p.teaser_alt | default: p.title }}" loading="lazy"></a>{% endif %}
 </li>
