@@ -1,6 +1,6 @@
 # Homepage news, newest first. `text` accepts Markdown.
 - date: Nov 2026
-  text: "Presented [Learning to Test](/publication/learning-to-test) at the **2026 INFORMS Annual Meeting** in San Francisco."
+  text: "Presented [Learning to Test](/publication/learning-to-test) at the **2026 INFORMS Annual Meeting** in San Francisco ([slides](/files/slides/learning-to-test_informs2026_slides.pdf))."
 - date: Oct 2026
   text: "Grateful to receive **NeurIPS 2026 financial assistance**. Thank you, NeurIPS! Heading to Atlanta (Dec 9–13) to present [ORCA](/publication/generative-conformal-prediction) at the main conference and [LatentCP](/publication/latent-conformal-inference) at the ML×OR Workshop. Come find me at the posters, or [drop me a line](mailto:minxingz@andrew.cmu.edu)."
 - date: Oct 2026

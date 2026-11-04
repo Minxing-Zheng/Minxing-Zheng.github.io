@@ -10,6 +10,7 @@ venue: "arXiv preprint"
 authors: "Minxing Zheng, Zewei Deng, Liyan Xie, and Shixiang Zhu"
 paperurl: "https://arxiv.org/abs/2604.10967"
 posterurl: "/files/posters/learning-to-test_poster.pdf"
+slidesurl: "/files/slides/learning-to-test_informs2026_slides.pdf"
 citation: 'Minxing Zheng, Zewei Deng, Liyan Xie, and Shixiang Zhu. (2026). &quot;Learning to Test: Latent Representation Learning for Dynamic Instability Detection.&quot; <i>arXiv:2604.10967</i>.'
 ---
 
