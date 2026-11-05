@@ -67,7 +67,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "MinxingZheng"
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
@@ -133,7 +133,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter "MinxingZheng"
 facebook:
   username               :
   app_id                 :
