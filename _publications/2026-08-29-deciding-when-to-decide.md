@@ -13,6 +13,9 @@ featured: true
 featured_order: 4
 feature_summary: "RADAR tests whether a deployed decision remains operationally adequate as the data distribution shifts."
 citation: 'Minxing Zheng, Holly Wiberg, and Shixiang Zhu. (2026). &quot;Deciding When to Decide: Testing Operational Suboptimality under Distributional Shift.&quot; <i>arXiv:2608.29465</i>.'
+thumb: "/images/papers/radar.jpg"
+thumb_fit: contain
+thumb_alt: "Two-zone redistricting under a decision-irrelevant and a decision-relevant shift"
 ---
 
 Read the [arXiv preprint](https://arxiv.org/abs/2608.29465).

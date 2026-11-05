@@ -11,9 +11,10 @@ authors: "Minxing Zheng, Zewei Deng, Liyan Xie, and Shixiang Zhu"
 paperurl: "https://arxiv.org/abs/2604.10967"
 posterurl: "/files/posters/learning-to-test_poster.pdf"
 slidesurl: "/files/slides/learning-to-test_informs2026_slides.pdf"
-teaser: "/images/papers/learning-to-test.jpg"
-teaser_alt: "Two stable systems and one unstable system, with their contexts and learned latent distributions"
 citation: 'Minxing Zheng, Zewei Deng, Liyan Xie, and Shixiang Zhu. (2026). &quot;Learning to Test: Latent Representation Learning for Dynamic Instability Detection.&quot; <i>arXiv:2604.10967</i>.'
+thumb: "/images/papers/learning-to-test.jpg"
+thumb_fit: cover
+thumb_alt: "Learning to Test pipeline: train an encoder on baseline runs, then raise an alarm when a new deployment's latents are far from uniform"
 ---
 
 This work learns a latent representation for stability-relevant contextual structure and reframes deployment-time monitoring as a distributional hypothesis test.

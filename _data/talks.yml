@@ -1,19 +1,17 @@
-# Talks and posters, newest first. Shown on the Talks page (/talks/).
+# Talks and posters, newest first. Entries with a paper `url` are listed under that paper in the publication list.
 - date: Dec 2026
   type: Poster
   upcoming: true
-  title: ORCA
   url: /publication/generative-conformal-prediction
   event: NeurIPS 2026, Atlanta
+  poster: /files/posters/orca_poster.pdf
 - date: Dec 2026
   type: Poster
   upcoming: true
-  title: LatentCP
   url: /publication/latent-conformal-inference
   event: NeurIPS 2026 Workshop on ML×OR, Atlanta
 - date: Nov 2026
   type: Talk
-  title: Learning to Test
   url: /publication/learning-to-test
   event: 2026 INFORMS Annual Meeting, San Francisco
   slides: /files/slides/learning-to-test_informs2026_slides.pdf
@@ -21,36 +19,26 @@
   type: Talk
   title: Topology-Aware Uncertainty Quantification for Power-System Resilience and Restoration
   event: 2026 CEIC Advisory Committee Meeting, Carnegie Mellon
+  note: With Duquesne Light Company
 - date: Sep 2026
   type: Poster
-  title: Learning to Test
   url: /publication/learning-to-test
   event: NSF AI-SDM Workshop on Human-AI Complementarity
   poster: /files/posters/learning-to-test_poster.pdf
 - date: Aug 2026
   type: Poster
-  title: LatentCP
   url: /publication/latent-conformal-inference
   event: YinzOR 2026, Carnegie Mellon
   poster: /files/posters/latentcp_poster.pdf
 - date: May 2026
   type: Poster
-  title: Learning to Test
   url: /publication/learning-to-test
   event: CMU Workshop on Climate and Energy Decision Making
 - date: Mar 2026
   type: Poster
-  title: Learning to Test
   url: /publication/learning-to-test
   event: CMU Energy Week 2026
 - date: Oct 2025
-  type: Talk
-  title: ORCA
+  type: Talk & Poster
   url: /publication/generative-conformal-prediction
-  event: 2025 INFORMS Annual Meeting, Atlanta
-- date: Oct 2025
-  type: Poster
-  title: ORCA
-  url: /publication/generative-conformal-prediction
-  event: 2025 INFORMS Annual Meeting, QSR Poster Competition
-  poster: /files/posters/orca_poster.pdf
+  event: 2025 INFORMS Annual Meeting, Atlanta (QSR Poster Competition)

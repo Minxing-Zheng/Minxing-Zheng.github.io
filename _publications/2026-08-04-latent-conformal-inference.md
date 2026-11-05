@@ -24,6 +24,8 @@ pinned: true
 featured_order: 2
 feature_summary: "LatentCP constructs uncertainty sets for unobserved distributional parameters from observed context–response pairs and a specified forward model, without latent calibration labels."
 citation: 'Minxing Zheng, Wenbin Zhou, and Shixiang Zhu. (2026). &quot;Beyond Prediction: Conformal Inference for Latent Distributional Parameters.&quot; <i>arXiv:2608.03607</i>.'
+thumb: "/images/papers/latentcp-poster.jpg"
+thumb_alt: "LatentCP poster"
 ---
 
 **Short version accepted at the NeurIPS 2026 Workshop on ML×OR.** The full preprint is available on [arXiv](https://arxiv.org/abs/2608.03607).

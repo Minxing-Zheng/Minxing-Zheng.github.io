@@ -13,6 +13,9 @@ featured: true
 featured_order: 3
 feature_summary: "CASA adapts the number of generated samples across inputs to improve prediction-set efficiency under a sampling budget."
 citation: 'Minxing Zheng and Shixiang Zhu. (2026). &quot;Sample-Efficient Generative Conformal Prediction.&quot; <i>arXiv:2610.11349</i>.'
+thumb: "/images/papers/casa.jpg"
+thumb_fit: contain
+thumb_alt: "CASA on Porto taxi routes: more samples where the next location is uncertain"
 ---
 
 Read the [arXiv preprint](https://arxiv.org/abs/2610.11349).

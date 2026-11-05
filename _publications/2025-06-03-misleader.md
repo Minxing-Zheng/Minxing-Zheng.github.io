@@ -10,6 +10,8 @@ venue: "arXiv preprint"
 authors: "Xueqi Cheng, Minxing Zheng, Shixiang Zhu, and Yushun Dong"
 paperurl: "https://arxiv.org/abs/2506.02362"
 citation: 'Xueqi Cheng, Minxing Zheng, Shixiang Zhu, and Yushun Dong. (2025). &quot;MISLEADER: Defending against Model Extraction with Ensembles of Distilled Models.&quot; <i>arXiv:2506.02362</i>.'
+thumb: "/images/papers/misleader.jpg"
+thumb_alt: "MISLEADER training stage: the defender trains a model that stays accurate for users but is hard for an attacker to clone"
 ---
 
 MISLEADER formulates model protection as a bilevel optimization problem and uses an ensemble of heterogeneous distilled models to balance predictive fidelity with resistance to extraction attacks.

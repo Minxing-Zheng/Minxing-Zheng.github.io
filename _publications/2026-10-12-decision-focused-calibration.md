@@ -9,6 +9,9 @@ date: 2026-10-12
 venue: "Preprint"
 authors: "Minxing Zheng, Trevor Harris, and Shixiang Zhu"
 citation: 'Minxing Zheng, Trevor Harris, and Shixiang Zhu. (2026). &quot;Decision-Focused Calibration with Adaptive Conformal Predictive Distributions.&quot; Preprint.'
+thumb: "/images/papers/adacf.jpg"
+thumb_fit: contain
+thumb_alt: "AdaCF framework: adaptive allocation across and within conformal levels"
 ---
 
 We propose AdaCF, an adaptive conformal flow that adapts predictive distributions to downstream decisions subject to a conformal calibration constraint. A rank-based correction ensures finite-sample marginal validity under exchangeability, and experiments on synthetic problems and electricity price data show better predictive fidelity and decision quality than standard conformal flows.

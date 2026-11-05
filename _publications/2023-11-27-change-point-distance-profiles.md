@@ -10,6 +10,9 @@ venue: "arXiv preprint"
 authors: "Paromita Dubey and Minxing Zheng"
 paperurl: "https://arxiv.org/abs/2311.16025"
 citation: 'Paromita Dubey and Minxing Zheng. (2023). &quot;Change Point Inference for Non-Euclidean Data Sequences using Distance Profiles.&quot; <i>arXiv:2311.16025</i>.'
+thumb: "/images/papers/change-point.jpg"
+thumb_fit: cover
+thumb_alt: "A sequence of networks switching from random wiring to two communities, with the scan statistic peaking at the change point"
 ---
 
 We introduce a scan statistic for detecting and locating changes in sequences whose elements lie in a separable metric space. The method is tuning-parameter-free and fully nonparametric, with asymptotic guarantees and applications to distributional data, graph Laplacians, U.S. electricity-generation compositions, and Bluetooth proximity networks.

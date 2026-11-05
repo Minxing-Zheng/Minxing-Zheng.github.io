@@ -18,13 +18,14 @@ paper_label: "NeurIPS page"
 preprinturl: "https://arxiv.org/abs/2410.13735"
 projecturl: "/orca/"
 codeurl: "https://github.com/Minxing-Zheng/ORCA"
-teaser: "/images/papers/orca.jpg"
-teaser_alt: "Prediction sets from Standard CP, PCP and ORCA on the same generated samples"
-teaser_link: "/orca/"
+thumb_link: "/orca/"
 featured: true
 featured_order: 1
 feature_summary: "ORCA ranks samples from a generative model by local density, optimizes rank-specific radii, and calibrates the resulting prediction regions for finite-sample marginal coverage."
 citation: 'Minxing Zheng and Shixiang Zhu. (2026). &quot;Generative Conformal Prediction with Optimized Coverage Allocation.&quot; In <i>Advances in Neural Information Processing Systems (NeurIPS)</i>.'
+thumb: "/images/papers/orca.jpg"
+thumb_fit: contain
+thumb_alt: "Prediction sets from Standard CP, PCP and ORCA on the same generated samples"
 ---
 
 ORCA ranks samples from a conditional generative model using a local density proxy, optimizes rank-specific radii on an exploration split, and calibrates the result on a separate split. This yields adaptive prediction regions with finite-sample marginal coverage.

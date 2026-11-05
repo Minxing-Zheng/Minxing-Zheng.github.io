@@ -1,15 +1,17 @@
 {% include base_path %}
 {% assign p = include.paper %}
-<li class="paper{% if include.accepted %} paper--accepted{% endif %}{% if p.teaser %} paper--teaser{% endif %}">
-  <div class="paper__tag">
-    {% if include.accepted %}
-      <span class="paper__badge{% if p.category == 'workshops' %} paper__badge--workshop{% endif %}">{{ p.badge | default: p.venue }}</span>
-    {% else %}
-      <span class="paper__badge paper__badge--preprint">Preprint</span>
-    {% endif %}
-    <span class="paper__date">{{ p.date | date: "%b %Y" }}</span>
-  </div>
+{% assign paper_talks = site.data.talks | where: "url", p.url %}
+<li class="paper{% if include.accepted %} paper--accepted{% endif %}">
+  {% if p.thumb %}<a class="paper__thumb{% if p.thumb_fit == 'contain' %} paper__thumb--contain{% endif %}" href="{{ base_path }}{{ p.thumb_link | default: p.url }}"><img src="{{ base_path }}{{ p.thumb }}" alt="{{ p.thumb_alt | default: p.title }}" loading="lazy"></a>{% else %}<span class="paper__thumb paper__thumb--empty"></span>{% endif %}
   <div class="paper__body">
+    <div class="paper__meta">
+      {% if include.accepted %}
+        <span class="paper__badge{% if p.category == 'workshops' %} paper__badge--workshop{% endif %}">{{ p.badge | default: p.venue }}</span>
+      {% else %}
+        <span class="paper__badge paper__badge--preprint">Preprint</span>
+      {% endif %}
+      <span class="paper__date">{{ p.date | date: "%b %Y" }}</span>
+    </div>
     <a class="paper__title" href="{{ base_path }}{{ p.url }}">{{ p.title }}</a>
     <div class="paper__authors">{{ p.authors | replace: "Minxing Zheng", '<span class="paper__me">Minxing Zheng</span>' }}</div>
     {% for v in p.venues %}<div class="paper__venue">{% if v.label %}<span class="paper__venue-label">{{ v.label }}:</span> {% endif %}<em>{{ v.name }}</em></div>{% endfor %}
@@ -22,6 +24,16 @@
       {% if p.posterurl %}<a href="{{ base_path }}{{ p.posterurl }}">Poster</a>{% endif %}
       {% if p.slidesurl %}<a href="{{ base_path }}{{ p.slidesurl }}">Slides</a>{% endif %}
     </div>
+    {% if paper_talks.size > 0 %}
+    <ul class="paper__talks">
+      {% for t in paper_talks %}
+      <li>
+        <span class="paper__talk-type{% if t.type contains 'Talk' %} paper__talk-type--talk{% endif %}">{{ t.type }}</span>
+        {% if t.upcoming %}<span class="news-list__tag">Upcoming</span>{% endif %}
+        <span class="paper__talk-event">{{ t.event }}</span> <span class="paper__talk-date">&middot; {{ t.date }}</span>{% if t.slides and t.slides != p.slidesurl %} <a href="{{ base_path }}{{ t.slides }}">Slides</a>{% endif %}{% if t.poster and t.poster != p.posterurl %} <a href="{{ base_path }}{{ t.poster }}">Poster</a>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
   </div>
-  {% if p.teaser %}<a class="paper__teaser" href="{{ base_path }}{{ p.teaser_link | default: p.url }}"><img src="{{ base_path }}{{ p.teaser }}" alt="{{ p.teaser_alt | default: p.title }}" loading="lazy"></a>{% endif %}
 </li>
