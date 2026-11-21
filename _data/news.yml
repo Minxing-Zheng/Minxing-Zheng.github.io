@@ -1,8 +1,11 @@
 # Homepage news, newest first. `text` accepts Markdown.
+- date: Dec 2026
+  upcoming: true
+  text: "I’ll be presenting [ORCA](/publication/generative-conformal-prediction) at NeurIPS 2026 and [LatentCP](/publication/latent-conformal-inference) at the ML×OR Workshop in Atlanta. Please [reach out](mailto:minxingz@andrew.cmu.edu) if you’ll be there!"
 - date: Nov 2026
   text: "Gave a talk on [Learning to Test](/publication/learning-to-test) at the **2026 INFORMS Annual Meeting** in San Francisco ([slides](/files/slides/learning-to-test_informs2026_slides.pdf))."
 - date: Oct 2026
-  text: "I’ll be presenting [ORCA](/publication/generative-conformal-prediction) at NeurIPS 2026 and [LatentCP](/publication/latent-conformal-inference) at the ML×OR Workshop in Atlanta. Please [reach out](mailto:minxingz@andrew.cmu.edu) if you’ll be there!"
+  text: "Grateful to receive **NeurIPS 2026 financial assistance**. Thank you, NeurIPS!"
 - date: Oct 2026
   text: "Presented *Topology-Aware Uncertainty Quantification for Power-System Resilience and Restoration* at the **[2026 CEIC Advisory Committee Meeting](https://www.cmu.edu/ceic/events-seminars/index.html)**, in collaboration with [Duquesne Light Company](https://www.duquesnelight.com), the utility that runs Pittsburgh's power grid."
 - date: Oct 2026
